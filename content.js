@@ -1,8 +1,9 @@
 /* 面試小抄 — 內容檔
-   DATA = [ { id, label, section, groups:[ { name, items:[ {q, body} ] } ] } ]
-   section 是左側索引的分區標題（相同的會被歸在同一區）
-   body 用 Markdown（粗體 ** / 表格 | / 小標 #### / 清單 - / 分隔線 ---）
-   注意：body 裡不要出現反引號。
+   DATA = [ { id, label, section, groups:[ { name, items:[ {q, zh, en, ja} ] } ] } ]
+   每題可以有 zh / en / ja 三種語言，有幾種就在題目右邊出現幾個切換鈕。
+   只寫 zh 的題目不會出現切換鈕。
+   body 用 Markdown（粗體 ** / 表格 | / 小標 #### / 清單 - / 分隔線 --- / 嵌入 HTML ::: html）
+   注意：內文裡不要出現反引號。
 */
 
 const DATA = [
@@ -14,11 +15,11 @@ const DATA = [
   section: 'General',
   groups: [
   {
-    name: '中文',
+    name: '完整版',
     items: [
       {
         q: '請你自我介紹（面向日商）',
-        body: `
+        zh: `
 您好，我是王薇 (Vivian)。
 
 我目前擔任產品經理，擁有四年產品開發經驗，專注於直播平台、區塊鏈及加密貨幣領域。
@@ -34,11 +35,26 @@ const DATA = [
 畢業之後，我希望能把這一年的研究成果，以及自己在 AI 驅動開發流程上累積的實作體悟，帶進下一份工作，真正落實在團隊的產品開發流程裡。
 
 以上是我的背景簡介，期待能與您進一步交流。
+`,
+        en: `
+Thank you for making the time today. I'm Wei Wang, and I go by Vivian.
+
+I'm a product manager with four years of experience across live-streaming platforms and the blockchain industry.
+
+Most recently, at Typus Finance, I took an on-chain perpetual futures product from zero to one. The numbers we watched were fairly basic: trading volume, active users, and deposits. The crypto market moves fast, so I ran bi-weekly releases and shipped more than thirty features over the year. The product reached about **87 million US dollars** in trading volume in its first quarter, growing 383% month over month.
+
+Before that, at 17LIVE, I owned platform user experience and growth, working with the Taiwan, Japan and Southeast Asia market teams. My features were measured on conversion and retention. For a 90-second clips feature, I defined D0 to D7 retention as the success metric with the data team at the planning stage, and we A/B tested before full rollout. I also proposed an internal user-feedback dashboard and led a five-person cross-functional team to build it, turning scattered support tickets, store reviews and interviews into a single prioritisation view. **Issue resolution got 15% faster and retention rose 10%.**
+
+What stayed with me is that the same feature did not perform the same way in Taiwan as in Japan, which is where I learned to ask whether a gap is a real market difference or simply a product we did not build well.
+
+Alongside my industry experience, I'm completing a master's degree in London. The programme put me in front of AI agents early, and they have become my default way of working: I build prototypes to test ideas quickly and cheaply. My dissertation explores how AI is changing collaboration within product teams, drawing on interviews with companies including TikTok.
+
+After graduating I plan to return to Asia, with Japan as my first choice, where I previously spent an exchange year at Gunma University and also have family ties in Tokyo. I'm comfortable working in Mandarin, English and Japanese, which is part of why I'm drawn to teams that work across more than one market. In my next role I'd like to bring together my experience in product execution and the AI-driven way of working I've built up this year.
 `
       },
       {
         q: '請你自我介紹（面向台灣企業）',
-        body: `
+        zh: `
 您好，我是王薇 (Vivian)。
 
 我目前擔任產品經理，擁有四年產品開發經驗，專注於直播平台、區塊鏈及加密貨幣領域。
@@ -54,47 +70,41 @@ const DATA = [
 畢業之後，我希望能把這一年的研究成果，以及自己在 AI 驅動開發流程上累積的實作體悟，帶進下一份工作，真正落實在團隊的產品開發流程裡。
 
 以上是我的背景簡介，期待能與您進一步交流。
-`
-      },
-      {
-        q: '請你自我介紹（60 秒短版）',
-        body: `
-我有大約 4 年的產品經驗，橫跨 B2C 直播平台與金融科技。最近在 Typus Finance 端到端負責鏈上衍生品，雙週節奏交付 30 多項功能，期間 MAU 從約 1,000 成長到 20,000 以上、產品內存入資產從 800 萬成長到 2,000 萬美元。在那之前在 17LIVE 主導台灣、日本與東南亞的產品專案，用訪談加 SQL 把洞察轉成 roadmap 優先級。我目前在倫敦國王學院讀 Management and Technological Change 碩士，論文研究 AI 如何降低產品與工程之間的溝通成本。
+`,
+        en: `
+Thank you for making the time today. I'm Wei Wang, and I go by Vivian.
 
-**跟多數 PM 不太一樣的地方是：我自己會做 prototype、做儀表板、也自己把 AI agent 接進工作流，所以我從洞察走到實際產出的速度比較快。**
+I'm a product manager with four years of experience across live-streaming platforms and the blockchain industry.
+
+Most recently, at Typus Finance, I took an on-chain perpetual futures product from zero to one. I owned market and competitor analysis, requirements, specs, and the delivery schedule with engineering and design, then tracked the numbers after launch and iterated. Typus is a startup, and the crypto market moves and swings very fast, so the development cycle had to be compressed to match it, to ship while the market was still hot. The product caught that wave and reached about **87 million US dollars** in trading volume in its first quarter.
+
+Before that, at 17LIVE, Asia's largest live-streaming platform, I owned platform user experience and growth. I led a five-person cross-functional team of engineers, a data analyst, a designer and support, and we built an internal user-feedback platform that turned scattered complaints and comments into structured product requirements, then used that data to prioritise the roadmap. **Issue resolution got 15% faster and retention rose 10%.**
+
+I'm currently completing an MSc in Management and Technological Change at King's College London, graduating this September. Because of the programme, I came across AI agents earlier than most management students, and they have gradually become my default way of working: in coursework, in daily life and in my work, I use AI agents to build prototypes and internal tools so I can validate ideas at the lowest possible cost. My dissertation is on optimising the product development process in the age of AI, specifically how requirements documents get translated between product, design and engineering, and how AI lowers that cross-functional communication cost. I ran in-depth interviews with large technology companies including TikTok.
+
+I went to London to study the problems I kept running into in a more systematic way, and to strengthen my cross-cultural collaboration experience. My career so far has been built in Asian markets, and I understand this region's user behaviour and iteration pace well, so after graduating I plan to come back to Taiwan and bring this year of research and international experience back to a market I know.
+
+In my next role I'd like to bring together this year's research and what I've learned first-hand about AI-driven development, and actually put it into how a team builds products.
+
+That's my background in short. I'm looking forward to talking further.
 `
       }
     ]
   },
   {
-    name: 'English',
+    name: '短版',
     items: [
       {
-        q: 'Tell me about yourself.',
-        body: `
-> 約 2 分 30 秒。收尾有兩版，日商用 A，非日商用 B。
+        q: '請你自我介紹（60 秒短版）',
+        zh: `
+我有大約 4 年的產品經驗，橫跨 B2C 直播平台與金融科技。最近在 Typus Finance 端到端負責鏈上衍生品，雙週節奏交付 30 多項功能，期間 MAU 從約 1,000 成長到 20,000 以上、產品內存入資產從 800 萬成長到 2,000 萬美元。在那之前在 17LIVE 主導台灣、日本與東南亞的產品專案，用訪談加 SQL 把洞察轉成 roadmap 優先級。我目前在倫敦國王學院讀 Management and Technological Change 碩士，論文研究 AI 如何降低產品與工程之間的溝通成本。
 
-Thank you for making the time today. I'm Wei Wang, and I go by Vivian.
+**跟多數 PM 不太一樣的地方是：我自己會做 prototype、做儀表板、也自己把 AI agent 接進工作流，所以我從洞察走到實際產出的速度比較快。**
+`,
+        en: `
+I have about four years of product experience, across B2C live-streaming and fintech. Most recently at Typus Finance I owned on-chain derivatives end to end, shipping more than thirty features on a bi-weekly cycle. Over that period monthly active users went from around a thousand to over twenty thousand, and deposits in the product grew from 8 to 20 million US dollars. Before that, at 17LIVE, I led product work across Taiwan, Japan and Southeast Asia, using interviews plus SQL to turn insight into roadmap priorities. I'm currently finishing an MSc in Management and Technological Change at King's College London, with a dissertation on how AI lowers the communication cost between product and engineering.
 
-I'm a product manager with four years of experience across live-streaming platforms and the blockchain industry.
-
-Most recently, at Typus Finance, I took an on-chain perpetual futures product from zero to one. The numbers we watched were fairly basic: **trading volume, active users, and deposits**. The crypto market moves fast, to keep pace with the market, I ran **bi-weekly releases** and shipped **more than thirty features** over the year. The product reached about **87 million US dollars** in trading volume in its first quarter, this experience taught me how to **prioritize under uncertainty, move quickly, and stay focused on the metrics that matter**.
-
-Before that, at 17LIVE, I owned platform user experience and growth, **working with the Taiwan, Japan and Southeast Asia market teams**. My features were measured on conversion and retention. For a 90-second clips feature, I defined **D0 to D7 retention** as the success metric with the data team at the planning stage, and we **A/B tested before full rollout**. I also proposed an internal user-feedback dashboard and led a **five-person cross-functional team** to build it, we brought together customer-support tickets, app-store reviews, and creator interviews into one view for prioritization. It improved issue-resolution speed by **15%** and contributed to a **10% improvement in retention**.
-
-I also learned that **the same feature can perform differently across markets**. So I learned to use both data and user research to understand whether the problem came from **local behavior, local needs, or the product itself**.
-
-Alongside my industry experience, I'm completing a master's degree in London. The programme put me in front of AI agents early, and they have become my default way of working: I build prototypes to test ideas quickly and cheaply. My dissertation explores how AI is changing collaboration within product teams, drawing on interviews with companies including TikTok.
-
----
-
-#### 收尾 A：日商
-
-After graduating I plan to return to Asia, with **Japan as my first choice**, where I previously spent an exchange year at Gunma University and also have family ties in Tokyo. I'm comfortable working in **Mandarin, English and Japanese**, which is part of why I'm drawn to teams that work across more than one market. In my next role I'd like to bring together my experience in product execution and the AI-driven way of working I've built up this year.
-
-#### 收尾 B：非日商
-
-I am comfortable working in **Mandarin and English**, which is part of why I am drawn to teams that work across more than one market. I am interested in roles with **cross-cultural collaboration**, where I can bring together my experience in product execution and the AI-driven way of working I have built up this year.
+**What makes me a little different from most PMs is that I build the prototypes, build the dashboards, and wire AI agents into my own workflow, so I get from insight to something real faster.**
 `
       }
     ]
@@ -104,7 +114,7 @@ I am comfortable working in **Mandarin and English**, which is part of why I am 
     items: [
       {
         q: '自己紹介をお願いします。',
-        body: `
+        ja: `
 改めまして、王薇（ヴィヴィアン）と申します。よろしくお願いいたします。
 
 プロダクトマネージャーとして、4年ほど働いてきました。主にライブ配信のサービスと、ブロックチェーンの分野です。どちらも、ユーザーの行動データを見ながら、次に何を作るかを決めていく仕事でした。
@@ -120,6 +130,40 @@ I am comfortable working in **Mandarin and English**, which is part of why I am 
 大学院を修了したあとはアジアに戻る予定で、第一希望は日本です。というのも、以前、群馬大学に1年間留学した経験があり、東京には家族もいるし、自分も日本語の勉強を続けているので、今後は日本で長くキャリアを築いていきたいです。また、日本語、英語、中国語で仕事ができますので、さまざまな国の方と協力できる環境にも魅力を感じています。次の仕事では、これまでのプロダクトマネージャーとしての経験と、AIを取り入れた仕事の進め方を生かし、チームに貢献していきたいと考えています。
 
 簡単ですが、以上です。本日はどうぞよろしくお願いいたします。
+`,
+        zh: `
+初次見面，我是王薇（Vivian）。今天感謝您撥出時間。
+
+我做產品經理大約四年。主要是直播服務和區塊鏈這兩個領域。兩邊都是看使用者的行為數據，決定下一步要做什麼的工作。
+
+前一家公司是 Typus Finance 這家新創，在那裡我把一個新的交易服務從零開始做起來。工作內容是調查市場、決定需要哪些功能，然後和工程師、設計師一起帶到上線。這個產業變動非常快，所以我建立了每兩週發布一次的節奏，一年推出了 30 個以上的功能。
+
+在那之前，我在 17LIVE 這家直播公司負責使用者體驗和用戶成長。不過客戶的意見雖然收到很多，卻沒有一套機制把它接到接下來要做的東西上，所以我主動提案，帶了一個橫跨台灣、日本、東南亞的五人團隊做了內部的分析工具。
+
+而且不是做完就算了，我主動去推給其他團隊用，一直推到它真的被用在決定優先順序的場合為止。結果對應效率提升了 **15%**，不過比數字更重要的是，從使用者的聲音到實際改善的流程，整個團隊都變快了。
+
+現在我在倫敦的研究所，研究 AI 會如何改變產品團隊的工作方式。因為這個學程，我很早就接觸到 AI agent，現在每天都在用 AI 做 prototype 和 MVP。
+
+九月修完之後，我打算回亞洲，第一志願是日本。原因是我大學畢業後去群馬大學留學了一年，家人也在東京，我自己也持續在學日文，所以我想的不是短期，而是在日本長期累積職涯。我可以用日文、英文、中文工作，也很嚮往有各國同事的環境。下一份工作，我想把過去的產品經驗和把 AI 帶進工作流程的做法，一起帶進團隊裡貢獻。
+
+簡單來說就是這樣。今天請多指教。
+`,
+        en: `
+Nice to meet you. I'm Wei Wang, and I go by Vivian. Thank you for making the time today.
+
+I've worked as a product manager for about four years, mainly in live-streaming services and blockchain. In both, the job was to look at user behaviour data and decide what to build next.
+
+Most recently I was at a startup called Typus Finance, where I built a new trading product from zero. I handled everything: researching the market, deciding which features we needed, working with engineers and designers through to launch, and improving it afterwards. The industry moves very fast, so I set up a release cycle every two weeks and we shipped more than thirty features in a year.
+
+Before that I was at 17LIVE, a live-streaming company, where I owned user experience and growth. What I noticed there was that a lot of user feedback was coming in, but there was no mechanism connecting it to what we built next. So I proposed an internal analytics tool myself and led a five-person team across Taiwan, Japan and Southeast Asia to build it.
+
+I didn't stop at shipping it. I pushed other teams to adopt it until it was actually being used in the meetings where priorities get decided. Issue resolution got **15%** faster, but the bigger win was that the whole path from a user's voice to a shipped improvement got faster for the entire team.
+
+I'm now doing a master's in London, researching how AI is changing the way product teams work. Thanks to the programme I came across AI agents early, and now I build prototypes and MVPs with AI almost every day.
+
+After I finish in September I plan to return to Asia, with Japan as my first choice. I spent a year on exchange at Gunma University after university, my family is in Tokyo, and I've kept studying Japanese, so I'm thinking about Japan as a long-term career, not a short stay. I can work in Japanese, English and Mandarin, and I'm drawn to environments with colleagues from different countries. In my next role I'd like to contribute both my product experience and the way I've learned to bring AI into how work gets done.
+
+That's my background in short. I look forward to speaking with you today.
 `
       }
     ]
@@ -138,15 +182,66 @@ I am comfortable working in **Mandarin and English**, which is part of why I am 
     items: [
       {
         q: '你後續的職涯規劃？三五年內想達成什麼？',
-        body: `
+        zh: `
 未來 3 年，我想在一個真的把 AI 放進產品核心的團隊裡，成為能同時做產品判斷與動手驗證的 PM。5 年後，我希望能負責一整條產品線，並把「AI 如何降低跨職能溝通成本」這件事從我的研究題目變成團隊實際在用的工作方式。
 
 拆得更細一點：短期一年內，我想把既有的產品交付能力放進更大規模、更成熟的組織裡跑一次，補上我目前比較缺的規模化經驗。三年是 Senior PM，負責有明確商業指標的產品線。五年之後帶團隊，並且持續在 AI 產品化這個題目上保持第一手實作能力。
+`,
+        en: `
+Over the next three years I want to be in a team that genuinely puts AI at the core of the product, as a PM who can both make the product judgement and validate it hands-on. In five years I'd like to own a whole product line, and turn "how AI lowers cross-functional communication cost" from my research topic into how a team actually works.
+
+To break that down: in the first year, I want to run my existing delivery skills inside a larger, more mature organisation, which is the scale experience I'm currently missing. At three years, Senior PM, owning a product line with clear commercial metrics. Beyond five years, leading a team, while keeping first-hand building ability on the question of productising AI.
+`
+      },
+      {
+        q: '你對什麼有熱情？',
+        zh: `
+我對「**把 demo 變成真的能用的東西**」有近乎執著的興趣。做 agentic platform 那次讓我很確定：困難的從來不是模型本身，而是框對問題、驗證輸出、然後穩定重複這兩件事。
+
+這也是為什麼我會把自己的租屋痛點做成篩選工具，把 Claude Code 包成給非工程背景同學的實作課程，把求職流程做成一條 pipeline。留學生找房資訊過載，我把自己的搜尋變成一個產品問題，定義 must-have 條件再做成比現成平台更精準的篩選工具；AI agent 的課我和工程師朋友合作，替倫敦帝國學院的非工程背景學生辦過三次。
+
+**看到一個真實的痛點被收斂成一個可以每天使用的東西，是我最有成就感的時刻。**
+`,
+        en: `
+I'm almost obsessive about **turning a demo into something people can actually use**. Building that agentic platform confirmed it for me: the hard part is never the model, it's framing the request correctly, verifying what comes back, and then doing those two things repeatably.
+
+That's why I turned my own flat-hunting pain into a filtering tool, packaged Claude Code into a hands-on course for classmates with no engineering background, and built my job search into a pipeline. International students are drowning in listings, so I treated my own search as a product problem: define the must-haves, do the requirements analysis, then build something more precise than the platforms already out there. For the AI agent course, I worked with an engineer friend and we ran it three times for non-engineering students at Imperial College London.
+
+**Watching a real pain point get narrowed down into something usable every day is the most satisfying part of the job for me.**
+`
+      },
+      {
+        q: '你的工作風格是什麼？',
+        zh: `
+我的工作風格可以濃縮成三件事：**先對齊再開工、用數據結束爭論、能自己做的先做出來給人看**。
+
+開案前我會先把商業目標、技術限制與現場需求對齊成同一套優先順序，因為我在 Typus 重新設計 kickoff 到交付的流程時發現，返工大多來自一開始沒講清楚，那次調整讓返工週期降低 30%。過程中我偏好用 prototype 或數據來收斂討論，而不是靠會議上的說服力。時間分配上我用 80/20，把大部分時間留給真正需要判斷的事，重複性的事情盡量自動化。
+
+#### 你怎麼跟工程師合作？
+
+我盡量把需求寫到工程師不用回頭問我第二次的程度：user story、驗收條件、以及為什麼這件事排在前面。我自己會做 prototype，所以討論的時候可以直接給一個可以點的東西，而不是描述一個想像中的畫面。
+
+#### 遠端、跨時區怎麼工作？
+
+Typus 是完全遠端，17LIVE 是跨台日與東南亞。我的作法是把非同步的東西寫清楚，規格、決策紀錄、優先級理由都寫下來，把同步的時間留給真正需要即時討論的爭議點。
+`,
+        en: `
+My working style comes down to three things: **align before starting, end arguments with data, and if I can build it myself, build it and show people**.
+
+Before a project starts I align the business goal, the technical constraints and what the team on the ground actually needs into one set of priorities. When I redesigned the kickoff-to-delivery process at Typus, I found most rework came from things not being said clearly at the start, and that change cut the rework cycle by 30%. During the work, I prefer to close discussions with a prototype or with data rather than by being persuasive in a meeting. On time, I use 80/20: most of my time goes to the things that genuinely need judgement, and I automate the repetitive parts.
+
+#### How do you work with engineers?
+
+I try to write requirements to the point where an engineer doesn't have to come back and ask me a second time: user stories, acceptance criteria, and why this sits at the top of the list. I build prototypes myself, so in a discussion I can hand over something clickable instead of describing an imaginary screen.
+
+#### How do you work remotely or across time zones?
+
+Typus was fully remote, and 17LIVE spanned Taiwan, Japan and Southeast Asia. My approach is to write the asynchronous things down properly, the spec, the decision log, the reasoning behind priorities, and save synchronous time for the disagreements that genuinely need a live conversation.
 `
       },
       {
         q: '你有哪些優點？',
-        body: `
+        zh: `
 三個。
 
 第一，**AI-augmented building**。我自己做 prototype、儀表板與數據分析，不需要等別人排期就能驗證假設。
@@ -154,11 +249,20 @@ I am comfortable working in **Mandarin and English**, which is part of why I am 
 第二，**數據導向的優先級判斷**。訪談加 SQL 是我的基本配備，質化告訴我為什麼，量化告訴我有多少人。
 
 第三，**跨文化溝通**。中英日三語，我在 17LIVE 是用日文做跨職能協作的。
+`,
+        en: `
+Three.
+
+First, **AI-augmented building**. I build my own prototypes, dashboards and analysis, so I can test a hypothesis without waiting for someone else's sprint.
+
+Second, **data-led prioritisation**. Interviews plus SQL are my baseline kit: qualitative tells me why, quantitative tells me how many people.
+
+Third, **cross-cultural communication**. I work in Mandarin, English and Japanese, and at 17LIVE I did cross-functional work in Japanese.
 `
       },
       {
         q: '你的缺點是什麼？',
-        body: `
+        zh: `
 我以前太容易自己把事情做掉。因為我會 prototype、會拉數據，遇到卡住的環節我的第一反應是自己動手，短期看很有效率，但會讓團隊少了一次共同理解問題的機會，也讓我變成瓶頸。
 
 我現在的作法是：**先問這件事三個月後應該由誰負責**，如果不該是我，我就把它做成一個示範版本加上文件交出去，而不是長期握在手上。這在 Typus 重新設計交付流程時特別明顯，我把自己的判斷寫成規格與 user story 模板，讓其他人也能照著跑。
@@ -168,51 +272,73 @@ I am comfortable working in **Mandarin and English**, which is part of why I am 
 另一個版本：
 
 我對規模化的產品組織經驗還不夠，過去待的都是小而快的團隊，決策鏈短。我很清楚在大組織裡，**說服與對齊的成本本身就是工作的一部分**，所以我現在會刻意練習把決策理由寫成書面文件，而不是靠一次面對面的溝通解決。
-`
-      },
-      {
-        q: '你的缺點是什麼？（更多備選）',
-        body: `
-挑**一個**講，不要全講。每個都要有「我怎麼處理」的下半段。
+`,
+        en: `
+I used to be too quick to just do things myself. Because I can prototype and pull data, my first instinct when something is stuck is to build it, which looks efficient in the short term but costs the team a shared understanding of the problem, and turns me into the bottleneck.
 
-| 缺點 | 一句話說法 |
-|---|---|
-| **同理心過頭** | 有時會讓我過於關注細節、在乎團隊氣氛，導致在決策時較為謹慎，需要花更多時間權衡各方利弊 |
-| **好奇心不夠** | 有時候好奇心不夠，導致有些潛在問題來不及發現 |
-| **抗壓太強** | 有時可能讓我過於承擔壓力，不夠及時地向團隊或上級反映困難，因而錯過了尋求幫助的機會 |
-| **掌控力不足** | 見下方三個備選 |
+What I do now is **ask who should own this in three months' time**. If the answer isn't me, I build a reference version with documentation and hand it over, rather than holding onto it. That was very clear when I redesigned the delivery process at Typus: I wrote my own judgement into a spec and user-story template so other people could run it too.
 
 ---
 
-#### 掌控力：備選 A（關係太好而不夠果斷）
+Alternative version:
 
-因為我與團隊成員之間關係密切，有時候在分配任務或提出具體需求時，我發現自己**因為不想破壞這份像朋友一般的關係，而變得猶豫，可能不夠果斷**。這讓我意識到，即便溝通技巧良好，也需要學會如何在保持良好關係的同時，確保團隊能夠有效率地完成任務。我需要在這兩者之間找到平衡，以提升團隊效能。
-
-#### 掌控力：備選 B（全攬在自己身上）
-
-有看過公司 PM 因為想確保產品在各階段的完整性，要**親自測試過後再 deliver 給下一階段的技術端**，但這種把所有事情全攬在自己身上的做法，一旦身兼多專案，反而會耽誤到產品的時程。
-
-#### 掌控力：備選 C（容易對重複性工作厭煩）
-
-**容易對單調重複性質的事物感到厭煩。** 例如在過去的學習經驗中，我不擅長需要反覆背誦的課程，而對需要探索問題核心、掌握理論框架的課程較有興趣。在工作上，我也希望能每天面對新的挑戰，在工作中探索能夠革新的地方。
-
-> 注意：備選 C 對在地化這種偏日常維運的職缺是地雷，那種場合改用備選 A。
+I don't have enough experience in a product organisation at scale. The teams I've been in were small and fast, with short decision chains. I'm very aware that in a large organisation, **the cost of persuading and aligning is itself part of the job**, so I now deliberately practise writing the reasoning behind a decision down, instead of solving it in one face-to-face conversation.
 `
       },
       {
         q: '為什麼做 PM？',
-        body: `
+        zh: `
 因為我喜歡待在「使用者想要什麼」和「技術能做到什麼」中間那個位置。
 
 我的背景是文化創意產業管理，不是本科出身的產品或工程，所以我很習慣把不同語言的人翻譯給彼此聽。在 17LIVE 我發現，把散落在客服、QA、資料團隊的回饋整合到同一個視圖，比任何一次會議都更能推動決策，那次讓問題處理速度提升了 15%。**那時候我確定，這就是我想長期做的事。**
+`,
+        en: `
+Because I like sitting between what users want and what the technology can do.
+
+My background is in cultural and creative industries management, not product or engineering, so I'm used to translating between people who speak different languages. At 17LIVE I found that pulling feedback scattered across support, QA and the data team into a single view moved decisions further than any meeting did, and it made issue resolution 15% faster. **That was when I knew this was what I wanted to do long term.**
+`
+      },
+      {
+        q: '什麼激勵你？',
+        zh: `
+兩件事。
+
+一是**看到指標真的動了**，尤其是那種可以追溯回某個具體決定的變化。
+
+二是和一群能力比我強的人一起把一個模糊的問題收斂掉的過程，團隊討論本身就是我覺得最有成就感的部分。
+`,
+        en: `
+Two things.
+
+One is **seeing a metric actually move**, especially the kind of change you can trace back to a specific decision.
+
+The other is the process of narrowing down a vague problem with people who are better than me. The discussion itself is the part I find most rewarding.
 `
       },
       {
         q: '除了薪水，你最重視什麼？',
-        body: `
+        zh: `
 三件事，依序是：**能不能學到我現在還沒有的東西**，特別是規模化的產品經驗；**團隊是不是高信任低政治**；以及**產品有沒有真實的使用者**。
 
 錢重要，但我更在意兩年後我會變成什麼樣的 PM。
+`,
+        en: `
+Three things, in order: **whether I'd learn something I don't already have**, particularly product experience at scale; **whether the team is high-trust and low-politics**; and **whether the product has real users**.
+
+Money matters, but I care more about what kind of PM I'll be in two years.
+`
+      },
+      {
+        q: '講一個你的失敗經驗',
+        zh: `
+在 Typus 早期，我把一個功能的規格寫得太粗，覺得團隊夠小、口頭講清楚就好。結果進入開發後對驗收標準的理解不一致，來回改了兩輪，時程延誤。
+
+我從那次得到的結論不是「要寫更多文件」，而是「**要寫對的文件**」。我後來重新設計了從 kickoff 到交付的流程，用競品分析佐證的規格加上 user story，把返工週期降低了 30%。
+`,
+        en: `
+Early on at Typus, I wrote a feature spec too loosely. The team was small and I assumed talking it through would be enough. Once development started, we didn't share the same understanding of the acceptance criteria, we went through two rounds of rework, and the schedule slipped.
+
+What I took from it wasn't "write more documentation", it was "**write the right documentation**". I redesigned the process from kickoff to delivery, using specs backed by competitor analysis plus user stories, and cut the rework cycle by 30%.
 `
       }
     ]
@@ -222,168 +348,121 @@ I am comfortable working in **Mandarin and English**, which is part of why I am 
     items: [
       {
         q: '講一個你主動發起、不在你 KPI 上的事',
-        body: `
+        zh: `
 17LIVE 的用戶回饋散落在客服工單、QA 紀錄、應用商店評論與數據團隊的報表裡，沒有人擁有全貌，重複的問題會被重複討論。這件事不在我的 KPI 上，但我判斷它是很多產品爭論的根因，所以我主動提案。
 
 我聯合客服、QA、資料與工程團隊，定義要追蹤的回饋分類與欄位，把多個來源整合到同一個共享視圖，並約定每週檢視的節奏。結果是**問題處理速度提升 15%**，團隊可以更早看到浮現中的問題，而不是等它變成大量客訴。
 
 最難的不是做出儀表板，而是說服四個團隊願意用同一套分類。我的作法是先用他們現有的資料做出一個粗版，**讓他們看到價值再談規範**。
+`,
+        en: `
+At 17LIVE, user feedback was scattered across support tickets, QA records, app store reviews and the data team's reports. Nobody had the whole picture, so the same problems kept getting rediscussed. This wasn't on my KPIs, but I judged it to be the root cause of a lot of product arguments, so I proposed it myself.
+
+I brought together support, QA, data and engineering to define the feedback categories and fields we'd track, consolidated multiple sources into one shared view, and agreed a weekly review rhythm. **Issue resolution got 15% faster**, and the team could see problems emerging instead of waiting until they became a wave of complaints.
+
+The hard part wasn't building the dashboard, it was getting four teams to agree on one taxonomy. My approach was to build a rough version out of the data they already had, **so they could see the value before we argued about the standard**.
 `
       },
       {
-        q: '說一個你直接用數據做功能決策的例子',
-        body: `
-#### 中文
+        q: '講一個你用數據做決定的例子',
+        zh: `
+在 17LIVE，roadmap 上的候選項目多過可交付量，各團隊各有主張，我需要一套能讓大家接受的排序依據。
 
-我負責**短影音功能**。我們發現**觀看有提升，但沒有有效帶動註冊轉化**。
+我與 UX Research 合作訪談一般用戶與頭部主播，同時用 SQL 分析行為數據與留存指標，把質化痛點與量化訊號交叉比對，再轉成有優先級的需求與 roadmap 提案。結果是**正向用戶回饋提升 30%、負向回饋降低 10%**。
 
-我先把**路徑拆開看**，看各入口到註冊的**轉化率和流失點**，發現用戶在**關鍵步驟前猶豫最多**。
+**訪談讓你知道「為什麼」，數據讓你知道「有多少人」，兩個缺一個都會排錯優先級。**
+`,
+        en: `
+At 17LIVE we had more roadmap candidates than we could deliver, and every team had its own view, so I needed a basis for ordering them that people would accept.
 
-所以我們優先**簡化註冊路徑、調整引導**，並用 **A/B 測試**驗證。最後**註冊轉化有提升**。
+I worked with UX Research to interview both general users and top streamers, and in parallel used SQL to analyse behavioural data and retention. Cross-referencing the qualitative pain points against the quantitative signals, I turned that into prioritised requirements and a roadmap proposal. **Positive user feedback rose 30% and negative feedback dropped 10%.**
 
-我學到的是：**先用數據找出卡點、設驗證指標、再快速迭代。**
-
----
-
-#### English
-
-I owned a short-video feature. We saw viewing go up, but it was not translating into sign-ups.
-
-I broke the path down first, looking at conversion rate and drop-off from each entry point through to registration, and found that users hesitated most right before the key step.
-
-So we prioritised simplifying the registration path and adjusting the prompts, and validated it with an A/B test. Sign-up conversion improved.
-
-What I learned is to use data to locate the blocker first, define the metric that will validate the fix, and then iterate quickly.
+**Interviews tell you why, data tells you how many people. Without either one, you'll get the priority order wrong.**
 `
       },
       {
         q: '講一個你從 0 到 1、在陌生領域交付的例子',
-        body: `
+        zh: `
 我不是金融或財經背景，卻要在 Typus 負責 Sui 鏈上的選擇權與永續合約產品。我必須在短時間內補足鏈上衍生品與交易機制的領域知識，同時把產品推上線。
 
 我從競品分析與產品定義開始，制定 roadmap、管理 backlog、主持 sprint planning，在雙週發布節奏下交付 30 多項功能與優化。期間 **MAU 從約 1,000 成長到 20,000 以上，產品內存入資產價值從 800 萬美元成長到 2,000 萬美元。**
 
 **領域知識可以補，補的方法是把競品拆開來看它們為什麼這樣設計，而不是只讀教學文件。**
+`,
+        en: `
+I don't come from a finance background, but at Typus I owned options and perpetual futures products on the Sui chain. I had to close the domain gap on on-chain derivatives and trading mechanics quickly, while still shipping.
+
+I started from competitor analysis and product definition, then set the roadmap, managed the backlog and ran sprint planning, delivering more than thirty features and improvements on a bi-weekly release cycle. Over that period **monthly active users went from around a thousand to over twenty thousand, and deposits in the product grew from 8 to 20 million US dollars.**
+
+**Domain knowledge is learnable. The way to learn it is to take competitors apart and ask why they designed it that way, not just to read documentation.**
 `
       },
       {
         q: '講一個你改善流程、降低返工的例子',
-        body: `
+        zh: `
 Typus 的 rebranding 專案期間，需求進到開發後常因理解落差而返工，時程受影響。我要找出返工的根因並修掉，而不是靠加班補。
 
 我重新設計從 kickoff 到交付的流程，改用有競品分析佐證的規格加上 user story，並要求在 kickoff 就把取捨攤開來講清楚。**返工週期降低 30%。**
 
 **返工幾乎都不是工程的問題，是決策沒有在最便宜的時間點被做掉。**
+`,
+        en: `
+During a rebranding project at Typus, requirements kept getting reworked after they reached development because of gaps in understanding, and the schedule suffered. I wanted to find the root cause and fix it, rather than absorb it with overtime.
+
+I redesigned the process from kickoff to delivery: specs backed by competitor analysis plus user stories, and a requirement that the trade-offs be put on the table at kickoff. **The rework cycle dropped 30%.**
+
+**Rework is almost never an engineering problem. It's a decision that didn't get made at the point where it was cheapest to make.**
 `
       },
       {
         q: '講一個你做 AI 產品的例子',
-        body: `
+        zh: `
 我和一位工程夥伴合作，做了一個每天處理 200 篇以上文章的 agentic 平台，串接 3 個 LLM，共 33 個模組，從爬取、解析、分類評分、加值、專家審核到 RAG。我負責產品：定義需求、定義評估標準，以及 LLM 的 A/B 測試框架。
 
 我把「什麼叫做好的輸出」寫成可測量的評估標準，再用 A/B 框架比較不同模型組合的成本與品質。結果是**運行成本降低 83%，品質只犧牲 3%**，平台實際上線運行約 1.5 個月。
 
 **困難的從來不是模型，而是把它產品化的工程紀律與評估設計。**
+`,
+        en: `
+I worked with an engineering partner on an agentic platform processing more than 200 articles a day, wiring together three LLMs across 33 modules, from crawling and parsing to classification and scoring, enrichment, expert review and RAG. I owned the product side: the requirements, the evaluation criteria, and the A/B testing framework for the models.
+
+I wrote down what "a good output" actually means as measurable evaluation criteria, then used the A/B framework to compare the cost and quality of different model combinations. We **cut running costs by 83% while giving up only 3% on quality**, and the platform ran in production for about a month and a half.
+
+**The hard part is never the model. It's the engineering discipline and the evaluation design that turn it into a product.**
 `
       },
       {
         q: '講一個跨文化、跨時區協作的例子',
-        body: `
+        zh: `
 在 17LIVE，功能要同時在台灣、日本與東南亞上線，各區市場需求與優先級不同。我負責協調跨區的上線節奏，並在日本市場用日文直接做跨職能溝通。
 
 我在產品、工程、營運與管理層之間扮演轉譯者，把商業目標、技術限制與現場需求對齊成同一套優先順序；也與直播特效團隊合作優化日本市場的 V-Liver 觀看體驗，**有效觀看時長提升 10%**。
 
 **跨文化協作最重要的不是語言，是知道對方需要多少 context 才敢做決定。**
+`,
+        en: `
+At 17LIVE, features had to launch in Taiwan, Japan and Southeast Asia at the same time, and each market had different needs and priorities. I coordinated the release rhythm across regions, and in Japan I did the cross-functional communication directly in Japanese.
+
+I acted as the translator between product, engineering, operations and leadership, aligning business goals, technical constraints and on-the-ground needs into one set of priorities. I also worked with the live-effects team to improve the V-Liver viewing experience for the Japanese market, which **lifted effective watch time by 10%**.
+
+**The most important thing in cross-cultural work isn't the language. It's knowing how much context the other person needs before they're willing to decide.**
 `
       },
       {
         q: '講一個你自己動手做的 side project',
-        body: `
+        zh: `
 來英國念書時，租屋資訊過載且分散；同時我發現碩士班同學對 agentic coding 工具幾乎完全陌生。這兩件都不是別人交辦的事，是我自己判斷值得做。
 
 前者我用產品的方法處理：定義 must-have 條件、做需求分析，再做出比現成平台更精準的篩選工具。後者我把 Claude Code 包成一門實作課程，和工程師朋友合作，替倫敦帝國學院的非工程背景學生辦過三次。
 
 工具解決了我自己的真實問題；課程證明非工程背景的人也能在幾小時內開始用 agent 做事。**這兩件事後來都變成我履歷上最能展現差異化的部分。**
-`
-      },
-      {
-        q: '用數據說服不同意見相關方的經歷',
-        body: `
-#### 中文
+`,
+        en: `
+When I came to the UK to study, rental information was overwhelming and scattered. At the same time I noticed my classmates on the master's programme had almost no exposure to agentic coding tools. Neither of these was assigned to me. I judged they were worth doing.
 
-在 17LIVE，我遇過不同團隊對「應該先解決哪一個用戶問題」有不同看法的情況。**客服團隊通常關注出現頻率最高的問題**；**產品和營運團隊**則會從商店評論、創作者回饋，或其他用戶研究看到不同的優先事項。
+For the first, I treated it as a product problem: define the must-haves, do the requirements analysis, then build a filtering tool more precise than the platforms already available. For the second, I packaged Claude Code into a hands-on course and, with an engineer friend, ran it three times for non-engineering students at Imperial College London.
 
-當時的困難是，這些資訊分散在不同來源，所以討論很容易變成**各自根據經驗或個人意見做判斷**，而不是用同一套標準決策。
-
-因此，我提出建立**用戶回饋儀表板**，把客服工單、商店評論與創作者訪談整合到同一個優先級視圖裡。我們用**問題量、嚴重度、受影響用戶數，以及對留存可能造成的影響**來排序。
-
-這讓團隊可以基於同一份證據討論，而不是**由聲音最大的人決定優先順序**。最後，這個做法讓問題處理速度提升了 **15%**，而我們優先處理的改善也促成留存率提升 **10%**。
-
-我從中學到，**數據不是取代不同團隊的意見，而是建立共同的判斷基礎**，讓大家更快對齊並做出決策。
-
----
-
-#### English
-
-At 17LIVE, different teams often had different views on which user issues we should prioritize. Customer support focused on the most frequent complaints, while product and operations teams also had input from app reviews and creator interviews. The challenge was that the evidence was scattered, so discussions could become driven by individual opinions.
-
-I proposed building a **user-feedback dashboard** that combined support tickets, app-store reviews, and creator feedback into one prioritization view. We looked at factors such as **issue volume, severity, affected user segments, and the impact on retention**.
-
-This gave the teams a shared way to decide priorities **based on evidence rather than the loudest opinion**. As a result, we improved issue-resolution speed by **15%**, and the changes we prioritized contributed to a **10% improvement in retention**.
-
-What I learned is that **data does not replace stakeholder input, but it gives everyone a common starting point** for making decisions.
-`
-      },
-      {
-        q: '講一次你在資源有限的情況下，選擇不做某個功能或砍掉一個需求的經歷',
-        body: `
-#### 中文
-
-在 17LIVE，我們曾經有一個**虛擬 Avatar 功能**，讓直播主可以自訂外觀，也能為平台帶來一些營收。但上線後有部分觀眾覺得 Avatar 影響觀看體驗，希望直接取消。
-
-資源有限的情況下，我們評估了三個方向：**直接下架、全面重做、或給用戶選擇**。
-
-我決定當下**不做全面改版也不直接下架**，而是和工程團隊合作加了一個**關閉 Avatar 的選項**，用比較低的成本回應用戶，也保留營收機會。
-
-我們**先對部分用戶發布**，觀察四件事：**關閉率、用戶回饋、觀看時長和營收變化**。
-
-我學到的是，**取捨不只是做或不做，而是找到平衡體驗、商業價值和成本的最小解法。**
-
----
-
-#### English
-
-At 17LIVE, we had a virtual avatar feature that let streamers customize their appearance and it generated revenue, but some viewers disliked the visuals and asked us to remove it.
-
-With limited resources, I decided **not to do a full redesign or remove the feature entirely**. Instead, I worked with engineering to add **a simple option for viewers to hide avatars**, which addressed the concern while keeping the revenue opportunity.
-
-We released it to part of the user base first, monitored feedback and viewing time, and the key lesson for me was **finding the smallest solution that balances user experience, business value, and delivery cost**.
-`
-      },
-      {
-        q: '講一個你的失敗經驗',
-        body: `
-17LIVE 客訴追蹤。**S / T / A / R**。
-
-#### 中文
-
-**S**：在剛開始追蹤客訴時，每天接收到的客訴種類繁多，我**漸漸麻痺**，認為並不是每個客訴都值得特別關注。然而，某天我發現一個問題開始逐漸擴大，**從一天只有一位用戶回報，到第三天就增加到十多個用戶抱怨**。這個狀況其實就不正常了。
-
-**T**：我的任務是確保客戶的需求得到妥善解決，並且項目能夠按時交付。但由於我對客戶的關注程度不夠，我可能會錯過一些潛在的問題或客戶的不滿意。
-
-**A**：為了解決這個問題，首先我先**回報給主管**，同時主動與其他更了解產品功能的同事合作，例如 **QA 團隊**成員。我們針對**可能會對產品功能或營收產生影響**的問題優先進行內部測試，並持續留意追蹤問題是否有惡化。
-
-**R**：這些行動帶來了明顯的改善。透過與其他同事的合作和測試，我們能夠更及時地發現潛在的問題並加以解決，從而確保使用者體驗。這次教訓讓我了解，我在關注客訴和意識到潛在問題上存在不足，**對於這個工作應該要隨時保持好奇心、深入思考、主動行動**。這也提高了我的團隊合作能力和對產品功能的理解，使我能夠更好地應對類似的挑戰。
-
----
-
-#### English
-
-**S**: At the beginning of tracking customer complaints, I received a big amount of them every day, and I gradually became numb and thought that not every complaint was worth special attention. However, one day a problem went from one user report a day to more than ten user complaints on the third day. At that moment, I realised that this situation had gone uncontrollable.
-
-**A**: To solve this problem, I first actively cooperated with the QA team to prioritise internal testing for issues that may affect product functionality or revenue. At the same time I reported to the stakeholders and my supervisor, to keep them up to date by continuing to monitor whether the problem was worsening or getting better.
-
-**R**: These actions finally solved the issue. Through collaboration and testing with other colleagues, we were able to fix the problem in a more timely manner, ensuring user experience. This lesson made me realise to always keep curiosity and think deeply, to better cope with similar challenges afterwards.
+The tool solved a real problem of my own; the course proved that people without an engineering background can start getting work done with agents within a few hours. **Both ended up being the parts of my CV that differentiate me most.**
 `
       }
     ]
@@ -393,21 +472,29 @@ We released it to part of the user base first, monitored feedback and viewing ti
     items: [
       {
         q: '為什麼想加入我們公司？',
-        body: `
+        zh: `
 我對 **[公司]** 感興趣的原因是 **[具體的產品、使命，或你實際用過的體驗]**。我是一個會自己動手驗證的 PM，會做 prototype 也會做數據分析，所以我希望能在 **[對他們的具體貢獻]** 這件事上出力。我的背景橫跨金融科技（Typus）與 B2C 社群（17LIVE），跟你們在 **[他們的領域]** 的方向可以直接對上。
+`,
+        en: `
+What draws me to **[company]** is **[the specific product, mission, or your own experience using it]**. I'm a PM who validates things hands-on, building prototypes and doing my own analysis, so where I'd like to contribute is **[specific contribution to them]**. My background spans fintech at Typus and B2C social at 17LIVE, which maps directly onto what you're doing in **[their space]**.
 `
       },
       {
         q: '我們為什麼要錄取你？',
-        body: `
+        zh: `
 因為我把 **PM 的判斷力和動手能力放在同一個人身上**。
 
 我有可被驗證的成果：Typus 的 MAU 從 1K 成長到 20K 以上、存入資產從 $8M 到 $20M；17LIVE 的正向回饋提升 30%。而且我自己做 prototype 和數據分析，**從洞察到交付的距離比較短**。加上中英日三語，我可以直接在跨區團隊裡工作。
+`,
+        en: `
+Because I put **the judgement of a PM and the ability to build in the same person**.
+
+I have results you can check: at Typus, monthly active users went from 1K to over 20K and deposits from $8M to $20M; at 17LIVE, positive feedback rose 30%. And because I build my own prototypes and do my own analysis, **the distance from insight to delivery is shorter**. On top of that I work in Mandarin, English and Japanese, so I can operate inside a cross-regional team directly.
 `
       },
       {
         q: '你為什麼去念碩士？為什麼是英國、倫敦？',
-        body: `
+        zh: `
 說起來其實很單純：我小時候被哈利波特吸引，從那時候起就對英國有一種憧憬。高中的暑假我跟旅行團來過一次，走了不少知名景點，但那是一種「被帶著看」的體驗，看完之後反而更想長大以後自己來，用生活的方式真正待進這個文化裡，而不是隔著遊覽車的窗戶。所以念碩士的時候，我選了倫敦的 King's College London。
 
 真的住下來之後，倫敦給我的東西比我想像的多：這裡的團隊幾乎都是多國籍組成的，一個產品從第一天就要面對不同語言與市場，這跟我在 17LIVE 同時做台灣、日本與東南亞的經驗完全對得上；而倫敦的金融科技聚落又剛好接上我在 Typus 的背景。**所以現在的答案已經不只是童年的憧憬了，是我想在這裡把職涯做起來。**
@@ -415,37 +502,65 @@ We released it to part of the user base first, monitored feedback and viewing ti
 #### 那你打算待多久？會不會回去？
 
 我是打算長期留下來的。畢業後可以走 Graduate Route，約兩年內不需要雇主擔保，我希望在這段時間內找到一個能一起長期走下去的團隊。
+`,
+        en: `
+It started simply: I was drawn in by Harry Potter as a child, and had a fascination with Britain from then on. I came once on a school-holiday tour in high school and saw a lot of the famous sights, but it was very much a "being shown around" experience, and it left me wanting to come back on my own as an adult and actually live inside the culture rather than see it through a coach window. So when I chose a master's, I chose King's College London.
+
+Once I'd actually lived here, London gave me more than I expected. Teams here are almost all multinational, and a product has to face different languages and markets from day one, which lines up exactly with my experience running Taiwan, Japan and Southeast Asia at 17LIVE. And London's fintech cluster connects straight back to my background at Typus. **So the answer now isn't just a childhood fascination, it's that I want to build my career here.**
+
+#### How long do you plan to stay? Would you go back?
+
+I plan to stay long term. After graduating I can move onto the Graduate Route, which means about two years without needing employer sponsorship, and I'd like to use that time to find a team I can grow with.
 `
       },
       {
         q: '你的碩士跟職涯的關係是什麼？',
-        body: `
+        zh: `
 我在 17LIVE 和 Typus 都反覆遇到同一個問題：**產品和工程之間的翻譯成本非常高，PRD 到 SPEC 之間會流失大量資訊。**
 
 我想把這件事研究清楚，所以去念了 Management and Technological Change，論文題目是 PRD 作為 boundary object，AI 在其中扮演什麼角色。**這不是離開產業，是帶著一個具體的問題去找方法。**
+`,
+        en: `
+At both 17LIVE and Typus I kept hitting the same problem: **the translation cost between product and engineering is very high, and a lot of information is lost between the PRD and the spec.**
+
+I wanted to understand that properly, so I took a master's in Management and Technological Change. My dissertation looks at the PRD as a boundary object and what role AI plays in it. **This wasn't leaving the industry, it was taking a specific problem with me to go find a method.**
 `
       },
       {
         q: '為什麼是日本？',
-        body: `
+        zh: `
 我曾以交換生身分就讀群馬大學一年，具備商務日語能力（JLPT N1），在 17LIVE 也長期用日文做跨職能協作。加上家人在日本，我希望在當地建立長期職涯與生活，**這不是短期選項。**
+`,
+        en: `
+I spent a year at Gunma University as an exchange student, I have business-level Japanese (JLPT N1), and at 17LIVE I did cross-functional work in Japanese over a long period. My family is also in Japan, and I want to build a long-term career and life there. **This isn't a short-term option for me.**
 `
       },
       {
         q: '這一年在念書，中間的空檔怎麼解釋？',
-        body: `
+        zh: `
 這段時間我在念全職碩士，同時把產品實作沒有停下來：做了 agentic AI 平台的產品規劃、租屋篩選工具、辦了三次 AI agent 實作課程，也用 agent pipeline 管理自己的求職流程。這些都在我的 portfolio 上可以看到。
+`,
+        en: `
+I've been on a full-time master's, and I didn't stop building during it: the product planning for the agentic AI platform, the rental filtering tool, three runs of the hands-on AI agent course, and an agent pipeline that manages my own job search. All of it is visible in my portfolio.
 `
       },
       {
         q: '簽證、到職時間、地點、期望待遇',
-        body: `
+        zh: `
 | 問題 | 答案 |
 |---|---|
 | 需要擔保嗎？ | 表格只有 Yes/No 就選 **Yes**。有補充欄位就加：畢業後可走 Graduate Route，約兩年內不需要雇主擔保，之後才需要。 |
 | 何時可到職？ | **2026 年 9 月畢業後**；實習類可即時。 |
 | 地點彈性 | 以倫敦為主，可 on-site，也接受 remote 或 hybrid，願意 relocate。 |
 | 薪資期望 | 英國主帶 **£50,000–£60,000**；日本主帶 **600〜800 萬円**。 |
+`,
+        en: `
+| Question | Answer |
+|---|---|
+| Do you need sponsorship? | If the form only allows Yes/No, answer **Yes**. Where there's a free-text field, add: after graduating I can use the Graduate Route, which means no employer sponsorship is needed for about two years, only after that. |
+| When can you start? | **After graduating in September 2026**; immediately for internships. |
+| Location | London-based, happy to be on-site, also open to remote or hybrid, willing to relocate. |
+| Salary expectation | UK: **£50,000–£60,000**. Japan: **¥6,000,000–8,000,000**. |
 `
       }
     ]
@@ -455,7 +570,7 @@ We released it to part of the user base first, monitored feedback and viewing ti
     items: [
       {
         q: '你有什麼想問我們的嗎？',
-        body: `
+        zh: `
 #### 必問
 
 1. Hiring manager 對這個角色**一年後的期待**是什麼？
@@ -484,6 +599,36 @@ We released it to part of the user base first, monitored feedback and viewing ti
 | 日本線 | 這個角色的日文實際使用比重是多少？ |
 | 先簽約聘 | Contractor 期間報酬怎麼計？轉正職時薪資怎麼銜接？有沒有試用期？ |
 | 獵頭、HR | 除了語言之外，我還有什麼需要加強的地方？ |
+`,
+        en: `
+#### Always ask
+
+1. What does the hiring manager expect from this role **a year from now**?
+2. How is the product team split up, and how many people? Grouped by function or by project?
+3. **Where do requirements come from, and what does the decision process look like?**
+4. What are the next steps and the timeline? How many rounds, and who would I meet?
+
+#### High value
+
+5. **In the first 90 days**, what result would make you feel you'd hired the right person?
+6. **What do the people who do well here usually have in common?**
+7. Where does the team most often get stuck between product and engineering?
+8. **Where is the boundary of product decision-making** in this role? How much can the PM decide alone?
+9. What will be your biggest obstacle next year?
+
+#### Pick by situation
+
+| Situation | Question |
+|---|---|
+| They approached you | I'd like to understand which part of my background stood out to you? |
+| AI-driven company | How much of revenue does the AI line represent today? How involved is the PM? Do non-engineering roles use agents too? |
+| Has overseas offices | What do the overseas teams own, and how do they work with Taiwan? |
+| Newly created role | Who was covering this before? Once it's split out, what do you most want solved first? |
+| PM role | In your company, what's the difference between a product manager and a project manager? |
+| Agency or client work | When a client adds scope or compresses the timeline, who decides on scope and schedule, the PM or sales? |
+| Japan track | How much of this role is actually conducted in Japanese? |
+| Contractor first | How is contractor pay calculated, and how does it carry over when converting to full time? Is there a probation period? |
+| Recruiter or HR | Aside from language, what else should I be strengthening? |
 `
       }
     ]
@@ -502,65 +647,50 @@ We released it to part of the user base first, monitored feedback and viewing ti
     items: [
       {
         q: '你怎麼決定優先級？你如何排序需求？',
-        body: `
+        zh: `
 我不相信單一公式，但我有固定的三個問題：**這個問題影響多少人**（量化訊號）、**影響有多痛**（訪談與 VOC）、以及**做了之後我們會不會更靠近這一季的目標**。
 
 在 17LIVE 我就是用訪談加 SQL 交叉比對做這件事，質化告訴我為什麼、量化告訴我有多少人。爭不下來的時候，我會**把取捨明確寫出來讓決策者選**，而不是讓它懸在會議裡。
-`
-      },
-      {
-        q: '時間緊急的情況下如何排序需求？',
-        body: `
-用 **ICE 三格**，而且每一格我都會先去要資料，不自己猜。
+`,
+        en: `
+I don't believe in a single formula, but I do have three fixed questions: **how many people does this affect** (the quantitative signal), **how painful is it** (interviews and VOC), and **does doing it move us closer to this quarter's goal**.
 
-#### 第一格 Impact：影響範圍有多大
-
-我會先確認三件事：**這個需求是誰提的、要解決的問題是什麼、預期的目標跟成效是什麼**。這三件事沒講清楚之前我不會估工時。
-
-確認完我會去要數字：受影響的用戶量、這一段目前的轉換或客訴量，如果是營收類就直接看金額。**在還沒有數字之前，「急」只是一種情緒。**
-
-#### 第二格 Confidence：我對這個估計有多少信心
-
-這個影響是量出來的還是推測的？有沒有實驗或歷史資料撐得住？**如果信心低，我會傾向先做一個小的驗證版本**，而不是一次投入全部資源。
-
-#### 第三格 Ease：要付出多少成本
-
-這一格我不會自己猜，我會去問：
-
-- 問**工程師**技術上實際要多久、有沒有依賴
-- 問**資料團隊**指標拿不拿得到
-- 問**客服跟營運**，上線之後誰要承接
-
----
-
-#### 兩個補充
-
-**已經 ready 的項目有沒有期程壓力？** 新需求可不可以接受下次 release 再發布？沒上會產生什麼負面影響，Plan B 是什麼？
-
-**產品永遠可以再排序。** 即使同樣是 P1，也可以再細分。
+At 17LIVE I did exactly this by cross-referencing interviews with SQL: qualitative told me why, quantitative told me how many people. When an argument can't be settled, I **write the trade-off out explicitly and let the decision-maker choose**, rather than leaving it hanging in a meeting.
 `
       },
       {
         q: '你怎麼定義一個功能的成功指標？',
-        body: `
+        zh: `
 **先定義行為，再定義數字。**
 
 我會先問「如果這個功能成功了，使用者會多做哪一件事」，再把那件事變成可以追蹤的指標，**同時配一個護欄指標避免局部最佳化**。
 
 做 AI 平台的時候我也是這樣定義評估標準的：先寫清楚什麼叫做好的輸出，才有辦法用 A/B 框架比較成本與品質，最後拿到降本 83%、品質只掉 3% 的結果。
+`,
+        en: `
+**Define the behaviour first, then the number.**
+
+I start by asking: if this feature works, what is the one thing users will do more of? Then I turn that into a trackable metric, **with a guardrail metric alongside it to prevent local optimisation**.
+
+I defined the evaluation criteria for the AI platform the same way: write down clearly what a good output means, and only then can you use an A/B framework to compare cost against quality. That's how we got to 83% lower cost with only a 3% quality drop.
 `
       },
       {
         q: '你怎麼做 product discovery？產品需求是怎麼產生的？',
-        body: `
+        zh: `
 質化加量化，兩邊都要。
 
 17LIVE 時我和 UX Research 一起訪談一般用戶與頭部主播，同時追蹤留存與行為數據。另外我很依賴一個習慣：**把散落的回饋集中起來看。** 客服工單、QA 紀錄、商店評論這些通常沒人整理，但它們是**最便宜的洞察來源**，我在 17LIVE 就是把它們整合成儀表板，讓問題處理速度提升 15%。
+`,
+        en: `
+Qualitative plus quantitative. You need both.
+
+At 17LIVE I interviewed general users and top streamers with UX Research, while tracking retention and behavioural data. I also rely on one habit: **pull the scattered feedback into one place and look at it.** Support tickets, QA records, store reviews usually have nobody organising them, but they are **the cheapest source of insight you have**. At 17LIVE I consolidated them into a dashboard and made issue resolution 15% faster.
 `
       },
       {
         q: '你跟工程師意見不合的時候怎麼辦？',
-        body: `
+        zh: `
 我會先分清楚是哪一種不同意，因為這兩種的處理方式完全相反。
 
 **如果是可行性的不同意，那通常他們是對的。** 他們知道系統裡有什麼我不知道的東西。我的工作不是說服他們，是問清楚成本到底卡在哪，然後**改需求，而不是改人**。很多時候我要的那個價值有第二條路可以達成，只是我一開始把需求寫成了一個具體做法。
@@ -568,12 +698,24 @@ We released it to part of the user base first, monitored feedback and viewing ti
 **如果是優先序的不同意，那是我的責任，不是他們的。** 代表我沒有把「為什麼是這個」講清楚。我的標準是：**要能讓他們自己複述出來這件事為什麼重要。** 講到他們能複述，通常爭議就沒了；講不到，那多半是我自己也還沒想清楚。
 
 在 Typus 我發現大部分衝突其實來自 kickoff 沒講清楚，所以我後來把力氣往前放，重新設計流程之後返工降了 30%。
+`,
+        en: `
+I first work out which kind of disagreement it is, because the two are handled in completely opposite ways.
+
+**If it's a disagreement about feasibility, they're usually right.** They know things about the system that I don't. My job isn't to persuade them, it's to understand exactly where the cost sits, and then **change the requirement rather than change their mind**. Very often the value I want can be reached another way, and the problem was that I wrote the requirement as one specific implementation.
+
+**If it's a disagreement about priority, that's my responsibility, not theirs.** It means I haven't explained why this one comes first. My standard is: **they should be able to repeat back, in their own words, why this matters.** Once they can, the argument usually disappears. If they can't, it usually means I hadn't thought it through either.
+
+At Typus I found most conflict actually came from kickoff not being clear enough, so I moved my effort earlier, and after redesigning the process rework dropped 30%.
 `
       },
       {
         q: '你怎麼管理時間、追蹤專案進度？',
-        body: `
+        zh: `
 80/20。我把 20% 的時間用來完成 80% 的任務，騰出來的時間拿去做 side project 和自動化。重複性的事情我盡量交給自動化處理，專注在真正需要判斷的工作上，我的求職 pipeline 就是這樣做的。
+`,
+        en: `
+80/20. I use 20% of my time to clear 80% of the tasks, and spend what that frees up on side projects and automation. I hand repetitive work to automation and concentrate on the work that genuinely needs judgement. My own job-search pipeline is built exactly that way.
 `
       }
     ]
@@ -583,244 +725,36 @@ We released it to part of the user base first, monitored feedback and viewing ti
     items: [
       {
         q: '你怎麼用 AI 工具？你有實際動手做過 AI 嗎？',
-        body: `
+        zh: `
 我的分界點是**從 chatbot 變成 agent**。
 
 一開始我跟大家一樣把 Claude 當查資料和潤稿工具，直到用了 Claude Code，它是在我的檔案裡工作、自己執行步驟，我就從「問問題」變成「交付工作」。現在 AI agent 是我生活、學業與工作的一部分：租屋篩選工具、AI agent 實作課程、我自己的求職 pipeline 都是這樣做出來的。
 
 **模型從來不是難的部分，難的是框對請求、驗證回來的東西，然後穩定重複這兩件事。**
+`,
+        en: `
+The turning point for me was **going from chatbot to agent**.
+
+At first I used Claude like everyone else, for looking things up and polishing writing. Then I used Claude Code, which works inside my own files and executes steps by itself, and I shifted from asking questions to handing over work. AI agents are now part of my life, my studies and my work: the rental filtering tool, the hands-on AI agent course, and my own job-search pipeline were all built this way.
+
+**The model was never the hard part. The hard part is framing the request correctly, verifying what comes back, and then doing those two things repeatably.**
 `
       },
       {
         q: '你怎麼衡量 AI 功能的品質？',
-        body: `
+        zh: `
 用**可測量的評估標準加 A/B**，不能只看 demo 好不好。
 
 在那個 33 模組、3 個 LLM 的平台上，我把「好的輸出」寫成評估標準，再用 A/B 框架比較不同模型組合，最後拿到運行成本降低 83%、品質只犧牲 3% 的結果。
 
 **關鍵是要先接受一定會有品質取捨，然後把取捨的幅度量化，而不是假裝沒有。**
-`
-      }
-    ]
-  }
-  ]
-},
+`,
+        en: `
+With **measurable evaluation criteria plus A/B testing**. You can't judge it on how good the demo looks.
 
-/* ═══════════ 專案深挖 ═══════════ */
-{
-  id: 'projects',
-  label: '專案深挖',
-  section: 'General',
-  groups: [
-  {
-    name: '回饋儀表板',
-    items: [
-      {
-        q: '過去帶給你強烈成就感的項目？',
-        body: `
-#### 中文
-是我在 17LIVE 主動提案並主導的**用戶回饋分析平台**。時間點其實很早，那是我第一個真正掛名 Owner、從頭到尾自己負責的專案，所以印象特別深刻。
+On that platform with 33 modules and three LLMs, I wrote down what "a good output" means as evaluation criteria, then used an A/B framework to compare model combinations. We ended up cutting running cost by 83% with only a 3% drop in quality.
 
-**當時的狀況**：用戶的聲音其實很多，散在客服工單、App Store 與 Google Play 評論、還有我們對頭部主播的訪談裡，但我們要用的時候得手動從資料庫撈出來、各自貼在不同的試算表，整個流程是被動的。結果就是我們**知道用戶在抱怨，卻說不出哪一個抱怨最值得先修**。
-
-**我做了什麼**：我把自己當成這個內部工具的 PM，從使用者，也就是客服與 PM 的角度去寫 PRD、定 spec，帶一個五人的跨職能小組，成員有工程師、資料分析師、設計師跟客服，用 Scrum 推到上線。過程中最花時間的其實不是開發，是**跟資料工程師和資料科學家一起把指標定義出來並驗證**，因為同一個「客訴數」在客服眼中和在產品眼中根本不是同一個東西。
-
-**結果**：問題處理效率提升 **15%**、留存成長 **10%**、正向回饋成長 **30%**。
-
-**但真正讓我有成就感的不是這三個數字，是團隊決策的依據換掉了。** 在那之前，roadmap 的優先序很大一部分靠誰講話比較大聲；之後我們是打開同一個看板，指著同一份資料排順序。因為這是我第一次自己扛下一個專案的頭尾，那種「我做的決定真的改變了團隊怎麼工作」的感覺特別具體，也是我確定自己想做 PM 的那一次。
-
----
-
-#### English
-I will share the dashboard project which I was in charge of.
-
-The background of the project was that initially, we had to manually extract data from our database and compile them individually in different spreadsheets, resulting in a rather passive workflow. So, we aimed to establish a system for real-time user feedback, allowing the development team to continuously monitor and conduct iteration and improvements after feature launches.
-
-As a project owner, I worked closely with Data Engineers and Data Scientists, and was involved in everything from writing the PRD and designing the specifications, holding meetings, driving the development process, and ultimately releasing the project.
-
-This process gave me a profound understanding of the entire product development lifecycle. Despite facing some challenges along the way, the final outcome, **increasing good user feedback by 30%**, was actually impressive. The customer service team can promptly track user complaints and quickly resolve issues. Simultaneously, product managers can easily capture user feedback related to various projects, allowing for continuous improvement of the product. In sum, this dashboard is not just a tool but a solution that significantly enhances user experience and operational efficiency.
-`
-      },
-      {
-        q: '當中有沒有遇到什麼挑戰？',
-        body: `
-#### English
-
-My thinking was not comprehensive enough, as I was too eager to find a solution without fully aligning ideas in meetings, which led me to overlook some potential corner cases. As a result, there were some issues that required modifications during the internal testing. Although it did not cause significant schedule delays, it did consume the team's resources and time.
-
----
-
-#### 中文（S / R）
-
-**S**：曾經在工作中犯過一個錯誤。在擔任某專案的 owner 時，當時我的思考比較不全面，可能過於急於尋求解決方案，而沒有充分地約會議 align 雙方的想法，因而忽略了一些潛在的 corner case。導致在專案發佈後，仍有許多需要進行修改的部分，雖然沒有造成嚴重的時程延誤，但確實消耗了團隊的資源與時間。
-
-**R**：這次經驗讓我意識到，對於專案管理者來說，**思考全面和考慮到所有可能性的重要性**。我學習到開發一個專案需要更加細心和周密地規劃與執行。作為專案負責人需要事先把所有 use case 列清楚，但團隊之所以重要與可貴，就在互相幫助、發揮每個人領域擅長的知識，共同確保專案的成功。
-`
-      }
-    ]
-  },
-  {
-    name: '90 秒短影音',
-    items: [
-      {
-        q: '90s clip 專案完整說明',
-        body: `
-#### 中文
-因應短影音的流行趨勢，我們基於**典藏直播功能**開發了一個短影片剪輯功能，允許用戶隨時剪輯主播直播間的精彩片段，並分享至社群平台，以幫助主播吸引更多粉絲。
-
-**典藏直播功能**是一個讓主播錄下並儲存直播內容的功能，即使觀眾錯過了直播，他們也可以稍後利用這個功能觀看和享受主播的精彩內容。
-
-#### 專案目標
-
-1. 提高新用戶 D0-D7 的**第七天留存率**（目標提升 5%）
-2. 增加透過分享功能的**新用戶註冊數量**（目標從 0 增加到 1,500）
-3. 提高短影片剪輯和**離線內容的創建量**（目標提升 10%，與平均每日典藏創作量一致）
-
-#### 遇到的挑戰
-
-是否預設所有人（包含主播與所有用戶）都可以直接剪輯直播內容。後來跟 stakeholders 討論後決定**預設關閉**，兩個原因：
-
-1. 主播希望對自己的內容有更多的控制權
-2. 擔心剪輯的片段未必能夠代表其直播的整體品質，導致觀眾對其內容產生誤解
-
-但這也導致進入權限設定頁面的主播數量太少，無法發揮該功能的效益。
-
-#### 專案成果
-
-我們成功地透過這個 90 秒影片剪輯功能吸引用戶創建更多的離線內容，也就是非直播時創建的內容，數據顯示**增加了 0.4%**，而且有 **10% 的新創作者是首次進行離線內容創作**。這表明該功能確實在某種程度上推動了平台的內容多樣性。
-
-此外，90 秒影片剪輯的**分享次數明顯高於一般貼文和普通影片剪輯**，且在類別頁面和探索頁面的點擊率也相當高，顯示用戶對這類短影片內容有強烈興趣。
-
-**然而，這項功能並未如預期顯著提升新用戶註冊率，對留存率的影響也不大。** 原因之一是創建率高，但使用它來分享所帶來的轉化率仍然較低；另外這些 90 秒影片大多只是日常直播的片段，並無特別精彩或引人注目的部分。
-
-為了提升轉化率，我的建議是**鼓勵主播在直播時進行當下流行的短影音表演**，這不僅能吸引直播中的觀眾，還能透過剪輯和分享這些 90 秒影片來吸引更多新用戶註冊。
-
----
-
-#### English
-#### Background
-
-In response to the growing trend of short videos, we developed a 90s clip feature based on the existing Archive function. This feature allows users to clip highlights from streamers' live sessions at any time and share them on social media, helping streamers attract more fans.
-
-**Archive Function** is a feature that allows streamers to record and save their streamings. Even if viewers miss the live stream, they can still watch and enjoy later using this archive function.
-
-#### Project Goals
-
-1. Increase the D0-D7 day 7 retention rate for new users (target increase of 5%).
-2. Increase the number of new user registrations via sharing (target increase from 0 to 1,500).
-3. Increase the creation of clip content and offline content by 5%, aligning with the average daily creation of archived content.
-
-#### Challenge
-
-There was a discussion with stakeholders on whether the default setting should allow everyone, including streamers and all users, to directly clip live stream content. Eventually, it was decided to have this feature **disabled by default** for several reasons: streamers wanted more control over their content, and there was a concern that the clipped content might not accurately represent the overall quality of the live stream, potentially leading to misunderstandings among viewers. However, this led to a low number of streamers accessing the permission settings page, which in turn limited the effectiveness of this feature.
-
-#### Project Outcomes
-
-We successfully attracted users to publish more offline content through the 90-second clip feature, resulting in a **0.4% increase of daily creation**. Additionally, 10% of the new content creators were first-time offline content creators. Also, the share count of the 90-second clips was significantly higher than regular posts and videos. Besides, the click rate in the genre and explore pages for this clip section was also high, indicating that users have a strong preference for this type of short video content.
-
-However, this feature did not lead to a significant increase in new user registrations, nor did it impact retention rates. One reason should be the default permission to make a clip. Secondly, while the creation rate is high, the conversion rate from sharing remains relatively low. Furthermore, these 90-second clips were mostly cut from the live stream contents, which is not particularly exciting or unique moments.
-
-To improve conversion rates, I suggest encouraging streamers to perform trending short video content during live streams. This would not only engage the live audience but also make the resulting 90-second clips more likely to attract new user registrations when shared.
-`
-      },
-      {
-        q: '專案的指標怎麼訂的？上線後怎麼驗證？A/B testing 怎麼做？',
-        body: `
-放量人數太低的時候，**很容易出現偽陰性或偽陽性**。如果出現這樣的狀況，基本上實驗還可以照常繼續做，等放量到一定 % 之後再看是否真的轉正或轉陽。
-
-這裡要看的是**置信區間**：指標落在置信區間以內還是以外，決定這個結果是不是真的。
-
-等到這些指標都穩定了，最後才會做全量的 release。
-`
-      }
-    ]
-  },
-  {
-    name: '在地化：虛擬頭像',
-    items: [
-      {
-        q: '虛擬頭像的在地化例子',
-        body: `
-#### 中文
-最清楚的例子，是我在 17LIVE 負責的**虛擬頭像專案**。
-
-日本有很強的 V-Liver，也就是虛擬直播主文化。許多直播主會刻意選擇不露臉，而是透過虛擬頭像來表達自己。因此，如果產品設計把虛擬頭像當成裝飾，卻把真人臉孔當成使用者真正的身分，其實就會和整個日本市場實際使用產品的方式產生衝突。
-
-為了解決這個問題，我和直播特效團隊合作，改善 V-Liver 的虛擬頭像體驗。在個人頁面上，我也把虛擬頭像的顯示方式，**從原本由系統決定，改成由使用者自己控制**，讓使用者自行選擇是否顯示。我們並沒有只根據自己的假設直接上線，而是在正式推出前先進行 A/B 測試。
-
-最後有兩個很明確的成果。第一，日本市場的**有效觀看時間提升了約 10%**。第二，個人頁面的頭像顯示功能原本每個月會產生約 **30 件客訴，修改後降到了零**。
-
-這個經驗讓我學到，**在地化不只是翻譯**。有時候，我們需要重新思考產品中的哪一個部分代表了使用者的身分，因為不同市場對這件事可能有完全不同的答案。
-
----
-
-#### English
-The clearest example is the **virtual avatar work I did at 17LIVE**.
-
-Japan has a strong V-Liver, or virtual streamer, culture. Many streamers deliberately choose not to show their faces and instead express themselves through virtual avatars. This meant that a product design that treated the avatar as decoration and the face as the user's real identity was quietly working against how an entire market actually used the product.
-
-To address this, I worked with the livestream effects team to optimise the V-Liver avatar experience. On the profile side, I also changed the avatar display from something decided by the system into something controlled by the user, so users could choose whether to display it. Rather than releasing the change based only on our assumptions, we ran an A/B test before the full rollout.
-
-We saw two clear results. First, **effective viewing time in the Japanese market increased by around 10%**. Second, the profile display had previously generated **around thirty complaints per month, and after the change that number dropped to zero**.
-
-What I took from this experience is that **localisation is not simply translation**. Sometimes it means reconsidering which part of the product represents the user's identity, because the answer can be very different from one market to another.
-`
-      }
-    ]
-  },
-  {
-    name: '指標與變現',
-    items: [
-      {
-        q: 'GMV：你怎麼影響一個商業數字？',
-        body: `
-On the GMV side, at Typus, I owned the perpetual futures product end to end, and **trading volume was effectively our GMV**. In the first quarter after launch, the product accumulated around **87 million US dollars** in trading volume. During the same period, total assets deposited grew from 8 million to 20 million dollars, while monthly active users increased from around 1,000 to more than 20,000.
-
-The important point, however, is that **I could not move trading volume directly**. The way I worked with metrics was to break the overall business number down into each step of the user journey, identify where the largest drop-off was happening, and then build improvements around that specific problem.
-`
-      },
-      {
-        q: 'Conversion rate：講一個你拆漏斗的例子',
-        body: `
-On the conversion side, the clearest example was a **short-video feature I led at 17LIVE**. We allowed users to create a 90-second clip from a streamer's archived livestream and share it on social media. Our targets were to bring in 1,500 new sign-ups through those shared clips and improve day-seven retention by 5%.
-
-Clip creation performed well, and sharing also performed well. The clips were shared much more often than regular posts, and they ranked first among homepage content in both click-through rate and share rate. However, **the conversion from sharing to sign-up was below our target**, and that was the part I found most interesting.
-
-When I broke the funnel down, I found **three separate points of leakage**.
-
-1. We had set the clipping permission to **off by default**. This was a deliberate decision made with stakeholders because we wanted streamers to have control over their own content. However, very few streamers visited the settings page to turn the feature on, which meant that the supply side was never fully activated.
-2. **Creating a clip and sharing a clip were two separate actions**, but we had assumed that creating one would naturally lead users to share it.
-3. Most importantly, many of the clips were simply **ordinary moments** from a livestream. They were meaningful to existing fans, but they were not necessarily interesting enough to make someone unfamiliar with the streamer create an account.
-
-Based on this analysis, my recommendation was to **move further upstream**. The main problem was not the sharing flow itself, but the content being clipped. Instead of only optimising the sharing experience, we needed to encourage streamers to create moments based on trending short-form content during their livestreams, so that the resulting clips would be valuable enough to convert new users.
-
-What I learned is that **a conversion number is never just one number**. It represents an entire chain of user actions, and most of the time, the broken link is not where you initially expect it to be.
-`
-      },
-      {
-        q: '你負責的產品怎麼變現？（Monetization）',
-        body: `
-#### English
-
-The two products had different monetization models.
-
-At **Typus**, the product generated revenue through fees from trading activity, so trading volume was closely connected to revenue. My role was to improve the journey from depositing assets to making the first trade and becoming a repeat trader.
-
-At **17LIVE**, the 90-second clip feature was not designed to generate revenue directly. It was a growth feature intended to attract new users and improve retention. Once those users became active viewers, they could later contribute to revenue through the platform's core monetization features, such as virtual gifts.
-
-So I would **separate direct monetization from growth features that support monetization further down the funnel**.
-
----
-
-#### 中文
-
-這兩個產品的變現方式不太一樣。
-
-在 **Typus**，產品主要透過交易活動產生的手續費獲得收入，因此交易量與營收有直接關係。我的工作是改善使用者從存入資產、完成第一次交易，到成為重複交易者的整段流程。
-
-**17LIVE** 的 90 秒短影音則不是直接變現的功能，而是一個使用者成長功能，目標是吸引新使用者並提升留存。當這些使用者成為活躍觀眾後，才可能進一步透過虛擬禮物等平台的核心功能帶來收入。
-
-因此，我會把產品分成**直接產生收入的功能**，以及**在漏斗前端協助獲客和留存、最終支持變現的功能**。
+**The key is to accept up front that there will be a quality trade-off, and then quantify how big it is, rather than pretending there isn't one.**
 `
       }
     ]
@@ -835,63 +769,41 @@ So I would **separate direct monetization from growth features that support mone
   section: 'Company',
   groups: [
   {
-    name: '動機',
-    items: [
-      {
-        q: '為什麼想加入 Trip.com？',
-        body: `
-開場先講**契合**，不要先講你有多喜歡這家公司。
-
-我想加入 Trip.com，最主要的原因是**這個職位和我想持續累積的能力非常契合**：一方面是**消費型產品的成長**，另一方面是**跨市場協作與在地化**。
-
-#### 一、我做過的事，就是這個職位要做的事
-
-我過去在 17LIVE 做過**台灣、日本和東南亞市場**的使用者體驗與成長。我很熟悉同一個功能在不同市場，可能因為**用戶習慣、內容環境或使用情境不同，而需要不同的做法**。
-
-Trip.com 這個職位正好需要把**台灣市場的洞察，和總部的產品、設計及技術團隊對齊，再轉成實際的產品改善**，這是我很想繼續深耕的工作。
-
-#### 二、我自己就是重度使用者
-
-因為我常旅行，所以在規劃行程時很熟悉**從搜尋、比較、選擇方案到完成訂房**的流程。
-
-這讓我不只把它當成一個工作機會，也會自然從使用者角度去觀察：**資訊是否清楚、哪一步容易猶豫、什麼因素會影響最後的預訂決定。**
-
-#### 三、我期待的是跨國的產品規模
-
-我也期待在一個真正跨國、產品規模大的環境裡工作。**對我來說，重點不是資源本身，而是可以把在地洞察放到更大的產品系統中驗證**，並和不同市場及總部團隊合作，產生更大的影響。
-
----
-
-**收尾（我能帶來什麼）：**
-
-> 我相信我能帶來的價值，是把過去在台灣、日本與東南亞做產品成長的經驗，加上**數據分析與用戶回饋**的做法，幫助 Trip.com 更理解台灣用戶，並把洞察轉成**可落地的產品改善**。
-`
-      }
-    ]
-  },
-  {
     name: '作業追問',
     items: [
       {
         q: '你為什麼選台北到東京、台北到倫敦這兩條線？',
-        body: `
+        zh: `
 一條**短程高頻**、一條**長程高單價**，這兩條線剛好覆蓋兩種完全不同的決策模式。短程線使用者比的是方便和價格，長程線使用者會開始在意退改規則和售後保障。
+`,
+        en: `
+One is **short-haul, high-frequency** and the other is **long-haul, high-value**. Between them they cover two completely different decision modes. On the short-haul route users compare convenience and price; on the long-haul route they start caring about change rules and after-sales protection.
 `
       },
       {
         q: '你說我們在比價貨架上最貴。那你建議我們降價嗎？',
-        body: `
+        zh: `
 不建議。**價格是果，不是因。**
 
 我建議的不是降價，是**讓深度在貨架上可見**。台灣使用者給五星評論主動稱讚的是產品深度：劃位窗口號碼、登機門、行李轉盤號碼在落地前就看得到。那些優勢現在在比價貨架上完全不可見，使用者在選的當下只看得到價格和一行全球通用文案。
+`,
+        en: `
+No. **Price is the effect, not the cause.**
+
+What I'd recommend isn't a price cut, it's **making the depth visible on the comparison shelf**. What Taiwanese users spontaneously praise in five-star reviews is product depth: seat and gate numbers, and the baggage carousel number, all visible before landing. None of that is visible on the comparison shelf today. At the moment of choosing, all the user sees is the price and one line of globally generic copy.
 `
       },
       {
         q: '你把離開拆成四種結局，但我們現有埋點可能分不出來，你怎麼落地？',
-        body: `
+        zh: `
 先用**可代理的訊號**來分，同時把埋點需求提出來。
 
 先用現有資料裡分得出來的訊號做近似分類，讓判斷可以先跑起來；同時把真正需要的事件列成需求排進去，等埋點補齊之後再回頭校正分類的準確度。
+`,
+        en: `
+Start by splitting them with **proxy signals**, and raise the tracking requirement in parallel.
+
+I'd use whatever signals the existing data can already separate to build an approximate classification, so the judgement can start running. At the same time I'd write up the events we actually need as a requirement and get them scheduled, then come back and correct the accuracy of the classification once the tracking is in place.
 `
       }
     ]
@@ -901,7 +813,7 @@ Trip.com 這個職位正好需要把**台灣市場的洞察，和總部的產品
     items: [
       {
         q: '你發現一個台灣專屬的問題，但要總部改全球的東西。你怎麼說服他們？',
-        body: `
+        zh: `
 我會先接受一個前提：**總部沒有義務為台灣改東西，我的工作是讓他們看到這件事對他們也划算。**
 
 所以我會做三件事。
@@ -911,11 +823,22 @@ Trip.com 這個職位正好需要把**台灣市場的洞察，和總部的產品
 **第二，找出這個問題不只發生在台灣的證據。** 如果我只能說「台灣很特別」，那我在跟總部搶資源；如果我能說「台灣是這個問題最明顯的市場，但日本和韓國大概也有」，那我是在幫總部發現一個他們還沒看到的全球問題。**同一個需求，第二種講法的成功率高很多。**
 
 **第三，把要求縮到最小可行。** 我不會一開始就要求改全球結帳流程。我會問：有沒有一個只影響單一市場的設定開關？能不能先在台灣做一次實驗，用結果去換後面的資源？**先要一個小的並且把它做出成績，比一次要一個大的更容易拿到第二次機會。**
+`,
+        en: `
+I'd start by accepting one premise: **headquarters has no obligation to change something for Taiwan. My job is to show them it's worth it for them too.**
+
+So I'd do three things.
+
+**First, quantify what it's worth before talking about how painful it is.** "Taiwanese users find this inconvenient" is not an argument. "This step loses this many orders a month, which is this much GMV" is. That's what I did in the exercise: I didn't say "Trip.com is too expensive", I said both routes are 5.0% above the cheapest seller, and on the long-haul route we only save 1.7% against the airline's own site, so the price advantage has already been diluted away. **Numbers turn the conversation from preference into trade-off.**
+
+**Second, find evidence that the problem isn't only happening in Taiwan.** If all I can say is "Taiwan is special", I'm competing for resources. If I can say "Taiwan is where this problem is most visible, but Japan and Korea probably have it too", then I'm helping headquarters find a global problem they hadn't seen. **Same request, and the second framing has a much higher success rate.**
+
+**Third, shrink the ask to the smallest viable version.** I wouldn't open by asking to change the global checkout flow. I'd ask: is there a setting that only affects one market? Could we run one experiment in Taiwan and trade the result for the next round of resources? **Asking for something small and getting a result with it is a much better way to earn a second chance than asking for something big once.**
 `
       },
       {
         q: '總部說功能全球統一，但台灣用戶明顯不吃。你會怎麼做？',
-        body: `
+        zh: `
 我會先確認我沒有在跟總部要一個他們給不起的東西。
 
 以我在作業裡看到的例子來說：在 Skyscanner 同一張比價貨架上，排在 Trip.com 前面的賣家全部都主打在地支付，山富旅遊打「可用 LINE Pay 付款」，易遊網打「可分期付款」，而 Trip.com 那一格顯示的是一句全球通用的文案。總部的立場是合理的，結帳流程全球統一才維護得動，每接一個在地支付就是一次串接、一組風控規則、一份對帳邏輯和長期維運成本。
@@ -933,72 +856,59 @@ Trip.com 這個職位正好需要把**台灣市場的洞察，和總部的產品
 我不會把它處理成「總部不理解台灣」。多數時候總部不是不理解，是**他們手上的成本結構跟我看到的收益不在同一張表上**，我的工作是把那張表補起來。
 
 而且說實話，我猜這件事你比我更熟。你在雪梨、總部在上海，你要推的每一件事應該都會經過這個過程。
+`,
+        en: `
+I'd first make sure I'm not asking headquarters for something they can't afford to give.
+
+Take the example from my exercise. On the same Skyscanner comparison shelf, every seller ranked above Trip.com leads with local payment: one advertises LINE Pay, another advertises instalments, while the Trip.com row shows a line of globally generic copy. Headquarters' position is reasonable: a unified global checkout is the only version you can maintain. Every local payment method you add is an integration, a set of risk rules, reconciliation logic and ongoing maintenance cost.
+
+The key to this case is that **what I want isn't necessarily "integrate LINE Pay"**. What I want is for a Taiwanese user to see a reason that means something to them, on the shelf. **Those two things differ in cost by an order of magnitude.**
+
+So I'd break the request into three layers, cheapest first.
+
+**Layer one: change the copy, don't touch the system.** That line on the shelf is globally generic. If Taiwan can swap it for a line about a local benefit, that costs almost no engineering and can be A/B tested directly. **If even the copy shows no difference, then my read on this problem was wrong to begin with, and I'd rather find that out first than go and ask for a big feature.**
+
+**Layer two: if the copy works, then I take that result and ask for the payment integration.** At that point what I'm holding isn't a hypothesis, it's "same traffic, one line changed, conversion moved by this much". That's a language headquarters understands.
+
+**Layer three: if I can't even get layer two, I accept this segment isn't winnable in the short term and move my resources to what I can control.** What Taiwanese users praise in five-star reviews is product depth: seat and gate numbers and the baggage carousel visible before landing. **None of that depth is visible on the comparison shelf.** Making those existing advantages visible is something I can push without headquarters signing off.
+
+I wouldn't frame this as "headquarters doesn't understand Taiwan". Most of the time they do understand. It's that **the cost structure on their side and the upside I'm seeing aren't on the same spreadsheet**, and my job is to complete that spreadsheet.
+
+And honestly, I suspect you know this better than I do. You're in Sydney and headquarters is in Shanghai, so everything you push probably goes through this same process.
 `
       },
       {
-        q: '總部想把東南亞通用的飯店功能不改設計直接上線台灣，但你的調研顯示台灣用戶需要不同做法。你怎麼說服總部？',
-        body: `
-#### 中文
-**我不會直接要求總部做一套完全不同的產品。** 我會先把問題轉成：
+        q: '你交給我的東西，我要能快速看懂並且往上帶。你會怎麼設計報告格式？',
+        zh: `
+我的原則是：**你的時間應該花在做決定，不是花在理解格式。**
 
-> 我們怎麼在**維持全球核心流程一致**的前提下，用**最小成本**驗證台灣的在地需求。
+所以我會固定三件事。
 
-#### 一、先整理證據
+**第一，骨架固定。** 同一組漏斗階段、同一組指標定義，每個月長得一樣。市場差異放在同一個欄位裡說明，不要每個月自己一套結構。這樣看第三次的時候，你可以直接跳到變動的地方。
 
-- 台灣用戶**在哪一步流失**
-- **偏好哪些付款方式**
-- **客服常見問題**是什麼
+**第二，把「需要你拍板」跟「知會你」分開，而且放在最前面。** 我看過太多報告是一路鋪陳到最後才出現要求。我會反過來：最上面就是這次需要你決定什麼、我的建議是什麼、為什麼。中間是證據。最後才是完整數據。**你如果只有兩分鐘，看最上面那一段就夠了。**
 
-再用**台灣競品**和**過往跨市場案例**作輔助。
+**第三，數字口徑寫死並且不隨便改。** 如果我這個月改了某個指標的定義，我會標出來並且同時附上舊口徑，不然趨勢就斷了。
 
-#### 二、把需求分兩類
+我這樣設計還有一個私心：**如果格式是固定的，你之後要拿去跟其他市場並排看，或是往上帶，都不用我重做一次。**
+`,
+        en: `
+My principle is: **your time should go into making decisions, not into understanding the format.**
 
-| 類別 | 處理方式 |
-|---|---|
-| **核心訂房邏輯** | **保持一致**，不動 |
-| 付款方式、文案、價格與稅費說明 | 做**輕量在地化** |
+So I'd fix three things.
 
-#### 三、提可配置的方案，不是獨立版本
+**First, a fixed skeleton.** The same funnel stages, the same metric definitions, looking the same every month. Market differences get explained in the same field rather than restructuring the document each time. By the third month you can jump straight to what changed.
 
-我會提出**可配置的方案**，而不是做一套獨立版本。先**小流量或 A/B 測試**，看三個指標：
+**Second, separate "needs your decision" from "for your awareness", and put it at the top.** I've seen too many reports that build up for pages and only surface the ask at the end. I'd invert it: the top says what you need to decide, what I recommend, and why. The middle is the evidence. The full data comes last. **If you only have two minutes, the top section is enough.**
 
-**付款完成率、取消率、客服詢問量**
+**Third, lock the metric definitions and don't change them casually.** If I do change a definition in a given month, I flag it and include the old definition alongside, otherwise the trend line breaks.
 
-有效再全面上線。
-
----
-
-**收尾這句一定要講：**
-
-> 這樣不是讓台灣變成例外，而是用在地證據找到**兼顧全球一致和本地效果**的做法。
-
----
-
-#### English
-**I would not ask headquarters to build a completely different product for Taiwan.** I would first reframe the question as: how do we validate Taiwan's local needs at the lowest cost, while keeping the global core flow consistent?
-
-#### 1. Assemble the evidence first
-
-Where Taiwanese users drop off, which payment methods they prefer, and what the most common customer service questions are. I would support that with **Taiwanese competitors** and **previous cross-market cases**.
-
-#### 2. Split the requirements into two categories
-
-**The core booking logic stays consistent.** Payment methods, copy, and price and tax presentation get **lightweight localisation**.
-
-#### 3. Propose a configurable solution, not a separate version
-
-I would propose making it **configurable** rather than building a standalone Taiwan version. We would start with a small traffic rollout or an A/B test, and look at **payment completion rate, cancellation rate, and customer service enquiry volume**. If it works, then we roll it out fully.
-
----
-
-**Close with this:**
-
-> This is not about making Taiwan an exception. It is about using local evidence to find an approach that serves **both global consistency and local performance**.
+There's a selfish reason for designing it this way too: **if the format is fixed, when you want to put it side by side with another market or take it upwards, I don't have to redo it.**
 `
       },
       {
         q: '你怎麼判斷一個市場差異是「文化差異」還是「單純產品沒做好」？',
-        body: `
+        zh: `
 我的預設是**先假設是產品沒做好**，因為「這是文化差異」是一個太方便的結論，它一旦被接受，就沒有人要再往下查了。
 
 我會用三個檢查來區分。
@@ -1010,11 +920,24 @@ I would propose making it **configurable** rather than building a standalone Tai
 **第三，如果真的是文化差異，它應該有一個說得出來的機制。** 「台灣人比較謹慎」不是機制。「台灣信用卡滲透率高、分期是常態消費行為，所以分期選項在高單價品類上是決策點」才是機制。**講不出機制的文化差異，通常是還沒查完。**
 
 分清楚很重要，因為結論完全不同：產品沒做好要修，真的文化差異要在地化，而**把產品缺陷誤判成文化差異，等於決定永遠不修它。**
+`,
+        en: `
+My default is to **assume the product wasn't built well**, because "it's a cultural difference" is far too convenient a conclusion. Once it's accepted, nobody investigates any further.
+
+I use three checks to tell them apart.
+
+**One: is anyone doing better than us in the same market?** If Taiwanese users simply "don't like paying online", every seller's conversion should be equally bad. But what I saw in the exercise is that the sellers ranked above us are doing the same thing and winning. **If a competitor has made it work inside the same culture, it isn't a cultural problem.**
+
+**Two: is there a weak signal in the same direction in other markets?** If it's very pronounced in Taiwan and slightly present in Japan and Korea, it's more likely a global product flaw amplified in Taiwan than something unique to Taiwan.
+
+**Three: if it really is cultural, you should be able to state the mechanism.** "Taiwanese people are more cautious" isn't a mechanism. "Credit card penetration in Taiwan is high and instalments are normal consumer behaviour, so the instalment option becomes a decision point in high-value categories" is a mechanism. **A cultural difference you can't state a mechanism for usually means the investigation isn't finished.**
+
+Getting this right matters because the conclusions are opposite: a product flaw gets fixed, a genuine cultural difference gets localised, and **misreading a product flaw as a cultural difference is a decision never to fix it.**
 `
       },
       {
         q: '台灣跟東南亞市場相似度高嗎？哪些經驗可以互相搬，哪些不行？',
-        body: `
+        zh: `
 表層很像，底層完全不一樣，而這正是我覺得經驗可以搬「方法」但不能搬「答案」的原因。
 
 **相似的地方是：兩邊都是行動優先，而且勝負都在支付這一段決定。** 我在作業裡發現，台灣比價貨架上排在我們前面的賣家全部主打在地支付。東南亞更極端，Traveloka 基本上就是靠在地支付加 mobile-first 打出來的，行動裝置佔 OTA 流量七成五以上。
@@ -1026,16 +949,36 @@ I would propose making it **configurable** rather than building a standalone Tai
 所以我的答案是：**可以搬的是「先去比價貨架上看使用者實際看到什麼」這個方法，不能搬的是任何一個具體結論。** 如果有人把台灣的 LINE Pay 結論直接搬到印尼，那個提案第一頁就錯了。
 
 不過我也想誠實說，這個職位是 base 在台灣，東南亞我是從外面看的。我對台灣的判斷是我自己查出來的，對東南亞的判斷來自公開資料，這兩者的可信度我會分開講。
+`,
+        en: `
+They look similar on the surface and are completely different underneath, and that's exactly why I think you can transfer the method but not the answer.
+
+**What's similar: both are mobile-first, and both are decided at the payment step.** In my exercise I found every seller ranked above us on the Taiwan comparison shelf leads with local payment. Southeast Asia is more extreme still. Traveloka essentially built its position on local payment plus mobile-first, and mobile is over 75% of OTA traffic there.
+
+**But the underlying mechanism is the opposite.** Taiwan is a credit card ecosystem, so the local payment answer is LINE Pay and instalments. Southeast Asia has low card penetration and runs on government-built QR rails plus e-wallets: PromptPay in Thailand, QRIS in Indonesia, VietQR in Vietnam. And **the wallets are fragmented country by country and don't interoperate**: GCash in the Philippines, GoPay and OVO in Indonesia, MoMo in Vietnam. **In Taiwan, "add a local payment method" is one piece of work. In Southeast Asia, it's six.**
+
+The competitive structure differs too. Taiwan is a scrap between many players; Southeast Asia has a dominant player in Agoda, which takes around 60% of online travellers in Vietnam. **Fighting in a scrap and fighting a market leader are not the same fight.**
+
+So my answer is: **what transfers is the method, going to the comparison shelf and looking at what the user actually sees. What doesn't transfer is any specific conclusion.** If someone took the Taiwan LINE Pay conclusion straight to Indonesia, that proposal is wrong on page one.
+
+I should also be honest that this role is based in Taiwan and I'm looking at Southeast Asia from the outside. My read on Taiwan is something I researched myself; my read on Southeast Asia comes from public sources, and I'd keep those two levels of confidence separate.
 `
       },
       {
         q: '你在 17LIVE 同時做台、日、東南亞，講一個同功能不同市場結果不同的例子',
-        body: `
+        zh: `
 V-Liver Avatar，也就是虛擬化身。同一個功能在台灣和日本的接受度完全不同。
 
 日本市場對虛擬形象的接受度高很多，我跟直播特效團隊合作優化日本市場的 V-Liver 觀看體驗，**有效觀看時長提升 10%**。同一套東西在其他市場沒有出現同樣的效果。
 
 那次讓我養成一個習慣：看到市場之間的落差，先問這是真的市場差異，還是我們在那個市場根本沒把產品做好。
+`,
+        en: `
+The V-Liver avatar, the virtual persona feature. The same feature was received completely differently in Taiwan and Japan.
+
+Acceptance of virtual personas is far higher in the Japanese market. I worked with the live-effects team to improve the V-Liver viewing experience for Japan, and **effective watch time rose 10%**. The same feature didn't produce that effect in the other markets.
+
+That's where I picked up a habit: when I see a gap between markets, ask first whether it's a genuine market difference, or whether we simply didn't build the product well in that market.
 `
       }
     ]
@@ -1045,7 +988,7 @@ V-Liver Avatar，也就是虛擬化身。同一個功能在台灣和日本的接
     items: [
       {
         q: '台灣訂單轉換率掉 5%，你第一週做什麼？',
-        body: `
+        zh: `
 **第一天我不會找原因，我會先確認這個下降是真的。** 埋點有沒有壞、發版有沒有換掉事件、指標口徑有沒有被改、資料管線有沒有延遲。同時看同期有沒有發版或實驗。而且我會跟去年同期比，不是只跟上週比，因為旅遊季節性極強。**在確認數字是真的之前，任何原因推測都是浪費時間。**
 
 **第二天到第三天，切維度，看下降是全面還是局部。** 時間、平台與版本、流量來源、新舊用戶、產品線。**斷崖式下跌通常是技術或發版，緩降通常是市場或競品。** 這一步只有一個目的：縮小範圍。
@@ -1055,83 +998,22 @@ V-Liver Avatar，也就是虛擬化身。同一個功能在台灣和日本的接
 **然後分內因外因。** 內因是我們自己做的：發版、實驗、價格或庫存變動、付款成功率、第三方 API。外因是控制不了的：季節、競品促銷、航班供給、匯率。
 
 **第一週結束時我要交出的不是答案，是一個已經被收斂到一兩個候選的假設，加上驗證它需要什麼。** 如果第一週就給一個很篤定的原因，那多半是我跳過了第一步。
-`
-      },
-      {
-        q: '台灣站飯店預訂頁流量穩定，但支付完成率掉了 8%，你怎麼找原因、定優先級、驗證方案？',
-        body: `
-#### 中文
-**我不會先假設是價格或產品設計問題**，而是先確認這個下降是否真實，以及它發生在訂房漏斗的哪一個環節。
+`,
+        en: `
+**On day one I wouldn't look for causes, I'd confirm the drop is real.** Is the tracking broken, did a release rename an event, was a metric definition changed, is the data pipeline delayed? At the same time, check whether a release or experiment went out in the same window. And I'd compare against the same period last year, not just last week, because travel is intensely seasonal. **Until the number is confirmed real, any theory about causes is wasted time.**
 
-#### 一、拆漏斗，找出流失突然增加的節點
+**Days two and three: cut by dimension and see whether the drop is broad or local.** Time, platform and version, traffic source, new versus returning users, product line. **A cliff-edge drop is usually technical or release-related; a gradual decline is usually market or competitor.** This step has one purpose: narrow the range.
 
-我會先把用戶流程拆成幾個步驟：
+**Days four and five: put it back on the funnel and locate the segment.** Search, results page, detail page, passenger details, payment, confirmation. **A conversion drop is never a problem with "conversion", it's a problem in one segment.** Compare pass-through rates stage by stage and find the one furthest from baseline.
 
-> 瀏覽飯店 → 選擇房型 → 填寫旅客資料 → 選擇付款方式 → 完成付款
+**Then separate internal from external causes.** Internal is what we did: releases, experiments, price or inventory changes, payment success rate, third-party APIs. External is what we can't control: seasonality, competitor promotions, flight supply, exchange rates.
 
-接著**比較下滑前後每一段的轉換率**，找出流失突然增加的節點。
-
-#### 二、分群分析，同時排除明確異常
-
-找到節點後，我會再做分群分析：
-
-| 維度 | 看什麼 |
-|---|---|
-| 平台 | App 或網頁 |
-| 系統 | iOS 或 Android |
-| 付款 | 特定付款方式 |
-| 用戶 | 新用戶或舊用戶 |
-| 商品 | 特定飯店類型、某些入住日期 |
-
-同時，我會先排除明確的異常：**付款失敗率上升、頁面載入變慢、價格在結帳時改變、房間庫存不足，或最近上線的版本造成問題。**
-
-#### 三、定優先級：影響、確定性、成本
-
-接下來，我會根據三件事排優先順序：**影響有多大、我們對原因有多確定、以及修復需要多少成本。**
-
-**該優先做的例子**：如果資料顯示某個信用卡付款通道的失敗率突然升高，後台紀錄也出現錯誤，而且影響大量用戶，這就是高影響、高確定性的問題，應該優先處理。
-
-**不該急的例子**：如果我們只是猜測用戶因為覺得價格太高而離開，但還沒有價格比較、跳出行為或用戶回饋支持，我不會立刻投入大量資源重做價格頁面。我會先用**小規模研究或測試**來驗證這個假設。
-
-#### 四、先上最小可行的修復，再驗證
-
-我會和工程、數據及營運團隊一起先上線**最小但有效的修復方案**，例如修正付款通道、讓價格資訊更清楚，或改善結帳流程。
-
-之後透過**灰度發布或 A/B 測試**，確認付款完成率是否回升，同時監控**付款失敗率、取消率與客服詢問量**，確保我們在提升轉換率時，沒有造成新的用戶體驗問題。
-
----
-
-#### English
-**I would not start by assuming it is a pricing or design problem.** First I would confirm the drop is real, and pinpoint where in the booking funnel it happens.
-
-#### 1. Break the funnel down and find where the leak appeared
-
-I would split the user flow into browsing hotels, selecting a room type, entering guest details, choosing a payment method, and completing payment. Then I would **compare the conversion rate of each step before and after the drop**, to find the stage where drop-off suddenly increased.
-
-#### 2. Segment, and rule out the obvious anomalies
-
-Once I have the stage, I would segment: **App versus web, iOS versus Android, specific payment methods, new versus returning users, particular hotel types, and particular check-in dates.**
-
-At the same time I would rule out the clear anomalies: a rise in payment failure rate, slower page loading, prices changing at checkout, room inventory running out, or a recent release causing the issue.
-
-#### 3. Prioritise on impact, certainty and cost
-
-I would prioritise on three things: **how large the impact is, how certain we are about the cause, and how much the fix costs.**
-
-For example, if the data shows the failure rate of one credit card channel has suddenly risen, the backend logs show errors, and it affects a large number of users, that is high impact and high certainty, so it should be fixed first.
-
-Conversely, if we are only guessing that users leave because they think the price is too high, without price comparison data, exit behaviour or user feedback to support it, **I would not immediately commit heavy resources to rebuilding the pricing page.** I would validate that hypothesis with a small study or test first.
-
-#### 4. Ship the smallest effective fix, then verify
-
-I would work with engineering, data and operations to ship **the smallest effective fix**, such as repairing the payment channel, making price information clearer, or improving the checkout flow.
-
-Then I would verify through **a staged rollout or an A/B test**, checking whether payment completion recovers, while monitoring **payment failure rate, cancellation rate and customer service enquiry volume**, so that we are not creating a new user experience problem while improving conversion.
+**What I'd hand over at the end of week one isn't an answer, it's a hypothesis narrowed to one or two candidates, plus what's needed to verify it.** If I gave you a confident single cause in week one, it would usually mean I skipped the first step.
 `
       },
       {
         q: '給你台灣新用戶 +20% 的目標，你從漏斗哪一段下手？',
-        body: `
+        zh: `
 我不會先列一堆點子，我會先問**哪一段的天花板最高**，因為同樣的工，打在不同段的回報差很多。
 
 而以台灣來說，我做完作業之後的判斷是：**新用戶的漏斗第一段根本不在我們的 App 裡，它在比價貨架上。**
@@ -1143,12 +1025,24 @@ Then I would verify through **a staged rollout or an A/B test**, checking whethe
 所以我的順序會是：**先確認貨架這一段的量體有多大。** 如果新用戶主要從那裡來，那優先打的是「在貨架上給一個非價格的理由」，因為降價不是我能做也不該做的。台灣使用者五星評論主動稱讚的是產品深度，劃位窗口號碼、登機門、行李轉盤在落地前就看得到，**那些優勢現在在貨架上完全不可見，這是我認為最被低估的一段。**
 
 如果資料顯示新用戶其實主要來自別的通路，那我上面這整套判斷就要重來，我會先去看那個數字。
+`,
+        en: `
+I wouldn't start by listing ideas. I'd start by asking **which segment has the highest ceiling**, because the same amount of work returns very differently depending on where you apply it.
+
+For Taiwan specifically, my read after doing the exercise is that **the first segment of the new-user funnel isn't inside our app at all. It's on the comparison shelf.**
+
+A new Taiwanese user usually doesn't think of Trip.com first. They see a row of sellers on something like Skyscanner and pick one. **In that moment, all they can see is a price and one line of copy.** What I found in testing is that we're the most expensive OTA on both routes, 5.0% above the cheapest seller, and every seller ranked above us leads with local payment while we run a line of globally generic copy.
+
+Which means **if I only optimise the in-app signup flow, I'm optimising for a group of people who never arrived.**
+
+So my order would be: **first confirm how much volume that shelf segment actually represents.** If new users mainly come from there, the priority is giving them a non-price reason on the shelf, because cutting price is neither something I can do nor something I should do. What Taiwanese users praise in five-star reviews is product depth, seat and gate numbers and the baggage carousel visible before landing. **None of that is visible on the shelf today, and that's the segment I think is most underrated.**
+
+If the data shows new users actually come mostly from another channel, then this whole read has to be redone, and I'd go look at that number first.
 `
       },
       {
         q: 'GMV、轉換率、新用戶只能保一個，你保哪個？',
-        body: `
-#### 中文
+        zh: `
 **我保轉換率。** 但在講理由之前，我想先把 GMV 拿掉，因為它跟另外兩個不是同一種東西。
 
 **GMV ＝ 流量 × 轉換率 × 客單價**
@@ -1182,19 +1076,29 @@ GMV 是平台上成交的機票和飯店總金額，**這不是我們的收入�
 **那什麼時候我會反過來去做新用戶？** 當轉換率已經在合理水準，但根本沒什麼人進來的時候。**那時候再優化漏斗，是在對一小群人做微調，回報有限。**
 
 **我選轉換率不是因為它比較重要，是因為台灣現在的瓶頸在那裡。** 如果數字長得不一樣，我的答案會反過來。
-
----
-
-#### English
+`,
+        en: `
 **I'd protect conversion rate.** But before the reasoning, I'd set GMV aside, because it isn't the same kind of thing as the other two.
 
 **GMV = traffic × conversion rate × average order value.** GMV is the total value of flights and hotels booked on the platform. It isn't our revenue, we take a commission out of it. And it decomposes completely into that formula.
 
 **So GMV isn't a fourth option, it's the product of the others.** Saying "I'd protect GMV" is saying "I want all three", and **it's the only answer that amounts to choosing nothing.** Worth noting the lever people forget in that formula is **average order value**: Taipei to London has a far larger fare base than Taipei to Tokyo, so **shifting order mix toward long-haul moves GMV without touching traffic or conversion at all.** Not what I'd choose today, but it's a real third path.
 
-**That leaves traffic and conversion. Before I pick, I'd want to ask which conversion rate we mean**, because the same word covers numbers that differ by six times or more. **OTAs like Booking and Expedia sit around 12 to 15%**, since users arrive with clear intent. Hotel direct sites are around 1.5 to 2.5%. General ecommerce is about 2.7%. **So "what's good" has no answer until we agree what's being measured from where to where.** The 6.5% in my exercise was entry-to-completion inside the booking flow, which is a third definition again.
+---
 
-**Once the definition is fixed, the rule is simple.** Clearly below the comparable benchmark means there's room, so fix conversion. At or above it means the ceiling is low and I should go get traffic instead.
+**That leaves traffic and conversion. Before I pick, I'd want to ask which conversion rate we mean**, because the same word covers numbers that differ by six times or more.
+
+| Definition | Rough level |
+|---|---|
+| **OTA on-site** (Booking, Expedia) | **12 to 15%**, since users arrive with clear intent |
+| Hotel direct sites | 1.5 to 2.5% |
+| General ecommerce | About 2.7% |
+
+**So "what's good" has no answer until we agree what's being measured from where to where.** The 6.5% in my exercise was entry-to-completion inside the booking flow, which is a third definition again.
+
+---
+
+Once the definition is fixed, the rule is simple. **Clearly below the comparable benchmark** means there's room, so fix conversion. **At or above it** means the ceiling is low and I should go get traffic instead.
 
 **For Taiwan I'd protect conversion, on two pieces of evidence.**
 
@@ -1202,13 +1106,14 @@ GMV 是平台上成交的機票和飯店總金額，**這不是我們的收入�
 
 **Second, this is a known weakness of the whole category.** Travel has the highest cart abandonment in ecommerce at around **81.7%**, against about 70% generally, and **roughly 37% of that is payment related**: too few payment options, lack of trust, declined cards. That lines up exactly with what I saw on the Taiwan comparison shelf, where **every seller ranked above us leads with local payment.** So Taiwan's problem sits precisely where this category leaks most and where the fix is already understood.
 
-**When would I flip to new users?** When conversion is already at a reasonable level but very few people are arriving. Optimising a funnel for a small group is a low-return exercise. **I'm choosing conversion because that's where Taiwan's bottleneck is, not because it's inherently more important.**
+**When would I flip to new users?** When conversion is already at a reasonable level but very few people are arriving. Optimising a funnel for a small group is a low-return exercise.
+
+**I'm choosing conversion because that's where Taiwan's bottleneck is, not because it's inherently more important.** If the numbers looked different, my answer would flip.
 `
       },
       {
         q: '你怎麼決定實驗要跑多久、要多少樣本？',
-        body: `
-#### 中文
+        zh: `
 統計那一層通常是實驗平台和資料科學的同事在管，樣本量計算、顯著性判定、分流健康度，這些平台多半已經內建。**所以與其說我怎麼算，我想講我在這件事裡實際扛的是什麼。**
 
 **第一件是定義主要指標，還有護欄指標。** 主要指標大家都會定，**護欄常常被忘記，但在旅遊業特別重要。**
@@ -1228,10 +1133,8 @@ GMV 是平台上成交的機票和飯店總金額，**這不是我們的收入�
 **停止規則要事前講好。** 不中途偷看就下結論，**看越多次越容易看到假的顯著**。什麼結果算贏、什麼時候停，我會在開始前就跟團隊寫下來，不然事後很容易變成挑一個好看的時間點收工。
 
 **統計顯著不等於值得上線，這個判斷是我的不是資料科學的。** 一個改動可能顯著，但效果小到撐不起長期維護成本。反過來也可能沒達到顯著，但方向對、成本極低，那我會選擇先上再觀察。**資料科學告訴我「這個差異是不是真的」，要不要做是我的決定。**
-
----
-
-#### English
+`,
+        en: `
 The statistics layer is usually owned by the experimentation platform and the data science team: sample size calculators, significance thresholds, assignment health checks are typically built in. **So rather than how I'd calculate it, let me say what I'd actually own.**
 
 **First, defining the primary metric and the guardrail metrics.** Everyone sets a primary metric. **Guardrails get forgotten, and they matter a lot in travel.**
@@ -1260,7 +1163,7 @@ For example, if I pushed baggage fees and change rules later in the flow, **conv
     items: [
       {
         q: '你沒做過 OTA、旅遊，最大的落差在哪？',
-        body: `
+        zh: `
 最大的落差是**供給端**。
 
 我在 Typus 和 17LIVE，產品是我們自己的。價格、規則、庫存，我們想改就能改。**OTA 不是這樣，機票的價格、艙等規則、退改條件、庫存，全部來自航空公司和訂位系統，我不能改。我只能決定怎麼呈現它、什麼時候呈現它。**
@@ -1270,52 +1173,94 @@ For example, if I pushed baggage fees and change rules later in the flow, **conv
 這就是我目前最明顯的知識缺口：**我對供給端的規則有多少彈性、哪些是硬約束、哪些其實可以談，完全沒有實務感。** 這種東西看資料補不起來，只能靠進去之後跟供給端和營運的人實際做過幾輪才會有。
 
 我不會說這不影響我，短期它會讓我判斷得比較慢。但我覺得比較危險的是另一種人：**把供給端當成可以改的東西，然後提一堆做不出來的建議。** 至少我現在知道那條線在哪。
+`,
+        en: `
+The biggest gap is **the supply side**.
+
+At Typus and 17LIVE, the product was ours. Price, rules, inventory, we could change them if we wanted to. **An OTA isn't like that. Fare prices, cabin rules, change and refund conditions, inventory, all of it comes from the airlines and the reservation systems, and I can't change any of it. All I can decide is how to present it and when.**
+
+This hit me once while doing the exercise. On the Taipei to London route I found Emirates' own site was 658 dollars more expensive than Trip.com, and users still chose the airline. At first I thought that was our problem. Then it became clear: **what that price difference buys is the airline's own after-sales protection, and that was never something we held.** What I can do isn't to make it ours, it's to decide whether to play a different game on that route.
+
+That's my clearest knowledge gap right now: **I have no practical feel for how much flexibility exists in supply-side rules, which are hard constraints, and which are actually negotiable.** That isn't something you close by reading. You only get it after going through a few rounds with the supply and operations people.
+
+I wouldn't say it won't affect me. In the short term it will make me slower to judge. But I think the more dangerous person is the other kind: **someone who treats the supply side as changeable and brings a pile of proposals that can't be built.** At least I know where that line is.
 `
       },
       {
         q: '你待的團隊規模都不大，這裡是幾百人的產品組織，你怎麼適應？',
-        body: `
+        zh: `
 小團隊訓練出來的是「什麼都要自己來」。在一個一人負責一個市場的編制裡，**這剛好是優勢**：從拉數據、走查流程到寫規格，我不需要等別人排期。
 
 我在 17LIVE 也是同時跨台灣、日本、東南亞三個市場協作，所以跟不同市場的人對齊優先順序這件事我做過。
 
 我需要補的是大組織的推進方式。在小團隊，決策鏈短，講清楚就能動；在大組織，**說服與對齊的成本本身就是工作的一部分**。所以我會把力氣放在「把在地的證據翻譯成總部聽得懂的收益」，而不是靠據理力爭。
+`,
+        en: `
+What a small team trains you to do is everything yourself. In a structure where one person owns one market, **that's an advantage**: pulling data, walking the flow, writing the spec, I don't have to wait for someone else's sprint.
+
+At 17LIVE I was also working across Taiwan, Japan and Southeast Asia at the same time, so aligning priorities with people in different markets is something I've done.
+
+What I need to build is how you move things in a large organisation. In a small team the decision chain is short and being clear is enough. In a large one, **the cost of persuading and aligning is itself part of the job.** So I'd put my effort into translating local evidence into upside that headquarters recognises, rather than arguing my case harder.
 `
       },
       {
         q: '這裡每個市場一個人，你大部分時間會是一個人做。你怎麼避免陷在細節裡？',
-        body: `
+        zh: `
 我靠兩件事。
 
 第一是固定的優先序方法：**這個問題影響多少人、影響有多痛、做了會不會更靠近這一季的目標。** 排不進這三個問題的事情，我不會因為它看起來急就去做。
 
 第二是一個固定的自我檢查節奏：**每週固定回頭問一次「我這週做的事，跟這一季要打的那一段有關嗎」。** 一個人做事最大的風險不是做不完，是花了三週把一件不重要的事做得很好。
+`,
+        en: `
+Two things.
+
+The first is a fixed prioritisation method: **how many people does this affect, how painful is it, and does doing it move us closer to this quarter's goal.** If something can't clear those three questions, I won't do it just because it looks urgent.
+
+The second is a fixed self-check rhythm: **once a week I stop and ask whether what I did this week connects to the segment we're trying to move this quarter.** The biggest risk of working alone isn't running out of time, it's spending three weeks doing an unimportant thing extremely well.
 `
       },
       {
         q: '你履歷上很多 AI side project，但這個職位大部分是瑣碎的在地化工作，你會不會覺得無聊？',
-        body: `
+        zh: `
 不會，因為**AI 正是我處理瑣碎工作的方式**，這兩件事在我身上不衝突。
 
 我交的那份作業本身就是證據。抓 500 則評論做主題分類、跑兩條航線的比價走查、產出流程圖，**這些如果純手工是做不完的，我是用工具做的。** 也就是說，瑣碎的部分我會盡量壓縮掉，把時間留給真正需要判斷的地方。
 
 而且在地化工作瑣碎，不代表它不重要。我在作業裡看到的是，台灣使用者的決策其實發生在比價貨架上，那一段的細節就是勝負。
+`,
+        en: `
+No, because **AI is exactly how I handle the repetitive work**. The two don't conflict for me.
+
+The exercise I submitted is the evidence. Pulling 500 reviews and classifying them by theme, running price walkthroughs on two routes, producing the flow diagram, **none of that finishes by hand. I did it with tools.** Which means I compress the repetitive part as far as I can and keep my time for the parts that need judgement.
+
+And localisation work being detailed doesn't make it unimportant. What I saw in the exercise is that the Taiwanese user's decision actually happens on the comparison shelf, and the detail in that segment is where it's won or lost.
 `
       },
       {
         q: '你這一年在念書，離產品實戰有一段距離，怎麼補？',
-        body: `
+        zh: `
 我這一年沒有停止做產品。論文研究的就是產品開發流程本身，我深入訪談了包含 TikTok 在內的多家科技公司；同時我一直在做實作，agentic AI 平台的產品規劃、租屋篩選工具、AI agent 實作課程，都是這一年做的。
 
 **最近期、最接近實戰的產出就是我交給你們的這份作業**，而且它是為了這個職位做的：比價走查、500 則評論的主題分類、漏斗拆解，用的都是我進去之後會用的同一套方法。
+`,
+        en: `
+I haven't stopped doing product work this year. My dissertation is about the product development process itself, and I ran in-depth interviews with technology companies including TikTok. Alongside that I kept building: the product planning for the agentic AI platform, the rental filtering tool and the hands-on AI agent course were all done this year.
+
+**The most recent and most realistic piece of work is the exercise I submitted to you**, and it was made for this role: the price walkthroughs, the thematic classification of 500 reviews, the funnel breakdown. That's the same method I'd be using once I'm inside.
 `
       },
       {
         q: '如果我三個月只能看你一份東西，你希望我看什麼？',
-        body: `
+        zh: `
 一份「**台灣漏斗現況，加上這一季要打哪一段**」的固定格式文件。
 
 固定格式的意思是：同一組漏斗階段、同一組指標定義，每個月長得一樣，最上面直接寫「這次需要你決定什麼、我的建議是什麼」。**你的時間應該花在做決定，不是花在理解格式。**
+`,
+        en: `
+One fixed-format document: **the current state of the Taiwan funnel, plus which segment we're going after this quarter.**
+
+Fixed format means the same funnel stages and the same metric definitions, looking the same every month, with what you need to decide and what I recommend written at the very top. **Your time should go into making decisions, not into understanding the format.**
 `
       }
     ]
@@ -1325,7 +1270,7 @@ For example, if I pushed baggage fees and change rules later in the flow, **conv
     items: [
       {
         q: '你進來第一個月會做什麼？',
-        body: `
+        zh: `
 **第一週，我要有自己的基準線。** 我會把台灣現在的漏斗數字自己拉一次，不是只看別人整理好的報告。原因很簡單：**如果我不知道這些數字是怎麼算出來的，之後它動了我也不知道是真的動了還是口徑變了。** 同時我會把指標定義寫下來，跟數據的人確認一次。
 
 **第二到第三週，我要有自己的體感。** 完整走查一次台灣的訂票流程，用真實的錢跑到底。這件事我其實已經做過一版，就是這份作業。進去之後我會用內部資料再做一次，因為外面看不到的東西很多。同時我會找客服和在地行銷聊，**客訴是最便宜的使用者研究，而且通常沒有人在系統性地看它。**
@@ -1333,11 +1278,20 @@ For example, if I pushed baggage fees and change rules later in the flow, **conv
 **第四週，產出第一份對齊文件。** 內容是台灣現況、我看到的前三個問題、我建議這一季打哪一段、以及我需要什麼。然後跟你對一次。
 
 **然後是我第一個月刻意不做的事：我不會提大改版建議。** 一個月的理解深度不足以支撐那種提案，太早提反而會讓人覺得我沒搞清楚狀況就在給意見。**第一個月的產出應該是「我看懂了什麼」，不是「你們應該改什麼」。**
+`,
+        en: `
+**Week one, I want my own baseline.** I'd pull the current Taiwan funnel numbers myself rather than only reading someone else's summary. The reason is simple: **if I don't know how these numbers were calculated, then when they move later I won't know whether they really moved or the definition changed.** In parallel I'd write the metric definitions down and confirm them with the data team.
+
+**Weeks two and three, I want my own felt sense of the product.** Walk the entire Taiwan booking flow end to end, with real money. I've actually done one version of this already, which is the exercise. Once inside, I'd do it again with internal data, because there's a lot you can't see from outside. At the same time I'd talk to support and local marketing, because **complaints are the cheapest user research there is, and usually nobody is looking at them systematically.**
+
+**Week four, produce the first alignment document.** The state of Taiwan, the top three problems I see, which segment I recommend we go after this quarter, and what I need. Then review it with you.
+
+**And here's what I'd deliberately not do in month one: I wouldn't propose a major redesign.** One month of understanding isn't deep enough to support that kind of proposal, and raising it too early makes it look like I'm giving opinions before I understand the situation. **The output of month one should be what I've understood, not what you should change.**
 `
       },
       {
         q: '你需要什麼樣的主管？',
-        body: `
+        zh: `
 我需要的是**把判準講清楚然後放手**的主管，不是逐項確認的。
 
 具體來說我希望三件事。
@@ -1349,11 +1303,24 @@ For example, if I pushed baggage fees and change rules later in the flow, **conv
 **第三，願意告訴我壞消息。** 如果我做的東西方向錯了，我希望在第二週就知道，不要等到季末回顧。
 
 我會這樣講，也是因為你在雪梨、我在台北、總部在上海，**我們的同步時間會很貴。** 我不覺得那段時間應該花在進度更新上，那些我可以寫清楚給你。它應該花在真正需要來回討論的判斷上。
+`,
+        en: `
+I need a manager who **makes the criteria clear and then lets go**, rather than checking item by item.
+
+Three things specifically.
+
+**First, at the start of a quarter I want to know how you measure success.** Not the KPI number, the criteria. If the same number is hit, which approach would make you feel we did it right, and which would make you feel we just got lucky.
+
+**Second, draw the line between what I can decide alone and what I should ask you about first.** I'm fine with that line being drawn narrowly at the start, and I'll trade results for widening it. **What I'm most afraid of is a blurry line, because then every decision becomes guessing what you'd want.**
+
+**Third, be willing to tell me bad news.** If what I'm building is pointed the wrong way, I'd rather know in week two than at the end-of-quarter review.
+
+I say this partly because you're in Sydney, I'd be in Taipei and headquarters is in Shanghai, so **our synchronous time is expensive.** I don't think it should be spent on progress updates, which I can write up clearly for you. It should be spent on the judgements that genuinely need a back-and-forth.
 `
       },
       {
         q: '你跟工程師意見不合的時候怎麼處理？',
-        body: `
+        zh: `
 我會先分清楚是哪一種不同意，因為這兩種的處理方式完全相反。
 
 **如果是可行性的不同意，那通常他們是對的。** 他們知道系統裡有什麼我不知道的東西。我的工作不是說服他們，是問清楚成本到底卡在哪，然後**改需求，而不是改人**。很多時候我要的那個價值有第二條路可以達成，只是我一開始把需求寫成了一個具體做法。
@@ -1363,16 +1330,34 @@ For example, if I pushed baggage fees and change rules later in the flow, **conv
 我有一次踩過相關的坑。在 17LIVE 做短影音剪輯功能的時候，我們把剪輯權限預設關閉，那是跟 stakeholder 討論後刻意的決定，為了讓主播對自己的內容有控制權。結果是幾乎沒有主播會去打開設定頁，**供給端根本沒被打開**。
 
 **我學到的是：如果我自己說服不了自己那個取捨划算，我就不該接受它。** 當下我讓步了，因為對方的理由聽起來很合理，但我沒有把「這會不會直接關掉供給」這件事量出來。現在遇到類似的情況，我會把取捨的代價先算出來再決定要不要讓。
+`,
+        en: `
+I first work out which kind of disagreement it is, because the two are handled in completely opposite ways.
+
+**If it's about feasibility, they're usually right.** They know things about the system that I don't. My job isn't to persuade them, it's to understand exactly where the cost sits, and then **change the requirement rather than change their mind**. Very often the value I want can be reached another way, and the problem was that I wrote the requirement as one specific implementation.
+
+**If it's about priority, that's my responsibility, not theirs.** It means I haven't explained why this one comes first. My standard is: **they should be able to repeat back, in their own words, why this matters.** Once they can, the argument usually disappears. If they can't, it usually means I hadn't thought it through either.
+
+I've been caught by a related mistake. When we built the short-video editing feature at 17LIVE, we shipped with editing permissions off by default. That was a deliberate decision after talking to stakeholders, so streamers kept control over their own content. The result was that almost no streamer ever went into the settings page to turn it on, **so the supply side never opened up at all.**
+
+**What I learned is that if I can't convince myself the trade-off is worth it, I shouldn't accept it.** I gave way at the time because their reasoning sounded sensible, but I never quantified whether this would shut off supply outright. Now, in a similar situation, I work out the cost of the trade-off before deciding whether to concede.
 `
       },
       {
         q: '你有什麼想問我的嗎？（給 Kathy）',
-        body: `
+        zh: `
 1. 台灣在編制上是掛在 SEA 底下嗎？我看這個角色的範圍跟一般認知的東南亞不太一樣，想了解實際上怎麼分。
 
 2. 你這一年多把這個區域團隊建起來的過程中，**哪一件事比你原本預期的難**？
 
 3. 台灣這個角色要推動的東西，**有多少比例是總部要點頭的**？我想知道實際上這條線是怎麼跑的。
+`,
+        en: `
+1. Does Taiwan sit under SEA structurally? The scope of this role looks different from how Southeast Asia is usually defined, so I'd like to understand how it's actually split.
+
+2. Over the past year and a half building this regional team, **what turned out to be harder than you expected**?
+
+3. Of the things this Taiwan role needs to push through, **what proportion needs headquarters to sign off**? I'd like to understand how that line actually works in practice.
 `
       }
     ]
@@ -1390,48 +1375,73 @@ For example, if I pushed baggage fees and change rules later in the flow, **conv
     name: '條件確認',
     items: [
       {
-        q: 'Are you able to relocate to Tokyo?',
-        body: `
+        q: '你能搬到東京嗎？',
+        en: `
 Yes, I'm able to relocate to Tokyo for this role. **Japan has been a deliberate focus of my search rather than an afterthought.**
 
 I have no dependents, so I would be relocating on my own.
 
 I'm completing my MSc at King's College London in September 2026 and have no academic commitments after that, so I can begin the visa process immediately.
+`,
+        zh: `
+可以，我能為這個職位搬到東京。**日本一直是我求職時刻意鎖定的方向，不是臨時起意。**
+
+我沒有需要撫養的家屬，會是我一個人搬過去。
+
+我 2026 年 9 月從倫敦國王學院畢業，之後沒有任何學業上的安排，所以可以立刻開始跑簽證程序。
 `
       },
       {
-        q: 'Do you require visa sponsorship?',
-        body: `
+        q: '你需要簽證擔保嗎？',
+        en: `
 Yes, I would require visa sponsorship from SmartNews. **I hold a Taiwanese passport and do not currently have a Japanese work visa.**
 
 For context on my present status: I'm on a UK Student visa and will move onto the UK Graduate Route after I graduate in September 2026. **Neither affects my ability to relocate to Japan, and I have no notice period to serve.**
+`,
+        zh: `
+需要，我會需要 SmartNews 提供簽證擔保。**我持台灣護照，目前沒有日本工作簽證。**
+
+補充我現在的身分狀態：我持英國學生簽證，2026 年 9 月畢業後會轉為英國的 Graduate Route。**這兩者都不影響我搬到日本，而且我沒有需要服完的離職通知期。**
 `
       },
       {
-        q: 'When could you start?',
-        body: `
+        q: '你什麼時候可以到職？',
+        en: `
 Factoring in the 3 to 4 month visa timeline, I would realistically be able to start **between Q4 2026 and Q1 2027**, and I'm happy to work backwards from whatever start date suits the team.
+`,
+        zh: `
+把 3 到 4 個月的簽證時程算進去，實際上我可以在 **2026 年第四季到 2027 年第一季之間**到職。如果團隊有希望的起始日，我也可以從那個日期往回推。
 `
       },
       {
-        q: 'Are you comfortable with three days a week in the office?',
-        body: `
+        q: '一週三天進辦公室可以嗎？',
+        en: `
 Yes, three days a week in the office works for me, and I'll be looking for housing **within a two-hour commute** of your office as part of the relocation.
 
 Given that I'd be new to the team and to Tokyo, **I'd actively prefer the in-person time early on.**
+`,
+        zh: `
+可以，一週三天進辦公室沒問題。搬過去的時候我會找**通勤兩小時以內**的住處。
+
+而且我是團隊的新人、也是東京的新人，**初期我反而希望有更多面對面的時間。**
 `
       },
       {
-        q: 'What are your compensation expectations?',
-        body: `
+        q: '你的期望待遇是多少？',
+        en: `
 Expected: **¥6,000,000 to ¥8,000,000 per year**, negotiable depending on the level and the overall package.
 
 Current: I'm not in full-time employment at the moment, as I've been completing my MSc, so there's no current base or bonus to break down.
+`,
+        zh: `
+期望是**年薪 600 萬到 800 萬日圓**，可以依職級和整體待遇再談。
+
+目前的部分：我現在不是全職受僱狀態，因為都在完成碩士學業，所以沒有現行的底薪或獎金可以拆解。
 `
       },
       {
-        q: 'Where else are you interviewing?',
-        body: `
+        q: '你還有在面試其他公司嗎？',
+        en: `
 I have two other processes running, no offers yet.
 
 **Trip.com Group**, Associate Product Growth Manager, Taiwan: I've completed the recruiter screen and a case study, and I'm interviewing with their Head of Product Growth, SEA. Two further rounds would follow.
@@ -1439,12 +1449,24 @@ I have two other processes running, no offers yet.
 **TableCheck**, Product Manager, Tokyo: I've completed the HR screen and am waiting on scheduling for the hiring manager round.
 
 Neither has given me a decision deadline yet, so there's no immediate pressure. **That said, SmartNews is the role I'm most excited about of the three.**
+`,
+        zh: `
+還有兩條線在跑，目前都還沒有 offer。
+
+**Trip.com Group**，台灣的 Associate Product Growth Manager：我已經完成 recruiter 初談和一份案例作業，正在跟他們的 Head of Product Growth, SEA 面試，後面還有兩關。
+
+**TableCheck**，東京的 Product Manager：HR 初面已經完成，正在等 hiring manager 那關的時間安排。
+
+兩邊都還沒有給我決定的期限，所以沒有立即的壓力。**不過三個裡面，SmartNews 是我最想去的。**
 `
       },
       {
-        q: 'How do you feel about the vibe coding round?',
-        body: `
+        q: 'Vibe coding 那一關你準備好了嗎？',
+        en: `
 My setup is ready to go. **Building my own prototypes is how I already work**, so I'm genuinely looking forward to that session.
+`,
+        zh: `
+我的環境已經隨時可以開始。**自己做 prototype 本來就是我平常的工作方式**，所以那一關我是真的很期待。
 `
       }
     ]
@@ -1463,16 +1485,24 @@ My setup is ready to go. **Building my own prototypes is how I already work**, s
     items: [
       {
         q: '為什麼想加入 Rakuten？',
-        body: `
+        zh: `
 我注意到 Rakuten 2026 年把 **AI-nization** 訂為全公司主軸，三木谷會長提到目標是成為世界上最會用 AI 的平台，而且已經有 **255 億日圓的利益來自 AI 應用**。
 
 我自己做過 33 模組、3 個 LLM 的 agentic platform，也建過 AI 品質的評測框架，所以我對「**怎麼把 AI 從 demo 變成每天有人用的產品**」這件事有第一手經驗。
+`,
+        en: `
+I noticed that Rakuten has made **AI-nization** the company-wide theme for 2026. Chairman Mikitani has talked about the goal of becoming the platform that uses AI best in the world, and **25.5 billion yen of profit already comes from AI applications.**
+
+I've built an agentic platform myself with 33 modules and three LLMs, and I've built an evaluation framework for AI quality, so I have first-hand experience of **how you get AI from a demo to a product people use every day.**
 `
       },
       {
         q: '期望年収はいくらですか？',
-        body: `
+        zh: `
 **750〜950 萬円**，依職級與整體待遇可以再談。
+`,
+        en: `
+**¥7.5 to 9.5 million per year**, negotiable depending on the level and the overall package.
 `
       }
     ]
@@ -1482,7 +1512,7 @@ My setup is ready to go. **Building my own prototypes is how I already work**, s
     items: [
       {
         q: '推薦系統的整體架構是什麼？',
-        body: `
+        zh: `
 ::: html
 <figure class="diagram">
 <svg viewBox="0 0 730 176" role="img" aria-label="推薦系統整體架構流程圖">
@@ -1560,6 +1590,85 @@ My setup is ready to go. **Building my own prototypes is how I already work**, s
 結合的方式有兩種。**粗暴一點就是 business 凌駕一切**，直接用商業角度把規則的權重寫死；**比較進階的是再用一個模型專門去做權衡**，學出一個能均衡兩邊的結果。
 
 **我的工作就在這裡：知道 business team 的東西可以怎麼安插進來，達到他們的目的，但同時不會把原本的 conversion rate 拉下來。**
+`,
+        en: `
+::: html
+<figure class="diagram">
+<svg viewBox="0 0 730 176" role="img" aria-label="Recommendation system architecture">
+  <defs>
+    <marker id="ahe" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#8d8474"/>
+    </marker>
+    <marker id="ahre" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#ab3a1e"/>
+    </marker>
+  </defs>
+
+  <rect class="dpill" x="6" y="18" width="104" height="66" rx="6"/>
+  <text class="dt" x="58" y="46" text-anchor="middle">Backend DB</text>
+  <text class="dt2" x="58" y="65" text-anchor="middle">raw data</text>
+  <path class="dflow" d="M112 51 H124" marker-end="url(#ahe)"/>
+
+  <rect class="dbox" x="128" y="18" width="104" height="66" rx="6"/>
+  <text class="dn" x="138" y="33">1</text>
+  <text class="dt" x="180" y="53" text-anchor="middle">Cleaning &amp;</text>
+  <text class="dt" x="180" y="70" text-anchor="middle">pipeline</text>
+  <text class="drole" x="180" y="102" text-anchor="middle">DATA</text>
+  <text class="drole" x="180" y="114" text-anchor="middle">ENGINEER</text>
+  <path class="dflow" d="M234 51 H246" marker-end="url(#ahe)"/>
+
+  <rect class="dbox" x="250" y="18" width="104" height="66" rx="6"/>
+  <text class="dn" x="260" y="33">2</text>
+  <text class="dt" x="302" y="53" text-anchor="middle">Model</text>
+  <text class="dt" x="302" y="70" text-anchor="middle">candidate list</text>
+  <text class="drole" x="302" y="102" text-anchor="middle">DATA SCIENTIST</text>
+  <text class="drole" x="302" y="114" text-anchor="middle">/ MLE</text>
+  <path class="dflow" d="M356 51 H368" marker-end="url(#ahe)"/>
+
+  <rect class="dbox key" x="372" y="18" width="104" height="66" rx="6"/>
+  <text class="dn key" x="382" y="33">3</text>
+  <text class="dt key" x="424" y="53" text-anchor="middle">Business</text>
+  <text class="dt key" x="424" y="70" text-anchor="middle">logic layer</text>
+  <text class="drole key" x="424" y="102" text-anchor="middle">PM ×</text>
+  <text class="drole key" x="424" y="114" text-anchor="middle">BUSINESS TEAM</text>
+  <path class="dflow" d="M478 51 H490" marker-end="url(#ahe)"/>
+
+  <rect class="dbox" x="494" y="18" width="104" height="66" rx="6"/>
+  <text class="dn" x="504" y="33">4</text>
+  <text class="dt" x="546" y="53" text-anchor="middle">Final ranking</text>
+  <text class="dt" x="546" y="70" text-anchor="middle">&amp; display</text>
+  <text class="drole" x="546" y="102" text-anchor="middle">FRONTEND</text>
+  <text class="drole" x="546" y="114" text-anchor="middle">/ BACKEND</text>
+  <path class="dflow" d="M600 51 H612" marker-end="url(#ahe)"/>
+
+  <rect class="dpill" x="616" y="18" width="104" height="66" rx="6"/>
+  <text class="dt" x="668" y="46" text-anchor="middle">What the</text>
+  <text class="dt2" x="668" y="65" text-anchor="middle">user sees</text>
+
+  <path class="dloop" d="M668 84 V132 Q668 140 660 140 H66 Q58 140 58 132 V90" marker-end="url(#ahre)"/>
+  <text class="dlooptext" x="363" y="160" text-anchor="middle">CLICKS FLOW BACK · RUNS AGAIN</text>
+</svg>
+<figcaption>The model is one node in the system, not the system</figcaption>
+</figure>
+:::
+
+The way I understand a recommendation system, it isn't a model. **It's a pipeline, and the model is one node in the middle of it.**
+
+Starting from the top: it begins with user behaviour, and that behaviour lands in the backend database. **The first stop is the data engineer**, who pulls the data out of the backend, decides how it gets cleaned, and schedules the pipeline, so that everything downstream has clean data to work with.
+
+**The second stop is where the model comes in.** A data scientist or MLE builds the recommendation model and produces a candidate list. But here's the thing I think is most easily misunderstood: **that list is not what gets displayed.** My own initial understanding was "data goes into the model, a list comes out, the list goes up", and only later did I learn there's processing on both sides of the model.
+
+**The third stop is the business logic layer, and that's where I sit.** What we're pushing this month, what inventory needs to move, which partnerships are running, all of that gets added at this layer.
+
+**The fourth stop is final ranking and display**, where frontend and backend take the combined result, order it and put it on screen.
+
+And the whole thing is a closed loop. Once the user sees the screen they click, and **those clicks flow back into the database and run through the same pipeline again.**
+
+If you asked me which segment needs a PM most, it's the third one. Because a purely engineering ranking sorts by purchase probability from high to low, and the result is that **I've been buying computers lately, so my first twenty pages of recommendations are all computer products**, which doesn't make sense for the business team. So you interleave popular items and the top one or two from other categories the user is interested in.
+
+There are two ways to combine them. **The blunt way is that business overrides everything**, hard-coding rule weights from a commercial point of view. **The more advanced way is to use another model specifically to arbitrate**, learning a result that balances the two.
+
+**That's exactly where my job is: knowing how the business team's items can be slotted in to achieve their goal, without dragging down the conversion rate we started with.**
 `
       }
     ]
@@ -1569,7 +1678,7 @@ My setup is ready to go. **Building my own prototypes is how I already work**, s
     items: [
       {
         q: '你有什麼想問我們的嗎？',
-        body: `
+        zh: `
 #### 三題通用
 
 1. 這個 PM 角色的**決策權範圍**到哪裡？roadmap 是我決定還是我執行？
@@ -1584,6 +1693,22 @@ My setup is ready to go. **Building my own prototypes is how I already work**, s
 | Recommendation | 這個 PM 的決策權到哪？PM 與 ML engineer 的分工邊界？「推廣到各 BU」佔工作比重多少？ |
 | AI Agent PM（RMS） | 「AI 店長」構想與現有 RMS AI 的關係？我負責的是既有功能優化還是新形態？同組的 R-Karte PM 與我怎麼分工？ |
 | AI PjM（Payment） | 4–6 人的組裡 PM 與資料科學家怎麼分工？ROI 定義的實際流程？公司的職級與調薪機制是怎麼運作的？ |
+`,
+        en: `
+#### Three for any of them
+
+1. **Where is the boundary of decision-making** in this PM role? Do I set the roadmap or execute it?
+2. Is the team's day-to-day working language actually Japanese or English? And when communicating across BUs?
+3. Who held this role before, and why did they leave? What has turnover looked like over the past year?
+
+#### By specific role
+
+| Role | Ask |
+|---|---|
+| AI Office (Travel) | How long has the AI Office existed? What functions make up the 11 people? The JD mentions a career pathway toward Product Manager, how many people have actually taken it and how long did it take? What's the working language internally versus with accommodation partners? |
+| Recommendation | How far does this PM's decision-making go? Where's the dividing line between PM and ML engineer? How much of the job is rolling features out across BUs? |
+| AI Agent PM (RMS) | How does the "AI store manager" concept relate to the existing RMS AI? Would I own optimisation of existing features or something new? How would I split work with the R-Karte PM in the same group? |
+| AI PjM (Payment) | In a team of four to six, how do the PM and the data scientists divide the work? What's the actual process for defining ROI? How do the grade and pay review mechanisms work? |
 `
       }
     ]

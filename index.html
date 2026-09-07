@@ -142,15 +142,35 @@ body::after{
 .group:first-of-type .gname{margin-top:0}
 
 /* ══ row ══ */
-.row{border-bottom:1px solid var(--rule-soft);opacity:0;animation:rise .5s cubic-bezier(.2,.7,.3,1) forwards}
+.row{position:relative;border-bottom:1px solid var(--rule-soft);opacity:0;animation:rise .5s cubic-bezier(.2,.7,.3,1) forwards}
 @keyframes rise{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:none}}
 @media (prefers-reduced-motion:reduce){.row{animation:none;opacity:1}}
 
 .q{
   width:100%;background:none;border:0;font:inherit;cursor:pointer;text-align:left;
-  display:flex;gap:1rem;align-items:baseline;padding:1.05rem .4rem 1.05rem .2rem;
+  display:flex;gap:1rem;align-items:baseline;padding:1.05rem 2.4rem 1.05rem .2rem;
   color:var(--ink);transition:color .18s;
 }
+.row.haslang .q{padding-right:7.2rem}
+.row.hastag .q{padding-right:12rem}
+
+/* right-hand cluster: tab tag · language switch · plus */
+.rmeta{
+  position:absolute;right:.2rem;top:1.02rem;display:flex;align-items:center;gap:.6rem;
+  pointer-events:none;
+}
+.lang{
+  display:flex;pointer-events:auto;border:1px solid var(--rule);border-radius:4px;overflow:hidden;
+  background:var(--paper-hi);
+}
+.lang button{
+  font-family:var(--mono);font-size:.64rem;letter-spacing:.06em;line-height:1;
+  padding:.28rem .42rem;border:0;background:none;color:var(--muted);cursor:pointer;
+  transition:background .15s,color .15s;
+}
+.lang button + button{border-left:1px solid var(--rule)}
+.lang button:hover{color:var(--ink)}
+.lang button.on{background:var(--accent);color:#fff}
 .q:hover{color:var(--accent-2)}
 .q .n{
   font-family:var(--mono);font-size:.72rem;color:var(--muted);flex:none;width:1.9rem;
@@ -161,16 +181,18 @@ body::after{
   flex:1;font-family:var(--serif);font-weight:600;font-size:1.13rem;line-height:1.6;
   letter-spacing:-.005em;
 }
-.q .plus{
-  flex:none;width:.85rem;height:.85rem;position:relative;margin-top:.5rem;opacity:.45;transition:opacity .2s,transform .3s;
+.plus{
+  flex:none;width:.85rem;height:.85rem;position:relative;opacity:.45;color:var(--ink-2);
+  transition:opacity .2s;
 }
-.q .plus::before,.q .plus::after{
+.plus::before,.plus::after{
   content:"";position:absolute;background:currentColor;border-radius:1px;
 }
-.q .plus::before{left:0;right:0;top:calc(50% - .5px);height:1px}
-.q .plus::after{top:0;bottom:0;left:calc(50% - .5px);width:1px;transition:transform .3s}
-.row.open .q .plus{opacity:1;color:var(--accent)}
-.row.open .q .plus::after{transform:scaleY(0)}
+.plus::before{left:0;right:0;top:calc(50% - .5px);height:1px}
+.plus::after{top:0;bottom:0;left:calc(50% - .5px);width:1px;transition:transform .3s}
+.row.open .plus{opacity:1;color:var(--accent)}
+.row.open .plus::after{transform:scaleY(0)}
+.q:hover ~ .rmeta .plus{opacity:.8}
 .row.open .q .t{color:var(--accent-2)}
 
 .wrap{display:grid;grid-template-rows:0fr;transition:grid-template-rows .38s cubic-bezier(.3,.8,.3,1)}
@@ -233,8 +255,8 @@ mark{background:linear-gradient(180deg,transparent 55%,rgba(224,178,60,.55) 55%)
 .meta{font-family:var(--mono);font-size:.7rem;color:var(--muted);letter-spacing:.05em;margin:0 0 1.6rem}
 .tag{
   font-family:var(--mono);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;
-  color:var(--accent);border:1px solid var(--rule);padding:.1rem .4rem;border-radius:3px;
-  flex:none;margin-top:.35rem;
+  color:var(--accent);border:1px solid var(--rule);padding:.18rem .4rem;border-radius:3px;
+  flex:none;white-space:nowrap;line-height:1;
 }
 .none{color:var(--muted);font-family:var(--serif);font-size:1.1rem;padding:3rem 0}
 
@@ -266,6 +288,9 @@ mark{background:linear-gradient(180deg,transparent 55%,rgba(224,178,60,.55) 55%)
   .a{padding-left:0}
   .q .n{width:1.6rem}
   .q .t{font-size:1.05rem}
+  .row.haslang .q,.row.hastag .q{padding-right:4.6rem}
+  .rmeta{gap:.4rem}
+  .rmeta .tag{display:none}
 }
 
 @media print{
@@ -358,17 +383,31 @@ function md(src){
 }
 
 /* ── state ── */
-const S={tab:DATA[0].id,q:'',fold:false};
+const S={tab:DATA[0].id,q:'',fold:false,lang:'zh'};
 const isCo=id=>{const t=DATA.find(x=>x.id===id);return t&&t.section==='Company';};
+
+const LANGS=[['zh','中'],['en','EN'],['ja','日']];
+function bodies(it){
+  const out={};
+  if(it.body&&!it.zh)out.zh=it.body;
+  LANGS.forEach(([k])=>{if(it[k])out[k]=it[k];});
+  return out;
+}
+function pickLang(keys){
+  if(keys.includes(S.lang))return S.lang;
+  return keys[0];
+}
 const stage=document.getElementById('stage');
 const tabsEl=document.getElementById('tabs');
 const jumpEl=document.getElementById('jump');
 const qEl=document.getElementById('q');
 
 const FLAT=[];
-DATA.forEach(t=>t.groups.forEach(g=>g.items.forEach(it=>
-  FLAT.push({q:it.q,body:it.body,tabLabel:t.label,
-             hay:(it.q+' '+it.body+' '+g.name+' '+t.label).toLowerCase()}))));
+DATA.forEach(t=>t.groups.forEach(g=>g.items.forEach(it=>{
+  const b=bodies(it);
+  FLAT.push(Object.assign({},it,{tabLabel:t.label,
+    hay:(it.q+' '+Object.values(b).join(' ')+' '+g.name+' '+t.label).toLowerCase()}));
+})));
 
 function hl(html){
   if(!S.q)return html;
@@ -376,14 +415,25 @@ function hl(html){
   return html.split(/(<[^>]*>)/).map(p=>p.charAt(0)==='<'?p:p.replace(rx,'<mark>$1</mark>')).join('');
 }
 function rowHtml(it,n,tag){
-  return '<article class="row" style="animation-delay:'+Math.min(n*22,420)+'ms">'
+  const b=bodies(it), keys=Object.keys(b), multi=keys.length>1;
+  const cur=pickLang(keys);
+  const cls='row'+(multi?' haslang':'')+(tag?' hastag':'');
+  const sw=multi
+    ? '<div class="lang">'+LANGS.filter(([k])=>b[k]).map(([k,lab])=>
+        '<button data-lang="'+k+'"'+(k===cur?' class="on"':'')+'>'+lab+'</button>').join('')+'</div>'
+    : '';
+  const panes=keys.map(k=>'<div class="a" data-l="'+k+'"'+(k===cur?'':' hidden')+'>'+md(b[k])+'</div>').join('');
+  return '<article class="'+cls+'" style="animation-delay:'+Math.min(n*22,420)+'ms">'
     + '<button class="q" aria-expanded="false">'
     +   '<span class="n">'+String(n).padStart(2,'0')+'</span>'
     +   '<span class="t">'+hl(inline(it.q))+'</span>'
-    +   (tag?'<span class="tag">'+esc(it.tabLabel)+'</span>':'')
-    +   '<span class="plus"></span>'
     + '</button>'
-    + '<div class="wrap"><div class="wrapin"><div class="a">'+md(it.body)+'</div></div></div>'
+    + '<div class="rmeta">'
+    +   (tag?'<span class="tag">'+esc(it.tabLabel)+'</span>':'')
+    +   sw
+    +   '<span class="plus"></span>'
+    + '</div>'
+    + '<div class="wrap"><div class="wrapin">'+panes+'</div></div>'
     + '</article>';
 }
 
@@ -438,6 +488,16 @@ function open(row){
   row.querySelector('.q').setAttribute('aria-expanded','true');
 }
 function bind(){
+  stage.querySelectorAll('.lang button').forEach(b=>{
+    b.addEventListener('click',e=>{
+      e.stopPropagation();
+      const lang=b.dataset.lang, row=b.closest('.row');
+      S.lang=lang;
+      try{localStorage.setItem('cheat.lang',lang)}catch(err){}
+      row.querySelectorAll('.lang button').forEach(x=>x.classList.toggle('on',x.dataset.lang===lang));
+      row.querySelectorAll('.a').forEach(p=>{p.hidden=p.dataset.l!==lang;});
+    });
+  });
   stage.querySelectorAll('.q').forEach(btn=>{
     btn.addEventListener('click',()=>{
       const row=btn.closest('.row'),was=row.classList.contains('open');
@@ -497,6 +557,7 @@ document.addEventListener('keydown',e=>{
 try{
   const s=localStorage.getItem('cheat.tab');if(s&&DATA.some(t=>t.id===s))S.tab=s;
   S.fold=localStorage.getItem('cheat.fold')==='1';
+  const l=localStorage.getItem('cheat.lang');if(l&&LANGS.some(([k])=>k===l))S.lang=l;
 }catch(e){}
 if(isCo(S.tab))S.fold=true;
 render();
