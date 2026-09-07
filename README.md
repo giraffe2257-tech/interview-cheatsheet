@@ -1,10 +1,15 @@
 # 面試小抄
 
-私人面試準備筆記。**這個 repo 必須保持 private。**
+個人面試準備小抄。
 
-內容含前公司內部數字、薪資期望、簽證狀態、正在進行的面試、以及回家作業的完整分析。不要開 GitHub Pages，不要轉成 public。
+> ⚠️ **這個站是公開的。** 內容含前公司內部數字、薪資期望、簽證狀態、正在進行的面試、以及回家作業的完整分析。
+> 已加 `noindex` 與 `robots.txt` 擋搜尋引擎收錄，但**任何知道網址的人都看得到**。網址不要貼在公開場合。
 
 ## 怎麼看
+
+線上版：https://giraffe2257-tech.github.io/interview-cheatsheet/
+
+本機版：
 
 ```
 python3 -m http.server 8899 --directory .
@@ -18,6 +23,7 @@ python3 -m http.server 8899 --directory .
 |---|---|
 | `index.html` | 版面與互動，不常改 |
 | `content.js` | 所有題目與答案，改內容改這裡 |
+| `robots.txt` | 擋搜尋引擎 |
 
 ## content.js 的格式
 
