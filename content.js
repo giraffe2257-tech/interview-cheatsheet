@@ -1804,6 +1804,53 @@ I am interviewing for a prototyper role, and all three of these I could build as
 `
       }
     ]
+  },
+  {
+    name: '自我介紹',
+    items: [
+      {
+        q: '自己紹介をお願いします。（SmartNews 專用）',
+        ja: `
+改めまして、王薇、Vivianと申します。本日はよろしくお願いいたします。
+
+プロダクトマネージャーとして、約4年間働いてきました。主にライブ配信サービスとブロックチェーンの分野で経験を積んできました。
+
+直近では、Typus Financeというスタートアップで、オンチェーンの無期限先物をゼロから立ち上げました。市場調査から開発、リリース後の改善まで担当し、2週間ごとのリリース体制のもと、1年間で30以上の機能をリリースしました。この経験を通じて、不確実な状況でも、まず形にして検証する進め方を身につけました。
+
+その前は17LIVEで、ユーザー体験とサービスの成長を担当しました。台湾・日本・東南アジアの市場チームと連携しながら、さまざまな機能を企画からリリースまで進めました。また、社内向けのフィードバック・ダッシュボードを提案し、開発をリードした結果、問題対応の効率を15％改善しました。
+
+現在はロンドンの大学院で研究しつつ、AIエージェントを使って自分で動くプロトタイプやMVPを作り、アイデアを早く検証することを実践しています。大学院修了後は日本で長くキャリアを築き、PM経験とAIを使って素早く形にする力を生かして貢献したいと考えています。
+
+本日はよろしくお願いいたします。
+`,
+        zh: `
+再次自我介紹，我是王薇，也可以叫我 Vivian。今天請多指教。
+
+我做產品經理大約四年，主要在直播服務和區塊鏈這兩個領域累積經驗。
+
+最近是在 Typus Finance 這家新創，把鏈上的無期限先物從零開始做起來。從市場調查、開發到上線後的改善都由我負責，在每兩週發布一次的體制下，一年推出了 **30 個以上的功能**。透過這段經驗，我學會了**在不確定的情況下，先做出形體再驗證**的做法。
+
+在那之前是在 17LIVE，負責使用者體驗與服務成長。我和台灣、日本、東南亞的市場團隊合作，把各種功能從企劃推進到上線。另外我也主動提案並主導開發了內部的回饋儀表板，結果讓**問題處理效率改善了 15%**。
+
+現在我一邊在倫敦的研究所做研究，一邊用 AI agent 自己做會動的 prototype 和 MVP，實踐快速驗證想法這件事。研究所修完之後，我希望在日本長期累積職涯，把 PM 的經驗和用 AI 快速做出形體的能力，用來為團隊做出貢獻。
+
+今天請多指教。
+`,
+        en: `
+Let me introduce myself again. I'm Wei Wang, and I go by Vivian. Thank you for your time today.
+
+I've worked as a product manager for about four years, building my experience mainly in live-streaming services and blockchain.
+
+Most recently I was at a startup called Typus Finance, where I launched an on-chain perpetual futures product from zero. I owned everything from market research through development to post-launch improvement, and under a two-week release cycle we shipped **more than thirty features in a year**. That experience taught me a way of working where, **even under uncertainty, you build something concrete first and validate from there.**
+
+Before that I was at 17LIVE, responsible for user experience and product growth. I worked with the market teams in Taiwan, Japan and Southeast Asia to take a range of features from planning through to launch. I also proposed an internal feedback dashboard and led its development, which **improved issue resolution efficiency by 15%**.
+
+I'm currently doing research at a graduate school in London, while using AI agents to build working prototypes and MVPs myself, putting fast idea validation into practice. After I finish my master's, I'd like to build a long-term career in Japan and contribute by combining my PM experience with the ability to turn ideas into something concrete quickly using AI.
+
+Thank you again for your time today.
+`
+      }
+    ]
   }
   ]
 },
