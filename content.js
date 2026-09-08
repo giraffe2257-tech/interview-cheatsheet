@@ -473,6 +473,18 @@ The tool solved a real problem of my own; the course proved that people without 
       {
         q: '為什麼想加入我們公司？',
         zh: `
+> Trip.com 版。換公司時把產品名與作業那段替換掉即可。
+
+**第一層最直接：我自己就是重度使用者。** 我很喜歡旅遊，Trip.com 是我規劃行程時預設會打開的 App，介面怎麼走、搜尋邏輯、哪些資訊藏在第幾層，我都很熟。旅遊 App 其實非常吃使用習慣，一個使用者只要把操作練順了，通常就會一直用下去，我自己就是這樣。所以相對於一般應徵者，**我對這個產品的熟悉度不是查來的，是用出來的**。也因為熟，我做回家作業的時候才能自己走查台北到東京、台北到倫敦兩條航線的完整訂票流程，再加上台灣區 App Store 大約 500 則評論的主題分類，那份作業等於是我以使用者身分累積的判斷第一次被整理出來。
+
+**第二層是舞台。** 我想進的是真正的大型跨國公司，因為這種環境提供的是密集的跨國合作機會：同一個功能在不同市場的表現差異、不同區域的團隊怎麼決策、總部跟在地怎麼分工。這些東西只有在夠大的組織裡才看得到，我想用它把視野打開，建立對全球市場的理解，而不是只熟一個市場。
+
+**第三層是資源與結構。** 這種量級的公司在資源、預算、市場影響力上都有明顯優勢，而這對產品管理跟開發來說非常關鍵：你的假設有足夠的流量可以驗證，你的決定有資源可以真的落地。我過去待的是相對小的團隊，很多想法卡在沒有樣本數、沒有資源，所以我想去一個能把想法做完、也能被數據驗證的地方。
+
+---
+
+#### 通用備用版（換公司時用）
+
 我對 **[公司]** 感興趣的原因是 **[具體的產品、使命，或你實際用過的體驗]**。我是一個會自己動手驗證的 PM，會做 prototype 也會做數據分析，所以我希望能在 **[對他們的具體貢獻]** 這件事上出力。我的背景橫跨金融科技（Typus）與 B2C 社群（17LIVE），跟你們在 **[他們的領域]** 的方向可以直接對上。
 `,
         en: `
@@ -661,18 +673,42 @@ At 17LIVE I did exactly this by cross-referencing interviews with SQL: qualitati
       {
         q: '你怎麼定義一個功能的成功指標？',
         zh: `
-**先定義行為，再定義數字。**
+**先定義行為，再定義數字。** 我會先問「如果這個功能成功了，使用者會多做哪一件事」，再把那件事變成可以追蹤的指標。
 
-我會先問「如果這個功能成功了，使用者會多做哪一件事」，再把那件事變成可以追蹤的指標，**同時配一個護欄指標避免局部最佳化**。
+然後我會把指標分成三類，因為這三類回答的是三個不同的問題。
 
-做 AI 平台的時候我也是這樣定義評估標準的：先寫清楚什麼叫做好的輸出，才有辦法用 A/B 框架比較成本與品質，最後拿到降本 83%、品質只掉 3% 的結果。
+| 類型 | 回答什麼 | 常用的 |
+|---|---|---|
+| **主要指標** | 有沒有達成目標 | 採用率、完成率 |
+| **診斷指標** | 為什麼成功或失敗 | 各步驟轉化、點擊、停留時間、錯誤率 |
+| **護欄指標** | 有沒有產生副作用 | 留存、客服量、載入時間 |
+
+**主要指標只會告訴你成不成，它不會告訴你為什麼，也不會告訴你代價是什麼。** 診斷指標讓我知道要修哪一段，護欄指標讓我知道這個提升是不是拿別的東西換來的。
+
+舉個例子，如果我把一個必要的說明往流程後面藏，完成率很可能會上升，但客服量會跟著上升。**那不是贏，那是把成本推到別的地方去。**
+
+**這三類定完之後，我會用 A/B 測試去驗證，而不是上線之後看趨勢就下結論。**
+
+我做 AI 平台的時候也是同一套：先寫清楚什麼叫做好的輸出，才有辦法用 A/B 框架比較成本與品質，最後拿到降本 83%、品質只掉 3% 的結果。
 `,
         en: `
-**Define the behaviour first, then the number.**
+**Define the behaviour first, then the number.** I start by asking: if this feature works, what is the one thing users will do more of? Then I turn that into a trackable metric.
 
-I start by asking: if this feature works, what is the one thing users will do more of? Then I turn that into a trackable metric, **with a guardrail metric alongside it to prevent local optimisation**.
+After that I split metrics into three types, because the three answer three different questions.
 
-I defined the evaluation criteria for the AI platform the same way: write down clearly what a good output means, and only then can you use an A/B framework to compare cost against quality. That's how we got to 83% lower cost with only a 3% quality drop.
+| Type | Answers | Typically |
+|---|---|---|
+| **Primary** | Did we hit the goal | Adoption rate, completion rate |
+| **Diagnostic** | Why did it succeed or fail | Step-by-step conversion, clicks, dwell time, error rate |
+| **Guardrail** | Did it cause side effects | Retention, support volume, load time |
+
+**The primary metric only tells you whether it worked. It won't tell you why, and it won't tell you what it cost.** Diagnostic metrics tell me which step to fix; guardrails tell me whether the lift was bought with something else.
+
+For example, if I hid a necessary disclosure later in the flow, completion rate would probably go up, and support volume would go up with it. **That isn't a win, it's moving the cost somewhere else.**
+
+**Once those three are defined, I'd validate with an A/B test**, rather than shipping and reading the trend afterwards.
+
+I used the same approach on the AI platform: write down clearly what a good output means, and only then can you use an A/B framework to compare cost against quality. That's how we got to 83% lower cost with only a 3% quality drop.
 `
       },
       {
