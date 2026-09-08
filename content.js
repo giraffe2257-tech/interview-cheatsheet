@@ -150,7 +150,7 @@ After I finish in September I plan to return to Asia, with Japan as my first cho
 That's my background in short. I look forward to speaking with you today.
 `,
         ja: `
-改めまして、王薇（ヴィヴィアン）と申します。よろしくお願いいたします。
+改めまして、王薇（ヴィヴィアン）と申します。ヴィヴィアンとお呼びください。よろしくお願いいたします。
 
 プロダクトマネージャーとして、4年ほど働いてきました。主にライブ配信のサービスと、ブロックチェーンの分野です。どちらも、ユーザーの行動データを見ながら、次に何を作るかを決めていく仕事でした。
 
