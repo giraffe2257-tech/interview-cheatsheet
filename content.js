@@ -1513,8 +1513,6 @@ I've been caught by a related mistake. When we built the short-video editing fea
 </div>
 :::
 
-**兩條回饋迴路：** 用戶閱讀行為回去餵演算法（第一方資料）；廣告收益回流給出版商，讓內容供給持續。
-
 #### 核心功能
 
 | 功能 | 說明 | 市場 |
@@ -1530,34 +1528,98 @@ I've been caught by a related mistake. When we built the short-video editing fea
 `
       },
       {
-        q: 'AI 功能在哪裡？（為什麼你在 App 裡找不到）',
+        q: 'SmartView：整個產品的技術支點',
         zh: `
-**三個 AI 功能分別鎖在三個不同的地方，沒有任何一個用戶能一次看到全部。**
+**絕大多數文章不是把你送去出版商的網站，而是在 App 內用 SmartView 開啟。**
 
-| AI 功能 | 上線 | 在哪裡 | 限制 |
-|---|---|---|---|
-| **スマニューAIまとめ**<br>生成式 AI 多篇摘要 | 2025-08 | **日本版首頁最上方**的專屬區塊 | **僅日本版**，官方稱「国内ニュースアプリ初」。需 **v6.5.0 以上**，舊版連 UI 都不出現 |
-| **AI 翻譯**<br>一鍵翻西班牙文 / 中文 | 2026-07 | 美國版，文章列表或閱讀頁的按鈕 | **僅 iOS、僅美國版**，Android 沒有 |
-| **NewsArc** | 2025-08 | **完全獨立的另一個 App** | 不在主 App 裡 |
+::: html
+<div style="font-size:12.5px;line-height:1.65;margin:12px 0">
+  <div style="border:1.5px solid #d8d4cf;border-radius:10px;padding:8px 11px;background:#fff;margin-bottom:8px">出版商提供 <b>SmartFormat feed</b>（RSS 2.0 / Atom 的擴充）</div>
+  <div style="color:#8C8C95;margin:0 0 8px 16px">↓ SmartNews 解析</div>
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:8px">
+    <div style="border:1.5px solid #d8d4cf;border-radius:10px;padding:8px 11px;background:#fff">
+      <div style="font-weight:700;margin-bottom:4px">剝掉</div>
+      <div style="color:#5A5A63">網站廣告腳本<br>肥圖與裝飾<br>追蹤碼與版面雜訊</div>
+    </div>
+    <div style="border:1.5px solid #d8d4cf;border-radius:10px;padding:8px 11px;background:#fff">
+      <div style="font-weight:700;margin-bottom:4px">保留</div>
+      <div style="color:#5A5A63">正文與圖說<br>嵌入媒體 YouTube·JW Player<br>Spotify·SoundCloud<br>出版商品牌露出</div>
+    </div>
+    <div style="border:1.5px solid #d8d4cf;border-radius:10px;padding:8px 11px;background:#fff">
+      <div style="font-weight:700;margin-bottom:4px">加上</div>
+      <div style="color:#5A5A63">原生排版<br>display / video 廣告位<br>預先下載，離線可讀</div>
+    </div>
+  </div>
+  <div style="color:#8C8C95;margin:0 0 8px 16px">↓</div>
+  <div style="border:1.5px solid #C96442;border-radius:10px;padding:8px 11px;background:#F7EDE6;color:#C96442;font-weight:700;display:inline-block">SmartView 文章頁：秒開，不離開 App</div>
+</div>
+:::
 
-#### 你會拿到哪個版本
+#### 技術面
 
-| 你的情況 | 結果 |
+| 項目 | 內容 |
 |---|---|
-| 台灣 / 英國商店，iOS | 美國版，**看得到 AI 翻譯，看不到 AIまとめ** |
-| 台灣 / 英國商店，Android | 美國版，**兩個 AI 功能都看不到** |
-| 日本帳號，版本 ≥ 6.5.0 | 首頁最上方有 AIまとめ |
-| 日本帳號，版本 < 6.5.0 | 看不到，要先更新 |
+| **格式** | **SmartFormat**，是 **RSS 2.0 或 Atom 的擴充**。出版商要提供通過驗證的 feed |
+| **渲染位置** | **App 內原生**，不是 WebView 開出版商網頁 |
+| **對照** | 概念上等同 Google AMP，但只在 SmartNews 生態內 |
+| **廣告位** | 內插 display 與 video 廣告，常見尺寸 300×250 |
 
-**想實際體驗 AIまとめ**，要換日本 App Store 帳號下載日本版。
+#### 出版商怎麼加入：SmartView First
 
----
+opt-in 的授權方案，加入後拿到更完整的**品牌露出**，可以把文章導向自家的**贊助內容**或**訂閱落地頁**。大多數合作出版商都選擇加入。
 
-#### 這件事本身就是面試素材
+#### 兩條變現路線
 
-一家對外強調「對 AI 非常狂熱」的公司，把三個 AI 功能拆在**日本版、美國版 iOS、和一個獨立 App**，沒有任何一個用戶能一次體驗到全部。
+| 路線 | 誰放廣告 | 收益怎麼分 |
+|---|---|---|
+| **A：出版商自己賣** | 出版商在自己文章的 SmartView 上放自己的廣告 | **100% 歸出版商，不分潤給 SmartNews** |
+| **B：SmartNews 賣** | SmartNews 在文章內放廣告 | 付**授權費**＋**廣告分潤**。分潤**階梯式，看的人越多出版商拿越高** |
 
-**可以直接問面試官：這是刻意的市場策略，還是組織結構造成的？**
+#### 為什麼它是支點
+
+1. **速度** — 剝掉網站的廣告腳本和肥圖，這是「秒開」的真正來源
+2. **離線** — 內容已被結構化並預載，沒訊號也能讀
+3. **第一方資料** — **用戶不離開 App，所有閱讀行為都留在 SmartNews 手上**
+
+**同時它也是抱怨的來源。** SmartView 裡的廣告位由 SmartNews 控制，用戶抱怨的「全版廣告關不掉」就發生在這一層。
+`
+      },
+      {
+        q: '兩條回饋迴路',
+        zh: `
+**這是整個商業模式能自我推進的原因。兩條迴路都靠 SmartView 把用戶留在 App 內才成立。**
+
+::: html
+<div style="font-size:12.5px;line-height:1.6;margin:12px 0">
+
+  <div style="font-weight:700;margin-bottom:6px">迴路一：資料</div>
+  <div style="display:flex;flex-wrap:wrap;align-items:center;gap:5px;margin-bottom:4px">
+    <span style="border:1.5px solid #C96442;border-radius:10px;padding:8px 11px;background:#F7EDE6;color:#C96442;font-weight:700;padding:6px 10px">用戶閱讀</span><span style="color:#8C8C95">→</span>
+    <span style="border:1.5px solid #d8d4cf;border-radius:10px;padding:8px 11px;background:#fff;padding:6px 10px">第一方行為資料<br>讀了什麼·停多久·點什麼</span><span style="color:#8C8C95">→</span>
+    <span style="border:1.5px solid #d8d4cf;border-radius:10px;padding:8px 11px;background:#fff;padding:6px 10px">演算法更準</span><span style="color:#8C8C95">→</span>
+    <span style="border:1.5px solid #d8d4cf;border-radius:10px;padding:8px 11px;background:#fff;padding:6px 10px">選文更貼近這個人</span>
+  </div>
+  <div style="color:#C96442;margin:0 0 16px 4px">↺ 回到用戶閱讀</div>
+
+  <div style="font-weight:700;margin-bottom:6px">迴路二：供給</div>
+  <div style="display:flex;flex-wrap:wrap;align-items:center;gap:5px;margin-bottom:4px">
+    <span style="border:1.5px solid #C96442;border-radius:10px;padding:8px 11px;background:#F7EDE6;color:#C96442;font-weight:700;padding:6px 10px">用戶閱讀</span><span style="color:#8C8C95">→</span>
+    <span style="border:1.5px solid #d8d4cf;border-radius:10px;padding:8px 11px;background:#fff;padding:6px 10px">廣告曝光</span><span style="color:#8C8C95">→</span>
+    <span style="border:1.5px solid #d8d4cf;border-radius:10px;padding:8px 11px;background:#fff;padding:6px 10px">廣告收益</span><span style="color:#8C8C95">→</span>
+    <span style="border:1.5px solid #d8d4cf;border-radius:10px;padding:8px 11px;background:#fff;padding:6px 10px">授權費＋階梯分潤<br>給出版商</span><span style="color:#8C8C95">→</span>
+    <span style="border:1.5px solid #d8d4cf;border-radius:10px;padding:8px 11px;background:#fff;padding:6px 10px">出版商持續供稿<br>內容更多更好</span>
+  </div>
+  <div style="color:#C96442;margin:0 0 16px 4px">↺ 回到用戶閱讀</div>
+
+  <div style="border:1.5px dashed #6E7BF7;border-radius:10px;padding:8px 11px;background:#EDF0FF;color:#5A5A63">
+    <b style="color:#6E7BF7">SmartView</b> 讓用戶不離開 App，是兩條迴路的共同前提
+  </div>
+</div>
+:::
+
+**如果用戶被導去出版商網站**，行為資料歸出版商、廣告收益歸出版商，**兩條迴路都會斷**。
+
+**面試可以這樣講：** 能講出「兩條迴路都靠 SmartView 把用戶留在 App 內才成立」，顯示你看的是系統不是功能。
 `
       },
       {
@@ -1682,6 +1744,37 @@ I've been caught by a related mistake. When we built the short-video editing fea
 **What I would not start with:** rebuilding the recommendation algorithm, adding a source blocklist, or changing editorial quality control. These are high impact but low certainty and high cost, and they run directly into the business model.
 
 I am interviewing for a prototyper role, and all three of these I could build as a clickable prototype within an hour, which shows the team the difference faster than an analysis would.
+`
+      },
+      {
+        q: 'AI 功能在哪裡？（為什麼你在 App 裡找不到）',
+        zh: `
+**三個 AI 功能分別鎖在三個不同的地方，沒有任何一個用戶能一次看到全部。**
+
+| AI 功能 | 上線 | 在哪裡 | 限制 |
+|---|---|---|---|
+| **スマニューAIまとめ**<br>生成式 AI 多篇摘要 | 2025-08 | **日本版首頁最上方**的專屬區塊 | **僅日本版**，官方稱「国内ニュースアプリ初」。需 **v6.5.0 以上**，舊版連 UI 都不出現 |
+| **AI 翻譯**<br>一鍵翻西班牙文 / 中文 | 2026-07 | 美國版，文章列表或閱讀頁的按鈕 | **僅 iOS、僅美國版**，Android 沒有 |
+| **NewsArc** | 2025-08 | **完全獨立的另一個 App** | 不在主 App 裡 |
+
+#### 你會拿到哪個版本
+
+| 你的情況 | 結果 |
+|---|---|
+| 台灣 / 英國商店，iOS | 美國版，**看得到 AI 翻譯，看不到 AIまとめ** |
+| 台灣 / 英國商店，Android | 美國版，**兩個 AI 功能都看不到** |
+| 日本帳號，版本 ≥ 6.5.0 | 首頁最上方有 AIまとめ |
+| 日本帳號，版本 < 6.5.0 | 看不到，要先更新 |
+
+**想實際體驗 AIまとめ**，要換日本 App Store 帳號下載日本版。
+
+---
+
+#### 這件事本身就是面試素材
+
+一家對外強調「對 AI 非常狂熱」的公司，把三個 AI 功能拆在**日本版、美國版 iOS、和一個獨立 App**，沒有任何一個用戶能一次體驗到全部。
+
+**可以直接問面試官：這是刻意的市場策略，還是組織結構造成的？**
 `
       }
     ]
