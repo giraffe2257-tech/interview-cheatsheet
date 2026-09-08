@@ -114,23 +114,6 @@ I have about four years of product experience, across B2C live-streaming and fin
     items: [
       {
         q: '自己紹介をお願いします。',
-        ja: `
-改めまして、王薇（ヴィヴィアン）と申します。よろしくお願いいたします。
-
-プロダクトマネージャーとして、4年ほど働いてきました。主にライブ配信のサービスと、ブロックチェーンの分野です。どちらも、ユーザーの行動データを見ながら、次に何を作るかを決めていく仕事でした。
-
-直近では、Typus Financeというスタートアップで、オンチェーンの無期限先物をゼロから立ち上げました。市場調査から必要な機能の検討、エンジニアチームと連携した開発、その後の改善まで、全体を一貫して担当していました。この業界は動きがとても速いので、2週間ごとにリリースする体制をつくり、1年間で30以上の機能を出しました。
-
-その前は17LIVEで、プラットフォームのユーザー体験とサービスの成長を担当して、いろいろな機能を企画からリリースまでしました。その仕事を進めるなかで気づいたのが、ユーザーからのご意見はたくさん届いているのに、それを次の改善につなげる仕組みがなかったことです。そこで、社内向けのユーザーフィードバック・ダッシュボードを自分から提案し、台湾・日本・東南アジアにまたがる5人の職種横断型チームをリードして開発しました。
-
-このダッシュボードによって、さまざまな場所に分かれていたユーザーの声を整理し、具体的な要件につなげられるようになりました。ただ、作って終わりではなくて、他のチームにも使ってもらえるように自分から働きかけて、実際に優先順位を決める場で使われる状態まで持っていきました。その結果、問題対応の効率が **15％** 向上したのですが、数字以上に大きかったのは、ユーザーの声を受け取ってから、実際の改善としてリリースするまでの流れが、チーム全体で速くなったことです。
-
-現在はロンドンの大学院で勉強していて、AIがプロダクトチームの働き方をどのように変えているのかを研究しています。このプログラムのおかげで、早い段階からAIエージェントに触れることができて、毎日AIを使ってプロトタイプやMVPをよく作っています。
-
-大学院を修了したあとはアジアに戻る予定で、第一希望は日本です。というのも、以前、群馬大学に1年間留学した経験があり、東京には家族もいるし、自分も日本語の勉強を続けているので、今後は日本で長くキャリアを築いていきたいです。また、日本語、英語、中国語で仕事ができますので、さまざまな国の方と協力できる環境にも魅力を感じています。次の仕事では、これまでのプロダクトマネージャーとしての経験と、AIを取り入れた仕事の進め方を生かし、チームに貢献していきたいと考えています。
-
-簡単ですが、以上です。本日はどうぞよろしくお願いいたします。
-`,
         zh: `
 初次見面，我是王薇（Vivian）。今天感謝您撥出時間。
 
@@ -164,6 +147,23 @@ I'm now doing a master's in London, researching how AI is changing the way produ
 After I finish in September I plan to return to Asia, with Japan as my first choice. I spent a year on exchange at Gunma University after university, my family is in Tokyo, and I've kept studying Japanese, so I'm thinking about Japan as a long-term career, not a short stay. I can work in Japanese, English and Mandarin, and I'm drawn to environments with colleagues from different countries. In my next role I'd like to contribute both my product experience and the way I've learned to bring AI into how work gets done.
 
 That's my background in short. I look forward to speaking with you today.
+`,
+        ja: `
+改めまして、王薇（ヴィヴィアン）と申します。よろしくお願いいたします。
+
+プロダクトマネージャーとして、4年ほど働いてきました。主にライブ配信のサービスと、ブロックチェーンの分野です。どちらも、ユーザーの行動データを見ながら、次に何を作るかを決めていく仕事でした。
+
+直近では、Typus Financeというスタートアップで、オンチェーンの無期限先物をゼロから立ち上げました。市場調査から必要な機能の検討、エンジニアチームと連携した開発、その後の改善まで、全体を一貫して担当していました。この業界は動きがとても速いので、2週間ごとにリリースする体制をつくり、1年間で30以上の機能を出しました。
+
+その前は17LIVEで、プラットフォームのユーザー体験とサービスの成長を担当して、いろいろな機能を企画からリリースまでしました。その仕事を進めるなかで気づいたのが、ユーザーからのご意見はたくさん届いているのに、それを次の改善につなげる仕組みがなかったことです。そこで、社内向けのユーザーフィードバック・ダッシュボードを自分から提案し、台湾・日本・東南アジアにまたがる5人の職種横断型チームをリードして開発しました。
+
+このダッシュボードによって、さまざまな場所に分かれていたユーザーの声を整理し、具体的な要件につなげられるようになりました。ただ、作って終わりではなくて、他のチームにも使ってもらえるように自分から働きかけて、実際に優先順位を決める場で使われる状態まで持っていきました。その結果、問題対応の効率が **15％** 向上したのですが、数字以上に大きかったのは、ユーザーの声を受け取ってから、実際の改善としてリリースするまでの流れが、チーム全体で速くなったことです。
+
+現在はロンドンの大学院で勉強していて、AIがプロダクトチームの働き方をどのように変えているのかを研究しています。このプログラムのおかげで、早い段階からAIエージェントに触れることができて、毎日AIを使ってプロトタイプやMVPをよく作っています。
+
+大学院を修了したあとはアジアに戻る予定で、第一希望は日本です。というのも、以前、群馬大学に1年間留学した経験があり、東京には家族もいるし、自分も日本語の勉強を続けているので、今後は日本で長くキャリアを築いていきたいです。また、日本語、英語、中国語で仕事ができますので、さまざまな国の方と協力できる環境にも魅力を感じています。次の仕事では、これまでのプロダクトマネージャーとしての経験と、AIを取り入れた仕事の進め方を生かし、チームに貢献していきたいと考えています。
+
+簡単ですが、以上です。本日はどうぞよろしくお願いいたします。
 `
       }
     ]
@@ -1470,84 +1470,292 @@ I've been caught by a related mistake. When we built the short-video editing fea
   section: 'Company',
   groups: [
   {
+    name: '產品研究',
+    items: [
+      {
+        q: 'SmartNews 是什麼？產品全景',
+        zh: `
+**一句話：只給你當下最重要的 0.01% 的新聞聚合 App。** 不做無限捲動，演算法從全網選出當下最熱的頭條，用自家極速排版讓文章秒開，免費，靠廣告賺錢。
+
+#### 同一個品牌底下其實有三個東西
+
+::: html
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;font-size:13px;line-height:1.6;margin:14px 0">
+  <div style="border:1.5px solid #d8d4cf;border-radius:10px;padding:10px 12px;background:#fff">
+    <div style="font-weight:700;margin-bottom:6px">日本版</div>
+    <div style="color:#5A5A63">クーポン 優惠券<br>スマニューAIまとめ<br>選舉 / Fact-Check 頻道</div>
+  </div>
+  <div style="border:1.5px solid #d8d4cf;border-radius:10px;padding:10px 12px;background:#fff">
+    <div style="font-weight:700;margin-bottom:6px">美國版</div>
+    <div style="color:#5A5A63">Rewards 讀新聞換點數<br>AI 翻譯（僅 iOS）<br>News From All Sides</div>
+  </div>
+  <div style="border:1.5px solid #d8d4cf;border-radius:10px;padding:10px 12px;background:#fff">
+    <div style="font-weight:700;margin-bottom:6px">NewsArc</div>
+    <div style="color:#5A5A63">獨立 App<br>2025-08 推出<br>AI 驅動的高品質新聞</div>
+  </div>
+</div>
+<div style="border:1.5px solid #d8d4cf;border-radius:10px;padding:10px 12px;background:#fff;margin:0 0 14px">
+  <div style="font-weight:700;margin-bottom:6px;font-size:13px">兩版共用的底層</div>
+  <div style="color:#5A5A63;font-size:13px;line-height:1.6">演算法選文　·　SmartView 極速排版　·　Channels 頻道　·　在地新聞與天氣　·　離線預載</div>
+</div>
+:::
+
+#### 內容怎麼流動
+
+::: html
+<div style="display:flex;flex-wrap:wrap;align-items:center;gap:6px;font-size:12.5px;margin:12px 0">
+  <span style="border:1.5px solid #d8d4cf;border-radius:10px;padding:10px 12px;background:#fff;padding:6px 10px">數千家出版商</span><span style="color:#8C8C95">→</span>
+  <span style="border:1.5px solid #d8d4cf;border-radius:10px;padding:10px 12px;background:#fff;padding:6px 10px">爬取</span><span style="color:#8C8C95">→</span>
+  <span style="border:1.5px solid #d8d4cf;border-radius:10px;padding:10px 12px;background:#fff;padding:6px 10px">演算法評估<br>文章＋社群訊號＋互動</span><span style="color:#8C8C95">→</span>
+  <span style="border:1.5px solid #C96442;border-radius:10px;padding:6px 10px;background:#F7EDE6;color:#C96442;font-weight:700">選出最重要的 0.01%</span><span style="color:#8C8C95">→</span>
+  <span style="border:1.5px solid #d8d4cf;border-radius:10px;padding:10px 12px;background:#fff;padding:6px 10px">SmartView<br>剝廣告·重排·預載</span><span style="color:#8C8C95">→</span>
+  <span style="border:1.5px solid #d8d4cf;border-radius:10px;padding:10px 12px;background:#fff;padding:6px 10px">用戶</span>
+</div>
+:::
+
+**兩條回饋迴路：** 用戶閱讀行為回去餵演算法（第一方資料）；廣告收益回流給出版商，讓內容供給持續。
+
+#### 核心功能
+
+| 功能 | 說明 | 市場 |
+|---|---|---|
+| 演算法選文 | 評估數百萬篇文章＋社群訊號＋互動，**刻意不做無限捲動** | 共用 |
+| SmartView | 自家版 AMP，剝掉廣告與肥圖重排，文章秒開 | 共用 |
+| 離線預載 | 有網路時先抓，沒訊號也能讀 | 共用 |
+| Channels | Breaking、World、Business、Tech、Sports，可自行增減 | 共用 |
+| 在地與天氣 | 依定位給市區級新聞、天氣、交通 | 共用 |
+| **クーポン** | 便利商店、餐飲折價券，**日本市場的黏著關鍵** | 日本 |
+| Rewards | 讀文章換點數，可兌禮物卡或捐款 | 美國 |
+| News From All Sides | 同一議題並陳左右立場 | 美國 |
+`
+      },
+      {
+        q: 'AI 功能在哪裡？（為什麼你在 App 裡找不到）',
+        zh: `
+**三個 AI 功能分別鎖在三個不同的地方，沒有任何一個用戶能一次看到全部。**
+
+| AI 功能 | 上線 | 在哪裡 | 限制 |
+|---|---|---|---|
+| **スマニューAIまとめ**<br>生成式 AI 多篇摘要 | 2025-08 | **日本版首頁最上方**的專屬區塊 | **僅日本版**，官方稱「国内ニュースアプリ初」。需 **v6.5.0 以上**，舊版連 UI 都不出現 |
+| **AI 翻譯**<br>一鍵翻西班牙文 / 中文 | 2026-07 | 美國版，文章列表或閱讀頁的按鈕 | **僅 iOS、僅美國版**，Android 沒有 |
+| **NewsArc** | 2025-08 | **完全獨立的另一個 App** | 不在主 App 裡 |
+
+#### 你會拿到哪個版本
+
+| 你的情況 | 結果 |
+|---|---|
+| 台灣 / 英國商店，iOS | 美國版，**看得到 AI 翻譯，看不到 AIまとめ** |
+| 台灣 / 英國商店，Android | 美國版，**兩個 AI 功能都看不到** |
+| 日本帳號，版本 ≥ 6.5.0 | 首頁最上方有 AIまとめ |
+| 日本帳號，版本 < 6.5.0 | 看不到，要先更新 |
+
+**想實際體驗 AIまとめ**，要換日本 App Store 帳號下載日本版。
+
+---
+
+#### 這件事本身就是面試素材
+
+一家對外強調「對 AI 非常狂熱」的公司，把三個 AI 功能拆在**日本版、美國版 iOS、和一個獨立 App**，沒有任何一個用戶能一次體驗到全部。
+
+**可以直接問面試官：這是刻意的市場策略，還是組織結構造成的？**
+`
+      },
+      {
+        q: '商業模式與規模',
+        zh: `
+::: html
+<div style="display:flex;flex-wrap:wrap;gap:10px;font-size:12.5px;margin:12px 0">
+  <div style="border:1.5px solid #d8d4cf;border-radius:10px;padding:10px 12px;background:#fff;flex:1;min-width:150px">
+    <div style="font-weight:700;margin-bottom:5px">出版商</div>
+    <div style="color:#5A5A63">給內容<br>拿授權費＋廣告分潤</div>
+  </div>
+  <div style="border:1.5px solid #C96442;border-radius:10px;padding:10px 12px;background:#F7EDE6;flex:1;min-width:150px">
+    <div style="font-weight:700;margin-bottom:5px;color:#C96442">SmartNews</div>
+    <div style="color:#5A5A63">演算法＋SmartView<br>第一方資料</div>
+  </div>
+  <div style="border:1.5px solid #d8d4cf;border-radius:10px;padding:10px 12px;background:#fff;flex:1;min-width:150px">
+    <div style="font-weight:700;margin-bottom:5px">用戶</div>
+    <div style="color:#5A5A63">免費看新聞<br>給注意力與行為資料</div>
+  </div>
+  <div style="border:1.5px solid #d8d4cf;border-radius:10px;padding:10px 12px;background:#fff;flex:1;min-width:150px">
+    <div style="font-weight:700;margin-bottom:5px">廣告主</div>
+    <div style="color:#5A5A63">付廣告費<br>佔營收約 75%</div>
+  </div>
+</div>
+:::
+
+| 項目 | 數字 | 可信度 |
+|---|---|---|
+| 累計下載 | 6,000 萬以上（2025 年初） | 確定 |
+| MAU | **2,000 萬以上** | 確定 |
+| 年營收 | 約 1.045 億美元 | 第三方推估 |
+| 估值 | 約 20 億美元 | 第三方推估 |
+| 廣告佔營收 | **約 75%** | 推估 |
+
+收入來源：行動廣告（原生＋feed 內程式化聯播）為主，加上資料授權、贊助內容、品牌專屬分頁。
+
+> **待查：** 一個來源說有 SmartNews Plus 訂閱制（$9.99–14.99/月免廣告），另一個 2026 評測說「ad-only，沒有付費去廣告的選項」。**面試前自己開 App 確認。**
+`
+      },
+      {
+        q: '用戶評分與抱怨',
+        zh: `
+| 平台 / 市場 | 分數 | 評論數 |
+|---|---|---|
+| Google Play 日本 | **4.1** | 646,413 |
+| App Store 美國 | **4.6** | 929,000 |
+
+日本的星等分佈：5 星 52%、4 星 25%、3 星 10%、2 星 4%、**1 星 9%**。
+
+**一星比二星多兩倍以上，這是兩極化的形狀，不是平均偏低。** 代表有一群特定情境的用戶被明確惹惱。
+
+> ⚠️ 兩個數字不能直接比較：平台不同、市場不同、日本用戶普遍給分較嚴。
+
+#### 五類抱怨
+
+**1. 廣告，壓倒性第一名**
+全版廣告的關閉鈕藏得很隱密，有時要點好幾次；有用戶說關閉鈕貼在螢幕邊緣點不到，而且不會自動關掉。「過去一年變本加厲」。日文評論同樣把「広告の多さ」列為第一缺點。
+
+**2. 導航會把你踢回首頁**
+「左スワイプすると、スマニューのトップに戻ってしまい」。英文側同樣抱怨 App 無預警重載回首頁，**看到一半的位置就沒了**。
+
+**3. 內容品質不穩**
+「肝心のニュースはまとめサイトと同レベル、情報の鮮度も良くない」「漢字の誤字等が少し多く」。英文側：**clickbait 還是會漏進來**，而且**沒有來源清單可以編輯**。
+
+**4. 無障礙壞掉**
+視障用戶反映 **VoiceOver 連續好幾個版本都是壞的**，AppleVis 論壇有專門討論串。
+
+**5. 初次體驗過載**
+「初期状態ではデフォルトで非常に沢山のタブが表示されるので使いづらい」。
+
+#### 稱讚的地方
+
+速度與速報性、一個 App 什麼都有（新聞＋優惠券＋市區級天氣）、優惠券真的有用、涵蓋面廣。
+`
+      },
+      {
+        q: '如果要你改進我們的產品，你會做什麼？',
+        zh: `
+**先講結構，再講單點。** 三條主要抱怨線都回推到同一個根因。
+
+::: html
+<div style="font-size:12.5px;line-height:1.7;margin:12px 0">
+  <div style="border:1.5px solid #C96442;border-radius:10px;padding:8px 12px;background:#F7EDE6;color:#C96442;font-weight:700;display:inline-block">核心矛盾：免費＋廣告佔 75% 營收</div>
+  <div style="color:#8C8C95;margin:6px 0 6px 18px">↓</div>
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px">
+    <div style="border:1.5px solid #d8d4cf;border-radius:10px;padding:10px 12px;background:#fff">廣告密度必須夠高<br><span style="color:#8C8C95">→ 全版廣告·關閉鈕難點</span></div>
+    <div style="border:1.5px solid #d8d4cf;border-radius:10px;padding:10px 12px;background:#fff">為曝光要頻繁刷新 feed<br><span style="color:#8C8C95">→ 左滑重載回首頁</span></div>
+    <div style="border:1.5px solid #d8d4cf;border-radius:10px;padding:10px 12px;background:#fff">流量優先於編輯把關<br><span style="color:#8C8C95">→ clickbait 漏進來</span></div>
+  </div>
+  <div style="color:#8C8C95;margin:6px 0 6px 18px">↓</div>
+  <div style="border:1.5px solid #d8d4cf;border-radius:10px;padding:10px 12px;background:#fff;display:inline-block;border-color:#C96442">日本一星佔 9%</div>
+</div>
+:::
+
+**所以「少放一點廣告」不是可行建議。** 可行的是在同樣廣告收益下**降低干擾成本**。
+
+#### 我會排的三件事
+
+**第一，關閉鈕的可點區域與時機。** 這是影響最大、原因最確定、成本最低的一件。用戶抱怨的不是有廣告，是**關不掉**。這不需要動營收模型，只動可點區域和倒數邏輯。
+
+**第二，讀到一半的位置保存。** 左滑或重載回首頁，等於把用戶已經投入的注意力歸零。這是純粹的狀態管理問題，不影響任何商業指標。
+
+**第三，無障礙。** VoiceOver 壞掉連續好幾個版本。它同時是產品缺陷、法遵風險、和品牌問題，而且修復範圍明確。**多數候選人不會提這個。**
+
+#### 我不會先做的
+
+重做推薦演算法、加來源黑名單、改內容品質把關。這些**影響大但確定性低、成本高**，而且會直接撞到商業模式。
+
+---
+
+**收尾：** 我面的是 Prototyper，這三件事我都可以在一小時內做出可點擊原型，比講分析更快讓團隊看到差別。
+`,
+        en: `
+**Structure first, then the specific fixes.** Three of the main complaint threads trace back to the same root cause: the product is free and around 75% of revenue comes from advertising. So "show fewer ads" is not an actionable recommendation. The actionable version is **reducing the cost of interruption at the same ad revenue**.
+
+**First, the close button's tap target and timing.** This is the highest impact, the most certain cause, and the cheapest fix. What users complain about is not that ads exist, it is that they cannot close them. This does not touch the revenue model at all, only the tap target and the countdown logic.
+
+**Second, preserving reading position.** A left swipe or a reload sends users back to the home screen, which zeroes out the attention they already invested. This is a pure state management problem with no effect on any business metric.
+
+**Third, accessibility.** VoiceOver has been broken across several releases. It is simultaneously a product defect, a compliance risk, and a brand problem, and the scope of the fix is well defined.
+
+**What I would not start with:** rebuilding the recommendation algorithm, adding a source blocklist, or changing editorial quality control. These are high impact but low certainty and high cost, and they run directly into the business model.
+
+I am interviewing for a prototyper role, and all three of these I could build as a clickable prototype within an hour, which shows the team the difference faster than an analysis would.
+`
+      }
+    ]
+  },
+  {
     name: '條件確認',
     items: [
       {
         q: '你能搬到東京嗎？',
-        en: `
-Yes, I'm able to relocate to Tokyo for this role. **Japan has been a deliberate focus of my search rather than an afterthought.**
-
-I have no dependents, so I would be relocating on my own.
-
-I'm completing my MSc at King's College London in September 2026 and have no academic commitments after that, so I can begin the visa process immediately.
-`,
         zh: `
 可以，我能為這個職位搬到東京。**日本一直是我求職時刻意鎖定的方向，不是臨時起意。**
 
 我沒有需要撫養的家屬，會是我一個人搬過去。
 
 我 2026 年 9 月從倫敦國王學院畢業，之後沒有任何學業上的安排，所以可以立刻開始跑簽證程序。
+`,
+        en: `
+Yes, I'm able to relocate to Tokyo for this role. **Japan has been a deliberate focus of my search rather than an afterthought.**
+
+I have no dependents, so I would be relocating on my own.
+
+I'm completing my MSc at King's College London in September 2026 and have no academic commitments after that, so I can begin the visa process immediately.
 `
       },
       {
         q: '你需要簽證擔保嗎？',
-        en: `
-Yes, I would require visa sponsorship from SmartNews. **I hold a Taiwanese passport and do not currently have a Japanese work visa.**
-
-For context on my present status: I'm on a UK Student visa and will move onto the UK Graduate Route after I graduate in September 2026. **Neither affects my ability to relocate to Japan, and I have no notice period to serve.**
-`,
         zh: `
 需要，我會需要 SmartNews 提供簽證擔保。**我持台灣護照，目前沒有日本工作簽證。**
 
 補充我現在的身分狀態：我持英國學生簽證，2026 年 9 月畢業後會轉為英國的 Graduate Route。**這兩者都不影響我搬到日本，而且我沒有需要服完的離職通知期。**
+`,
+        en: `
+Yes, I would require visa sponsorship from SmartNews. **I hold a Taiwanese passport and do not currently have a Japanese work visa.**
+
+For context on my present status: I'm on a UK Student visa and will move onto the UK Graduate Route after I graduate in September 2026. **Neither affects my ability to relocate to Japan, and I have no notice period to serve.**
 `
       },
       {
         q: '你什麼時候可以到職？',
-        en: `
-Factoring in the 3 to 4 month visa timeline, I would realistically be able to start **between Q4 2026 and Q1 2027**, and I'm happy to work backwards from whatever start date suits the team.
-`,
         zh: `
 把 3 到 4 個月的簽證時程算進去，實際上我可以在 **2026 年第四季到 2027 年第一季之間**到職。如果團隊有希望的起始日，我也可以從那個日期往回推。
+`,
+        en: `
+Factoring in the 3 to 4 month visa timeline, I would realistically be able to start **between Q4 2026 and Q1 2027**, and I'm happy to work backwards from whatever start date suits the team.
 `
       },
       {
         q: '一週三天進辦公室可以嗎？',
-        en: `
-Yes, three days a week in the office works for me, and I'll be looking for housing **within a two-hour commute** of your office as part of the relocation.
-
-Given that I'd be new to the team and to Tokyo, **I'd actively prefer the in-person time early on.**
-`,
         zh: `
 可以，一週三天進辦公室沒問題。搬過去的時候我會找**通勤兩小時以內**的住處。
 
 而且我是團隊的新人、也是東京的新人，**初期我反而希望有更多面對面的時間。**
+`,
+        en: `
+Yes, three days a week in the office works for me, and I'll be looking for housing **within a two-hour commute** of your office as part of the relocation.
+
+Given that I'd be new to the team and to Tokyo, **I'd actively prefer the in-person time early on.**
 `
       },
       {
         q: '你的期望待遇是多少？',
-        en: `
-Expected: **¥6,000,000 to ¥8,000,000 per year**, negotiable depending on the level and the overall package.
-
-Current: I'm not in full-time employment at the moment, as I've been completing my MSc, so there's no current base or bonus to break down.
-`,
         zh: `
 期望是**年薪 600 萬到 800 萬日圓**，可以依職級和整體待遇再談。
 
 目前的部分：我現在不是全職受僱狀態，因為都在完成碩士學業，所以沒有現行的底薪或獎金可以拆解。
+`,
+        en: `
+Expected: **¥6,000,000 to ¥8,000,000 per year**, negotiable depending on the level and the overall package.
+
+Current: I'm not in full-time employment at the moment, as I've been completing my MSc, so there's no current base or bonus to break down.
 `
       },
       {
         q: '你還有在面試其他公司嗎？',
-        en: `
-I have two other processes running, no offers yet.
-
-**Trip.com Group**, Associate Product Growth Manager, Taiwan: I've completed the recruiter screen and a case study, and I'm interviewing with their Head of Product Growth, SEA. Two further rounds would follow.
-
-**TableCheck**, Product Manager, Tokyo: I've completed the HR screen and am waiting on scheduling for the hiring manager round.
-
-Neither has given me a decision deadline yet, so there's no immediate pressure. **That said, SmartNews is the role I'm most excited about of the three.**
-`,
         zh: `
 還有兩條線在跑，目前都還沒有 offer。
 
@@ -1556,15 +1764,24 @@ Neither has given me a decision deadline yet, so there's no immediate pressure. 
 **TableCheck**，東京的 Product Manager：HR 初面已經完成，正在等 hiring manager 那關的時間安排。
 
 兩邊都還沒有給我決定的期限，所以沒有立即的壓力。**不過三個裡面，SmartNews 是我最想去的。**
+`,
+        en: `
+I have two other processes running, no offers yet.
+
+**Trip.com Group**, Associate Product Growth Manager, Taiwan: I've completed the recruiter screen and a case study, and I'm interviewing with their Head of Product Growth, SEA. Two further rounds would follow.
+
+**TableCheck**, Product Manager, Tokyo: I've completed the HR screen and am waiting on scheduling for the hiring manager round.
+
+Neither has given me a decision deadline yet, so there's no immediate pressure. **That said, SmartNews is the role I'm most excited about of the three.**
 `
       },
       {
         q: 'Vibe coding 那一關你準備好了嗎？',
-        en: `
-My setup is ready to go. **Building my own prototypes is how I already work**, so I'm genuinely looking forward to that session.
-`,
         zh: `
 我的環境已經隨時可以開始。**自己做 prototype 本來就是我平常的工作方式**，所以那一關我是真的很期待。
+`,
+        en: `
+My setup is ready to go. **Building my own prototypes is how I already work**, so I'm genuinely looking forward to that session.
 `
       }
     ]
