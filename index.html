@@ -218,6 +218,16 @@ body::after{
 .a li::marker{color:var(--accent)}
 .a code{font-family:var(--mono);font-size:.86em;background:var(--tint);padding:.05em .35em;border-radius:3px}
 .tablewrap{overflow-x:auto;margin:0 0 1.2em}
+pre.mermaid{
+  margin:1.2em 0;padding:14px;overflow-x:auto;
+  background:var(--paper-hi);border:1px solid var(--rule-soft);border-radius:12px;
+  font-family:var(--mono);font-size:.74rem;line-height:1.6;color:var(--muted);
+  white-space:pre;text-align:left;
+}
+pre.mermaid[data-processed]{
+  font-family:inherit;color:inherit;text-align:center;white-space:normal;padding:18px 14px;
+}
+pre.mermaid svg{max-width:100%;height:auto}
 .a table{border-collapse:collapse;width:100%;font-size:.88rem;line-height:1.7;min-width:320px}
 .a th,.a td{padding:.5rem .7rem;text-align:left;vertical-align:top;border-bottom:1px solid var(--rule-soft)}
 .a th{
@@ -356,6 +366,12 @@ function md(src){
     if(/^\s*---+\s*$/.test(l)){out+='<hr>';i++;continue;}
     let m=l.match(/^(#{2,6})\s+(.*)$/);
     if(m){out+='<h4>'+inline(m[2])+'</h4>';i++;continue;}
+    if(/^\s*:::\s*mermaid\s*$/.test(l)){
+      const buf=[];i++;
+      while(i<L.length&&!/^\s*:::\s*$/.test(L[i]))buf.push(L[i++]);
+      i++;
+      out+='<pre class="mermaid">'+esc(buf.join('\n'))+'</pre>';continue;
+    }
     if(/^\s*:::\s*html\s*$/.test(l)){
       const buf=[];i++;
       while(i<L.length&&!/^\s*:::\s*$/.test(L[i]))buf.push(L[i++]);
@@ -486,7 +502,20 @@ function render(){
 function open(row){
   row.classList.add('open');
   row.querySelector('.q').setAttribute('aria-expanded','true');
+  drawMermaid(row);
 }
+
+/* mermaid：等 module 載好才畫，且只畫已展開的節點 */
+function drawMermaid(scope){
+  const m=window.__mermaid;
+  if(!m)return;
+  const nodes=[...(scope||stage).querySelectorAll('pre.mermaid:not([data-done])')]
+    .filter(n=>n.offsetParent!==null);
+  if(!nodes.length)return;
+  nodes.forEach(n=>n.setAttribute('data-done','1'));
+  m.run({nodes}).catch(()=>{nodes.forEach(n=>n.removeAttribute('data-done'))});
+}
+document.addEventListener('mermaid-ready',()=>drawMermaid());
 function bind(){
   stage.querySelectorAll('.lang button').forEach(b=>{
     b.addEventListener('click',e=>{
@@ -561,6 +590,28 @@ try{
 }catch(e){}
 if(isCo(S.tab))S.fold=true;
 render();
+</script>
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  const css=getComputedStyle(document.documentElement);
+  const v=n=>css.getPropertyValue(n).trim();
+  mermaid.initialize({
+    startOnLoad:false,
+    theme:'base',
+    fontFamily:v('--sans'),
+    themeVariables:{
+      background:v('--paper-hi'),
+      primaryColor:'#fff',
+      primaryTextColor:v('--ink'),
+      primaryBorderColor:v('--rule'),
+      lineColor:v('--muted'),
+      secondaryColor:v('--tint'),
+      tertiaryColor:v('--paper'),
+      fontSize:'13px'
+    }
+  });
+  window.__mermaid=mermaid;
+  document.dispatchEvent(new Event('mermaid-ready'));
 </script>
 </body>
 </html>

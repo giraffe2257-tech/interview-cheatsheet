@@ -2,7 +2,8 @@
    DATA = [ { id, label, section, groups:[ { name, items:[ {q, zh, en, ja} ] } ] } ]
    每題可以有 zh / en / ja 三種語言，有幾種就在題目右邊出現幾個切換鈕。
    只寫 zh 的題目不會出現切換鈕。
-   body 用 Markdown（粗體 ** / 表格 | / 小標 #### / 清單 - / 分隔線 --- / 嵌入 HTML ::: html）
+   body 用 Markdown（粗體 ** / 表格 | / 小標 #### / 清單 - / 分隔線 --- /
+   嵌入 HTML ::: html / 圖表 ::: mermaid）
    注意：內文裡不要出現反引號。
 */
 
@@ -1479,38 +1480,53 @@ I've been caught by a related mistake. When we built the short-video editing fea
 
 #### 同一個品牌底下其實有三個東西
 
-::: html
-<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;font-size:13px;line-height:1.6;margin:14px 0">
-  <div style="border:1.5px solid #d8d4cf;border-radius:10px;padding:10px 12px;background:#fff">
-    <div style="font-weight:700;margin-bottom:6px">日本版</div>
-    <div style="color:#5A5A63">クーポン 優惠券<br>スマニューAIまとめ<br>選舉 / Fact-Check 頻道</div>
-  </div>
-  <div style="border:1.5px solid #d8d4cf;border-radius:10px;padding:10px 12px;background:#fff">
-    <div style="font-weight:700;margin-bottom:6px">美國版</div>
-    <div style="color:#5A5A63">Rewards 讀新聞換點數<br>AI 翻譯（僅 iOS）<br>News From All Sides</div>
-  </div>
-  <div style="border:1.5px solid #d8d4cf;border-radius:10px;padding:10px 12px;background:#fff">
-    <div style="font-weight:700;margin-bottom:6px">NewsArc</div>
-    <div style="color:#5A5A63">獨立 App<br>2025-08 推出<br>AI 驅動的高品質新聞</div>
-  </div>
-</div>
-<div style="border:1.5px solid #d8d4cf;border-radius:10px;padding:10px 12px;background:#fff;margin:0 0 14px">
-  <div style="font-weight:700;margin-bottom:6px;font-size:13px">兩版共用的底層</div>
-  <div style="color:#5A5A63;font-size:13px;line-height:1.6">演算法選文　·　SmartView 極速排版　·　Channels 頻道　·　在地新聞與天氣　·　離線預載</div>
-</div>
+::: mermaid
+graph TB
+    Brand["SmartNews 品牌"]
+
+    Brand --> JP["SmartNews 日本版<br/>スマートニュース"]
+    Brand --> US["SmartNews 美國版<br/>SmartNews: Breaking News"]
+    Brand --> Arc["NewsArc<br/>獨立 App · 2025-08-05"]
+
+    JP --> JP1["クーポン 優惠券"]
+    JP --> JP2["スマニューAIまとめ<br/>AI 摘要 · 首頁最上方"]
+    JP --> JP3["選舉 / Fact-Check 頻道"]
+
+    US --> US1["Rewards 讀新聞換點數"]
+    US --> US2["AI 翻譯 · 僅 iOS<br/>西班牙文 / 中文"]
+    US --> US3["News From All Sides<br/>政治光譜並陳"]
+
+    Arc --> Arc1["不依賴傳統演算法<br/>刻意讓所有人看到同一批重要報導"]
+
+    Shared["兩版共用的底層"]
+    Shared --> S1["演算法選文"]
+    Shared --> S2["SmartView 極速排版"]
+    Shared --> S3["Channels 頻道"]
+    Shared --> S4["在地新聞與天氣"]
+    Shared --> S5["離線預載"]
+
+    JP -.-> Shared
+    US -.-> Shared
+
+    style JP fill:#F7EDE6
+    style US fill:#EDF0FF
+    style Arc fill:#F3EDFA
+    style Shared fill:#F1EFED
 :::
 
 #### 內容怎麼流動
 
-::: html
-<div style="display:flex;flex-wrap:wrap;align-items:center;gap:6px;font-size:12.5px;margin:12px 0">
-  <span style="border:1.5px solid #d8d4cf;border-radius:10px;padding:10px 12px;background:#fff;padding:6px 10px">數千家出版商</span><span style="color:#8C8C95">→</span>
-  <span style="border:1.5px solid #d8d4cf;border-radius:10px;padding:10px 12px;background:#fff;padding:6px 10px">爬取</span><span style="color:#8C8C95">→</span>
-  <span style="border:1.5px solid #d8d4cf;border-radius:10px;padding:10px 12px;background:#fff;padding:6px 10px">演算法評估<br>文章＋社群訊號＋互動</span><span style="color:#8C8C95">→</span>
-  <span style="border:1.5px solid #C96442;border-radius:10px;padding:6px 10px;background:#F7EDE6;color:#C96442;font-weight:700">選出最重要的 0.01%</span><span style="color:#8C8C95">→</span>
-  <span style="border:1.5px solid #d8d4cf;border-radius:10px;padding:10px 12px;background:#fff;padding:6px 10px">SmartView<br>剝廣告·重排·預載</span><span style="color:#8C8C95">→</span>
-  <span style="border:1.5px solid #d8d4cf;border-radius:10px;padding:10px 12px;background:#fff;padding:6px 10px">用戶</span>
-</div>
+::: mermaid
+flowchart LR
+    P["數千家<br/>出版商"] --> C["爬取 / SmartFormat feed"]
+    C --> R["演算法評估<br/>文章 + 社群訊號 + 互動"]
+    R --> T["選出當下<br/>最重要的 0.01%"]
+    T --> CH["分配到 Channels"]
+    CH --> SV["SmartView<br/>剝廣告 · 重排 · 預載"]
+    SV --> U["用戶"]
+
+    style T fill:#F7EDE6
+    style SV fill:#EDF0FF
 :::
 
 #### 核心功能
@@ -1532,27 +1548,30 @@ I've been caught by a related mistake. When we built the short-video editing fea
         zh: `
 **絕大多數文章不是把你送去出版商的網站，而是在 App 內用 SmartView 開啟。**
 
-::: html
-<div style="font-size:12.5px;line-height:1.65;margin:12px 0">
-  <div style="border:1.5px solid #d8d4cf;border-radius:10px;padding:8px 11px;background:#fff;margin-bottom:8px">出版商提供 <b>SmartFormat feed</b>（RSS 2.0 / Atom 的擴充）</div>
-  <div style="color:#8C8C95;margin:0 0 8px 16px">↓ SmartNews 解析</div>
-  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:8px">
-    <div style="border:1.5px solid #d8d4cf;border-radius:10px;padding:8px 11px;background:#fff">
-      <div style="font-weight:700;margin-bottom:4px">剝掉</div>
-      <div style="color:#5A5A63">網站廣告腳本<br>肥圖與裝飾<br>追蹤碼與版面雜訊</div>
-    </div>
-    <div style="border:1.5px solid #d8d4cf;border-radius:10px;padding:8px 11px;background:#fff">
-      <div style="font-weight:700;margin-bottom:4px">保留</div>
-      <div style="color:#5A5A63">正文與圖說<br>嵌入媒體 YouTube·JW Player<br>Spotify·SoundCloud<br>出版商品牌露出</div>
-    </div>
-    <div style="border:1.5px solid #d8d4cf;border-radius:10px;padding:8px 11px;background:#fff">
-      <div style="font-weight:700;margin-bottom:4px">加上</div>
-      <div style="color:#5A5A63">原生排版<br>display / video 廣告位<br>預先下載，離線可讀</div>
-    </div>
-  </div>
-  <div style="color:#8C8C95;margin:0 0 8px 16px">↓</div>
-  <div style="border:1.5px solid #C96442;border-radius:10px;padding:8px 11px;background:#F7EDE6;color:#C96442;font-weight:700;display:inline-block">SmartView 文章頁：秒開，不離開 App</div>
-</div>
+::: mermaid
+flowchart TB
+    A["出版商提供<br/>SmartFormat feed"] --> B["SmartNews 解析"]
+    B --> C["剝掉"]
+    B --> D["保留"]
+    B --> E["加上"]
+
+    C --> C1["網站廣告腳本"]
+    C --> C2["肥圖與裝飾"]
+    C --> C3["追蹤碼與版面雜訊"]
+
+    D --> D1["正文與圖說"]
+    D --> D2["嵌入媒體<br/>YouTube · JW Player<br/>Spotify · SoundCloud"]
+    D --> D3["出版商品牌露出"]
+
+    E --> E1["SmartNews 原生排版"]
+    E --> E2["display / video 廣告位"]
+    E --> E3["預先下載，離線可讀"]
+
+    C1 --> F["SmartView 文章頁<br/>秒開 · 不離開 App"]
+    D1 --> F
+    E1 --> F
+
+    style F fill:#F7EDE6
 :::
 
 #### 技術面
@@ -1589,32 +1608,34 @@ opt-in 的授權方案，加入後拿到更完整的**品牌露出**，可以把
         zh: `
 **這是整個商業模式能自我推進的原因。兩條迴路都靠 SmartView 把用戶留在 App 內才成立。**
 
-::: html
-<div style="font-size:12.5px;line-height:1.6;margin:12px 0">
+::: mermaid
+graph LR
+    U["用戶閱讀"]
 
-  <div style="font-weight:700;margin-bottom:6px">迴路一：資料</div>
-  <div style="display:flex;flex-wrap:wrap;align-items:center;gap:5px;margin-bottom:4px">
-    <span style="border:1.5px solid #C96442;border-radius:10px;padding:8px 11px;background:#F7EDE6;color:#C96442;font-weight:700;padding:6px 10px">用戶閱讀</span><span style="color:#8C8C95">→</span>
-    <span style="border:1.5px solid #d8d4cf;border-radius:10px;padding:8px 11px;background:#fff;padding:6px 10px">第一方行為資料<br>讀了什麼·停多久·點什麼</span><span style="color:#8C8C95">→</span>
-    <span style="border:1.5px solid #d8d4cf;border-radius:10px;padding:8px 11px;background:#fff;padding:6px 10px">演算法更準</span><span style="color:#8C8C95">→</span>
-    <span style="border:1.5px solid #d8d4cf;border-radius:10px;padding:8px 11px;background:#fff;padding:6px 10px">選文更貼近這個人</span>
-  </div>
-  <div style="color:#C96442;margin:0 0 16px 4px">↺ 回到用戶閱讀</div>
+    subgraph L1["迴路一：資料迴路"]
+        direction LR
+        D1["第一方行為資料<br/>讀了什麼 · 停多久 · 點什麼"]
+        D2["演算法更準"]
+        D3["選文更貼近這個人"]
+    end
 
-  <div style="font-weight:700;margin-bottom:6px">迴路二：供給</div>
-  <div style="display:flex;flex-wrap:wrap;align-items:center;gap:5px;margin-bottom:4px">
-    <span style="border:1.5px solid #C96442;border-radius:10px;padding:8px 11px;background:#F7EDE6;color:#C96442;font-weight:700;padding:6px 10px">用戶閱讀</span><span style="color:#8C8C95">→</span>
-    <span style="border:1.5px solid #d8d4cf;border-radius:10px;padding:8px 11px;background:#fff;padding:6px 10px">廣告曝光</span><span style="color:#8C8C95">→</span>
-    <span style="border:1.5px solid #d8d4cf;border-radius:10px;padding:8px 11px;background:#fff;padding:6px 10px">廣告收益</span><span style="color:#8C8C95">→</span>
-    <span style="border:1.5px solid #d8d4cf;border-radius:10px;padding:8px 11px;background:#fff;padding:6px 10px">授權費＋階梯分潤<br>給出版商</span><span style="color:#8C8C95">→</span>
-    <span style="border:1.5px solid #d8d4cf;border-radius:10px;padding:8px 11px;background:#fff;padding:6px 10px">出版商持續供稿<br>內容更多更好</span>
-  </div>
-  <div style="color:#C96442;margin:0 0 16px 4px">↺ 回到用戶閱讀</div>
+    subgraph L2["迴路二：供給迴路"]
+        direction LR
+        M1["廣告曝光"]
+        M2["廣告收益"]
+        M3["授權費 + 階梯分潤<br/>給出版商"]
+        M4["出版商持續供稿<br/>內容更多更好"]
+    end
 
-  <div style="border:1.5px dashed #6E7BF7;border-radius:10px;padding:8px 11px;background:#EDF0FF;color:#5A5A63">
-    <b style="color:#6E7BF7">SmartView</b> 讓用戶不離開 App，是兩條迴路的共同前提
-  </div>
-</div>
+    U --> D1 --> D2 --> D3 --> U
+    U --> M1 --> M2 --> M3 --> M4 --> U
+
+    SV["SmartView<br/>用戶不離開 App"] -.->|"讓兩條迴路都成立"| U
+
+    style U fill:#F7EDE6
+    style SV fill:#EDF0FF
+    style L1 fill:#F8F7F6
+    style L2 fill:#F8F7F6
 :::
 
 **如果用戶被導去出版商網站**，行為資料歸出版商、廣告收益歸出版商，**兩條迴路都會斷**。
@@ -1625,25 +1646,21 @@ opt-in 的授權方案，加入後拿到更完整的**品牌露出**，可以把
       {
         q: '商業模式與規模',
         zh: `
-::: html
-<div style="display:flex;flex-wrap:wrap;gap:10px;font-size:12.5px;margin:12px 0">
-  <div style="border:1.5px solid #d8d4cf;border-radius:10px;padding:10px 12px;background:#fff;flex:1;min-width:150px">
-    <div style="font-weight:700;margin-bottom:5px">出版商</div>
-    <div style="color:#5A5A63">給內容<br>拿授權費＋廣告分潤</div>
-  </div>
-  <div style="border:1.5px solid #C96442;border-radius:10px;padding:10px 12px;background:#F7EDE6;flex:1;min-width:150px">
-    <div style="font-weight:700;margin-bottom:5px;color:#C96442">SmartNews</div>
-    <div style="color:#5A5A63">演算法＋SmartView<br>第一方資料</div>
-  </div>
-  <div style="border:1.5px solid #d8d4cf;border-radius:10px;padding:10px 12px;background:#fff;flex:1;min-width:150px">
-    <div style="font-weight:700;margin-bottom:5px">用戶</div>
-    <div style="color:#5A5A63">免費看新聞<br>給注意力與行為資料</div>
-  </div>
-  <div style="border:1.5px solid #d8d4cf;border-radius:10px;padding:10px 12px;background:#fff;flex:1;min-width:150px">
-    <div style="font-weight:700;margin-bottom:5px">廣告主</div>
-    <div style="color:#5A5A63">付廣告費<br>佔營收約 75%</div>
-  </div>
-</div>
+::: mermaid
+graph LR
+    subgraph 三方市場
+        A["出版商<br/>提供內容"]
+        B["用戶<br/>免費使用"]
+        C["廣告主<br/>付錢"]
+    end
+
+    C -->|"廣告費"| S["SmartNews"]
+    S -->|"授權費 + 階梯分潤"| A
+    A -->|"SmartFormat feed"| S
+    S -->|"免費新聞 + 優惠券 / 點數"| B
+    B -->|"注意力 + 第一方資料"| S
+
+    style S fill:#F7EDE6
 :::
 
 | 項目 | 數字 | 可信度 |
@@ -1700,18 +1717,27 @@ opt-in 的授權方案，加入後拿到更完整的**品牌露出**，可以把
         zh: `
 **先講結構，再講單點。** 三條主要抱怨線都回推到同一個根因。
 
-::: html
-<div style="font-size:12.5px;line-height:1.7;margin:12px 0">
-  <div style="border:1.5px solid #C96442;border-radius:10px;padding:8px 12px;background:#F7EDE6;color:#C96442;font-weight:700;display:inline-block">核心矛盾：免費＋廣告佔 75% 營收</div>
-  <div style="color:#8C8C95;margin:6px 0 6px 18px">↓</div>
-  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px">
-    <div style="border:1.5px solid #d8d4cf;border-radius:10px;padding:10px 12px;background:#fff">廣告密度必須夠高<br><span style="color:#8C8C95">→ 全版廣告·關閉鈕難點</span></div>
-    <div style="border:1.5px solid #d8d4cf;border-radius:10px;padding:10px 12px;background:#fff">為曝光要頻繁刷新 feed<br><span style="color:#8C8C95">→ 左滑重載回首頁</span></div>
-    <div style="border:1.5px solid #d8d4cf;border-radius:10px;padding:10px 12px;background:#fff">流量優先於編輯把關<br><span style="color:#8C8C95">→ clickbait 漏進來</span></div>
-  </div>
-  <div style="color:#8C8C95;margin:6px 0 6px 18px">↓</div>
-  <div style="border:1.5px solid #d8d4cf;border-radius:10px;padding:10px 12px;background:#fff;display:inline-block;border-color:#C96442">日本一星佔 9%</div>
-</div>
+::: mermaid
+graph TD
+    Root["核心矛盾<br/>免費 + 廣告佔 75% 營收"]
+
+    Root --> A1["廣告密度必須夠高"]
+    A1 --> A2["SmartView 內的全版廣告<br/>關閉鈕難點"]
+    A2 --> A3["閱讀被打斷"]
+
+    Root --> B1["為了曝光要頻繁刷新 feed"]
+    B1 --> B2["左滑 / 重載回首頁"]
+    B2 --> A3
+
+    Root --> C1["流量優先於編輯把關"]
+    C1 --> C2["clickbait 漏進來<br/>沒有來源黑名單"]
+    C2 --> C3["信任下降"]
+
+    A3 --> D["一星評論<br/>日本佔 9%"]
+    C3 --> D
+
+    style Root fill:#FFE6E6
+    style D fill:#FFE6E6
 :::
 
 **所以「少放一點廣告」不是可行建議。** 可行的是在同樣廣告收益下**降低干擾成本**。
