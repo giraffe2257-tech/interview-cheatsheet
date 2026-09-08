@@ -228,6 +228,44 @@ pre.mermaid[data-processed]{
   font-family:inherit;color:inherit;text-align:center;white-space:normal;padding:18px 14px;
 }
 pre.mermaid svg{max-width:100%;height:auto}
+pre.mermaid[data-processed]{cursor:zoom-in;position:relative}
+pre.mermaid[data-processed]::after{
+  content:"點擊放大";position:absolute;right:10px;bottom:8px;
+  font-family:var(--mono);font-size:.62rem;letter-spacing:.06em;
+  color:var(--muted);opacity:0;transition:opacity .15s;pointer-events:none;
+}
+pre.mermaid[data-processed]:hover::after{opacity:.8}
+
+#zoom{
+  position:fixed;inset:0;z-index:200;display:none;
+  background:rgba(26,21,15,.86);backdrop-filter:blur(3px);
+  align-items:center;justify-content:center;overflow:hidden;
+}
+#zoom.on{display:flex}
+#zoomInner{
+  transform-origin:center center;transition:transform .06s linear;
+  cursor:grab;user-select:none;
+}
+#zoomInner.drag{cursor:grabbing;transition:none}
+#zoomInner svg{
+  max-width:94vw;max-height:86vh;height:auto;width:auto;
+  background:var(--paper-hi);border-radius:14px;padding:22px;
+  box-shadow:0 20px 60px rgba(0,0,0,.35);
+}
+#zoomBar{
+  position:fixed;top:14px;right:16px;display:flex;gap:8px;align-items:center;z-index:201;
+}
+#zoomBar button{
+  font-family:var(--mono);font-size:.72rem;letter-spacing:.06em;
+  border:1px solid rgba(255,255,255,.35);background:rgba(255,255,255,.1);color:#fff;
+  border-radius:999px;padding:6px 12px;cursor:pointer;line-height:1;
+}
+#zoomBar button:hover{background:rgba(255,255,255,.2)}
+#zoomHint{
+  position:fixed;bottom:16px;left:50%;transform:translateX(-50%);z-index:201;
+  font-family:var(--mono);font-size:.66rem;letter-spacing:.05em;color:rgba(255,255,255,.6);
+}
+@media print{#zoom{display:none!important}}
 .a table{border-collapse:collapse;width:100%;font-size:.88rem;line-height:1.7;min-width:320px}
 .a th,.a td{padding:.5rem .7rem;text-align:left;vertical-align:top;border-bottom:1px solid var(--rule-soft)}
 .a th{
@@ -336,6 +374,16 @@ mark{background:linear-gradient(180deg,transparent 55%,rgba(224,178,60,.55) 55%)
   <main class="stage" id="stage"></main>
 </div>
 
+<div id="zoom" hidden>
+  <div id="zoomBar">
+    <button type="button" data-z="out">−</button>
+    <button type="button" data-z="reset">100%</button>
+    <button type="button" data-z="in">＋</button>
+    <button type="button" data-z="close">✕ 關閉</button>
+  </div>
+  <div id="zoomInner"></div>
+  <div id="zoomHint">滾輪縮放　·　拖曳平移　·　雙擊還原　·　Esc 關閉</div>
+</div>
 <script src="content.js"></script>
 <script>
 if(typeof DATA === 'undefined'){
@@ -516,6 +564,63 @@ function drawMermaid(scope){
   m.run({nodes}).catch(()=>{nodes.forEach(n=>n.removeAttribute('data-done'))});
 }
 document.addEventListener('mermaid-ready',()=>drawMermaid());
+
+/* ── 圖表放大 ── */
+const zoomEl=document.getElementById('zoom');
+const zoomInner=document.getElementById('zoomInner');
+const Z={scale:1,x:0,y:0,dragging:false,sx:0,sy:0};
+function zApply(){
+  zoomInner.style.transform='translate('+Z.x+'px,'+Z.y+'px) scale('+Z.scale+')';
+}
+function zReset(){Z.scale=1;Z.x=0;Z.y=0;zApply();}
+function zOpen(svg){
+  zoomInner.innerHTML='';
+  zoomInner.appendChild(svg.cloneNode(true));
+  zReset();
+  zoomEl.hidden=false;zoomEl.classList.add('on');
+  document.body.style.overflow='hidden';
+}
+function zClose(){
+  zoomEl.classList.remove('on');zoomEl.hidden=true;
+  zoomInner.innerHTML='';
+  document.body.style.overflow='';
+}
+stage.addEventListener('click',e=>{
+  const pre=e.target.closest('pre.mermaid[data-processed]');
+  if(!pre)return;
+  const svg=pre.querySelector('svg');
+  if(!svg)return;
+  e.stopPropagation();
+  zOpen(svg);
+});
+document.getElementById('zoomBar').addEventListener('click',e=>{
+  const b=e.target.closest('button[data-z]');if(!b)return;
+  e.stopPropagation();
+  const a=b.dataset.z;
+  if(a==='close')return zClose();
+  if(a==='reset')return zReset();
+  Z.scale=Math.min(6,Math.max(.4,Z.scale*(a==='in'?1.25:0.8)));
+  zApply();
+});
+zoomEl.addEventListener('click',e=>{if(e.target===zoomEl)zClose();});
+zoomEl.addEventListener('dblclick',e=>{e.preventDefault();zReset();});
+zoomEl.addEventListener('wheel',e=>{
+  e.preventDefault();
+  Z.scale=Math.min(6,Math.max(.4,Z.scale*(e.deltaY<0?1.12:0.89)));
+  zApply();
+},{passive:false});
+zoomInner.addEventListener('pointerdown',e=>{
+  Z.dragging=true;Z.sx=e.clientX-Z.x;Z.sy=e.clientY-Z.y;
+  zoomInner.classList.add('drag');
+  zoomInner.setPointerCapture(e.pointerId);
+});
+zoomInner.addEventListener('pointermove',e=>{
+  if(!Z.dragging)return;
+  Z.x=e.clientX-Z.sx;Z.y=e.clientY-Z.sy;zApply();
+});
+zoomInner.addEventListener('pointerup',e=>{
+  Z.dragging=false;zoomInner.classList.remove('drag');
+});
 function bind(){
   stage.querySelectorAll('.lang button').forEach(b=>{
     b.addEventListener('click',e=>{
@@ -572,6 +677,11 @@ qEl.addEventListener('input',()=>{clearTimeout(timer);timer=setTimeout(()=>{
   S.q=qEl.value.trim();render();window.scrollTo({top:0});
 },110);});
 document.addEventListener('keydown',e=>{
+  if(!zoomEl.hidden){
+    if(e.key==='Escape'){e.preventDefault();e.stopPropagation();zClose();}
+    if(e.key==='0'){e.preventDefault();zReset();}
+    return;
+  }
   if(e.target===qEl){
     if(e.key==='Escape'){qEl.value='';S.q='';render();qEl.blur();}
     return;
