@@ -675,7 +675,20 @@ At 17LIVE I did exactly this by cross-referencing interviews with SQL: qualitati
         zh: `
 **先定義行為，再定義數字。** 我會先問「如果這個功能成功了，使用者會多做哪一件事」，再把那件事變成可以追蹤的指標。
 
-然後我會把指標分成三類，因為這三類回答的是三個不同的問題。
+接下來我用三個步驟。
+
+#### 一、先決定主要指標是採用率還是完成率
+
+這取決於我要衡量的是**一個新推出的東西**，還是**一條有起點終點的流程**。
+
+| 主要指標 | 什麼時候用 | 分母 | 分子 |
+|---|---|---|---|
+| **採用率** | 新推出的功能 | 有機會用到的人（曝光過、符合資格） | 實際用過至少一次的人 |
+| **完成率** | 有明確起點與終點的流程 | 開始這個流程的人 | 走到終點的人 |
+
+**這兩個不能互換。** 訂票主流程沒有採用率可言，因為使用者是帶著明確意圖進來的，不存在「要不要採用」這件事；反過來，剛上線的新功能也不該只看完成率，因為完成率再高，沒人進來就沒有意義。我在 17LIVE 踩過這個坑：短影音的剪輯權限預設關閉，幾乎沒有主播會去打開設定頁，**供給端根本沒被打開。**
+
+#### 二、配上診斷指標與護欄指標
 
 | 類型 | 回答什麼 | 常用的 |
 |---|---|---|
@@ -687,14 +700,45 @@ At 17LIVE I did exactly this by cross-referencing interviews with SQL: qualitati
 
 舉個例子，如果我把一個必要的說明往流程後面藏，完成率很可能會上升，但客服量會跟著上升。**那不是贏，那是把成本推到別的地方去。**
 
-**這三類定完之後，我會用 A/B 測試去驗證，而不是上線之後看趨勢就下結論。**
+#### 三、用 A/B 測試驗證
 
-我做 AI 平台的時候也是同一套：先寫清楚什麼叫做好的輸出，才有辦法用 A/B 框架比較成本與品質，最後拿到降本 83%、品質只掉 3% 的結果。
+三類定完之後我會用 A/B 去驗證，而不是上線之後看趨勢就下結論。我做 AI 平台的時候也是同一套：先寫清楚什麼叫做好的輸出，才有辦法用 A/B 框架比較成本與品質，最後拿到降本 83%、品質只掉 3% 的結果。
+
+---
+
+#### 套用示範：訂機票流程
+
+| 角色 | 指標 |
+|---|---|
+| **主要** | 整條流程的完成率：進入訂票流程 → 完成付款（我在作業裡算出來是 6.5%） |
+| **診斷** | 各步驟通過率，找出流失集中在哪一段 |
+| **護欄** | 客服量、付款失敗率 |
+
+這裡有一個陷阱值得單獨講：**訂票流程中間，使用者會離開去比價，這一步不能用完成率量。**
+
+因為完成率是二元的，走完或沒走完，而**離開去比價的人可能會回來**。用完成率量這一步，等於把「暫時離開」全部記成「流失」，我會去修一個其實沒那麼壞的環節。
+
+所以這一步我會加一個指標：**回流率，離開之後 30 分鐘或 24 小時內回來完成的比例。** 如果離開的人有七成會回來，那比價只是這個市場的正常行為，不是問題；如果只有一成回來，那才是要打的地方。**沒有回流率，我分不出這兩種情況。**
+
+**那採用率什麼時候會回到這題？** 當我為了處理這個離開做了一個新東西，例如價格保證徽章或降價通知。那時候採用率是「看到的人裡有多少用了」，完成率是「用了的人裡有多少完成訂票」，**兩個要一起看**：採用率高但完成率沒動，代表有人用但沒解決問題；採用率低，代表功能藏太深，還沒到能判斷有沒有效的階段。
 `,
         en: `
 **Define the behaviour first, then the number.** I start by asking: if this feature works, what is the one thing users will do more of? Then I turn that into a trackable metric.
 
-After that I split metrics into three types, because the three answer three different questions.
+From there I work in three steps.
+
+#### 1. Decide whether the primary metric is adoption or completion
+
+That depends on whether I'm measuring **something newly launched** or **a flow with a defined start and end**.
+
+| Primary metric | When to use it | Denominator | Numerator |
+|---|---|---|---|
+| **Adoption rate** | A newly launched feature | People who had the chance to use it (exposed, eligible) | People who used it at least once |
+| **Completion rate** | A flow with a clear start and end | People who started the flow | People who reached the end |
+
+**These two aren't interchangeable.** A booking flow has no adoption rate, because users arrive with clear intent and there's no question of whether to adopt it. Conversely, a newly launched feature shouldn't be judged on completion rate alone, because however high completion is, it means nothing if nobody arrives. I've been caught by that at 17LIVE: we shipped short-video editing with permissions off by default, almost no streamer ever opened the settings page, and **the supply side never opened up at all.**
+
+#### 2. Add diagnostic and guardrail metrics
 
 | Type | Answers | Typically |
 |---|---|---|
@@ -706,9 +750,27 @@ After that I split metrics into three types, because the three answer three diff
 
 For example, if I hid a necessary disclosure later in the flow, completion rate would probably go up, and support volume would go up with it. **That isn't a win, it's moving the cost somewhere else.**
 
-**Once those three are defined, I'd validate with an A/B test**, rather than shipping and reading the trend afterwards.
+#### 3. Validate with an A/B test
 
-I used the same approach on the AI platform: write down clearly what a good output means, and only then can you use an A/B framework to compare cost against quality. That's how we got to 83% lower cost with only a 3% quality drop.
+Once those three are defined I'd validate with an A/B test, rather than shipping and reading the trend afterwards. I used the same approach on the AI platform: write down clearly what a good output means, and only then can you use an A/B framework to compare cost against quality. That's how we got to 83% lower cost with only a 3% quality drop.
+
+---
+
+#### Worked example: a flight booking flow
+
+| Role | Metric |
+|---|---|
+| **Primary** | Completion rate for the whole flow: entering the booking flow through to completed payment (6.5% in my exercise) |
+| **Diagnostic** | Pass-through rate stage by stage, to find where the drop-off concentrates |
+| **Guardrail** | Support volume, payment failure rate |
+
+There's one trap here worth calling out on its own: **partway through the booking flow, users leave to compare prices, and you can't measure that step with completion rate.**
+
+Completion rate is binary, finished or not finished, and **the people who leave to compare prices may come back**. Measuring that step with completion rate records every temporary exit as a loss, and I'd end up fixing a stage that isn't actually that broken.
+
+So for that step I'd add one metric: **return rate, the share of people who come back and complete within 30 minutes or 24 hours.** If 70% of the people who leave come back, comparison shopping is just normal behaviour in this market and isn't the problem. If only 10% come back, that's where the work is. **Without return rate, I can't tell those two situations apart.**
+
+**So when does adoption rate come back into this question?** When I build something new to address that exit, a best-price guarantee badge or a price-drop alert, for example. Then adoption rate is "of the people who saw it, how many used it" and completion rate is "of the people who used it, how many completed the booking". **You need both**: high adoption with flat completion means people are using it but it isn't solving the problem; low adoption means the feature is buried too deep and we're not yet at the point where we can judge whether it works.
 `
       },
       {
