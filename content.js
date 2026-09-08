@@ -1813,7 +1813,7 @@ I am interviewing for a prototyper role, and all three of these I could build as
         ja: `
 改めまして、王薇、Vivianと申します。本日はよろしくお願いいたします。
 
-プロダクトマネージャーとして、約4年間働いてきました。主にライブ配信サービスとブロックチェーンの分野で経験を積んできました。
+プロダクトマネージャーとして、約4年間働いてきました。主にライブ配信サービスとブロックチェーンの分野で経験を積んできました。今は、ロンドンで修士課程を修了するところです。
 
 直近では、Typus Financeというスタートアップで、オンチェーンの無期限先物をゼロから立ち上げました。市場調査から開発、リリース後の改善まで担当し、2週間ごとのリリース体制のもと、1年間で30以上の機能をリリースしました。この経験を通じて、不確実な状況でも、まず形にして検証する進め方を身につけました。
 
@@ -1826,7 +1826,7 @@ I am interviewing for a prototyper role, and all three of these I could build as
         zh: `
 再次自我介紹，我是王薇，也可以叫我 Vivian。今天請多指教。
 
-我做產品經理大約四年，主要在直播服務和區塊鏈這兩個領域累積經驗。
+我做產品經理大約四年，主要在直播服務和區塊鏈這兩個領域累積經驗。現在人在倫敦，碩士即將修完。
 
 最近是在 Typus Finance 這家新創，把鏈上的無期限先物從零開始做起來。從市場調查、開發到上線後的改善都由我負責，在每兩週發布一次的體制下，一年推出了 **30 個以上的功能**。透過這段經驗，我學會了**在不確定的情況下，先做出形體再驗證**的做法。
 
@@ -1839,7 +1839,7 @@ I am interviewing for a prototyper role, and all three of these I could build as
         en: `
 Let me introduce myself again. I'm Wei Wang, and I go by Vivian. Thank you for your time today.
 
-I've worked as a product manager for about four years, building my experience mainly in live-streaming services and blockchain.
+I've worked as a product manager for about four years, building my experience mainly in live-streaming services and blockchain. I'm currently in London, about to complete my master's degree.
 
 Most recently I was at a startup called Typus Finance, where I launched an on-chain perpetual futures product from zero. I owned everything from market research through development to post-launch improvement, and under a two-week release cycle we shipped **more than thirty features in a year**. That experience taught me a way of working where, **even under uncertainty, you build something concrete first and validate from there.**
 
