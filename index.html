@@ -248,12 +248,12 @@ pre.mermaid[data-processed]:hover::after{opacity:.8}
 }
 #zoomInner.drag{cursor:grabbing;transition:none}
 #zoomInner svg{
-  max-width:94vw;max-height:86vh;height:auto;width:auto;
+  display:block;width:auto;height:auto;max-width:94vw;max-height:86vh;
   background:var(--paper-hi);border-radius:14px;padding:22px;
   box-shadow:0 20px 60px rgba(0,0,0,.35);
 }
 #zoomBar{
-  position:fixed;top:14px;right:16px;display:flex;gap:8px;align-items:center;z-index:201;
+  position:absolute;top:14px;right:16px;display:flex;gap:8px;align-items:center;z-index:201;
 }
 #zoomBar button{
   font-family:var(--mono);font-size:.72rem;letter-spacing:.06em;
@@ -262,7 +262,7 @@ pre.mermaid[data-processed]:hover::after{opacity:.8}
 }
 #zoomBar button:hover{background:rgba(255,255,255,.2)}
 #zoomHint{
-  position:fixed;bottom:16px;left:50%;transform:translateX(-50%);z-index:201;
+  position:absolute;bottom:16px;left:50%;transform:translateX(-50%);z-index:201;
   font-family:var(--mono);font-size:.66rem;letter-spacing:.05em;color:rgba(255,255,255,.6);
 }
 @media print{#zoom{display:none!important}}
@@ -574,8 +574,17 @@ function zApply(){
 }
 function zReset(){Z.scale=1;Z.x=0;Z.y=0;zApply();}
 function zOpen(svg){
+  const c=svg.cloneNode(true);
+  /* mermaid 的 svg 是 width="100%" 加 inline max-width，
+     複製到新容器後沒有可依據的寬度，會塌掉。改用 viewBox 的內在尺寸。 */
+  c.removeAttribute('style');
+  const vb=(c.getAttribute('viewBox')||'').split(/[\s,]+/).filter(x=>x!=='').map(Number);
+  let w=vb.length===4?vb[2]:0, h=vb.length===4?vb[3]:0;
+  if(!w||!h){const r=svg.getBoundingClientRect();w=r.width||800;h=r.height||600;}
+  c.setAttribute('width',w);
+  c.setAttribute('height',h);
   zoomInner.innerHTML='';
-  zoomInner.appendChild(svg.cloneNode(true));
+  zoomInner.appendChild(c);
   zReset();
   zoomEl.hidden=false;zoomEl.classList.add('on');
   document.body.style.overflow='hidden';
