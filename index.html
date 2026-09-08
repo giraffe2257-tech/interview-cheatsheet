@@ -274,6 +274,10 @@ pre.mermaid[data-processed]:hover::after{opacity:.8}
 }
 .a tr:last-child td{border-bottom:0}
 .a td:first-child{white-space:nowrap;color:var(--ink)}
+/* 第一欄內容很長時：解除 nowrap；兩欄表格再均分成 50/50 */
+.a table.wrapfirst td:first-child,.a table.even td:first-child{white-space:normal}
+.a table.even{table-layout:fixed}
+.a table.even th,.a table.even td{width:50%}
 
 /* ══ diagram ══ */
 .diagram{margin:.4rem 0 1.6rem;padding:0;overflow-x:auto}
@@ -399,10 +403,14 @@ function inline(s){
 }
 function table(rows){
   const cells = r => r.replace(/^\s*\|/,'').replace(/\|\s*$/,'').split('|').map(c=>c.trim());
-  let h='<div class="tablewrap"><table><thead><tr>';
-  cells(rows[0]).forEach(c=>h+='<th>'+inline(c)+'</th>');
+  const head = cells(rows[0]);
+  const body = rows.slice(2).map(cells);
+  const firstMax = body.reduce((m,c)=>Math.max(m,(c[0]||'').length),0);
+  const cls = firstMax<=28 ? '' : (head.length===2 ? ' class="even"' : ' class="wrapfirst"');
+  let h='<div class="tablewrap"><table'+cls+'><thead><tr>';
+  head.forEach(c=>h+='<th>'+inline(c)+'</th>');
   h+='</tr></thead><tbody>';
-  rows.slice(2).forEach(r=>{h+='<tr>';cells(r).forEach(c=>h+='<td>'+inline(c)+'</td>');h+='</tr>';});
+  body.forEach(c=>{h+='<tr>';c.forEach(x=>h+='<td>'+inline(x)+'</td>');h+='</tr>';});
   return h+'</tbody></table></div>';
 }
 function md(src){
