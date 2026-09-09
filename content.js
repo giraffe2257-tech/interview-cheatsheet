@@ -1,4 +1,4 @@
-/* 面試小抄 — 內容檔
+/* 工作要點 — 內容檔
    DATA = [ { id, label, section, groups:[ { name, items:[ {q, zh, en, ja} ] } ] } ]
    每題可以有 zh / en / ja 三種語言，有幾種就在題目右邊出現幾個切換鈕。
    只寫 zh 的題目不會出現切換鈕。
