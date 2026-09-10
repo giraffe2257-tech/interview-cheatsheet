@@ -2345,7 +2345,7 @@ I've built an agentic platform myself with 33 modules and three LLMs, and I've b
     ]
   },
   {
-    name: '推薦系統',
+    name: '推薦系統技術面',
     items: [
       {
         q: '推薦系統的整體架構是什麼？',
@@ -2506,8 +2506,751 @@ If you asked me which segment needs a PM most, it's the third one. Because a pur
 There are two ways to combine them. **The blunt way is that business overrides everything**, hard-coding rule weights from a commercial point of view. **The more advanced way is to use another model specifically to arbitrate**, learning a result that balances the two.
 
 **That's exactly where my job is: knowing how the business team's items can be slotted in to achieve their goal, without dragging down the conversion rate we started with.**
+`,
+        ja: `
+::: html
+<pre class="prompt">ユーザーの行動 → データベース
+   ↓
+① データ前処理           ← データエンジニア
+   ↓
+② モデル → 候補リスト     ← DS / MLE
+   ↓
+③ ビジネスロジック ★      ← PM × 事業側（重点商品・在庫）
+   ↓
+④ ランキング・表示        ← フロント / バックエンド
+   ↓
+ユーザーがクリック → データベースに戻る（ループ）</pre>
+:::
+
+レコメンドシステムは、**モデルひとつではなくて、いくつかのノードが繋がった流れ**だと理解しています。
+
+まず、ユーザーの行動データがデータベースに入ります。**最初のノードはデータの前処理**で、ここはデータエンジニアの担当ですね。
+
+**次のノードでモデルが候補リストを出します。** ここはデータサイエンティストや機械学習エンジニアの担当です。
+
+ただ、**そのリストをそのまま出すわけではなくて**、その後に**ビジネスロジックのノード**があります。今月の重点商品とか、在庫の状況とか、事業側の要件をここで入れます。**私はこのノードが一番PMの仕事に近いと思っています。**
+
+最後にランキングして画面に出して、ここはフロントやバックエンドの担当です。**ユーザーがクリックしたデータがまたデータベースに戻る**。つまり全体がループになっています。
+
+#### 話す順番
+
+データが入る → ① → ② → ③（ここで一言多く：PMの価値） → ④ → クリックが戻る → 「つまり全体がループになっています」。
+
+| 読み方 | |
+|---|---|
+| 前処理 | まえしょり |
+| 候補リスト | こうほリスト |
+| 事業側 | じぎょうがわ |
+| 在庫 | ざいこ |
 `
-      }
+      },
+      {
+        q: '技術面在考什麼？',
+        zh: `
+**PM 的技術面不是考你會不會做，是考你能不能跟工程師對話。** 具體是四件事：
+
+| 考點 | 怎麼看出來 |
+|---|---|
+| **用詞正確** | 你講的詞工程師聽得懂，不是外行話 |
+| **邊界感** | 你知道自己不知道什麼，不會硬掰 |
+| **可行性感** | 你不會提出做不出來的需求 |
+| **拆解力** | 給你一個目標，你能拆到節點並知道找誰 |
+
+**沒有一項是「你會不會寫演算法」。** 工程師朋友講過同樣的話：你不用非常了解，但要知道機制怎麼 work。
+
+日文能表達的深度會比中文低一個檔次，所以不要學新東西，把已經懂的轉成日文講得出來。
+
+#### 優先順序
+
+主體三題 ①③④ 每題練到能講 60 到 90 秒。加分題有餘力再看。自己紹介只花 20 分鐘，志望動機只留一句。
+`
+      },
+      {
+        q: '用語対照表（中／日／英）',
+        zh: `
+英文欄有兩個用途：很多日文是英文的片假名音譯，對照著看好背；萬一切換成英文時有詞可用。
+
+#### 推薦系統核心
+
+| 中文 | 日文 | English | 讀音／備註 |
+|---|---|---|---|
+| **推薦系統** | **レコメンドシステム** | Recommender system | 業界不講「推薦システム」 |
+| 個人化 | パーソナライズ | Personalization | |
+| **協同過濾** | **協調フィルタリング** | Collaborative filtering | きょうちょう |
+| 內容導向推薦 | コンテンツベース推薦 | Content-based | |
+| **冷啟動** | **コールドスタート** | Cold start | |
+| 熱啟動 | ウォームスタート | Warm start | 日英都是 warm 不是 hot |
+| 候選清單 | 候補リスト | Candidate list | こうほ |
+| **排序** | **ランキング** | Ranking | |
+| 特徵量 | 特徴量 | Feature | とくちょうりょう |
+| 推論 | 推論 | Inference | すいろん |
+| **多樣性** | **多様性** | Diversity | たようせい |
+| 精度 | 精度 | Accuracy | せいど |
+| 購買履歷 | 購買履歴 | Purchase history | こうばいりれき |
+| 瀏覽履歷 | 閲覧履歴 | Browsing history | えつらんりれき |
+| **點擊誘餌** | **クリックベイト** | Clickbait | 不是 バイアス |
+| 位置偏差 | ポジションバイアス | Position bias | |
+
+#### 指標與驗證
+
+| 中文 | 日文 | English | 讀音／備註 |
+|---|---|---|---|
+| **點擊率** | **クリック率** | CTR | クリックりつ |
+| **轉換率** | **コンバージョン率** | CVR | 也可講 転換率 てんかんりつ |
+| 客單價 | 客単価 | AOV | きゃくたんか |
+| **流失** | **離脱** | Drop-off | りだつ |
+| 漏斗 | ファネル | Funnel | |
+| **A/B 測試** | **ABテスト** | A/B test | |
+| **護欄指標** | **ガードレール指標** | Guardrail metric | 不是 ガイドライン |
+| **離線評估** | **オフライン評価** | Offline evaluation | ひょうか，不是 指標 |
+| **線上評估** | **オンライン評価** | Online evaluation | |
+| 效果驗證 | 効果検証 | Impact validation | こうかけんしょう |
+| 退貨率 | 返品率 | Return rate | へんぴんりつ |
+
+#### 工程與流程
+
+| 中文 | 日文 | English | 讀音／備註 |
+|---|---|---|---|
+| **資料管線** | **データパイプライン** | Data pipeline | 日文的 資料 是「文件」，全程用 データ |
+| **批次處理** | **バッチ処理** | Batch processing | バッチしょり |
+| **即時** | **リアルタイム** | Real-time | 不是 早速 |
+| 前處理 | 前処理 | Preprocessing | まえしょり |
+| **需求定義** | **要件定義** | Requirements definition | ようけんていぎ |
+| 上線 | リリース | Release | |
+| 快取 | キャッシュ | Cache | 記憶體上，快、容量小 |
+| 硬碟／資料庫 | ハードディスク／データベース | Disk / DB | 容量大、慢、不會消失 |
+
+#### 日本商務常用
+
+| 中文 | 日文 | English | 讀音／備註 |
+|---|---|---|---|
+| **對策／措施** | **施策** | Initiative | しさく，幾乎一定出現 |
+| **課題** | **課題** | Issue | かだい，不是 過程 |
+| 假設 | 仮説 | Hypothesis | かせつ |
+| 優先順序 | 優先順位 | Prioritization | ゆうせんじゅんい |
+| **站內逛** | **回遊** | Browsing across the site | かいゆう，EC 專用詞 |
+| 併買 | 併売 | Cross-purchase | へいばい |
+| 交叉銷售 | クロスセル | Cross-sell | |
+| 庫存 | 在庫 | Inventory | ざいこ |
+`
+      },
+      {
+        q: 'Batch vs リアルタイム：首頁為什麼能秒回？',
+        zh: `
+推薦有**批次和即時兩種**。
+
+首頁的商品是**前一天或幾小時前，對每一個使用者、用他自己的紀錄批次算好的**。因為使用者來了才算，會有幾秒的延遲。算好的結果**存進資料庫，也就是硬碟；其中活躍使用者的那份再載到 cache，也就是記憶體。顯示時從 cache 讀，所以能毫秒回傳。** 不在 cache 裡的人，例如新使用者或很久沒來的人，**就出熱門商品之類的 fallback。**
+
+另一方面，使用者點擊之後，**這一次 session 的意圖可能已經變了**。所以會**把為他準備好的批次結果，跟這一次造訪（session）的即時行為結合，用比較小的模型當場推論、馬上回傳**。
+
+**PM 該決定的是批次多久更新一次，也就是 cache 什麼時候換新**，我的理解是這樣。
+
+#### 備註
+
+全段都是單一使用者視角。批次階段是幾百萬人一起算，但用的時候只抓「這個人的那一份」。session = 一次造訪，一般 30 分鐘沒操作就切段。
+
+被追問「全ユーザー分を計算するんですか」時：計算階段也會篩到有一定活躍度的人。省計算量的篩選、省 cache 容量的篩選，兩層。
+`,
+        en: `
+As I understand it, recommendation runs in **two modes: batch and real-time**.
+
+Homepage items are **precomputed in batch, the day before or a few hours earlier, one list per user based on that user's own history**. If you computed it only when the user arrived, you would get a delay of several seconds. The results **go into the database, which is the disk side; the active users' share is then loaded into a cache, which is memory. At display time we read from the cache, which is why it returns in milliseconds.** Users not in the cache, such as new users or people who have been away for a long time, **get a fallback like popular items.**
+
+On the other hand, right after a user clicks, **the intent of that session may have changed**. So we **combine the batch result prepared for that user with the behaviour in this session, this visit, and run a small model on the spot to re-rank and return immediately**.
+
+**What the PM should decide is how often the batch is refreshed, in other words when the cache gets replaced.** That is my understanding.
+
+#### Note
+
+The whole passage is from a single user's point of view. Batch computes millions of users at once, but at serving time you only fetch this one user's list. A session is one visit; a common cut-off is 30 minutes without activity.
+
+If asked whether every user is computed: even at the compute stage you filter to reasonably active users. One filter to save compute, one to save cache capacity.
+`,
+        ja: `
+レコメンドには**バッチとリアルタイムの両方**があると理解しています。
+
+トップページの商品は、**前日か数時間前に、ユーザー一人ひとりについて、その人の履歴をもとにバッチで計算**しておきます。ユーザーが来てから計算すると、数秒の遅延が出てしまうので。計算した結果は**データベース、つまりハードディスク側に保存して、そのうちアクティブユーザー分をキャッシュ、つまりメモリ上に載せておきます。表示するときはキャッシュから読むので、ミリ秒で返せます。** キャッシュにいない人、たとえば新規や長く離れていた人には、**人気商品などのフォールバックを出します。**
+
+一方で、ユーザーがクリックした直後は、**そのセッションの意図が変わっている**可能性があります。なので、**その人のためにバッチで用意した結果と、今のセッション、つまり今回の訪問での行動を組み合わせて、小さいモデルでその場で推論して返す**、という形ですね。
+
+**PMとして決めるべきなのは、バッチをどのくらいの頻度で更新するか、つまりキャッシュをいつ入れ替えるか**、というあたりだと理解しています。
+
+#### 追問されたら
+
+「セッションとは？」→ アプリを開いてから離れるまでの一回の訪問のことで、一般的には30分ほど操作がなければ区切る、という扱いです。
+
+「全ユーザー分を計算するんですか？」→ いえ、計算する段階でも、ある程度アクティブな人に絞ります。計算量を抑えるための絞り込みと、キャッシュの容量のための絞り込み、二段階あるという理解です。
+
+| 読み方 | |
+|---|---|
+| 一人ひとり | ひとりひとり |
+| 遅延 | ちえん |
+| 載せる | のせる |
+| 入れ替える | いれかえる |
+| 訪問 | ほうもん |
+| 区切る | くぎる |
+| 絞り込み | しぼりこみ |
+`
+      },
+      {
+        q: '追問：batch 多久更新一次，怎麼決定？',
+        zh: `
+你講「PM 該決定 batch 多久更新一次」之後，面試官幾乎一定會接這句。判斷材料是「鮮度帶來的效果」對「計算成本」，先以每日一次當基準，量出差距再決定要不要加頻。重點不是數字，是有框架，而且知道可行性要問工程師。
+
+判斷材料我認為主要有三個。
+
+**第一，使用者行為和商品狀況變化得多快。** 例如促銷期間或新商品大量上架的時期，前一天的結果很快就過時。反過來，平常時期一天一次通常就夠了。
+
+**第二，鮮度是不是真的反映在數字上。** 比較前一天算的結果和當天算的結果，看點擊率和轉換率差多少。差距小的話，提高頻率沒有太大意義。
+
+**第三是成本。** 改成每小時一次，計算量單純就是 24 倍，要看有沒有對應的效果。
+
+另外，**session 中意圖的變化 real-time 那一層會接住**，所以 batch 這邊不一定要硬撐頻率。
+
+所以如果是我，**先以一天一次為基準，量出鮮度造成的差距，再只在促銷期間或有需要的地方提高頻率**。不過，**技術上能提高到什麼程度，應該先跟工程師確認再決定**。
+`,
+        en: `
+Once you say the PM decides the batch refresh frequency, this follow-up is almost guaranteed. The judgement is freshness gain versus compute cost: start from once a day as the baseline, measure the gap, then decide whether to go more often. What matters is having a framework and knowing that feasibility is a question for the engineers.
+
+I think there are three main inputs.
+
+**First, how fast user behaviour and the catalogue change.** During a sale or when many new products launch, yesterday's results go stale quickly. In a normal period, once a day is usually enough.
+
+**Second, whether freshness actually shows up in the numbers.** Compare results computed the day before with results computed the same day and look at the gap in click-through and conversion. If the gap is small, refreshing more often has little value.
+
+**Third, cost.** Going hourly is simply 24 times the compute, so the question is whether the gain justifies it.
+
+Also, **changes of intent within a session are caught by the real-time layer**, so the batch side does not need to force a higher frequency.
+
+So I would **start from once a day, measure the freshness gap, and raise the frequency only where it pays, for example during sale periods**. But **how far the frequency can technically go is something I would confirm with the engineers before deciding**.
+`,
+        ja: `
+判断材料は大きく三つあると考えています。
+
+**一つ目は、ユーザーの行動や商品の状況がどのくらい速く変わるか**です。たとえばセール期間や新商品の投入が多い時期は、前日の結果だとすぐ古くなってしまいます。逆に通常期であれば、一日一回でも十分な場合が多いと思います。
+
+**二つ目は、鮮度が実際に数字に効いているか**です。前日に計算した結果と、当日に計算した結果で、クリック率やコンバージョン率にどのくらい差があるかを見ます。差が小さければ、頻度を上げる意味はあまりありません。
+
+**三つ目はコスト**です。一時間ごとにすると単純に計算量が24倍になるので、その分の効果があるかどうか、ですね。
+
+あと、**セッション中の意図の変化はリアルタイム側が拾ってくれる**ので、バッチ側で無理に頻度を上げなくてもいい部分もあると思っています。
+
+なので私であれば、**まず一日一回を基準にして、鮮度による差を測ってから、セール期間だけ頻度を上げるとか、必要なところだけ上げる**、という進め方をします。ただ、**技術的にどこまで頻度を上げられるかは、エンジニアに確認したうえで決めるべき**だと理解しています。
+
+| 読み方 | |
+|---|---|
+| 鮮度 | せんど |
+| 投入 | とうにゅう |
+| 通常期 | つうじょうき |
+| 頻度 | ひんど |
+`
+      },
+      {
+        q: '① 新使用者怎麼推薦？（コールドスタート）',
+        zh: `
+經典必考。開頭先用一句講清楚 cold start 是什麼（順便點 warm start 是反義），再講做法；要講到「商品也有 cold start」才會加分。
+
+Cold start 指的是**像新使用者、新商品這種還沒有行為紀錄，模型手上沒有個人化判斷材料的狀態**。反過來，紀錄已經夠多、一般的個人化推薦直接就有效的狀態叫 **warm start**。
+
+新使用者沒有購買紀錄，所以**個人化的訊號還很弱**。所以一般會**先退回到熱門商品**。或者是**註冊時讓使用者選類別，然後推「選了同一個類別的人，一開始看了什麼」**。
+
+因為最初的資料變動很大、很不穩定，所以**刻意用簡單的方法**。
+
+**另外，cold start 不只是使用者這一邊的問題。** 新商品也沒有紀錄，放著就不容易被推薦出來。**不刻意製造曝光，它就永遠出不來。** 這件事跟事業端也有關係，我覺得是 PM 該介入的地方。
+`,
+        en: `
+A classic. Open with one sentence defining cold start (and name warm start as the opposite), then the approach; mentioning that items have a cold start too is what earns the extra credit.
+
+Cold start is **the state where there is no behavioural history yet, like a new user or a new product, so the model has nothing to personalise on**. The opposite, where there is enough history for normal personalised recommendation to just work, is **warm start**.
+
+A new user has no purchase history, so **the personalisation signal is still weak**. The usual approach is to **fall back to popular items first**. Another option is to **ask users to pick categories at sign-up, then show what people who picked the same categories looked at first**.
+
+Early data is volatile and unstable, so **you deliberately keep the method simple**.
+
+**And cold start is not only a user-side problem.** New products have no history either, so left alone they rarely get recommended. **Unless you deliberately create exposure, they never surface.** That touches the business side too, so I think it is a place where the PM should be involved.
+`,
+        ja: `
+コールドスタートというのは、**新規ユーザーや新商品のように行動履歴がまだなくて、モデルが個人化の判断材料を持っていない状態**のことだと理解しています。逆に、履歴が十分にあって通常の個人化推薦がそのまま効く状態を**ウォームスタート**と言います。
+
+新規のユーザーは購買履歴がないので、**個人化のシグナルがまだ弱い**です。なので、**まずは人気商品ベースに戻す**のが一般的だと理解しています。あるいは、**登録時にカテゴリを選んでもらって、同じカテゴリを選んだ人が最初に見た商品を出す**、という方法もあります。
+
+最初のデータは変動が大きくて不安定なので、**あえてシンプルな方法にする**、という判断ですね。
+
+**あと、コールドスタートはユーザー側だけの問題ではないと思っています。** 新しい商品も履歴がないので、そのままだと推薦されにくい。**意図的に露出を作らないと、いつまでも出てこない**、ということになります。ここは事業側とも関係する話なので、PMが関わるべきところかなと。
+
+| 読み方 | |
+|---|---|
+| 判断材料 | はんだんざいりょう |
+| 露出 | ろしゅつ |
+| 意図的に | いとてきに |
+`
+      },
+      {
+        q: '③ 推薦的成功怎麼量？（指標の罠）',
+        zh: `
+這題最能展現 PM 判斷力。答對了會拉開跟其他候選人的距離。
+
+最直觀的指標是**點擊率**，而且應該分 Top1、Top2、Top3 各自來看。
+
+**但我認為只追點擊率很危險。**
+
+講極端一點，**只要放吸睛但不會被買的商品，點擊率就會上升。** 但那是點擊誘餌，對事業沒有貢獻。
+
+所以**如果要把點擊率當主指標，就一定要同時看護欄指標**。像是後面的購買率、退貨率，還有整個 session 來看的回遊。
+
+**如果結果是「點擊率上升，但購買率下降」，這個施策我不會採用。**
+
+#### 「分 Top1、Top2、Top3 看」是什麼意思
+
+按顯示位置各算各的點擊率（表示位置ごとのクリック率）。
+
+| 看到的 | 代表 |
+|---|---|
+| Top1 高、Top2 Top3 幾乎零 | 使用者沒往下看，或後面推得差。問題在曝光不在模型 |
+| Top3 比 Top1 高 | 排序反了，該回頭看排序邏輯 |
+| 三格一起掉 | 整批候選清單不對，問題在上游 |
+
+混成一個總數，這三種情況看起來一樣，就不知道該找哪個節點的人。另外第 1 格天生較易被點（位置偏差），比較時不能直接比絕對值。
+`,
+        en: `
+This is the question that best shows PM judgement. Getting it right separates you from other candidates.
+
+The most obvious metric is **click-through rate**, and it should be looked at separately for Top1, Top2 and Top3.
+
+**But I think chasing click-through alone is dangerous.**
+
+Taken to the extreme, **if you show eye-catching items that nobody buys, click-through goes up.** That is clickbait and contributes nothing to the business.
+
+So **if click-through is the primary metric, you must watch guardrail metrics alongside it**: downstream purchase rate, return rate, and session-level browsing across the site.
+
+**If the result is "click-through went up but purchase rate went down", I would not ship that initiative.**
+
+#### What "look at Top1, Top2, Top3 separately" means
+
+Click-through rate computed per display position.
+
+| What you see | What it means |
+|---|---|
+| Top1 high, Top2 and Top3 near zero | Users are not scrolling, or the lower slots are poor. An exposure problem, not a model problem |
+| Top3 higher than Top1 | The ranking is inverted; go back to the ranking logic |
+| All three drop together | The whole candidate list is off; the problem is upstream |
+
+Blended into one number, these three cases look identical, and you would not know which node's owner to talk to. Also, slot 1 is naturally clicked more just because of position (position bias), so you cannot compare absolute values directly.
+`,
+        ja: `
+一番わかりやすい指標は**クリック率**で、Top1、Top2、Top3 それぞれで見るべきだと思っています。
+
+**ただ、クリック率だけを追うのは危ないと考えています。**
+
+極端に言えば、**目を引くけど買われない商品を出せば、クリック率は上がります。** でもそれはクリックベイトで、事業には貢献していません。
+
+なので、**クリック率を主指標にするなら、必ずガードレール指標を一緒に見るべき**だと考えています。その先の**購入率**、**返品率**、あとはセッション全体で見た**回遊**のような指標ですね。
+
+**「クリック率は上がったが、購入率は下がった」という結果なら、私はその施策を採用しません。**
+
+#### 「なぜ位置ごとに見るのですか」と聞かれたら
+
+位置によってクリックされやすさが違うので、まとめて見ると、どのノードの課題なのかが切り分けられないからです。
+
+| 読み方 | |
+|---|---|
+| 主指標 | しゅしひょう |
+| 購入率 | こうにゅうりつ |
+| 返品率 | へんぴんりつ |
+| 回遊 | かいゆう |
+| 採用 | さいよう |
+| 切り分ける | きりわける |
+`
+      },
+      {
+        q: '④ 想提高轉換率，怎麼做？',
+        zh: `
+主軸情境題。重點是「你知道要找誰」。
+
+首先，**請讓我先確認是哪一段的轉換率。** 因為轉換率不是一個數字，是從首頁到商品頁，還是從購物車到結帳，要打的施策完全不同。
+
+假設是**推薦帶來的轉換**，我會分成三步。
+
+**第一，把數字拆開。** 看 Top1 到 Top3 的點擊率，切分出**到底是根本沒被看到，還是有被看到但沒有被買。**
+
+**第二，定位是哪一個節點的課題。** 是資料前處理、是模型的候選清單，還是商業邏輯的放法。**節點不同，要找的人就不同**，這裡弄錯會浪費時間。
+
+**第三，決定施策，用 A/B 測試驗證。** 不過統計的設計本身我認為是資料科學的領域，**我該決定的是「要有多少改善才採用」和「必須守住的指標是什麼」**這兩件事。
+`,
+        en: `
+The core scenario question. The point is showing you know who to go to.
+
+First, **let me confirm which stage of conversion we are talking about.** Conversion is not one number: homepage to product page and cart to checkout call for completely different initiatives.
+
+Assuming it is **conversion from recommendations**, I would split it into three steps.
+
+**First, break the number down.** Look at click-through for Top1 to Top3 and separate **whether items are simply not being seen, or are seen but not bought.**
+
+**Second, locate which node the issue belongs to.** Data preprocessing, the model's candidate list, or how business logic is applied. **A different node means a different person to talk to**, and getting that wrong wastes time.
+
+**Third, choose the initiative and validate it with an A/B test.** The statistical design itself belongs to data science; **what I should decide is how much improvement justifies adoption, and which metrics must be protected.**
+`,
+        ja: `
+まず、**どの段階の話なのかを確認させてください。** コンバージョン率は一つの数字ではないので、トップページから商品ページなのか、カートから決済なのかで、打つ施策が全然違うと思います。
+
+仮に**レコメンド経由のコンバージョン**だとすると、三つに分けて考えます。
+
+**一つ目、数字を分解します。** Top1からTop3のクリック率を見て、**そもそも見られていないのか、見られているけど買われていないのか**を切り分けます。
+
+**二つ目、どのノードの課題かを特定します。** データの前処理なのか、モデルの候補リストなのか、ビジネスロジックの入れ方なのか。**ノードによって相談する相手が変わるので**、ここを間違えると時間を無駄にします。
+
+**三つ目、施策を決めて、ABテストで検証します。** ただ統計の設計自体はデータサイエンスの領域だと思っていて、**私が決めるべきなのは「どのくらいの改善があれば採用するのか」と「守るべき指標は何か」**、この二つだと考えています。
+
+| 読み方 | |
+|---|---|
+| 決済 | けっさい |
+| 経由 | けいゆ |
+| 分解 | ぶんかい |
+| 特定 | とくてい |
+| 検証 | けんしょう |
+`
+      },
+      {
+        q: '加分 ②：多樣性 vs 精度，怎麼平衡？',
+        zh: `
+推薦系統最經典的 trade-off。面試官很少直接問「バランス」，通常包在情境裡：
+
+| 可能的問法 | 認出來的關鍵 |
+|---|---|
+| 「同じような商品ばかり出る」という声があります | 現象就是多樣性不足 |
+| 精度を上げたら、クリック率は上がったのに売上や回遊が伸びない | 精度↑ 整體指標↓ |
+| 購入確率の高い順に並べるだけではダメですか | 在問「只看精度夠不夠」 |
+| 人気商品ばかり出てしまう課題 | 熱門偏差變體，多加一句「長尾商品に露出を作る」 |
+| 事業側が「今月の重点商品をもっと出せ」と言っています | 本質是「混多少」，用後半段回 |
+
+三題分界：① 沒資料、② 有資料但太集中、③ 怎麼量。
+
+**只提升精度，多樣性就會下降**，這是一個取捨。
+
+舉例來說，照購買機率由高到低排，對一個最近買過電腦的使用者，**從頭到尾都會是電腦相關商品**。短期內點擊率也許會上升，但對使用者來說就是「都是一樣的東西」，**站內的回遊就停掉了。**
+
+所以要以精度高的為基礎，再**刻意混進別的類別的 Top1、Top2**，或是**固定放一定比例的熱門商品**，需要做這樣的調整。
+
+但是，**要混多少，光靠演算法決定不了**，應該要跟事業端的目標一起決定。**我認為那就是 PM 的工作。**
+`,
+        en: `
+The classic recommendation trade-off. Interviewers rarely ask about "balance" directly; it usually comes wrapped in a scenario:
+
+| Likely phrasing | How to recognise it |
+|---|---|
+| Users say they keep seeing the same kind of items | The symptom is low diversity |
+| Accuracy went up, click-through went up, but sales and browsing did not | Accuracy up, overall metrics down |
+| Why not just sort by purchase probability? | Asking whether accuracy alone is enough |
+| Popular items crowd everything out | Popularity-bias variant; add one line about creating exposure for long-tail items |
+| The business side says "push this month's featured items harder" | Really a "how much to blend" question; use the second half |
+
+Boundary between the three: ① no data, ② data but too concentrated, ③ how to measure.
+
+**If you only push accuracy, diversity drops.** That is the trade-off.
+
+For example, sort purely by purchase probability and a user who just bought a computer **sees computer accessories from top to bottom**. Click-through might rise short term, but to the user it is "all the same thing", and **browsing across the site stops.**
+
+So you keep high-accuracy items as the base and **deliberately mix in the Top1 and Top2 from other categories**, or **reserve a fixed share for popular items**.
+
+But **how much to mix cannot be decided by the algorithm alone**; it has to be set together with the business goal. **I see that as the PM's job.**
+`,
+        ja: `
+**精度だけを上げると、多様性が下がる**、というトレードオフがあると理解しています。
+
+たとえば、購入確率の高い順に並べると、最近パソコンを買ったユーザーには、**上から下までパソコン関連ばかりが並んでしまう**。短期的にはクリック率は上がるかもしれませんが、ユーザーから見ると「同じものばかり」で、**回遊が止まってしまいます。**
+
+なので、精度の高いものをベースにしつつ、**別カテゴリのTop1、Top2を意図的に混ぜる**とか、**人気商品を一定の割合で入れる**とか、そういう調整が必要だと考えています。
+
+ただ、**どのくらい混ぜるかは、アルゴリズムだけでは決まらない**と思っていて、事業側の狙いと合わせて決めるべきことです。**そこがPMの仕事だと理解しています。**
+
+| 読み方 | |
+|---|---|
+| 購入確率 | こうにゅうかくりつ |
+| 混ぜる | まぜる |
+| 割合 | わりあい |
+| 狙い | ねらい |
+`
+      },
+      {
+        q: '加分 ⑥：給 data science 團隊的需求怎麼寫？',
+        zh: `
+**我認為 PM 該決定的不是指定演算法，而是目的和限制。**
+
+是哪一個目標、哪一個客群、想優先推哪些商品。**用哪個演算法、商品要用什麼維度去切，我的理解是那是實作端決定的事。**
+
+另外一定要寫進去的是**絕對要守住的指標**，還有**不能推出來的東西**。這裡如果含糊就交出去，**出來的結果就沒辦法評估了。**
+`,
+        en: `
+**What the PM should decide is not the algorithm but the objective and the constraints.**
+
+Which goal, which customer segment, which products to prioritise. **Which algorithm to use and how to segment the catalogue are, as I understand it, decisions for the implementation side.**
+
+What must always be written down is **the metrics that must not degrade** and **what must never be recommended**. If that is left vague, **you cannot evaluate what comes back.**
+`,
+        ja: `
+**PMが決めるべきなのは、アルゴリズムの指定ではなくて、目的と制約**だと思っています。
+
+どの目標なのか、どの顧客層なのか、どの商品を優先的に出したいのか。**どのアルゴリズムを使うか、商品をどの次元で分けるかは、実装側が決めることだと理解しています。**
+
+あわせて必ず書くのは、**絶対に守るべき指標**と、**出してはいけないもの**ですね。そこを曖昧にしたまま渡すと、**出てきた結果を評価できなくなる**ので。
+
+| 読み方 | |
+|---|---|
+| 制約 | せいやく |
+| 顧客層 | こきゃくそう |
+| 次元 | じげん |
+| 曖昧 | あいまい |
+`
+      },
+      {
+        q: '加分 ⑤：模型好壞怎麼判斷？（離線 vs 線上評估）',
+        zh: `
+JD 明寫要 analyze algorithms，這題是它的具體形式。
+
+白話：離線 = 用考古題模擬考（不碰真實使用者，快、便宜，但看不到「當時沒推過的商品」的反應）；線上 = 上考場（真實反應，但慢、要流量）。離線用來淘汰明顯不行的，線上決定要不要上線。
+
+我的理解是有**離線評估和線上評估兩個階段**。
+
+離線評估是**拿過去的 log，算新模型「當時會推什麼」，再對照實際的點擊**。線上評估是**真的把新模型的結果給一部分使用者看，看反應**，形式上就是 A/B 測試。
+
+離線的優點是快又便宜。但是，**過去的資料裡面沒有「實際上沒有推出去的東西」的反應**，這是它的限制。
+
+所以，**離線好不代表線上就會好。** 最後還是要用 A/B 測試確認。
+
+**老實說，推薦系統的離線評估我沒有做過。** 但是**先訂好評估標準、再去比較多個模型**這個做法，我是實際做過的。在 LLM 的 pipeline 上，5 個階段、33 個模組逐段比較，**把營運成本降低 83%，品質損失控制在 3% 左右。**
+
+#### 具體例子（被問「具体的には」時用）
+
+8/1 使用者 A 打開首頁，舊模型推了三個商品，他點了水壺。
+
+| 8/1 舊模型實際推的 | 使用者 A 實際做了什麼 |
+|---|---|
+| Top1 雨傘 | 沒點 |
+| Top2 水壺 | **點了** |
+| Top3 拖鞋 | 沒點 |
+
+把使用者 A 到 7/31 的紀錄餵給新模型，問它「你會推什麼」。
+
+| 新模型算出來的 | 對照 8/1 真實反應 |
+|---|---|
+| Top1 水壺 | 真的點了 → 命中，而且排第 1 格，比舊模型的第 2 格好 |
+| Top2 雨傘 | 沒點 |
+| Top3 拖鞋 | 沒點 |
+
+拿 8 月幾十萬筆跑一遍，算「實際被點的東西排進前三格」的比例。舊 30%、新 36% → 離線說新的好。
+
+**限制**：新模型 Top1 若是登山鞋，8/1 根本沒推過，log 裡沒有反應，只能算「沒點」，但他說不定會買。**新模型越是推「以前沒推過的東西」，離線評估越是低估它。**
+`,
+        en: `
+The JD explicitly says "analyze algorithms"; this question is the concrete form of that.
+
+Plainly: offline is a mock exam on past papers (no real users, fast and cheap, but you cannot see reactions to items that were never shown); online is the real exam (real reactions, but slow and needs traffic). Offline weeds out models that are clearly worse; online decides whether to ship.
+
+As I understand it, there are **two stages: offline and online evaluation**.
+
+Offline evaluation **takes past logs, computes what the new model would have shown at the time, and compares that with the actual clicks**. Online evaluation **actually shows the new model's results to a share of users and observes their reactions**, which in practice is an A/B test.
+
+Offline is fast and cheap. But **past data contains no reaction to things that were never actually shown**, and that is its limit.
+
+So **good offline does not guarantee good online.** In the end you confirm with an A/B test.
+
+**Honestly, I have not run offline evaluation for a recommender.** But **fixing the evaluation criteria first and then comparing several models** is something I have actually done. On an LLM pipeline, I compared models stage by stage across 5 stages and 33 modules, **cutting operating cost by 83% while holding quality loss to around 3%.**
+
+#### Concrete example (if asked "specifically?")
+
+On 1 August user A opened the homepage, the old model showed three items, and A clicked the water bottle.
+
+| What the old model showed on 1 Aug | What user A actually did |
+|---|---|
+| Top1 umbrella | no click |
+| Top2 water bottle | **clicked** |
+| Top3 slippers | no click |
+
+Feed user A's history up to 31 July into the new model and ask what it would show.
+
+| New model's output | Against the real reaction on 1 Aug |
+|---|---|
+| Top1 water bottle | actually clicked → a hit, and in slot 1 versus the old model's slot 2 |
+| Top2 umbrella | no click |
+| Top3 slippers | no click |
+
+Run this over hundreds of thousands of August records and compute the share where the item actually clicked lands in the top three. Old 30%, new 36% → offline says the new model is better.
+
+**The limit**: if the new model's Top1 were hiking boots, they were never shown on 1 Aug, so there is no reaction in the log and it can only count as "no click", even though the user might have bought them. **The more a new model recommends things never shown before, the more offline evaluation underrates it.**
+`,
+        ja: `
+**オフライン評価とオンライン評価の二段階**があると理解しています。
+
+オフライン評価というのは、**過去のログを使って、新しいモデルが「当時なら何を出していたか」を計算し、実際のクリックと照らし合わせる**やり方です。オンライン評価は、**一部のユーザーに実際に新しいモデルの結果を出して、反応を見る**やり方で、形としてはABテストになります。
+
+オフラインは速くて安いのが利点です。ただ、**過去のデータには「実際には出さなかったもの」への反応が入っていない**ので、そこは限界があると思っています。
+
+なので、**オフラインで良くてもオンラインで良いとは限らない。** 最終的にはABテストで確認する、という流れですね。
+
+**正直に申し上げると、レコメンドのオフライン評価そのものはやったことがありません。** ただ、**評価基準を先に決めてから複数のモデルを比較する**、という進め方は実際にやってきました。LLMのパイプラインで、5段階・33モジュールを各段階ごとに比較して、**運用コストを83%下げて、品質の低下は3%程度に抑えました。**
+
+#### 「具体的には」と聞かれたら
+
+たとえば、あるユーザーが8月1日にトップページで**水筒をクリックした**というログがあるとします。
+
+オフライン評価では、**7月31日までのそのユーザーのデータを新しいモデルに入れて、「何を出すか」を計算させます。** 新しいモデルが水筒を1位に出していれば、**実際にクリックされた商品を上位に出せた**、つまり当たり、と数えます。これを一か月分、何十万件も回して、当たった割合を古いモデルと比べる、という流れです。
+
+ただ限界もあって、新しいモデルが**過去に一度も表示していない商品**、たとえば登山靴を上位に出した場合、ログにはその商品への反応がないので、**「クリックされなかった」扱いになってしまいます。** 実際は良い推薦だったかもしれないのに、評価できない。
+
+なので、**オフラインで良ければ「少なくとも悪くはない」と言えるだけ**で、最終的にはABテストで確認する必要があります。
+
+| 読み方 | |
+|---|---|
+| 照らし合わせる | てらしあわせる |
+| 限界 | げんかい |
+| 運用 | うんよう |
+| 水筒 | すいとう |
+| 登山靴 | とざんぐつ |
+| 扱い | あつかい |
+| 割合 | わりあい |
+`
+      },
+      {
+        q: '加分：ポジションバイアス（位置偏差）',
+        zh: `
+有餘力再記，講出來很加分。
+
+另外要注意的是**位置偏差**。**放在上面的東西，光是因為位置就比較容易被點。** 所以如果把點擊 log 直接拿去訓練，**會把「因為放在上面才被點中」誤認成「這是一個好推薦」。** 這裡需要做修正。
+`,
+        en: `
+Optional, but a strong signal if you can say it.
+
+Another thing to watch is **position bias**. **Whatever sits at the top gets clicked more simply because of where it is.** So if you feed click logs straight into training, **you mistake "clicked because it was on top" for "this was a good recommendation".** That needs correcting.
+`,
+        ja: `
+あと、気をつけないといけないのは**ポジションバイアス**だと思っています。**上に出したものは、それだけで自然とクリックされやすい。** なので、クリックのログをそのまま学習に使うと、**「上に出したから当たった」ものを「良い推薦だった」と誤解してしまう。** ここは補正が必要だと理解しています。
+
+| 読み方 | |
+|---|---|
+| 学習 | がくしゅう |
+| 誤解 | ごかい |
+| 補正 | ほせい |
+`
+      },
+      {
+        q: '加分：你對現在樂天 App 的推薦滿意嗎？不滿意的話講一個',
+        zh: `
+答法：整體肯定一句，只講一個「自己用過真的觀察到」的現象，用假設語氣講，最後帶到怎麼驗證。說「滿意」等於沒有產品感，罵太狠等於在罵對面的人。
+
+**面試前一晚一定要真的打開楽天市場 App 用 10 分鐘**，找一個親眼看到的現象。下面是最常見、最安全的範本；觀察到的不一樣就換「現象」那段，框架不變。
+
+整體來說我覺得做得相當好。不過以一個使用者的角度，**有一點我比較在意**。
+
+就是**買過的商品，同一個類別在購買後還會持續出現一陣子**。像家電這種買了一次短期內不會再買的東西，還是會排在那裡。
+
+用推薦系統常講的**精度和多樣性的取捨**來看，這是偏精度那一側太多。使用者買下去的那一刻意圖就變了，所以**可能是購買資料沒有被當成「已經不需要」的訊號來用**。結果就是回遊停掉。
+
+不過這只是一個使用者的觀察，**也可能是庫存或促銷這種事業端的意圖讓它這樣**。所以實際上我會想看購買後的點擊率和轉換率，確認是不是真的是課題。
+
+如果是，**購買後先壓低同類別、換成補完商品，也就是 cross-sell**，用 A/B 測試試這個施策。
+
+為什麼加分：一口氣用到多様性、回遊、効果検証三個地基，還示範了「先確認再下結論」的邊界感。
+`,
+        en: `
+How to answer: one sentence of overall credit, then one thing you have genuinely observed as a user, phrased as a hypothesis, ending with how you would verify it. Saying "satisfied" shows no product sense; being harsh means criticising the people across the table.
+
+**The night before, actually open the Rakuten Ichiba app for 10 minutes** and find something you have seen yourself. Below is the most common and safest template; if you observe something different, swap the "symptom" paragraph and keep the frame.
+
+Overall I think it is very well done. But as a user, **there is one thing I notice**.
+
+**After I buy something, the same category keeps showing up for a while.** For items like appliances that you buy once and not again for a long time, they still sit there.
+
+In terms of the usual **accuracy versus diversity trade-off**, this leans too far towards accuracy. The user's intent changes the moment they buy, so **it may be that purchase data is not being used as a "no longer needed" signal**. The result is that browsing across the site stops.
+
+That said, this is one user's observation, and **it could be deliberate on the business side, for inventory or a sale**. So in practice I would look at post-purchase click-through and conversion to confirm whether it really is an issue.
+
+If it is, **I would suppress the same category right after purchase and switch to complementary items, that is cross-sell**, and test that with an A/B test.
+
+Why it scores: it uses diversity, browsing and impact validation in one go, and shows the boundary sense of confirming before concluding.
+`,
+        ja: `
+全体としては、かなり良くできていると感じています。ただ、一ユーザーとして**一点だけ気になるところ**があります。
+
+それは、**一度買った商品と同じカテゴリの商品が、購入後もしばらく出続ける**ことです。たとえば家電のように、一度買ったら当分は買わないものでも、同じものが並んでしまう。
+
+これはレコメンドでよく言われる**精度と多様性のトレードオフ**で言うと、精度側に寄りすぎている状態だと思います。購入した瞬間にユーザーの意図は変わっているはずなので、**購買データを「もう要らない」というシグナルとして使えていない可能性**があります。結果として回遊が止まってしまう。
+
+ただ、これはあくまで一ユーザーとしての観察で、**在庫やセールなど、事業側の意図があってそうなっている可能性**もあります。なので実際には、購入直後のクリック率やコンバージョン率を見て、本当に課題なのかを確認したいです。
+
+もし課題であれば、**購入直後は同カテゴリを抑えて、補完商品、いわゆるクロスセルに切り替える**、という施策をABテストで試したいと思います。
+
+多様性の話をすでにしていれば、「先ほどお話しした精度と多様性のトレードオフ」に言い換えます。
+
+| 読み方 | |
+|---|---|
+| 家電 | かでん |
+| 当分 | とうぶん |
+| 購入直後 | こうにゅうちょくご |
+| 抑えて | おさえて |
+| 補完 | ほかん |
+`
+      },
+      {
+        q: '沒做過 ML/DL 產品，怎麼講？',
+        zh: `
+已定立場：講清楚邊界比含糊有利。
+
+我沒有自己建過機器學習模型的經驗。我做過的是**用 LLM 的 pipeline 的產品化與評估**這一塊。
+
+不過，**「先訂好評估標準、比較多個模型、在成本和品質之間取捨」這個做法是一樣的。**
+
+**不要說「我學很快」。** 技術面聽到這句會扣分，因為它等於沒回答。承認缺口 + 立刻接一個真的做過的相近經驗才是正解。
+`,
+        en: `
+Settled stance: a clear boundary beats vagueness.
+
+I have not built machine learning models myself. What I have done is **productising and evaluating LLM-based pipelines**.
+
+But **the approach is the same: fix the evaluation criteria first, compare several models, and trade off cost against quality.**
+
+**Do not say "I learn fast".** In a technical round that costs points, because it is a non-answer. Admit the gap and immediately follow with a genuinely similar thing you have done.
+`,
+        ja: `
+機械学習のモデルそのものを作った経験はありません。私がやってきたのは、**LLMを使ったパイプラインのプロダクト化と評価**の方です。
+
+ただ、**「評価の基準を決めて、複数のモデルを比較して、コストと品質のバランスを取る」という進め方は同じ**だと思っています。
+
+| 読み方 | |
+|---|---|
+| 機械学習 | きかいがくしゅう |
+| 複数 | ふくすう |
+| 品質 | ひんしつ |
+`
+      },
+      {
+        q: '卡住時的退路句',
+        zh: `
+先練熟，臨場才用得出來。
+
+| 情況 | 日文說法 | 中文意思 |
+|---|---|---|
+| 沒聽懂 | もう一度お願いできますでしょうか。 | 可以請您再說一次嗎？ |
+| 需要想一下 | 少し考えるお時間をいただけますか。 | 可以給我一點時間想一下嗎？ |
+| 想確認理解 | ○○という理解で合っていますでしょうか。 | 我理解成○○，這樣對嗎？ |
+| 講不下去 | すみません、この部分だけ英語でもよろしいでしょうか。 | 抱歉，只有這一段可以用英文嗎？ |
+| **不知道** | **申し訳ありません、そこはまだ経験がありません。ただ、○○であれば近いことをやったことがあります。** | **很抱歉，那部分我還沒有經驗。不過如果是○○的話，我做過類似的事。** |
+
+最後那句最重要。技術面問到底是常態，承認 + 立刻接相近經驗，比沉默或硬掰好太多。
+`
+      },
+      {
+        q: '睡前檢查清單',
+        zh: `
+- 用語表粗體字全部念得出來
+- 架構那張圖，閉著眼睛畫得出來
+- 架構說明，不看稿講完
+- Batch vs リアルタイム，不看稿講完（含 cache 那三句）
+- ①③④ 三題，各講一次不看稿
+- 五句退路句念過三次
+- 自己紹介日本語版講一次
+- 打開楽天市場 App 用 10 分鐘，找一個親眼看到的現象
+`
+      },
     ]
   },
   {
@@ -2516,36 +3259,46 @@ There are two ways to combine them. **The blunt way is that business overrides e
       {
         q: '你有什麼想問我們的嗎？',
         zh: `
-#### 三題通用
+五題都是「知道機制才問得出來」的問題，本身就是能力證明。JD 掛在 engineer 標籤下，第 1 題務必問。
 
-1. 這個 PM 角色的**決策權範圍**到哪裡？roadmap 是我決定還是我執行？
-2. 團隊的日常工作語言實際上是日文還是英文？跨 BU 溝通時呢？
-3. 這個職位前一任是誰、為什麼離開？團隊過去一年人員流動如何？
+1. **決策權範圍**：roadmap 是 PM 決定還是執行？PM 跟 ML engineer、data scientist 的分工邊界在哪裡？
+2. **Batch 與 real-time 的比例**：目前的推薦是怎麼搭配的？更新頻率是誰決定的？
+3. **多樣性與精度的平衡**：是怎麼跟事業側決定的？有沒有明確的護欄指標？
+4. **A/B 測試的基礎建設**：公司內部已經齊備了嗎？一個施策從提案到上線大概多久？
+5. **推廣到各事業部**：佔工作比重多少？跨事業部、以及跟歐洲研發中心溝通時，實際用日文還是英文？
 
-#### 依職缺加問
-
-| 職缺 | 必問 |
-|---|---|
-| AI Office（Travel） | AI Office 成立多久？11 人的職能組成？JD 提到 career pathway toward Product Manager，實際有幾個人走過、花多久？內部與對住宿業者的工作語言各是什麼？ |
-| Recommendation | 這個 PM 的決策權到哪？PM 與 ML engineer 的分工邊界？「推廣到各 BU」佔工作比重多少？ |
-| AI Agent PM（RMS） | 「AI 店長」構想與現有 RMS AI 的關係？我負責的是既有功能優化還是新形態？同組的 R-Karte PM 與我怎麼分工？ |
-| AI PjM（Payment） | 4–6 人的組裡 PM 與資料科學家怎麼分工？ROI 定義的實際流程？公司的職級與調薪機制是怎麼運作的？ |
+備用：這個職位前一任是誰、為什麼離開？團隊過去一年人員流動如何？
 `,
         en: `
-#### Three for any of them
+All five are questions you can only ask if you understand the mechanism, so they double as proof of competence. The JD sits under an engineer tag, so question 1 is a must.
 
-1. **Where is the boundary of decision-making** in this PM role? Do I set the roadmap or execute it?
-2. Is the team's day-to-day working language actually Japanese or English? And when communicating across BUs?
-3. Who held this role before, and why did they leave? What has turnover looked like over the past year?
+1. **Decision-making scope**: does the PM set the roadmap or execute it? Where is the dividing line between PM, ML engineers and data scientists?
+2. **Batch versus real-time**: how are the two combined today, and who decides the refresh frequency?
+3. **Diversity versus accuracy**: how is that balance agreed with the business side? Are there explicit guardrail metrics?
+4. **A/B testing infrastructure**: is it already in place? Roughly how long from proposing an initiative to shipping it?
+5. **Rolling out across business units**: what share of the job is that? Across BUs and with the European R&D centre, is the working language actually Japanese or English?
 
-#### By specific role
+Spare: who held this role before and why did they leave? What has team turnover looked like over the past year?
+`,
+        ja: `
+1. **PMの裁量範囲**について伺いたいです。ロードマップはPMが決めるのでしょうか、それとも実行する立場でしょうか。機械学習エンジニアやデータサイエンティストとの役割分担はどのようになっていますか。
+2. 現在のレコメンドは、**バッチとリアルタイムをどういう比率**で組み合わせているのでしょうか。更新頻度はどなたが決めていますか。
+3. **多様性と精度のバランス**は、事業側とどうやって決めていますか。明確なガードレール指標はありますか。
+4. **ABテストの基盤**は、すでに社内に整っている状態でしょうか。一つの施策が提案からリリースまで、だいたいどのくらいかかりますか。
+5. **各事業部への展開**は、業務のどのくらいの割合を占めますか。事業部間や欧州の開発拠点とのやり取りは、実際には日本語と英語のどちらが多いでしょうか。
 
-| Role | Ask |
+予備：前任の方はどのような理由で離れられたのでしょうか。チームのこの一年の入れ替わりはいかがでしょうか。
+
+| 読み方 | |
 |---|---|
-| AI Office (Travel) | How long has the AI Office existed? What functions make up the 11 people? The JD mentions a career pathway toward Product Manager, how many people have actually taken it and how long did it take? What's the working language internally versus with accommodation partners? |
-| Recommendation | How far does this PM's decision-making go? Where's the dividing line between PM and ML engineer? How much of the job is rolling features out across BUs? |
-| AI Agent PM (RMS) | How does the "AI store manager" concept relate to the existing RMS AI? Would I own optimisation of existing features or something new? How would I split work with the R-Karte PM in the same group? |
-| AI PjM (Payment) | In a team of four to six, how do the PM and the data scientists divide the work? What's the actual process for defining ROI? How do the grade and pay review mechanisms work? |
+| 裁量範囲 | さいりょうはんい |
+| 役割分担 | やくわりぶんたん |
+| 比率 | ひりつ |
+| 基盤 | きばん |
+| 展開 | てんかい |
+| 欧州 | おうしゅう |
+| 拠点 | きょてん |
+| 前任 | ぜんにん |
 `
       }
     ]
