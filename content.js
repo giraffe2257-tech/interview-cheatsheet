@@ -3375,46 +3375,21 @@ A pipeline that **turns content from 200+ sources every day into articles writte
       {
         q: '你有什麼想問我們的嗎？',
         zh: `
-五題都是「知道機制才問得出來」的問題，本身就是能力證明。JD 掛在 engineer 標籤下，第 1 題務必問。
-
-1. **決策權範圍**：roadmap 是 PM 決定還是執行？PM 跟 ML engineer、data scientist 的分工邊界在哪裡？
-2. **Batch 與 real-time 的比例**：目前的推薦是怎麼搭配的？更新頻率是誰決定的？
-3. **多樣性與精度的平衡**：是怎麼跟事業側決定的？有沒有明確的護欄指標？
-4. **A/B 測試的基礎建設**：公司內部已經齊備了嗎？一個施策從提案到上線大概多久？
-5. **推廣到各事業部**：佔工作比重多少？跨事業部、以及跟歐洲研發中心溝通時，實際用日文還是英文？
-
-備用：這個職位前一任是誰、為什麼離開？團隊過去一年人員流動如何？
-`,
-        en: `
-All five are questions you can only ask if you understand the mechanism, so they double as proof of competence. The JD sits under an engineer tag, so question 1 is a must.
-
-1. **Decision-making scope**: does the PM set the roadmap or execute it? Where is the dividing line between PM, ML engineers and data scientists?
-2. **Batch versus real-time**: how are the two combined today, and who decides the refresh frequency?
-3. **Diversity versus accuracy**: how is that balance agreed with the business side? Are there explicit guardrail metrics?
-4. **A/B testing infrastructure**: is it already in place? Roughly how long from proposing an initiative to shipping it?
-5. **Rolling out across business units**: what share of the job is that? Across BUs and with the European R&D centre, is the working language actually Japanese or English?
-
-Spare: who held this role before and why did they leave? What has team turnover looked like over the past year?
-`,
-        ja: `
-1. **PMの裁量範囲**について伺いたいです。ロードマップはPMが決めるのでしょうか、それとも実行する立場でしょうか。機械学習エンジニアやデータサイエンティストとの役割分担はどのようになっていますか。
-2. 現在のレコメンドは、**バッチとリアルタイムをどういう比率**で組み合わせているのでしょうか。更新頻度はどなたが決めていますか。
-3. **多様性と精度のバランス**は、事業側とどうやって決めていますか。明確なガードレール指標はありますか。
-4. **ABテストの基盤**は、すでに社内に整っている状態でしょうか。一つの施策が提案からリリースまで、だいたいどのくらいかかりますか。
-5. **各事業部への展開**は、業務のどのくらいの割合を占めますか。事業部間や欧州の開発拠点とのやり取りは、実際には日本語と英語のどちらが多いでしょうか。
-
-予備：前任の方はどのような理由で離れられたのでしょうか。チームのこの一年の入れ替わりはいかがでしょうか。
-
-| 読み方 | |
+| 中文 | 日文 |
 |---|---|
-| 裁量範囲 | さいりょうはんい |
-| 役割分担 | やくわりぶんたん |
-| 比率 | ひりつ |
-| 基盤 | きばん |
-| 展開 | てんかい |
+| 想請教，我的履歷裡是哪個部分讓您們想進一步了解？對這個職位的人選有什麼期待？ | 私の経歴のどの部分に興味を持っていただけたのか、また、このポジションにどのようなことを期待されているのか、伺ってもよろしいでしょうか。 |
+| 目前部門的組織架構是怎麼樣的？PM 有幾位？ | 現在のチームの組織構成と、PMは何名いらっしゃるのか、教えていただけますか。 |
+| 團隊內部平常是用日文還是英文溝通？ | チーム内のコミュニケーションは、普段は日本語と英語のどちらが中心でしょうか。 |
+| JD 提到會和歐洲的團隊協作，可以多說明一下嗎？例如協作的方式和頻率。 | 募集要項に欧州のチームとの連携とありましたが、具体的にどのような形で、どのくらいの頻度で協力されているのか、伺えますか。 |
+
+| 讀音 | |
+|---|---|
+| 経歴 | けいれき |
+| 組織構成 | そしきこうせい |
+| 募集要項 | ぼしゅうようこう |
 | 欧州 | おうしゅう |
-| 拠点 | きょてん |
-| 前任 | ぜんにん |
+| 連携 | れんけい |
+| 頻度 | ひんど |
 `
       }
     ]
