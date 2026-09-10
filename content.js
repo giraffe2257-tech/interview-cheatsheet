@@ -3223,6 +3223,122 @@ But **the approach is the same: fix the evaluation criteria first, compare sever
 `
       },
       {
+        q: 'Side project：Creator-Persona Content Engine 是什麼？',
+        zh: `
+CV 原句：Designed and built a five-stage agentic content pipeline (collection, persona modelling, generation, validation and distribution): 33 modules orchestrating 3 LLMs with RAG over 200+ sources crawled daily; ran head-to-head evaluations of models at each stage of the pipeline, cutting operating costs by 83% while limiting quality loss to ~3%.
+
+#### 一句話
+
+一個**每天自動把 200 多個來源的內容，變成符合特定創作者人設的文章**的 pipeline。我和一位工程夥伴合作，我負責產品端：需求定義、評估標準、模型的 A/B 比較框架。
+
+#### 五個階段
+
+| 階段 | 做什麼 |
+|---|---|
+| 1 收集 collection | 每天爬 200+ 個來源，解析成乾淨的文字 |
+| 2 人設建模 persona modelling | 把創作者的語氣、立場、常用說法整理成可以餵給模型的 persona |
+| 3 生成 generation | 用 RAG 把當天的素材加上 persona，生成草稿 |
+| 4 驗證 validation | 分類評分、專家審核，不合格的退回 |
+| 5 發布 distribution | 通過的內容排程發出 |
+
+整條共 33 個模組，串了 3 個 LLM。**不是一個模型，是一條有節點的流程**，跟推薦系統的架構是同一種思路。
+
+#### 我做的事
+
+**把「什麼叫做好的輸出」寫成可測量的評估標準**，然後每一個階段都拿不同模型跑對照，比較成本和品質。便宜的模型能做的階段就換便宜的，只有品質會掉的階段留貴的。結果是**運行成本降低 83%，品質只犧牲約 3%**，平台實際上線運行約 1.5 個月。
+
+#### 跟這個職缺的連結
+
+| 推薦系統 | 這個專案裡對應的事 |
+|---|---|
+| 資料前處理節點 | 收集與解析 |
+| 每天批次計算 | 每天定時爬取與生成 |
+| 商業邏輯節點 | persona 與驗證規則 |
+| 離線評估：先訂標準再比模型 | 每階段的 head-to-head 評測 |
+| 護欄指標 | 品質損失不能超過的那條線 |
+
+**困難的從來不是模型，而是把它產品化的工程紀律與評估設計。**
+`,
+        en: `
+CV line: Designed and built a five-stage agentic content pipeline (collection, persona modelling, generation, validation and distribution): 33 modules orchestrating 3 LLMs with RAG over 200+ sources crawled daily; ran head-to-head evaluations of models at each stage of the pipeline, cutting operating costs by 83% while limiting quality loss to ~3%.
+
+#### In one sentence
+
+A pipeline that **turns content from 200+ sources every day into articles written in a specific creator's voice**. I built it with an engineering partner; I owned the product side: requirements, evaluation criteria, and the A/B framework for comparing models.
+
+#### The five stages
+
+| Stage | What it does |
+|---|---|
+| 1 Collection | Crawls 200+ sources daily and parses them into clean text |
+| 2 Persona modelling | Distils the creator's tone, stance and phrasing into a persona the model can use |
+| 3 Generation | RAG over the day's material plus the persona to draft content |
+| 4 Validation | Classification and scoring, expert review; anything below the bar is sent back |
+| 5 Distribution | Approved content is scheduled and published |
+
+33 modules in total, wired across 3 LLMs. **Not one model but a flow with nodes**, the same way of thinking as a recommendation system.
+
+#### What I did
+
+**I wrote down what "a good output" means as measurable evaluation criteria**, then ran different models head-to-head at each stage and compared cost against quality. Stages a cheaper model could handle went to the cheaper model; only the stages where quality dropped kept the expensive one. The result was **83% lower operating cost with only about 3% quality loss**, and the platform ran in production for about a month and a half.
+
+#### How it maps to this role
+
+| Recommendation system | Counterpart in this project |
+|---|---|
+| Data preprocessing node | Collection and parsing |
+| Daily batch computation | Daily scheduled crawl and generation |
+| Business logic node | Persona and validation rules |
+| Offline evaluation: fix criteria, then compare models | Head-to-head evaluation at each stage |
+| Guardrail metric | The quality-loss line that must not be crossed |
+
+**The hard part is never the model. It's the engineering discipline and the evaluation design that turn it into a product.**
+`,
+        ja: `
+#### 一言で
+
+**200以上のソースから毎日コンテンツを集めて、特定のクリエイターの人格に合わせた記事に変える**パイプラインです。エンジニアの仲間と二人で作りました。私はプロダクト側、つまり要件定義、評価基準、モデルを比較するABの枠組みを担当しました。
+
+#### 五つの段階
+
+| 段階 | やること |
+|---|---|
+| 1 収集 | 毎日200以上のソースをクロールして、テキストに整える |
+| 2 ペルソナ設計 | クリエイターの口調や立場を、モデルに渡せる形にまとめる |
+| 3 生成 | その日の素材とペルソナをRAGで組み合わせて、下書きを作る |
+| 4 検証 | 分類とスコアリング、専門家のレビュー。基準に届かないものは差し戻す |
+| 5 配信 | 通ったものをスケジュールして出す |
+
+全部で33モジュール、3つのLLMを繋いでいます。**モデルひとつではなくて、ノードが繋がった流れ**という点は、レコメンドシステムと同じ考え方です。
+
+#### 私がやったこと
+
+**「良い出力とは何か」を測れる評価基準として書き出して**、各段階で複数のモデルを並べて、コストと品質を比較しました。安いモデルで済む段階は安いモデルに切り替えて、品質が落ちる段階だけ高いモデルを残す。その結果、**運用コストを83%下げて、品質の低下は3%程度に抑えました。** 実際に約1か月半、本番で動かしました。
+
+#### この職種との繋がり
+
+| レコメンド | このプロジェクトでの対応 |
+|---|---|
+| データ前処理のノード | 収集とパース |
+| 毎日のバッチ計算 | 毎日の定時クロールと生成 |
+| ビジネスロジックのノード | ペルソナと検証ルール |
+| オフライン評価：基準を決めてからモデルを比べる | 各段階のモデル比較 |
+| ガードレール指標 | 品質低下の許容ライン |
+
+**難しいのはモデルではなくて、プロダクトにするための工程の規律と評価設計だと思っています。**
+
+| 読み方 | |
+|---|---|
+| 収集 | しゅうしゅう |
+| 検証 | けんしょう |
+| 配信 | はいしん |
+| 差し戻す | さしもどす |
+| 運用 | うんよう |
+| 許容 | きょよう |
+| 規律 | きりつ |
+`
+      },
+      {
         q: '卡住時的退路句',
         zh: `
 先練熟，臨場才用得出來。
