@@ -9,14 +9,14 @@
 
 const DATA = [
 
-/* ═══════════ 自我介紹 ═══════════ */
+/* ═══════════ 基本題 ═══════════ */
 {
-  id: 'intro',
-  label: '自我介紹',
+  id: 'basic',
+  label: '基本題',
   section: 'General',
   groups: [
   {
-    name: '完整版',
+    name: '自我介紹',
     items: [
       {
         q: '請你自我介紹（面向日商）',
@@ -145,12 +145,7 @@ Typus Financeでは、オンチェーン金融の無期限先物プロダクト�
 | 異文化 | いぶんか |
 | 協働 | きょうどう |
 `
-      }
-    ]
-  },
-  {
-    name: '短版',
-    items: [
+      },
       {
         q: '請你自我介紹（60 秒短版）',
         zh: `
@@ -177,12 +172,7 @@ I have about four years of product experience, across B2C live-streaming and fin
 | 修士課程 | しゅうしかてい |
 | 組み込む | くみこむ |
 `
-      }
-    ]
-  },
-  {
-    name: '日本語',
-    items: [
+      },
       {
         q: '自己紹介をお願いします。',
         zh: `
@@ -238,16 +228,7 @@ That's my background in short. I look forward to speaking with you today.
 `
       }
     ]
-  }
-  ]
-},
-
-/* ═══════════ Behavioral ═══════════ */
-{
-  id: 'behavioral',
-  label: 'Behavioral',
-  section: 'General',
-  groups: [
+  },
   {
     name: '關於你',
     items: [
@@ -534,6 +515,1310 @@ Money matters, but I care more about what kind of PM I'll be in two years.
 `
       },
       {
+        q: '為什麼離開上一份工作？',
+        zh: `
+分兩段講，看面試官問的是哪一段。
+
+**離開 17LIVE、去 Typus**：主要原因是職務內容的限制。當時的部門比較像溝通協調的橋樑、推動專案效率的角色，讓我對 PM 和產品開發流程有了基礎，但很少機會真正主導一個新功能從頭到尾。我想累積更多從 0 到 1 開發、以及產品維運與迭代的經驗，自主設計和推動專案。Typus 給我的正是這個：第一個產品就是永續合約，從零到上線。
+
+**離開 Typus、去念碩士**：不是對工作不滿，是想用更有系統的方式研究實務上遇到的問題，特別是 AI 怎麼改變產品團隊的工作方式。詳見「你為什麼去念碩士」那題。
+
+**不要說**：公司不好、主管不好、薪水太低。每一段都講「我想累積什麼」，不講「我想逃離什麼」。
+`,
+        en: `
+There are two transitions, so I cover whichever one you are asking about.
+
+**Leaving 17LIVE for Typus**: the main reason was the scope of the role. That team was closer to a coordination and delivery-efficiency function, bridging different departments. It gave me a solid foundation in product management and the development process, but there were very few chances to actually own a new feature from beginning to end. I wanted more experience building something from zero to one, and then operating and iterating on it, designing and driving projects myself. Typus gave me exactly that: the first product I owned was perpetual futures, from zero to launch.
+
+**Leaving Typus for a master's**: this wasn't dissatisfaction with the job. I wanted to study the problems I had run into in practice in a more systematic way, especially how AI is changing the way product teams work. I go into that in the question about why I went back to study.
+
+**What I don't say**: the company was bad, the manager was bad, the pay was too low. For each move I talk about what I wanted to build up, not what I wanted to escape from.
+`,
+        ja: `
+二つの時期に分けてお話しします。面接官の方が聞きたいほうに合わせます。
+
+**17LIVE を辞めて Typus に移った理由**：一番大きかったのは職務の範囲の制約です。当時いた部門は、部署間をつなぐ調整役、プロジェクトの効率を上げる役割に近いものでした。PM の仕事とプロダクト開発プロセスの基礎はそこで身につきましたが、新しい機能を最初から最後まで自分で主導する機会はほとんどありませんでした。0 から 1 の開発、それにリリース後の運用と改善の経験をもっと積みたい、自分で設計して前に進めたいと考えました。Typus はまさにそれをくれた環境です。最初に担当したプロダクトが無期限先物で、ゼロからリリースまで担当しました。
+
+**Typus を辞めて修士に進んだ理由**：仕事への不満ではありません。実務で出会った課題を、もっと体系的に研究したかったからです。特に、AI がプロダクトチームの働き方をどう変えるのかという部分です。詳しくは「なぜ修士に進んだのか」の回答でお話しします。
+
+**言わないこと**：会社が悪かった、上司が悪かった、給料が低かった。どちらの転職も「何を積み上げたかったか」で話し、「何から逃げたかったか」では話しません。
+
+| 読み方 | |
+|---|---|
+| 前職 | ぜんしょく |
+| 職務 | しょくむ |
+| 調整役 | ちょうせいやく |
+| 修士 | しゅうし |
+| 運用 | うんよう |
+| 課題 | かだい |
+`
+      }
+    ]
+  },
+  {
+    name: '動機與條件',
+    items: [
+      {
+        q: '為什麼想加入我們公司？',
+        zh: `
+**Trip.com 版。** 換公司時把產品名與作業那段替換掉即可。
+
+**第一層最直接：我自己就是重度使用者。** 我很喜歡旅遊，Trip.com 是我規劃行程時預設會打開的 App，介面怎麼走、搜尋邏輯、哪些資訊藏在第幾層，我都很熟。旅遊 App 其實非常吃使用習慣，一個使用者只要把操作練順了，通常就會一直用下去，我自己就是這樣。所以相對於一般應徵者，**我對這個產品的熟悉度不是查來的，是用出來的**。也因為熟，我做回家作業的時候才能自己走查台北到東京、台北到倫敦兩條航線的完整訂票流程，再加上台灣區 App Store 大約 500 則評論的主題分類，那份作業等於是我以使用者身分累積的判斷第一次被整理出來。
+
+**第二層是舞台。** 我想進的是真正的大型跨國公司，因為這種環境提供的是密集的跨國合作機會：同一個功能在不同市場的表現差異、不同區域的團隊怎麼決策、總部跟在地怎麼分工。這些東西只有在夠大的組織裡才看得到，我想用它把視野打開，建立對全球市場的理解，而不是只熟一個市場。
+
+**第三層是資源與結構。** 這種量級的公司在資源、預算、市場影響力上都有明顯優勢，而這對產品管理跟開發來說非常關鍵：你的假設有足夠的流量可以驗證，你的決定有資源可以真的落地。我過去待的是相對小的團隊，很多想法卡在沒有樣本數、沒有資源，所以我想去一個能把想法做完、也能被數據驗證的地方。
+
+---
+
+#### 通用備用版（換公司時用）
+
+我對 **[公司]** 感興趣的原因是 **[具體的產品、使命，或你實際用過的體驗]**。我是一個會自己動手驗證的 PM，會做 prototype 也會做數據分析，所以我希望能在 **[對他們的具體貢獻]** 這件事上出力。我的背景橫跨金融科技（Typus）與 B2C 社群（17LIVE），跟你們在 **[他們的領域]** 的方向可以直接對上。
+`,
+        en: `
+What draws me to **[company]** is **[the specific product, mission, or your own experience using it]**. I'm a PM who validates things hands-on, building prototypes and doing my own analysis, so where I'd like to contribute is **[specific contribution to them]**. My background spans fintech at Typus and B2C social at 17LIVE, which maps directly onto what you're doing in **[their space]**.
+`,
+        ja: `
+**Trip.com 版。** 他社の面接では、プロダクト名と課題提出の部分を差し替えてください。
+
+**一番直接的な理由は、私自身がヘビーユーザーだということです。** 旅行が大好きで、旅程を組むときにまず開くのが Trip.com です。画面の流れ、検索のロジック、どの情報が何階層目にあるか、すべて体で覚えています。旅行アプリは使い慣れがとても大事で、一度操作が手になじんだユーザーは、そのまま使い続けることが多いです。私自身がまさにそうでした。ですから、一般の応募者と比べて、**このプロダクトへの理解は調べたものではなく、使い込んで得たものです**。使い慣れているからこそ、課題提出のときに、台北から東京、台北からロンドンの二つの路線について、予約フローを自分で最後まで通しで確認できました。さらに、台湾の App Store のレビュー約 500 件をテーマ別に分類しました。あの課題は、ユーザーとして積み重ねてきた判断を、初めて形にしたものです。
+
+**二つ目は、舞台です。** 私が入りたいのは、本当の意味でのグローバル企業です。こうした環境では、国をまたいだ協業の機会が密度高くあります。同じ機能が市場ごとにどう違う結果を出すのか、地域ごとのチームがどう意思決定するのか、本社と現地がどう役割分担するのか。こうしたことは、十分に大きな組織でなければ見えません。それを通じて視野を広げ、一つの市場だけでなく、グローバル市場への理解を築きたいと考えています。
+
+**三つ目は、リソースと構造です。** この規模の企業は、リソース、予算、市場への影響力で明確な強みがあります。これはプロダクトマネジメントと開発にとって非常に重要です。自分の仮説を検証できるだけのトラフィックがあり、自分の決定を実際に実現できるリソースがあるからです。私がこれまでいたのは比較的小さなチームで、サンプル数が足りない、リソースが足りない、という理由で止まってしまうアイデアが多くありました。ですから、アイデアを最後までやり切れて、データで検証できる場所に行きたいと考えています。
+
+---
+
+#### 汎用バージョン（他社用）
+
+私が **[会社名]** に興味を持った理由は、**[具体的なプロダクト、ミッション、または実際に使った体験]** です。私は自分の手で検証する PM で、プロトタイプも作りますし、データ分析も自分で行います。ですので、**[相手への具体的な貢献]** の部分で力になりたいと考えています。私の経歴はフィンテック（Typus）と B2C コミュニティ（17LIVE）にまたがっており、御社の **[相手の領域]** の方向性と直接つながります。
+
+| 読み方 | |
+|---|---|
+| 応募者 | おうぼしゃ |
+| 階層 | かいそう |
+| 課題提出 | かだいていしゅつ |
+| 協業 | きょうぎょう |
+| 意思決定 | いしけってい |
+| 仮説 | かせつ |
+| 汎用 | はんよう |
+`
+      },
+      {
+        q: '我們為什麼要錄取你？',
+        zh: `
+因為我把 **PM 的判斷力和動手能力放在同一個人身上**。
+
+我有可被驗證的成果：Typus 的 MAU 從 1K 成長到 20K 以上、存入資產從 $8M 到 $20M；17LIVE 的正向回饋提升 30%。而且我自己做 prototype 和數據分析，**從洞察到交付的距離比較短**。加上中英日三語，我可以直接在跨區團隊裡工作。
+`,
+        en: `
+Because I put **the judgement of a PM and the ability to build in the same person**.
+
+I have results you can check: at Typus, monthly active users went from 1K to over 20K and deposits from $8M to $20M; at 17LIVE, positive feedback rose 30%. And because I build my own prototypes and do my own analysis, **the distance from insight to delivery is shorter**. On top of that I work in Mandarin, English and Japanese, so I can operate inside a cross-regional team directly.
+`,
+        ja: `
+**PM としての判断力と、自分で手を動かす力を、一人の中に持っている**からです。
+
+検証できる実績があります。Typus では MAU が 1K から 20K 以上に成長し、預け入れ資産は $8M から $20M になりました。17LIVE ではポジティブなフィードバックが 30% 向上しました。しかも、プロトタイプもデータ分析も自分でやるので、**インサイトから納品までの距離が短い**です。さらに中国語・英語・日本語の三言語が使えるので、地域をまたぐチームの中でそのまま働けます。
+
+| 読み方 | |
+|---|---|
+| 判断力 | はんだんりょく |
+| 実績 | じっせき |
+| 預け入れ資産 | あずけいれしさん |
+| 納品 | のうひん |
+| 三言語 | さんげんご |
+`
+      },
+      {
+        q: '你為什麼去念碩士？為什麼是英國、倫敦？',
+        zh: `
+說起來其實很單純：我小時候被哈利波特吸引，從那時候起就對英國有一種憧憬。高中的暑假我跟旅行團來過一次，走了不少知名景點，但那是一種「被帶著看」的體驗，看完之後反而更想長大以後自己來，用生活的方式真正待進這個文化裡，而不是隔著遊覽車的窗戶。所以念碩士的時候，我選了倫敦的 King's College London。
+
+真的住下來之後，倫敦給我的東西比我想像的多：這裡的團隊幾乎都是多國籍組成的，一個產品從第一天就要面對不同語言與市場，這跟我在 17LIVE 同時做台灣、日本與東南亞的經驗完全對得上；而倫敦的金融科技聚落又剛好接上我在 Typus 的背景。**所以現在的答案已經不只是童年的憧憬了，是我想在這裡把職涯做起來。**
+
+#### 那你打算待多久？會不會回去？
+
+我是打算長期留下來的。畢業後可以走 Graduate Route，約兩年內不需要雇主擔保，我希望在這段時間內找到一個能一起長期走下去的團隊。
+`,
+        en: `
+It started simply: I was drawn in by Harry Potter as a child, and had a fascination with Britain from then on. I came once on a school-holiday tour in high school and saw a lot of the famous sights, but it was very much a "being shown around" experience, and it left me wanting to come back on my own as an adult and actually live inside the culture rather than see it through a coach window. So when I chose a master's, I chose King's College London.
+
+Once I'd actually lived here, London gave me more than I expected. Teams here are almost all multinational, and a product has to face different languages and markets from day one, which lines up exactly with my experience running Taiwan, Japan and Southeast Asia at 17LIVE. And London's fintech cluster connects straight back to my background at Typus. **So the answer now isn't just a childhood fascination, it's that I want to build my career here.**
+
+#### How long do you plan to stay? Would you go back?
+
+I plan to stay long term. After graduating I can move onto the Graduate Route, which means about two years without needing employer sponsorship, and I'd like to use that time to find a team I can grow with.
+`,
+        ja: `
+きっかけは、実はとても単純です。子どものころにハリー・ポッターに夢中になって、それ以来ずっとイギリスに憧れがありました。高校の夏休みにツアーで一度来たことがあり、有名な観光地をたくさん回りました。ただ、それは「連れて行ってもらって見る」体験でした。見終わったあと、むしろ大人になったら自分で来て、観光バスの窓越しではなく、生活する形でこの文化の中に本当に入りたい、と強く思うようになりました。それで修士に進むとき、ロンドンの King's College London を選びました。
+
+実際に住んでみると、ロンドンは想像以上のものを与えてくれました。ここのチームはほとんどが多国籍で構成されていて、プロダクトは初日から異なる言語と市場に向き合わなければなりません。これは 17LIVE で台湾、日本、東南アジアを同時に担当した経験とぴったり重なります。そしてロンドンのフィンテック集積は、Typus での経歴にそのままつながります。**ですから今の答えは、子どものころの憧れだけではありません。ここでキャリアを築きたい、ということです。**
+
+#### では、どのくらい滞在する予定ですか？帰る予定はありますか？
+
+長期的に残るつもりです。卒業後は Graduate Route が使えて、約二年間は雇用主のスポンサーが不要です。その期間のうちに、長く一緒に歩んでいけるチームを見つけたいと考えています。
+
+| 読み方 | |
+|---|---|
+| 憧れ | あこがれ |
+| 観光地 | かんこうち |
+| 修士 | しゅうし |
+| 多国籍 | たこくせき |
+| 集積 | しゅうせき |
+| 滞在 | たいざい |
+| 雇用主 | こようぬし |
+`
+      },
+      {
+        q: '為什麼去英國唸書，而不是日本？',
+        zh: `
+在群馬大學交換一年之後，我就已經知道自己未來想讀碩士。不過當時還不確定真正想研究的方向，所以決定先工作、累積實務經驗。
+
+做了幾年產品管理之後，我開始對科技，尤其是 AI 如何改變產品團隊的工作方式產生興趣。後來找到倫敦國王學院的「管理與科技變革」碩士課程，正好符合我想深入探索的方向。
+
+之所以選英國而不是日本，是因為我也希望藉此提升英文能力。我已經在日本留學和生活過，所以在回到亞洲之前，想先體驗不同的環境，培養更國際化的視野。
+`,
+        en: `
+After my exchange year at Gunma University, I already knew I wanted to pursue a master's degree. But I wasn't yet sure what I wanted to study, so I decided to work first and build up practical experience.
+
+After several years in product management, I became interested in how technology, especially AI, is changing the way product teams work. When I found the Management and Technological Change programme at King's College London, it matched exactly what I wanted to explore.
+
+I chose the UK rather than Japan because it also gave me the chance to improve my English. I had already studied and lived in Japan, so before returning to Asia I wanted to experience a different environment and develop a more international perspective.
+`,
+        ja: `
+群馬大学で一年間交換留学をしたあと、いずれ修士に進みたいという気持ちはすでにありました。ただ、当時は本当に研究したいテーマがまだ定まっていなかったので、まず働いて実務経験を積むことにしました。
+
+数年間プロダクトマネジメントをするうちに、テクノロジー、特に AI がプロダクトチームの働き方をどう変えるのかに興味を持つようになりました。その後、キングス・カレッジ・ロンドンの「Management and Technological Change」という修士課程を見つけ、自分が深く掘り下げたい方向とちょうど一致していました。
+
+日本ではなくイギリスを選んだのは、英語力も伸ばしたかったからです。日本ではすでに留学と生活を経験していたので、アジアに戻る前に別の環境を体験して、より国際的な視野を身につけたいと思いました。
+
+| 読み方 | |
+|---|---|
+| 群馬大学 | ぐんまだいがく |
+| 交換留学 | こうかんりゅうがく |
+| 修士課程 | しゅうしかてい |
+| 実務経験 | じつむけいけん |
+| 視野 | しや |
+| 環境 | かんきょう |
+`
+      },
+      {
+        q: '你的碩士跟職涯的關係是什麼？',
+        zh: `
+我在 17LIVE 和 Typus 都反覆遇到同一個問題：**產品和工程之間的翻譯成本非常高，PRD 到 SPEC 之間會流失大量資訊。**
+
+我想把這件事研究清楚，所以去念了 Management and Technological Change，論文題目是 PRD 作為 boundary object，AI 在其中扮演什麼角色。**這不是離開產業，是帶著一個具體的問題去找方法。**
+`,
+        en: `
+At both 17LIVE and Typus I kept hitting the same problem: **the translation cost between product and engineering is very high, and a lot of information is lost between the PRD and the spec.**
+
+I wanted to understand that properly, so I took a master's in Management and Technological Change. My dissertation looks at the PRD as a boundary object and what role AI plays in it. **This wasn't leaving the industry, it was taking a specific problem with me to go find a method.**
+`,
+        ja: `
+17LIVE でも Typus でも、繰り返し同じ課題にぶつかりました。**プロダクトとエンジニアリングの間の翻訳コストが非常に高く、PRD から SPEC の間で大量の情報が失われる**ということです。
+
+これをきちんと研究したくて、Management and Technological Change を専攻しました。論文のテーマは、boundary object としての PRD と、その中で AI がどんな役割を果たすか、です。**業界を離れたのではなく、具体的な課題を持って、方法を探しに行ったのです。**
+
+| 読み方 | |
+|---|---|
+| 翻訳 | ほんやく |
+| 研究 | けんきゅう |
+| 専攻 | せんこう |
+| 論文 | ろんぶん |
+| 役割 | やくわり |
+`
+      },
+      {
+        q: '為什麼是日本？',
+        zh: `
+我曾以交換生身分就讀群馬大學一年，具備商務日語能力（JLPT N1），在 17LIVE 也長期用日文做跨職能協作。加上家人在日本，我希望在當地建立長期職涯與生活，**這不是短期選項。**
+`,
+        en: `
+I spent a year at Gunma University as an exchange student, I have business-level Japanese (JLPT N1), and at 17LIVE I did cross-functional work in Japanese over a long period. My family is also in Japan, and I want to build a long-term career and life there. **This isn't a short-term option for me.**
+`,
+        ja: `
+群馬大学に交換留学生として一年間在籍し、ビジネスレベルの日本語（JLPT N1）があります。17LIVE でも長期にわたって、日本語で職能横断の協業をしてきました。さらに家族が日本にいるので、現地で長期的なキャリアと生活を築きたいと考えています。**短期的な選択肢ではありません。**
+
+| 読み方 | |
+|---|---|
+| 群馬大学 | ぐんまだいがく |
+| 交換留学生 | こうかんりゅうがくせい |
+| 在籍 | ざいせき |
+| 職能横断 | しょくのうおうだん |
+| 選択肢 | せんたくし |
+`
+      },
+      {
+        q: '這一年在念書，中間的空檔怎麼解釋？',
+        zh: `
+這段時間我在念全職碩士，同時把產品實作沒有停下來：做了 agentic AI 平台的產品規劃、租屋篩選工具、辦了三次 AI agent 實作課程，也用 agent pipeline 管理自己的求職流程。這些都在我的 portfolio 上可以看到。
+`,
+        en: `
+I've been on a full-time master's, and I didn't stop building during it: the product planning for the agentic AI platform, the rental filtering tool, three runs of the hands-on AI agent course, and an agent pipeline that manages my own job search. All of it is visible in my portfolio.
+`,
+        ja: `
+この期間はフルタイムの修士課程に在学していましたが、その間もプロダクトの実装は止めていません。agentic AI プラットフォームのプロダクト企画、賃貸物件のフィルタリングツール、AI agent 実装講座を三回開催、そして agent pipeline で自分の就職活動を管理しています。すべて私のポートフォリオで見られます。
+
+| 読み方 | |
+|---|---|
+| 修士課程 | しゅうしかてい |
+| 在学 | ざいがく |
+| 実装 | じっそう |
+| 企画 | きかく |
+| 賃貸物件 | ちんたいぶっけん |
+| 講座 | こうざ |
+| 就職活動 | しゅうしょくかつどう |
+`
+      },
+      {
+        q: '簽證、到職時間、地點、期望待遇',
+        zh: `
+| 問題 | 答案 |
+|---|---|
+| 需要擔保嗎？ | 表格只有 Yes/No 就選 **Yes**。有補充欄位就加：畢業後可走 Graduate Route，約兩年內不需要雇主擔保，之後才需要。 |
+| 何時可到職？ | **2026 年 9 月畢業後**；實習類可即時。 |
+| 地點彈性 | 以倫敦為主，可 on-site，也接受 remote 或 hybrid，願意 relocate。 |
+| 薪資期望 | 英國主帶 **£50,000–£60,000**；日本主帶 **600〜800 萬円**。 |
+`,
+        en: `
+| Question | Answer |
+|---|---|
+| Do you need sponsorship? | If the form only allows Yes/No, answer **Yes**. Where there's a free-text field, add: after graduating I can use the Graduate Route, which means no employer sponsorship is needed for about two years, only after that. |
+| When can you start? | **After graduating in September 2026**; immediately for internships. |
+| Location | London-based, happy to be on-site, also open to remote or hybrid, willing to relocate. |
+| Salary expectation | UK: **£50,000–£60,000**. Japan: **¥6,000,000–8,000,000**. |
+`,
+        ja: `
+| 質問 | 回答 |
+|---|---|
+| スポンサーは必要ですか？ | フォームが Yes/No しかなければ **Yes** を選ぶ。補足欄があれば追記：卒業後は Graduate Route が使えるので、約二年間は雇用主のスポンサーが不要。必要になるのはその後。 |
+| いつから勤務できますか？ | **2026 年 9 月の卒業後**。インターンであればすぐに可能。 |
+| 勤務地の柔軟性 | ロンドンを中心に、オンサイト可。リモートやハイブリッドも可。転勤も可能。 |
+| 希望年収 | イギリスは **£50,000–£60,000** が主。日本は **600〜800 万円** が主。 |
+`
+      }
+    ]
+  },
+  {
+    name: '反問',
+    items: [
+      {
+        q: '你有什麼想問我們的嗎？',
+        zh: `
+#### 必問
+
+1. Hiring manager 對這個角色**一年後的期待**是什麼？
+2. 產品開發團隊怎麼分工、多少人？依功能分組還是依專案編組？
+3. **需求從哪裡來？決策流程是什麼？**
+4. 後續流程與時間線是什麼？面試有幾關、各關會是誰？
+
+#### 高價值
+
+5. 這個角色在**前 90 天**，什麼樣的結果會讓你們覺得找對人了？
+6. **在你們公司做得好的人通常有什麼特質？**
+7. 團隊目前在產品與工程之間，最常卡住的環節是什麼？
+8. 這個職位的**產品決策權界線**在哪裡，PM 可以自己決定到什麼程度？
+9. 明年你們最大的障礙會是什麼？
+
+#### 看情境挑
+
+| 情境 | 問題 |
+|---|---|
+| 他們主動來找你 | 想先了解你們在我的背景裡看到的是哪一塊？ |
+| AI 導向公司 | AI 這條線目前佔營收多少？PM 要參與到什麼程度？非工程職也用 agent 嗎？ |
+| 有海外據點 | 海外團隊負責什麼？跟台灣怎麼協作？ |
+| 新開職位 | 這個角色以前是誰在兼？拆出來之後最想先解決的是什麼？ |
+| PM 職缺 | 在你們公司，product manager 跟 project manager 差在哪？ |
+| 接案公司 | 客戶臨時加需求或壓時程時，範圍與時程的決定權在 PM 還是業務？ |
+| 日本線 | 這個角色的日文實際使用比重是多少？ |
+| 先簽約聘 | Contractor 期間報酬怎麼計？轉正職時薪資怎麼銜接？有沒有試用期？ |
+| 獵頭、HR | 除了語言之外，我還有什麼需要加強的地方？ |
+`,
+        en: `
+#### Always ask
+
+1. What does the hiring manager expect from this role **a year from now**?
+2. How is the product team split up, and how many people? Grouped by function or by project?
+3. **Where do requirements come from, and what does the decision process look like?**
+4. What are the next steps and the timeline? How many rounds, and who would I meet?
+
+#### High value
+
+5. **In the first 90 days**, what result would make you feel you'd hired the right person?
+6. **What do the people who do well here usually have in common?**
+7. Where does the team most often get stuck between product and engineering?
+8. **Where is the boundary of product decision-making** in this role? How much can the PM decide alone?
+9. What will be your biggest obstacle next year?
+
+#### Pick by situation
+
+| Situation | Question |
+|---|---|
+| They approached you | I'd like to understand which part of my background stood out to you? |
+| AI-driven company | How much of revenue does the AI line represent today? How involved is the PM? Do non-engineering roles use agents too? |
+| Has overseas offices | What do the overseas teams own, and how do they work with Taiwan? |
+| Newly created role | Who was covering this before? Once it's split out, what do you most want solved first? |
+| PM role | In your company, what's the difference between a product manager and a project manager? |
+| Agency or client work | When a client adds scope or compresses the timeline, who decides on scope and schedule, the PM or sales? |
+| Japan track | How much of this role is actually conducted in Japanese? |
+| Contractor first | How is contractor pay calculated, and how does it carry over when converting to full time? Is there a probation period? |
+| Recruiter or HR | Aside from language, what else should I be strengthening? |
+`,
+        ja: `
+#### 必ず聞く
+
+1. Hiring manager は、この役割に**一年後**、何を期待していますか？
+2. プロダクト開発チームはどう分担していて、何人ですか？機能ごとのグループ分けですか、それともプロジェクトごとですか？
+3. **要件はどこから来ますか？意思決定のプロセスはどうなっていますか？**
+4. 今後の選考プロセスとスケジュールを教えてください。面接は何回あって、それぞれどなたが担当されますか？
+
+#### 価値の高い質問
+
+5. この役割で、**最初の 90 日**にどんな結果が出れば「正しい人を採用した」と感じますか？
+6. **御社で活躍している人には、どんな共通点がありますか？**
+7. チームでは今、プロダクトとエンジニアリングの間で、どこが一番つまずきやすいですか？
+8. このポジションの**プロダクトに関する決定権の境界**はどこですか？PM はどこまで自分で決められますか？
+9. 来年、御社にとって最大の障壁は何になりそうですか？
+
+#### 状況に応じて選ぶ
+
+| 状況 | 質問 |
+|---|---|
+| 先方からの声かけ | まず、私の経歴のどの部分に注目していただいたのか、教えていただけますか？ |
+| AI 志向の会社 | AI 事業は現在、売上のどのくらいを占めていますか？PM はどこまで関わりますか？エンジニア以外の職種も agent を使っていますか？ |
+| 海外拠点あり | 海外チームは何を担当していますか？台湾とはどう協業していますか？ |
+| 新設ポジション | この役割は以前どなたが兼任していましたか？切り出したあと、まず何を解決したいですか？ |
+| PM 職 | 御社では、product manager と project manager の違いは何ですか？ |
+| 受託会社 | クライアントが急に要件を追加したり納期を詰めてきたとき、スコープと納期の決定権は PM ですか、営業ですか？ |
+| 日本向け | この役割で、実際に日本語を使う割合はどのくらいですか？ |
+| まず契約社員 | Contractor 期間の報酬はどう計算されますか？正社員に転換するとき、給与はどう引き継がれますか？試用期間はありますか？ |
+| ヘッドハンター・HR | 言語以外に、私が強化すべき点はありますか？ |
+
+| 読み方 | |
+|---|---|
+| 要件 | ようけん |
+| 選考 | せんこう |
+| 決定権 | けっていけん |
+| 境界 | きょうかい |
+| 障壁 | しょうへき |
+| 兼任 | けんにん |
+| 受託 | じゅたく |
+| 試用期間 | しようきかん |
+`
+      }
+    ]
+  }
+  ]
+},
+
+/* ═══════════ PM 專業 ═══════════ */
+{
+  id: 'pm',
+  label: 'PM 專業',
+  section: 'General',
+  groups: [
+  {
+    name: '方法論',
+    items: [
+      {
+        q: '你怎麼決定優先級？你如何排序需求？',
+        zh: `
+我不相信單一公式，但我有固定的三個問題：**這個問題影響多少人**（量化訊號）、**影響有多痛**（訪談與 VOC）、以及**做了之後我們會不會更靠近這一季的目標**。
+
+在 17LIVE 我就是用訪談加 SQL 交叉比對做這件事，質化告訴我為什麼、量化告訴我有多少人。爭不下來的時候，我會**把取捨明確寫出來讓決策者選**，而不是讓它懸在會議裡。
+`,
+        en: `
+I don't believe in a single formula, but I do have three fixed questions: **how many people does this affect** (the quantitative signal), **how painful is it** (interviews and VOC), and **does doing it move us closer to this quarter's goal**.
+
+At 17LIVE I did exactly this by cross-referencing interviews with SQL: qualitative told me why, quantitative told me how many people. When an argument can't be settled, I **write the trade-off out explicitly and let the decision-maker choose**, rather than leaving it hanging in a meeting.
+`,
+        ja: `
+単一の公式は信じていません。ただ、決まった三つの問いは持っています。**この課題は何人に影響するか**（定量的なシグナル）、**その影響はどれだけ痛いか**（インタビューと VOC）、そして**やったあとに、今四半期の目標に近づくか**です。
+
+17LIVE では、まさにインタビューと SQL を突き合わせてこれをやっていました。定性は「なぜ」を教えてくれ、定量は「何人か」を教えてくれます。議論が決着しないときは、**トレードオフを明文化して、意思決定者に選んでもらいます**。会議の中で宙に浮かせたままにはしません。
+
+| 読み方 | |
+|---|---|
+| 公式 | こうしき |
+| 定量 | ていりょう |
+| 定性 | ていせい |
+| 四半期 | しはんき |
+| 突き合わせて | つきあわせて |
+| 決着 | けっちゃく |
+| 明文化 | めいぶんか |
+`
+      },
+      {
+        q: '時間緊急的情況下，你怎麼排序需求？',
+        zh: `
+我用三格來判斷，順序固定。
+
+**第一格，Impact，影響範圍有多大。** 我會先確認三件事：這個需求是誰提的、要解決的問題是什麼、預期的目標跟成效是什麼。這三件事沒講清楚之前我不會估工時。確認完我會去要數字：受影響的用戶量、這一段目前的轉換或客訴量、如果是營收類就直接看金額。**在還沒有數字之前，「急」只是一種情緒。**
+
+**第二格，Confidence，我對這個估計有多少信心。** 這個影響是量出來的還是推測的？有沒有實驗或歷史資料撐得住？如果信心低，我會傾向先做一個小的驗證版本，而不是一次投入全部資源。
+
+**第三格，Ease，要付出多少成本。** 這一格我不會自己猜，我會去問：問工程師技術上實際要多久、有沒有依賴；問資料團隊指標拿不拿得到；問客服跟營運，上線之後誰要承接。
+
+三格填完，排序通常就很明顯了。真的爭不下來，我會把取捨寫出來讓決策者選，而不是讓它懸在會議裡。
+`,
+        en: `
+I use three boxes, always in the same order.
+
+**Box one, Impact, how big the effect is.** I confirm three things first: who raised this request, what problem it is meant to solve, and what the expected goal and outcome are. I won't estimate effort before those three are clear. Once they are, I go and get numbers: how many users are affected, the current conversion or complaint volume for that step, or if it is revenue-related, the amount itself. **Until there are numbers, "urgent" is just an emotion.**
+
+**Box two, Confidence, how much I trust that estimate.** Was the impact measured, or guessed? Is there an experiment or historical data behind it? If confidence is low, I would rather ship a small validation version first than commit all the resources at once.
+
+**Box three, Ease, how much it costs.** I don't guess this one myself. I ask engineers how long it actually takes technically and whether there are dependencies; I ask the data team whether the metric can even be obtained; I ask support and operations who picks this up after launch.
+
+Once the three boxes are filled in, the order is usually obvious. If it genuinely can't be settled, I write the trade-off down and let the decision-maker choose, rather than leaving it hanging in a meeting.
+`,
+        ja: `
+三つの枠で判断します。順番は固定です。
+
+**一つ目は Impact、影響範囲の大きさ**です。まず三つのことを確認します。この要望は誰が出したのか、解決したい課題は何か、期待するゴールと成果は何か。この三つがはっきりするまでは工数の見積もりはしません。確認できたら数字をもらいに行きます。影響を受けるユーザー数、その導線の今のコンバージョンや問い合わせ件数、売上に関わるものなら金額そのものです。**数字が出てくるまで、「急ぎ」はただの感情です。**
+
+**二つ目は Confidence、その見積もりにどれだけ自信があるか**です。その影響は測ったものなのか、推測なのか。実験や過去のデータで裏づけがあるのか。自信が低いときは、いきなり全リソースを投じるのではなく、小さく検証できる版を先に出す方向に寄せます。
+
+**三つ目は Ease、どれだけコストがかかるか**です。ここは自分で推測しません。エンジニアには技術的に実際どれくらいかかるのか、依存関係はあるのかを聞きます。データチームには指標が取れるのかを聞きます。カスタマーサポートと運用には、リリース後に誰が受け持つのかを聞きます。
+
+三つの枠が埋まれば、優先順位はたいてい自然に見えてきます。それでも決着がつかないときは、トレードオフを文章にして意思決定者に選んでもらいます。会議の中で宙ぶらりんにはしません。
+
+| 読み方 | |
+|---|---|
+| 影響範囲 | えいきょうはんい |
+| 要望 | ようぼう |
+| 課題 | かだい |
+| 工数 | こうすう |
+| 見積もり | みつもり |
+| 依存関係 | いぞんかんけい |
+| 優先順位 | ゆうせんじゅんい |
+`
+      },
+      {
+        q: 'RICE 是什麼？VOC 報告包含什麼？',
+        zh: `
+#### RICE
+
+| 字母 | 意思 |
+|---|---|
+| **R** Reach | 給定時間內，預計有多少人會使用或受益於這項功能 |
+| **I** Impact | 功能對每個用戶的影響有多大，通常用數字量化 |
+| **C** Confidence | 對 Reach 和 Impact 估計的信心程度 |
+| **E** Effort | 完成這項工作需要多少時間和資源 |
+
+分數 = R × I × C ÷ E。我實際用的時候不太算分數，而是用它當檢查清單，確保四格都有依據再排。
+
+#### VOC（Voice of Customer）報告
+
+在 17LIVE 我們的 VOC 報告有三塊：
+
+- App 自動發送針對不同功能的滿意度調查，彙整這些數據，看哪些功能是用戶喜歡且滿意的
+- 剛上線的功能密切關注用戶反饋，可以及早修復或優化
+- 針對不同功能的反饋，彙整成 insight 給 PM
+
+這也是後來我做用戶回饋分析平台的起點：把散落的 VOC 集中到一個地方看。
+`,
+        en: `
+#### RICE
+
+| Letter | Meaning |
+|---|---|
+| **R** Reach | How many people are expected to use or benefit from the feature in a given period |
+| **I** Impact | How much the feature affects each user, usually quantified with a number |
+| **C** Confidence | How confident you are in the Reach and Impact estimates |
+| **E** Effort | How much time and resource it takes to complete the work |
+
+The score is R × I × C ÷ E. In practice I don't really calculate the score. I use it as a checklist, to make sure all four boxes have something behind them before I set the order.
+
+#### VOC (Voice of Customer) reports
+
+At 17LIVE our VOC report had three parts:
+
+- The app automatically sent satisfaction surveys for different features, and we aggregated that data to see which features users liked and were satisfied with
+- For newly launched features we watched user feedback closely, so we could fix or improve things early
+- Feedback on individual features was consolidated into insights for PMs
+
+This was also the starting point for the user-feedback analytics platform I built later: bringing scattered VOC into one place.
+`,
+        ja: `
+#### RICE
+
+| 文字 | 意味 |
+|---|---|
+| **R** Reach | 一定の期間内に、何人がこの機能を使う、または恩恵を受けると見込めるか |
+| **I** Impact | 一人ひとりのユーザーへの影響がどれくらい大きいか。通常は数字で定量化します |
+| **C** Confidence | Reach と Impact の見積もりにどれだけ自信があるか |
+| **E** Effort | この仕事を終えるのにどれだけの時間とリソースが必要か |
+
+スコアは R × I × C ÷ E です。実際に使うときはスコアを細かく計算するというより、チェックリストとして使って、四つの枠すべてに根拠があることを確認してから並べます。
+
+#### VOC（Voice of Customer）レポート
+
+17LIVE では、VOC レポートは三つのパートで構成していました。
+
+- アプリから機能ごとの満足度調査を自動で配信し、そのデータをまとめて、どの機能がユーザーに好まれ満足されているかを見る
+- リリース直後の機能はユーザーの反応を細かく追い、早めに修正や改善ができるようにする
+- 機能ごとのフィードバックをまとめて、インサイトとして PM に渡す
+
+これが、のちにユーザーフィードバック分析プラットフォームを作る出発点にもなりました。バラバラになっていた VOC を一か所に集めて見られるようにする、という発想です。
+
+| 読み方 | |
+|---|---|
+| 恩恵 | おんけい |
+| 定量化 | ていりょうか |
+| 根拠 | こんきょ |
+| 満足度調査 | まんぞくどちょうさ |
+| 出発点 | しゅっぱつてん |
+`
+      },
+      {
+        q: '你怎麼定義一個功能的成功指標？',
+        zh: `
+**先定義行為，再定義數字。** 我會先問「如果這個功能成功了，使用者會多做哪一件事」，再把那件事變成可以追蹤的指標。
+
+接下來我用三個步驟。
+
+#### 一、先決定主要指標是採用率還是完成率
+
+這取決於我要衡量的是**一個新推出的東西**，還是**一條有起點終點的流程**。
+
+| 主要指標 | 什麼時候用 | 分母 | 分子 |
+|---|---|---|---|
+| **採用率** | 新推出的功能 | 有機會用到的人（曝光過、符合資格） | 實際用過至少一次的人 |
+| **完成率** | 有明確起點與終點的流程 | 開始這個流程的人 | 走到終點的人 |
+
+**這兩個不能互換。** 訂票主流程沒有採用率可言，因為使用者是帶著明確意圖進來的，不存在「要不要採用」這件事；反過來，剛上線的新功能也不該只看完成率，因為完成率再高，沒人進來就沒有意義。我在 17LIVE 踩過這個坑：短影音的剪輯權限預設關閉，幾乎沒有主播會去打開設定頁，**供給端根本沒被打開。**
+
+#### 二、配上診斷指標與護欄指標
+
+| 類型 | 回答什麼 | 常用的 |
+|---|---|---|
+| **主要指標** | 有沒有達成目標 | 採用率、完成率 |
+| **診斷指標** | 為什麼成功或失敗 | 各步驟轉化、點擊、停留時間、錯誤率 |
+| **護欄指標** | 有沒有產生副作用 | 留存、客服量、載入時間 |
+
+**主要指標只會告訴你成不成，它不會告訴你為什麼，也不會告訴你代價是什麼。** 診斷指標讓我知道要修哪一段，護欄指標讓我知道這個提升是不是拿別的東西換來的。
+
+舉個例子，如果我把一個必要的說明往流程後面藏，完成率很可能會上升，但客服量會跟著上升。**那不是贏，那是把成本推到別的地方去。**
+
+#### 三、用 A/B 測試驗證
+
+三類定完之後我會用 A/B 去驗證，而不是上線之後看趨勢就下結論。我做 AI 平台的時候也是同一套：先寫清楚什麼叫做好的輸出，才有辦法用 A/B 框架比較成本與品質，最後拿到降本 83%、品質只掉 3% 的結果。
+
+---
+
+#### 套用示範：訂機票流程
+
+| 角色 | 指標 |
+|---|---|
+| **主要** | 整條流程的完成率：進入訂票流程 → 完成付款（我在作業裡算出來是 6.5%） |
+| **診斷** | 各步驟通過率，找出流失集中在哪一段 |
+| **護欄** | 客服量、付款失敗率 |
+
+這裡有一個陷阱值得單獨講：**訂票流程中間，使用者會離開去比價，這一步不能用完成率量。**
+
+因為完成率是二元的，走完或沒走完，而**離開去比價的人可能會回來**。用完成率量這一步，等於把「暫時離開」全部記成「流失」，我會去修一個其實沒那麼壞的環節。
+
+所以這一步我會加一個指標：**回流率，離開之後 30 分鐘或 24 小時內回來完成的比例。** 如果離開的人有七成會回來，那比價只是這個市場的正常行為，不是問題；如果只有一成回來，那才是要打的地方。**沒有回流率，我分不出這兩種情況。**
+
+**那採用率什麼時候會回到這題？** 當我為了處理這個離開做了一個新東西，例如價格保證徽章或降價通知。那時候採用率是「看到的人裡有多少用了」，完成率是「用了的人裡有多少完成訂票」，**兩個要一起看**：採用率高但完成率沒動，代表有人用但沒解決問題；採用率低，代表功能藏太深，還沒到能判斷有沒有效的階段。
+`,
+        en: `
+**Define the behaviour first, then the number.** I start by asking: if this feature works, what is the one thing users will do more of? Then I turn that into a trackable metric.
+
+From there I work in three steps.
+
+#### 1. Decide whether the primary metric is adoption or completion
+
+That depends on whether I'm measuring **something newly launched** or **a flow with a defined start and end**.
+
+| Primary metric | When to use it | Denominator | Numerator |
+|---|---|---|---|
+| **Adoption rate** | A newly launched feature | People who had the chance to use it (exposed, eligible) | People who used it at least once |
+| **Completion rate** | A flow with a clear start and end | People who started the flow | People who reached the end |
+
+**These two aren't interchangeable.** A booking flow has no adoption rate, because users arrive with clear intent and there's no question of whether to adopt it. Conversely, a newly launched feature shouldn't be judged on completion rate alone, because however high completion is, it means nothing if nobody arrives. I've been caught by that at 17LIVE: we shipped short-video editing with permissions off by default, almost no streamer ever opened the settings page, and **the supply side never opened up at all.**
+
+#### 2. Add diagnostic and guardrail metrics
+
+| Type | Answers | Typically |
+|---|---|---|
+| **Primary** | Did we hit the goal | Adoption rate, completion rate |
+| **Diagnostic** | Why did it succeed or fail | Step-by-step conversion, clicks, dwell time, error rate |
+| **Guardrail** | Did it cause side effects | Retention, support volume, load time |
+
+**The primary metric only tells you whether it worked. It won't tell you why, and it won't tell you what it cost.** Diagnostic metrics tell me which step to fix; guardrails tell me whether the lift was bought with something else.
+
+For example, if I hid a necessary disclosure later in the flow, completion rate would probably go up, and support volume would go up with it. **That isn't a win, it's moving the cost somewhere else.**
+
+#### 3. Validate with an A/B test
+
+Once those three are defined I'd validate with an A/B test, rather than shipping and reading the trend afterwards. I used the same approach on the AI platform: write down clearly what a good output means, and only then can you use an A/B framework to compare cost against quality. That's how we got to 83% lower cost with only a 3% quality drop.
+
+---
+
+#### Worked example: a flight booking flow
+
+| Role | Metric |
+|---|---|
+| **Primary** | Completion rate for the whole flow: entering the booking flow through to completed payment (6.5% in my exercise) |
+| **Diagnostic** | Pass-through rate stage by stage, to find where the drop-off concentrates |
+| **Guardrail** | Support volume, payment failure rate |
+
+There's one trap here worth calling out on its own: **partway through the booking flow, users leave to compare prices, and you can't measure that step with completion rate.**
+
+Completion rate is binary, finished or not finished, and **the people who leave to compare prices may come back**. Measuring that step with completion rate records every temporary exit as a loss, and I'd end up fixing a stage that isn't actually that broken.
+
+So for that step I'd add one metric: **return rate, the share of people who come back and complete within 30 minutes or 24 hours.** If 70% of the people who leave come back, comparison shopping is just normal behaviour in this market and isn't the problem. If only 10% come back, that's where the work is. **Without return rate, I can't tell those two situations apart.**
+
+**So when does adoption rate come back into this question?** When I build something new to address that exit, a best-price guarantee badge or a price-drop alert, for example. Then adoption rate is "of the people who saw it, how many used it" and completion rate is "of the people who used it, how many completed the booking". **You need both**: high adoption with flat completion means people are using it but it isn't solving the problem; low adoption means the feature is buried too deep and we're not yet at the point where we can judge whether it works.
+`,
+        ja: `
+**先に行動を定義し、それから数字を定義します。** まず「この機能が成功したら、ユーザーはどの行動を今より多く取るか」を問い、その行動を追跡できる指標に変えます。
+
+そのうえで、三つのステップで進めます。
+
+#### 一、主要指標を採用率にするか完了率にするかを先に決める
+
+これは、測りたいのが**新しくリリースしたもの**なのか、**始点と終点があるフロー**なのかで決まります。
+
+| 主要指標 | いつ使うか | 分母 | 分子 |
+|---|---|---|---|
+| **採用率** | 新しくリリースした機能 | 使う機会があった人（表示された、対象条件を満たす） | 実際に一回以上使った人 |
+| **完了率** | 明確な始点と終点があるフロー | このフローを開始した人 | 終点まで到達した人 |
+
+**この二つは入れ替えられません。** 予約のメインフローに採用率はありません。ユーザーは明確な意図を持って入ってくるので、「採用するかどうか」という問い自体が存在しないからです。逆に、リリースしたばかりの新機能を完了率だけで見るべきでもありません。完了率がどれだけ高くても、誰も入ってこなければ意味がないからです。私は 17LIVE でこの落とし穴を踏みました。ショート動画の編集権限がデフォルトでオフになっていて、設定ページを開いて有効にするライバーはほとんどいませんでした。**供給側がまったく開かれていなかったのです。**
+
+#### 二、診断指標とガードレール指標を組み合わせる
+
+| 種類 | 何に答えるか | よく使うもの |
+|---|---|---|
+| **主要指標** | 目標を達成したか | 採用率、完了率 |
+| **診断指標** | なぜ成功したか、失敗したか | 各ステップのコンバージョン、クリック、滞在時間、エラー率 |
+| **ガードレール指標** | 副作用が出ていないか | リテンション、問い合わせ件数、読み込み時間 |
+
+**主要指標は、成功したかどうかしか教えてくれません。なぜかも、代償が何かも教えてくれません。** 診断指標があれば、どの段階を直せばいいかが分かります。ガードレール指標があれば、この改善が何かを犠牲にして得たものではないかが分かります。
+
+例えば、必要な説明をフローの後ろのほうに隠せば、完了率はおそらく上がります。でも、問い合わせ件数も一緒に増えます。**それは勝ちではなく、コストを別の場所に押し付けただけです。**
+
+#### 三、A/B テストで検証する
+
+三種類を決めたら、A/B テストで検証します。リリース後にトレンドを見て結論を出す、ということはしません。AI プラットフォームを作ったときも同じやり方でした。何が良い出力なのかを先に明文化して、初めて A/B の枠組みでコストと品質を比較できます。最終的に、コスト 83% 削減、品質低下はわずか 3% という結果を得ました。
+
+---
+
+#### 適用例：航空券の予約フロー
+
+| 役割 | 指標 |
+|---|---|
+| **主要** | フロー全体の完了率：予約フローに入る → 決済完了（課題では 6.5% と算出しました） |
+| **診断** | 各ステップの通過率で、離脱がどの段階に集中しているかを特定する |
+| **ガードレール** | 問い合わせ件数、決済失敗率 |
+
+ここには、別に取り上げる価値のある落とし穴があります。**予約フローの途中で、ユーザーは価格比較のために一度離れます。このステップは完了率では測れません。**
+
+完了率は二値で、最後まで行ったか行っていないかしかありません。しかし**比較のために離れた人は、戻ってくる可能性があります**。このステップを完了率で測ると、「一時的な離脱」をすべて「流失」として記録してしまい、実はそれほど悪くない段階を直しに行くことになります。
+
+ですから、このステップには指標を一つ足します。**再訪率、つまり離脱後 30 分または 24 時間以内に戻ってきて完了した割合です。** 離れた人の七割が戻ってくるなら、価格比較はこの市場では普通の行動であって、課題ではありません。一割しか戻らないなら、そこが攻めるべき場所です。**再訪率がなければ、この二つの状況を見分けられません。**
+
+**では、採用率はいつこの話に戻ってくるのでしょうか？** この離脱に対処するために、新しいものを作ったときです。例えば、最低価格保証のバッジや値下げ通知です。そのときの採用率は「見た人のうち何人が使ったか」、完了率は「使った人のうち何人が予約を完了したか」で、**二つを一緒に見る必要があります**。採用率が高いのに完了率が動かなければ、使われてはいるが課題を解決していない、ということです。採用率が低ければ、機能が深いところに埋もれていて、効果を判断できる段階にまだ来ていない、ということです。
+
+| 読み方 | |
+|---|---|
+| 採用率 | さいようりつ |
+| 完了率 | かんりょうりつ |
+| 分母 | ぶんぼ |
+| 分子 | ぶんし |
+| 診断指標 | しんだんしひょう |
+| 供給側 | きょうきゅうがわ |
+| 代償 | だいしょう |
+| 再訪率 | さいほうりつ |
+`
+      },
+      {
+        q: '你怎麼做 product discovery？產品需求是怎麼產生的？',
+        zh: `
+質化加量化，兩邊都要。
+
+17LIVE 時我和 UX Research 一起訪談一般用戶與頭部主播，同時追蹤留存與行為數據。另外我很依賴一個習慣：**把散落的回饋集中起來看。** 客服工單、QA 紀錄、商店評論這些通常沒人整理，但它們是**最便宜的洞察來源**，我在 17LIVE 就是把它們整合成儀表板，讓問題處理速度提升 15%。
+`,
+        en: `
+Qualitative plus quantitative. You need both.
+
+At 17LIVE I interviewed general users and top streamers with UX Research, while tracking retention and behavioural data. I also rely on one habit: **pull the scattered feedback into one place and look at it.** Support tickets, QA records, store reviews usually have nobody organising them, but they are **the cheapest source of insight you have**. At 17LIVE I consolidated them into a dashboard and made issue resolution 15% faster.
+`,
+        ja: `
+定性と定量、両方必要です。
+
+17LIVE では UX Research と一緒に、一般ユーザーとトップライバーにインタビューしながら、同時にリテンションと行動データを追跡していました。それに加えて、私が強く頼りにしている習慣が一つあります。**散らばったフィードバックを一か所に集めて見ることです。** カスタマーサポートのチケット、QA の記録、ストアレビュー。こうしたものは普段誰も整理していませんが、**一番安上がりなインサイトの源泉**です。17LIVE ではこれらをダッシュボードに統合して、課題対応のスピードを 15% 向上させました。
+
+| 読み方 | |
+|---|---|
+| 定性 | ていせい |
+| 定量 | ていりょう |
+| 追跡 | ついせき |
+| 散らばった | ちらばった |
+| 源泉 | げんせん |
+| 統合 | とうごう |
+`
+      },
+      {
+        q: '你怎麼管理時間、追蹤專案進度？',
+        zh: `
+80/20。我把 20% 的時間用來完成 80% 的任務，騰出來的時間拿去做 side project 和自動化。重複性的事情我盡量交給自動化處理，專注在真正需要判斷的工作上，我的求職 pipeline 就是這樣做的。
+`,
+        en: `
+80/20. I use 20% of my time to clear 80% of the tasks, and spend what that frees up on side projects and automation. I hand repetitive work to automation and concentrate on the work that genuinely needs judgement. My own job-search pipeline is built exactly that way.
+`,
+        ja: `
+80/20 です。20% の時間で 80% のタスクを片付け、空いた時間をサイドプロジェクトと自動化に使います。繰り返しの作業はできるだけ自動化に任せて、本当に判断が必要な仕事に集中します。私の就職活動の pipeline も、まさにそうやって作りました。
+
+| 読み方 | |
+|---|---|
+| 自動化 | じどうか |
+| 繰り返し | くりかえし |
+| 判断 | はんだん |
+| 就職活動 | しゅうしょくかつどう |
+`
+      }
+    ]
+  },
+  {
+    name: '產品思考',
+    items: [
+      {
+        q: '請分享一個你最近喜歡的產品，為什麼？（小紅書，以及它跟 Instagram 的差別）',
+        zh: `
+我會講小紅書，用四段：介紹、最常用的功能、觀察到的特色、自己的疑問。
+
+**簡單介紹**：小紅書是一個結合社群和電商的生活方式平台，用戶在上面分享和發現商品評價、旅遊日記、生活技巧。
+
+**最常用的功能**：探索頁。可以看到不同用戶在美妝、時尚、飲食、旅遊上的分享，我用它發現新趨勢和有趣的產品。
+
+**觀察到的特色**：社群影響力和用戶生成內容（UGC）。用戶分享的是真實體驗和評價，內容可信度高，這種基於社群的推薦機制讓它跟其他平台很不一樣。
+
+**自己的疑問**：它怎麼在商業推廣和內容真實性之間取得平衡？商業利益和用戶信任之間的平衡點，決定了這個社群能不能健康發展。
+
+#### 被追問「跟 Instagram 差在哪」
+
+| 面向 | 小紅書 | Instagram |
+|---|---|---|
+| 平台定位 | 生活方式分享與商品推薦，強調 UGC 對其他用戶的實際價值 | 視覺體驗與個人品牌 |
+| 社群互動 | 圍繞內容的實用性、可操作性 | 圍繞點讚、評論、分享美觀的圖片與影片 |
+| 商業模式 | 電商功能強，內容直接連到購物頁，重視內容對購買決策的影響 | 以廣告與品牌合作為主，購物功能不是核心 |
+| 市場與用戶 | 以中國市場為主，年輕女性比例高，重視生活品質 | 全球用戶，群體多元，品牌與名人參與度高 |
+`,
+        en: `
+I would talk about Xiaohongshu, in four parts: what it is, the feature I use most, what I notice about it, and my own open question.
+
+**Quick introduction**: Xiaohongshu is a lifestyle platform that combines community and e-commerce. People share and discover product reviews, travel diaries and everyday life tips.
+
+**The feature I use most**: the explore page. I can see what different users post about beauty, fashion, food and travel, and I use it to find new trends and interesting products.
+
+**What I notice**: the community influence and the user-generated content. What people share is real experience and honest reviews, so the content feels credible, and that community-based recommendation mechanism makes it quite different from other platforms.
+
+**My own question**: how do they balance commercial promotion against the authenticity of the content? Where they place that balance between business interest and user trust decides whether the community can stay healthy.
+
+#### If asked how it differs from Instagram
+
+| Dimension | Xiaohongshu | Instagram |
+|---|---|---|
+| Positioning | Lifestyle sharing and product recommendations, emphasising the practical value of UGC to other users | Visual experience and personal branding |
+| Community interaction | Built around how useful and actionable the content is | Built around likes, comments and shares on visually appealing photos and videos |
+| Business model | Strong e-commerce, content links straight to a purchase page, focused on influencing buying decisions | Mainly advertising and brand partnerships; shopping is not the core |
+| Market and users | Mainly the Chinese market, a high proportion of young women, focused on quality of life | Global users, diverse audiences, high participation from brands and celebrities |
+`,
+        ja: `
+小紅書（シャオホンシュー）についてお話しします。四つに分けます。簡単な紹介、よく使う機能、気づいた特徴、自分の疑問です。
+
+**簡単な紹介**：小紅書はコミュニティと EC を組み合わせたライフスタイル・プラットフォームです。ユーザーは商品のレビュー、旅行記、生活の工夫などを投稿し、また見つけに来ます。
+
+**よく使う機能**：発見タブです。コスメ、ファッション、食、旅行について、いろいろなユーザーの投稿を見られます。新しいトレンドや面白いプロダクトを見つけるのに使っています。
+
+**気づいた特徴**：コミュニティの影響力と UGC（ユーザー生成コンテンツ）です。ユーザーが共有しているのは実体験と率直な評価なので、コンテンツの信頼度が高い。このコミュニティ発のレコメンドの仕組みが、他のプラットフォームとの大きな違いだと思います。
+
+**自分の疑問**：商業的なプロモーションとコンテンツの本物らしさを、どうやって両立させているのか。ビジネス上の利益とユーザーの信頼のバランスをどこに置くかが、このコミュニティが健全に育つかどうかを決めると思っています。
+
+#### 「Instagram とどう違うのか」と聞かれたら
+
+| 観点 | 小紅書 | Instagram |
+|---|---|---|
+| 立ち位置 | ライフスタイルの共有と商品のレコメンド。UGC が他のユーザーにとって実際に役立つことを重視 | ビジュアル体験と個人のブランディング |
+| コミュニティ内の交流 | コンテンツが実用的か、すぐ実践できるかを中心に回る | 見栄えのよい写真や動画への「いいね」、コメント、シェアを中心に回る |
+| ビジネスモデル | EC 機能が強く、コンテンツから購入ページに直接つながる。購買の意思決定への影響を重視 | 広告とブランドとのタイアップが中心で、ショッピング機能は主軸ではない |
+| 市場とユーザー | 中国市場が中心。若い女性の比率が高く、生活の質を重視 | 世界中にユーザーがいて層も多様。ブランドや著名人の参加度が高い |
+
+| 読み方 | |
+|---|---|
+| 発見 | はっけん |
+| 実体験 | じったいけん |
+| 信頼度 | しんらいど |
+| 健全 | けんぜん |
+| 観点 | かんてん |
+| 立ち位置 | たちいち |
+| 意思決定 | いしけってい |
+`
+      }
+    ]
+  },
+  {
+    name: '指標與變現',
+    items: [
+      {
+        q: 'GMV 和轉換率，你怎麼談這兩個指標？',
+        zh: `
+**GMV 這一側**：在 Typus 我負責永續合約產品的整段流程，交易量就是我們的 GMV。上線後第一季累積約 8,700 萬美元交易量。同期存入的總資產從 800 萬成長到 2,000 萬美元，月活躍用戶從約 1,000 成長到 2 萬以上。
+
+但重點是，我沒辦法直接推動交易量。我做的是把整體的商業數字拆到使用者旅程的每一步，找出流失最大的那一段，再針對那個問題做改善。
+
+**轉換率這一側**：最清楚的例子是 17LIVE 的 90 秒短影音。用戶可以從主播的典藏直播剪一段 90 秒影片分享到社群，目標是透過分享帶進 1,500 個新註冊、第七天留存提升 5%。
+
+剪輯和分享都表現得好：分享次數遠高於一般貼文，在首頁內容的點擊率和分享率都排第一。但從分享到註冊的轉換低於目標，那一段才是最有意思的。
+
+把漏斗拆開之後，我找到三個漏損點：
+
+1. **剪輯權限預設關閉。** 這是跟 stakeholder 一起做的決定，因為要讓主播對自己的內容有控制權。但很少主播會去設定頁打開，供給端從來沒有被真正啟動。
+2. **剪輯和分享是兩個動作**，我們卻假設剪了就會分享。
+3. **最重要的，很多片段只是直播裡的日常時刻。** 對既有粉絲有意義，但對不認識主播的人，不足以讓他註冊。
+
+所以我的建議是往上游走：問題不在分享流程，在被剪的內容。要鼓勵主播在直播時做當下流行的短影音表演，剪出來的片段才有轉換新用戶的價值。
+
+**轉換率從來不是一個數字，它是一整條使用者動作的鏈，斷掉的那一環通常不在你一開始以為的地方。**
+`,
+        en: `
+**On the GMV side**: at Typus I owned the perpetual futures product end to end, and trading volume was effectively our GMV. In the first quarter after launch, the product accumulated around 87 million US dollars in trading volume. Over the same period, total assets deposited grew from 8 million to 20 million dollars, and monthly active users went from around 1,000 to more than 20,000.
+
+The important point, though, is that I couldn't move trading volume directly. The way I worked with the metric was to break the overall business number down into each step of the user journey, find where the largest drop-off was, and build improvements around that specific problem.
+
+**On the conversion side**: the clearest example is a short-video feature I led at 17LIVE. Users could create a 90-second clip from a streamer's archived livestream and share it on social media. Our targets were 1,500 new sign-ups through shared clips and a 5% improvement in day-seven retention.
+
+Clip creation performed well and so did sharing: clips were shared far more often than regular posts, and ranked first among homepage content in both click-through and share rate. But conversion from share to sign-up came in below target, and that was the part I found most interesting.
+
+When I broke the funnel down, I found three separate leaks:
+
+1. **Clipping permission was off by default.** That was a deliberate decision made with stakeholders so streamers kept control of their content. But very few streamers visited the settings page to turn it on, so the supply side was never really activated.
+2. **Creating a clip and sharing it were two separate actions**, and we had assumed one would naturally lead to the other.
+3. **Most importantly, many clips were just ordinary moments from a livestream.** Meaningful to existing fans, but not interesting enough to make someone who doesn't know the streamer create an account.
+
+So my recommendation was to move upstream. The problem was not the sharing flow but the content being clipped. We needed to encourage streamers to create moments based on trending short-form formats during their streams, so the clips were valuable enough to convert new users.
+
+**A conversion number is never just one number. It's a whole chain of user actions, and the broken link is usually not where you first expect it.**
+`,
+        ja: `
+**GMV の側**：Typus では無期限先物のプロダクトを一通り担当していて、取引高がそのまま私たちの GMV でした。リリース後の最初の四半期で、累計およそ 8,700 万米ドルの取引高になりました。同じ時期に預け入れ資産の総額は 800 万米ドルから 2,000 万米ドルまで伸び、月間アクティブユーザーは約 1,000 人から 2 万人以上になりました。
+
+ただ大事なのは、私が取引高を直接動かせるわけではないということです。私がやったのは、全体のビジネス数値をユーザージャーニーの一つひとつのステップに分解して、離脱が一番大きいところを見つけ、その課題に絞って改善することです。
+
+**コンバージョンの側**：一番わかりやすいのは 17LIVE の 90 秒ショート動画です。ユーザーがライバーのアーカイブ配信から 90 秒の動画を切り出して SNS にシェアできる機能で、シェア経由で新規登録 1,500 件、7 日目のリテンションを 5% 改善することが目標でした。
+
+切り出しもシェアも数字は良かったです。シェア回数は通常の投稿よりはるかに多く、ホーム画面のコンテンツの中でクリック率もシェア率も一位でした。ただ、シェアから登録へのコンバージョンは目標を下回りました。そこが一番面白いところです。
+
+ファネルを分解すると、漏れが三か所見つかりました。
+
+1. **切り出しの権限がデフォルトでオフだった。** これはステークホルダーと一緒に決めたことで、ライバーが自分のコンテンツをコントロールできるようにするためでした。ただ、わざわざ設定画面まで行ってオンにするライバーはほとんどいません。供給側が一度も本当には立ち上がっていませんでした。
+2. **切り出しとシェアは別々の動作なのに**、切ったらシェアするだろうという前提を置いてしまっていました。
+3. **一番大きいのは、切り出された動画の多くが配信の中の日常的な場面だったこと。** 既存のファンには意味がありますが、そのライバーを知らない人にとっては、登録するほどの動機にはなりません。
+
+なので私の提案は、もっと上流に戻ることでした。課題はシェアの導線ではなく、切り出される中身のほうにあります。ライバーに、配信中に今流行っているショート動画の演出をやってもらう。そうして初めて、切り出した動画が新規ユーザーを連れてくる価値を持ちます。
+
+**コンバージョン率は決して一つの数字ではありません。ユーザーの動作がつながった一本の鎖で、切れている輪は最初に思っていた場所にないことが多いです。**
+
+| 読み方 | |
+|---|---|
+| 取引高 | とりひきだか |
+| 四半期 | しはんき |
+| 預け入れ | あずけいれ |
+| 離脱 | りだつ |
+| 権限 | けんげん |
+| 供給側 | きょうきゅうがわ |
+| 上流 | じょうりゅう |
+`
+      },
+      {
+        q: 'Typus 和 17LIVE 的變現模式有什麼不同？',
+        zh: `
+這兩個產品的變現方式不太一樣。
+
+在 Typus，產品主要透過交易活動產生的手續費獲得收入，所以交易量和營收有直接關係。我的工作是改善使用者從存入資產、完成第一次交易，到成為重複交易者的整段流程。
+
+17LIVE 的 90 秒短影音則不是直接變現的功能，而是一個使用者成長功能，目標是吸引新使用者並提升留存。當這些使用者成為活躍觀眾之後，才可能進一步透過虛擬禮物等平台的核心功能帶來收入。
+
+所以我會把功能分成兩類：**直接產生收入的**，以及**在漏斗前端負責獲客和留存、最終支持變現的**。
+`,
+        en: `
+The two products had different monetisation models.
+
+At Typus, the product generated revenue through fees on trading activity, so trading volume was directly connected to revenue. My role was to improve the journey from depositing assets to making the first trade and becoming a repeat trader.
+
+At 17LIVE, the 90-second clip feature was not designed to generate revenue directly. It was a growth feature intended to attract new users and improve retention. Once those users became active viewers, they could later contribute to revenue through the platform's core monetisation features, such as virtual gifts.
+
+So I separate features into two kinds: **direct monetisation**, and **growth features at the top of the funnel that support monetisation further down**.
+`,
+        ja: `
+この二つのプロダクトは、マネタイズの仕方がかなり違います。
+
+Typus では、プロダクトは主に取引で発生する手数料から収益を得ていました。なので取引高と売上が直接つながっています。私の仕事は、資産を預け入れて、最初の取引を終えて、繰り返し取引するユーザーになるまでの一連の流れを改善することでした。
+
+17LIVE の 90 秒ショート動画のほうは、直接マネタイズする機能ではありません。新規ユーザーを集めてリテンションを上げるためのグロース機能です。そのユーザーがアクティブな視聴者になって初めて、バーチャルギフトのようなプラットフォームの中核機能を通じて収益につながる可能性が出てきます。
+
+なので私は機能を二種類に分けて考えます。**直接収益を生む機能**と、**ファネルの上流で獲得とリテンションを担い、最終的にマネタイズを支える機能**です。
+
+| 読み方 | |
+|---|---|
+| 手数料 | てすうりょう |
+| 収益 | しゅうえき |
+| 取引高 | とりひきだか |
+| 預け入れ | あずけいれ |
+| 視聴者 | しちょうしゃ |
+| 中核 | ちゅうかく |
+`
+      },
+      {
+        q: 'Typus 的 MAU 和 TVL 數字怎麼講？',
+        zh: `
+Typus 是 Sui 上的衍生品和選擇權協議，本質上不靠人海。我任職期間 MAU 從早期低基數成長約 20 倍，到 2025 年中穩定在約 1,850 活躍用戶。
+
+關鍵不是人數，是用戶質量。同期 TVL 約 1,000 萬到 2,800 萬美元，等於每位活躍用戶貢獻 5,000 到 15,000 美元以上的鎖倉資金。我們做的是少數專業交易者的生意，而且這批用戶不是靠空投或流動性挖礦灌進來的，黏著度相對健康。
+
+TVL 從我入職時的約 700 萬美元成長到 2025 年 1 月的 2,800 萬美元高點，公開在 DefiLlama 可查。峰值其實接近 4 倍，我寫 2.5 倍是取保守值。當中有 Sui 生態順風和 BD 合作導入資金，但讓協議接住並留住資金的，是我主導上線的選擇權 vaults、永續合約和流動性池。DeFi 波動大，後來也隨市場回落，這點我不避談。
+
+**講的時候**：MAU 和 TVL 是整條產品線的數字，用「同期」而不是「這個產品帶來的」。
+`,
+        en: `
+Typus is a derivatives and options protocol on Sui, and by nature it is not a headcount game. During my time there, MAU grew roughly 20 times from a low early base, settling at around 1,850 active users by mid-2025.
+
+The point is not the number of people, it is the quality of those users. Over the same period TVL was roughly 10 million to 28 million US dollars, which means each active user accounted for somewhere between 5,000 and over 15,000 dollars of locked capital. We were serving a small number of professional traders, and this was not a user base pulled in by airdrops or liquidity mining, so stickiness was relatively healthy.
+
+TVL grew from around 7 million dollars when I joined to a peak of 28 million in January 2025, which is publicly verifiable on DefiLlama. At the peak it is actually closer to 4 times; the 2.5 times I quote is the conservative figure. Some of that came from tailwinds in the Sui ecosystem and capital brought in through BD partnerships, but what let the protocol catch and keep that capital were the option vaults, perpetuals and liquidity pools I led to launch. DeFi is volatile, and it did come back down with the market afterwards, which I don't avoid mentioning.
+
+**When I say this out loud**: MAU and TVL are numbers for the whole product line, so I say "over the same period" rather than "this product delivered it".
+`,
+        ja: `
+Typus は Sui 上のデリバティブとオプションのプロトコルで、もともと人数で押すタイプのプロダクトではありません。在籍していた期間で MAU は初期の低い水準からおよそ 20 倍に伸び、2025 年半ばには約 1,850 人のアクティブユーザーで安定していました。
+
+大事なのは人数ではなくユーザーの質です。同じ時期の TVL は約 1,000 万米ドルから 2,800 万米ドルで、アクティブユーザー 1 人あたり 5,000 米ドルから 15,000 米ドル以上のロック資金を預けている計算になります。少数のプロのトレーダーを相手にするビジネスですし、このユーザー層はエアドロップや流動性マイニングで一気に流し込んだ人たちではないので、定着も比較的健全でした。
+
+TVL は私が入社した時点の約 700 万米ドルから、2025 年 1 月には 2,800 万米ドルのピークまで伸びました。DefiLlama で公開されていて確認できます。ピークで見れば実際には 4 倍近いのですが、私は保守的に 2.5 倍と書いています。Sui エコシステムの追い風や BD 提携による資金の流入もありましたが、その資金をプロトコルが受け止めて留められたのは、私が主導してリリースしたオプション vaults、無期限先物、流動性プールがあったからです。DeFi はボラティリティが大きいので、その後は市場に合わせて下がりました。そこは隠さずに話します。
+
+**話すときの注意**：MAU も TVL もプロダクトライン全体の数字です。「このプロダクトがもたらした」ではなく「同じ時期に」という言い方をします。
+
+| 読み方 | |
+|---|---|
+| 在籍 | ざいせき |
+| 水準 | すいじゅん |
+| 定着 | ていちゃく |
+| 流動性 | りゅうどうせい |
+| 提携 | ていけい |
+| 保守的 | ほしゅてき |
+`
+      },
+      {
+        q: '用一句白話解釋區塊鏈、DeFi、Web3',
+        zh: `
+給非幣圈面試官用，不要講術語。
+
+**區塊鏈**：一個用來記錄和儲存資料的去中心化系統，不需要透過銀行、政府或其他第三方機構。不同的鏈有各自的優勢，會發展出適合特定類型的應用；越多人用的鏈，就像人口多的國家，願意來建設的人越多，發展得越大。
+
+**DeFi（去中心化金融）**：用區塊鏈技術打造的金融服務，目的是解決傳統中心化金融的低效率與不便。加密貨幣、NFT 這些都算在裡面。
+
+**Web3**：以區塊鏈為基礎打造的產品和應用。背後的精神是抗審查和草根反撲：用戶對自己的個資有絕對掌控權，不受單一機構掌控；提供者和用戶之間，不論權力或分潤，都應該是平等的。
+
+**Typus 一句話**：一個讓人在鏈上交易衍生性金融商品的平台，我負責的永續合約，就是讓用戶用槓桿做多或做空某個幣的產品。
+`,
+        en: `
+This is for interviewers outside crypto, so no jargon.
+
+**Blockchain**: a decentralised system for recording and storing data that doesn't need a bank, a government or any other third party in the middle. Different chains are good at different things, so different kinds of applications grow on each of them. A chain with more people on it is like a country with a bigger population: more people want to build there, and it grows bigger.
+
+**DeFi (decentralised finance)**: financial services built with blockchain technology, meant to fix the inefficiency and inconvenience of traditional centralised finance. Cryptocurrencies and NFTs all sit inside this.
+
+**Web3**: products and applications built on top of blockchain. The spirit behind it is censorship resistance and a grassroots pushback: users have complete control over their own personal data and aren't controlled by any single institution, and the relationship between providers and users should be equal, both in power and in how the returns are shared.
+
+**Typus in one line**: a platform where people trade derivatives on-chain. The perpetual futures product I owned lets users take a leveraged long or short position on a given token.
+`,
+        ja: `
+クリプト業界ではない面接官向けの説明です。専門用語は使いません。
+
+**ブロックチェーン**：データを記録して保存するための仕組みで、銀行や政府のような第三者を通さなくても成り立ちます。チェーンごとに得意なことが違うので、それぞれに合ったサービスが育っていきます。使う人が多いチェーンは人口の多い国と同じで、そこに何かを建てたい人が集まり、どんどん大きくなっていきます。
+
+**DeFi（分散型金融）**：ブロックチェーンの技術で作った金融サービスのことです。これまでの中央集権型の金融の、効率の悪さや不便さを解決するのが目的です。暗号資産や NFT もこの中に入ります。
+
+**Web3**：ブロックチェーンを土台にして作られたプロダクトやサービスのことです。根っこにある考え方は、検閲されないこと、そして草の根からの反撃です。自分の個人データは自分が完全にコントロールし、一つの機関に握られない。サービスを提供する側と使う側は、権限の面でも利益の分配の面でも対等であるべきだ、という発想です。
+
+**Typus を一言で**：ブロックチェーン上でデリバティブを取引できるサービスです。私が担当していた無期限先物は、レバレッジをかけて、ある通貨が上がる方にも下がる方にもポジションを取れるプロダクトです。
+
+| 読み方 | |
+|---|---|
+| 仕組み | しくみ |
+| 第三者 | だいさんしゃ |
+| 分散型金融 | ぶんさんがたきんゆう |
+| 暗号資産 | あんごうしさん |
+| 検閲 | けんえつ |
+| 草の根 | くさのね |
+| 対等 | たいとう |
+`
+      }
+    ]
+  },
+  {
+    name: 'AI',
+    items: [
+      {
+        q: '你怎麼用 AI 工具？你有實際動手做過 AI 嗎？',
+        zh: `
+我的分界點是**從 chatbot 變成 agent**。
+
+一開始我跟大家一樣把 Claude 當查資料和潤稿工具，直到用了 Claude Code，它是在我的檔案裡工作、自己執行步驟，我就從「問問題」變成「交付工作」。現在 AI agent 是我生活、學業與工作的一部分：租屋篩選工具、AI agent 實作課程、我自己的求職 pipeline 都是這樣做出來的。
+
+**模型從來不是難的部分，難的是框對請求、驗證回來的東西，然後穩定重複這兩件事。**
+`,
+        en: `
+The turning point for me was **going from chatbot to agent**.
+
+At first I used Claude like everyone else, for looking things up and polishing writing. Then I used Claude Code, which works inside my own files and executes steps by itself, and I shifted from asking questions to handing over work. AI agents are now part of my life, my studies and my work: the rental filtering tool, the hands-on AI agent course, and my own job-search pipeline were all built this way.
+
+**The model was never the hard part. The hard part is framing the request correctly, verifying what comes back, and then doing those two things repeatably.**
+`,
+        ja: `
+私にとっての分岐点は、**chatbot から agent への転換**でした。
+
+最初は皆さんと同じように、Claude を調べものや文章の推敲ツールとして使っていました。それが Claude Code を使ってから変わりました。Claude Code は私のファイルの中で動き、自分でステップを実行します。そこで「質問する」から「仕事を任せる」に変わりました。今では AI agent は私の生活、学業、仕事の一部です。賃貸物件のフィルタリングツール、AI agent 実装講座、自分の就職活動の pipeline は、すべてこの方法で作りました。
+
+**難しいのはモデルではありません。難しいのは、リクエストを正しく枠にはめること、返ってきたものを検証すること、そしてこの二つを安定して繰り返すことです。**
+
+| 読み方 | |
+|---|---|
+| 分岐点 | ぶんきてん |
+| 転換 | てんかん |
+| 推敲 | すいこう |
+| 学業 | がくぎょう |
+| 実装講座 | じっそうこうざ |
+| 検証 | けんしょう |
+`
+      },
+      {
+        q: '你怎麼衡量 AI 功能的品質？',
+        zh: `
+用**可測量的評估標準加 A/B**，不能只看 demo 好不好。
+
+在那個 33 模組、3 個 LLM 的平台上，我把「好的輸出」寫成評估標準，再用 A/B 框架比較不同模型組合，最後拿到運行成本降低 83%、品質只犧牲 3% 的結果。
+
+**關鍵是要先接受一定會有品質取捨，然後把取捨的幅度量化，而不是假裝沒有。**
+`,
+        en: `
+With **measurable evaluation criteria plus A/B testing**. You can't judge it on how good the demo looks.
+
+On that platform with 33 modules and three LLMs, I wrote down what "a good output" means as evaluation criteria, then used an A/B framework to compare model combinations. We ended up cutting running cost by 83% with only a 3% drop in quality.
+
+**The key is to accept up front that there will be a quality trade-off, and then quantify how big it is, rather than pretending there isn't one.**
+`,
+        ja: `
+**測定可能な評価基準と A/B テスト**を使います。デモの出来だけで判断してはいけません。
+
+33 モジュール、3 つの LLM を使ったあのプラットフォームでは、「良い出力」とは何かを評価基準として書き出し、A/B の枠組みで異なるモデルの組み合わせを比較しました。最終的に、運用コストを 83% 削減しつつ、品質の犠牲はわずか 3% という結果を得ました。
+
+**重要なのは、品質のトレードオフは必ず発生すると先に受け入れて、その幅を定量化することです。ないふりをしてはいけません。**
+
+| 読み方 | |
+|---|---|
+| 測定可能 | そくていかのう |
+| 評価基準 | ひょうかきじゅん |
+| 運用 | うんよう |
+| 犠牲 | ぎせい |
+| 定量化 | ていりょうか |
+`
+      }
+    ]
+  }
+  ]
+},
+
+/* ═══════════ 行為題 ═══════════ */
+{
+  id: 'behavioral',
+  label: '行為題',
+  section: 'General',
+  groups: [
+  {
+    name: '成就與挑戰',
+    items: [
+      {
+        q: '過去帶給你強烈成就感的項目',
+        zh: `
+是我在 17LIVE 主動提案並主導的用戶回饋分析平台。時間點其實很早，那是我第一個真正掛名 Owner、從頭到尾自己負責的專案，所以印象特別深刻。
+
+當時的狀況是：用戶的聲音其實很多，散在客服工單、App Store 與 Google Play 評論、還有我們對頭部主播的訪談裡，但要用的時候得手動從資料庫撈出來、各自貼在不同的試算表，整個流程是被動的。結果就是我們**知道用戶在抱怨，卻說不出哪一個抱怨最值得先修**。
+
+我把自己當成這個內部工具的 PM，從使用者，也就是客服與 PM 的角度去寫 PRD、定 spec，帶一個五人的跨職能小組，成員有工程師、資料分析師、設計師跟客服，用 Scrum 推到上線。過程中最花時間的其實不是開發，是**跟資料工程師和資料科學家一起把指標定義出來並驗證**，因為同一個「客訴數」在客服眼中和在產品眼中根本不是同一個東西。
+
+結果是問題處理效率提升 15%、留存成長 10%、正向回饋成長 30%。
+
+但真正讓我有成就感的不是這三個數字，是**團隊決策的依據換掉了**。在那之前，roadmap 的優先序很大一部分靠誰講話比較大聲；之後我們是打開同一個看板，指著同一份資料排順序。因為這是我第一次自己扛下一個專案的頭尾，那種「我做的決定真的改變了團隊怎麼工作」的感覺特別具體，也是我確定自己想做 PM 的那一次。
+`,
+        en: `
+It's the user-feedback analytics platform I proposed and led at 17LIVE. It was early in my career, and it was the first project where I was the named owner from start to finish, so it stayed with me.
+
+The situation was this: there was a lot of user voice, scattered across support tickets, App Store and Google Play reviews, and our interviews with top streamers. But whenever we needed it, someone had to pull it manually from the database and paste it into separate spreadsheets. The whole process was passive. The result was that **we knew users were complaining, but couldn't say which complaint deserved fixing first**.
+
+I treated myself as the PM of this internal tool. I wrote the PRD and spec from the perspective of its users, meaning customer support and PMs, and led a five-person cross-functional team of engineers, a data analyst, a designer and customer support, running Scrum through to launch. The most time-consuming part wasn't development. It was **defining and validating the metrics together with the data engineers and data scientists**, because "number of complaints" meant completely different things to support and to product.
+
+The outcome: issue resolution got 15% faster, retention rose 10%, and positive feedback rose 30%.
+
+But what actually gave me the sense of achievement wasn't those three numbers. It was that **the basis for team decisions changed**. Before, roadmap priority depended a lot on who spoke loudest. After, we opened the same dashboard and pointed at the same data to set the order. Because it was the first time I carried a project end to end myself, the feeling that "a decision I made really changed how the team works" was very concrete. It's also the moment I knew I wanted to be a PM.
+`,
+        ja: `
+17LIVEで私が自分から提案し、リードしたユーザーフィードバック分析プラットフォームです。時期としてはかなり早くて、正式にOwnerとして最初から最後まで自分で担当した初めてのプロジェクトだったので、特に印象に残っています。
+
+当時の状況はこうでした。ユーザーの声自体はたくさんありました。カスタマーサポートのチケット、App StoreとGoogle Playのレビュー、それからトップライバーへのインタビューなどに散らばっていました。ただ、使いたいときは手作業でデータベースから抽出して、それぞれ別のスプレッドシートに貼るしかなくて、プロセス全体が受け身でした。その結果、**ユーザーが不満を持っていることは分かるのに、どの不満から直すべきかが言えない**状態でした。
+
+私は自分をこの社内ツールのPMだと考えて、ユーザーであるカスタマーサポートとPMの視点からPRDを書いて、仕様を決めました。エンジニア、データアナリスト、デザイナー、カスタマーサポートからなる五人のクロスファンクショナルなチームを率いて、Scrumでリリースまで進めました。一番時間がかかったのは、実は開発ではありません。**データエンジニアとデータサイエンティストと一緒に、指標の定義を決めて検証すること**でした。同じ「クレーム件数」でも、カスタマーサポートから見たものとプロダクトから見たものは、まったく別物だったからです。
+
+結果は、課題対応の効率が15%向上、リテンションが10%成長、ポジティブなフィードバックが30%増加しました。
+
+ただ、本当に達成感があったのは、この三つの数字ではありません。**チームが意思決定のよりどころにするものが入れ替わったこと**です。それ以前は、ロードマップの優先順位はかなりの部分、誰の声が大きいかで決まっていました。そのあとは、みんなで同じダッシュボードを開いて、同じデータを指しながら順番を決めるようになりました。自分で一つのプロジェクトを最初から最後まで背負ったのは、このときが初めてでした。ですので、「自分が決めたことが、チームの働き方を本当に変えた」という感覚がとても具体的で、私がPMをやりたいと確信した瞬間でもあります。
+
+| 読み方 | |
+|---|---|
+| 提案 | ていあん |
+| 抽出 | ちゅうしゅつ |
+| 仕様 | しよう |
+| 指標 | しひょう |
+| 検証 | けんしょう |
+| 課題 | かだい |
+| 優先順位 | ゆうせんじゅんい |
+| 確信 | かくしん |
+`
+      },
+      {
+        q: '那個專案當中有沒有遇到什麼挑戰？（成就感項目的追問）',
+        zh: `
+有，而且是我自己造成的。
+
+**情況**：擔任那個專案的 owner 時，我的思考不夠全面。太急著找解決方案，沒有充分開會把雙方的想法對齊，忽略了一些潛在的 corner case。結果在內部測試階段還有不少需要修改的地方。雖然沒有造成嚴重的時程延誤，但確實消耗了團隊的資源和時間。
+
+**學到的事**：對專案負責人來說，思考全面、考慮到所有可能性有多重要。開發一個專案需要更細心、更周密地規劃和執行。當然，作為負責人要事先把所有 use case 列清楚，但團隊之所以可貴，就在於互相幫助、發揮每個人擅長的領域知識，一起確保專案成功。
+
+**後來怎麼改**：這件事直接影響了我後來在 Typus 重新設計 kickoff 流程的做法，在最便宜的時間點把取捨攤開來講。
+`,
+        en: `
+Yes, and it was one I caused myself.
+
+**Situation**: as the owner of that project, my thinking wasn't comprehensive enough. I was too eager to find a solution without fully aligning ideas in meetings, and I overlooked some potential corner cases. As a result, there were still quite a few things that needed changing during internal testing. It didn't cause a serious schedule delay, but it did consume the team's resources and time.
+
+**What I learned**: how important it is for a project owner to think comprehensively and consider every possibility. Building a project needs more careful, thorough planning and execution. Of course, the owner should list every use case up front, but what makes a team valuable is helping each other and drawing on each person's domain expertise to make the project succeed together.
+
+**What I changed afterwards**: this directly shaped how I later redesigned the kickoff process at Typus, putting trade-offs on the table at the point where they were cheapest to settle.
+`,
+        ja: `
+はい、しかも自分が原因で起きたものです。
+
+**状況**：あのプロジェクトのオーナーを務めていたとき、私の考え方は十分に網羅的ではありませんでした。解決策を探すのを急ぎすぎて、会議でお互いの考えをすり合わせる時間を十分に取らず、いくつかの潜在的なコーナーケースを見落としてしまいました。その結果、社内テストの段階で修正が必要なところがかなり残りました。大きなスケジュールの遅延にはなりませんでしたが、チームのリソースと時間は確実に使ってしまいました。
+
+**学んだこと**：プロジェクトの責任者にとって、網羅的に考えて、あらゆる可能性を想定することがどれだけ大事かということです。一つのプロジェクトを開発するには、もっと細かく、もっと綿密に計画して実行する必要があります。もちろん、責任者として事前にすべてのユースケースを洗い出すべきです。ただ、チームが貴重なのは、お互いに助け合って、それぞれが得意な領域の知識を発揮して、一緒にプロジェクトを成功させられるところだと思います。
+
+**そのあとどう変えたか**：この経験は、後にTypusでキックオフのプロセスを設計し直したやり方に、そのままつながっています。一番コストの安いタイミングで、トレードオフをテーブルの上に出して話すようにしました。
+
+| 読み方 | |
+|---|---|
+| 網羅的 | もうらてき |
+| 潜在的 | せんざいてき |
+| 見落とす | みおとす |
+| 遅延 | ちえん |
+| 綿密 | めんみつ |
+| 責任者 | せきにんしゃ |
+| 発揮 | はっき |
+`
+      },
+      {
+        q: '工作經驗中遇到最大的挑戰：Typus 版（陌生領域）',
+        zh: `
+**Situation**：上一份工作在 Typus Finance，做 Sui 鏈上的衍生性金融商品。我前四年都在直播平台，沒有金融背景，對加密貨幣投資也談不上熟悉。而我進去要負責的第一個產品就是永續合約，這是 DeFi 裡機制最複雜的產品之一。
+
+**Task**：我必須在很短的時間內，補到足以自己定義需求、跟工程師平等討論的程度。PM 如果不懂資金費率、槓桿、清算這些機制，就沒辦法判斷哪些需求該做、也看不出規格哪裡有洞。
+
+**Action**：兩件事。第一，還沒正式報到我就開始補，找懂這個領域的人問，把主要競品的產品文件和機制自己拆過一遍。第二，進去之後我主動去找工程師，特別是 quant engineer，因為永續合約的定價與風控邏輯都在他們身上。我固定跟他們約時間，把不懂的地方問到我能用自己的話完整講一遍為止，再寫進規格。
+
+**Result**：那一年我把永續合約從零帶到上線，並維持兩週一次的發布節奏，交付了 30 個以上的功能。更長期的收穫是，「先自己補到底、再直接找最懂的人問」現在變成我進入任何陌生領域的預設做法。
+`,
+        en: `
+**Situation**: at Typus I worked on on-chain derivatives on Sui. I had spent the previous four years on live-streaming platforms, with no finance background and no real experience in crypto trading. The first product I owned there was perpetual futures, one of the most mechanically complex products in DeFi.
+
+**Task**: I had to get up to speed fast enough to define requirements myself and hold a real conversation with engineers. A PM who doesn't understand funding rates, leverage and liquidation can't judge what to build or spot the hole in a spec.
+
+**Action**: two things. First, I started before I onboarded: I asked people who knew the industry, and worked through competitor documentation and mechanics on my own. Second, once I joined I went to the engineers directly, especially the quant engineers, because the pricing and risk logic for perpetuals sits with them. I booked time with them regularly and kept asking until I could explain it back in my own words, then wrote that into the spec.
+
+**Result**: over that year I took the perpetuals product from zero to launch and kept the team on a bi-weekly release cadence, shipping more than thirty features. The longer-term result is that this approach, go as far as I can on my own first, then go straight to the person who knows most, is now my default whenever I enter an unfamiliar domain.
+`,
+        ja: `
+**Situation**：前職はTypus Financeで、Suiチェーン上のデリバティブを扱っていました。それまでの四年間はずっとライブ配信のプラットフォームにいて、金融のバックグラウンドはなく、暗号資産の投資にも詳しいとは言えませんでした。そして入社してまず担当することになったプロダクトが、無期限先物、いわゆるパーペチュアルでした。DeFiの中でも仕組みが最も複雑なプロダクトの一つです。
+
+**Task**：とても短い期間で、自分で要件定義ができて、エンジニアと対等に議論できるところまで追いつく必要がありました。PMがファンディングレートやレバレッジ、清算といった仕組みを分かっていなければ、どの要件をやるべきか判断できませんし、仕様のどこに穴があるのかも見えません。
+
+**Action**：やったことは二つです。一つ目は、正式に入社する前から準備を始めたことです。この領域に詳しい人に聞いて回って、主要な競合のプロダクトドキュメントと仕組みを、自分で一通り分解しました。二つ目は、入社してから自分からエンジニア、特にquant engineerのところへ行ったことです。無期限先物のプライシングとリスク管理のロジックは、彼らが持っているからです。定期的に時間をもらって、分からないところを、自分の言葉で最後まで説明できるようになるまで聞きました。そのうえで仕様に書きました。
+
+**Result**：その一年で、無期限先物をゼロからリリースまで持っていって、二週間に一度のリリースのペースを保ちながら、30件以上の機能を出しました。もっと長い目で見た収穫は、「まず自分で行けるところまで行って、そのあと一番詳しい人に直接聞く」というやり方が、今では知らない領域に入るときの自分のデフォルトになったことです。
+
+| 読み方 | |
+|---|---|
+| 前職 | ぜんしょく |
+| 暗号資産 | あんごうしさん |
+| 無期限先物 | むきげんさきもの |
+| 要件定義 | ようけんていぎ |
+| 清算 | せいさん |
+| 仕様 | しよう |
+| 競合 | きょうごう |
+| 収穫 | しゅうかく |
+`
+      },
+      {
+        q: '工作經驗中遇到最大的挑戰：17LIVE 版（客訴擴大）',
+        zh: `
+**Situation**：剛開始追蹤客訴時，每天收到的客訴種類繁多，我漸漸麻痺，覺得不是每個客訴都值得特別關注。然而某天我發現一個問題開始擴大：從一天只有一位用戶回報，到第三天增加到十多個用戶抱怨。這個狀況已經不正常了。
+
+**Task**：我的任務是確保客戶的需求得到妥善解決、專案能按時交付。但因為我對客訴的關注不夠，可能會錯過潛在的問題或客戶的不滿。
+
+**Action**：首先回報給主管，同時主動跟更了解產品功能的同事合作，例如 QA 團隊。我們針對可能影響產品功能或營收的問題優先進行內部測試，並持續追蹤問題是否惡化。
+
+**Result**：透過跟其他同事的合作和測試，我們能更及時地發現潛在問題並解決，確保使用者體驗。這次教訓讓我了解自己在關注客訴、意識到潛在問題上的不足：做這份工作要隨時保持好奇心、深入思考、主動行動。也提高了我的團隊合作能力和對產品功能的理解。
+
+**後來**：這也是我提案做用戶回饋分析平台的起點，讓「一個問題正在擴大」這件事能被系統看見，而不是靠人的警覺。
+`,
+        en: `
+**Situation**: when I first started tracking customer complaints, I received a large number every day, and I gradually became numb to them, thinking not every complaint deserved special attention. Then one day I noticed a problem growing: from one user report a day to more than ten complaints by the third day. At that point it was clearly no longer normal.
+
+**Task**: my job was to make sure customer needs were properly resolved and projects delivered on time. But because I wasn't paying enough attention to complaints, I risked missing potential issues or customer dissatisfaction.
+
+**Action**: I reported to my manager first, and at the same time proactively worked with colleagues who knew the product better, such as the QA team. We prioritised internal testing for issues that could affect product functionality or revenue, and kept monitoring whether the problem was getting worse.
+
+**Result**: through collaboration and testing with colleagues, we were able to find and fix potential issues in a more timely way, protecting the user experience. The lesson showed me where I had been falling short in attention to complaints and in spotting potential problems: this job needs constant curiosity, deeper thinking and proactive action. It also improved how I work with the team and how well I understand the product.
+
+**Afterwards**: this was also the starting point for proposing the user-feedback analytics platform, so that "a problem is growing" could be seen by the system rather than depending on someone's vigilance.
+`,
+        ja: `
+**Situation**：クレームを追い始めたばかりのころ、毎日届くクレームの種類がとても多くて、私はだんだん感覚が麻痺していました。すべてのクレームが特別に注目する価値があるわけではない、と思っていたのです。ところがある日、一つの課題が広がり始めているのに気づきました。一日に一人しか報告していなかったものが、三日目には十人以上が不満を言うようになっていました。この時点で、もう正常な状態ではありませんでした。
+
+**Task**：私の役割は、お客さまのニーズがきちんと解決されること、そしてプロジェクトが予定どおり届けられることを担保することでした。ただ、クレームへの注意が足りなかったせいで、潜在的な課題やお客さまの不満を見逃してしまう可能性がありました。
+
+**Action**：まず上司に報告しました。同時に、プロダクトの機能をより理解している同僚、たとえばQAチームに自分から協力をお願いしました。プロダクトの機能や売上に影響しうる課題を優先して社内テストを行い、課題が悪化していないかを継続的に追いかけました。
+
+**Result**：ほかの同僚との協力とテストによって、潜在的な課題をより早く見つけて解決できるようになり、ユーザー体験を守ることができました。この経験で、クレームに目を配ること、潜在的な課題に気づくことについて、自分に足りない部分があると分かりました。この仕事では、常に好奇心を持って、深く考えて、自分から動くことが必要です。チームで協力する力と、プロダクトの機能に対する理解も上がりました。
+
+**そのあと**：これが、ユーザーフィードバック分析プラットフォームを提案したきっかけでもあります。「一つの課題が広がっている」ということを、人の注意力に頼らず、仕組みのほうで見えるようにしたかったからです。
+
+| 読み方 | |
+|---|---|
+| 麻痺 | まひ |
+| 課題 | かだい |
+| 担保 | たんぽ |
+| 潜在的 | せんざいてき |
+| 見逃す | みのがす |
+| 同僚 | どうりょう |
+| 悪化 | あっか |
+| 好奇心 | こうきしん |
+`
+      },
+      {
         q: '講一個你的失敗經驗',
         zh: `
 在 Typus 早期，我把一個功能的規格寫得太粗，覺得團隊夠小、口頭講清楚就好。結果進入開發後對驗收標準的理解不一致，來回改了兩輪，時程延誤。
@@ -770,6 +2055,148 @@ I acted as the translator between product, engineering, operations and leadershi
 `
       },
       {
+        q: 'V-Liver 虛擬頭像專案：同一個功能在日本市場的在地化',
+        zh: `
+最清楚的例子，是我在 17LIVE 負責的虛擬頭像專案。
+
+日本有很強的 V-Liver，也就是虛擬直播主文化。許多直播主會刻意不露臉，透過虛擬頭像來表達自己。所以如果產品設計把虛擬頭像當成裝飾、把真人臉孔當成使用者真正的身分，其實就跟整個日本市場實際使用產品的方式產生衝突。
+
+為了解決這個問題，我跟直播特效團隊合作，改善 V-Liver 的虛擬頭像體驗。在個人頁面上，我也把虛擬頭像的顯示方式從原本由系統決定，改成由使用者自己控制，讓使用者自行選擇是否顯示。我們沒有只根據自己的假設直接上線，而是在正式推出前先做 A/B 測試。
+
+最後有兩個很明確的成果。第一，日本市場的有效觀看時間提升約 10%。第二，個人頁面的頭像顯示功能原本每個月會產生約 30 件客訴，修改後降到零。
+
+**這個經驗讓我學到，在地化不只是翻譯。** 有時候要重新思考產品中的哪一個部分代表了使用者的身分，因為不同市場對這件事可能有完全不同的答案。
+`,
+        en: `
+The clearest example is the virtual avatar work I did at 17LIVE.
+
+Japan has a strong V-Liver, or virtual streamer, culture. Many streamers deliberately choose not to show their faces and express themselves through virtual avatars instead. So a product design that treated the avatar as decoration and the real face as the user's true identity was quietly working against how an entire market actually used the product.
+
+To address this, I worked with the livestream effects team to improve the V-Liver avatar experience. On the profile side, I also changed the avatar display from something decided by the system into something controlled by the user, so users could choose whether to show it. Rather than releasing based only on our assumptions, we ran an A/B test before the full rollout.
+
+Two clear results. First, effective viewing time in the Japanese market increased by around 10%. Second, the profile display had been generating around thirty complaints a month, and after the change that number dropped to zero.
+
+**What I took from this is that localisation is not simply translation.** Sometimes it means reconsidering which part of the product represents the user's identity, because the answer can be very different from one market to another.
+`,
+        ja: `
+一番分かりやすい例は、17LIVEで担当したバーチャルアバターのプロジェクトです。
+
+日本にはV-Liver、つまりバーチャルライバーの文化が強くあります。多くのライバーが意図的に顔を出さず、バーチャルアバターを通して自分を表現します。ですので、プロダクトの設計がバーチャルアバターを装飾として扱って、実写の顔をユーザーの本当のアイデンティティとして扱っていると、実は日本市場全体の実際の使われ方とぶつかってしまいます。
+
+この課題を解決するために、私はライブ配信のエフェクトチームと協力して、V-Liverのバーチャルアバター体験を改善しました。プロフィールページでは、バーチャルアバターの表示のしかたを、もともとシステムが決めていたものから、ユーザー自身がコントロールする形に変えて、表示するかどうかをユーザーが選べるようにしました。自分たちの仮説だけでそのままリリースするのではなく、正式に出す前にA/Bテストを実施しました。
+
+最終的に、はっきりした成果が二つ出ました。一つ目は、日本市場の有効視聴時間が約10%向上したことです。二つ目は、プロフィールページのアバター表示機能で、毎月およそ30件発生していたクレームが、変更後はゼロになったことです。
+
+**この経験から学んだのは、ローカライズは翻訳だけではない、ということです。** 場合によっては、プロダクトの中のどの部分がユーザーのアイデンティティを表しているのかを、考え直す必要があります。市場が違えば、その答えがまったく違うこともあるからです。
+
+| 読み方 | |
+|---|---|
+| 意図的 | いとてき |
+| 装飾 | そうしょく |
+| 実写 | じっしゃ |
+| 課題 | かだい |
+| 仮説 | かせつ |
+| 実施 | じっし |
+| 有効視聴時間 | ゆうこうしちょうじかん |
+| 発生 | はっせい |
+`
+      },
+      {
+        q: '90 秒短影音專案：目標、挑戰、成果',
+        zh: `
+因應短影音的流行趨勢，我們基於典藏直播功能開發了一個短影片剪輯功能，讓用戶隨時剪輯主播直播間的精彩片段、分享到社群平台，幫助主播吸引更多粉絲。**典藏直播**是讓主播錄下並儲存直播內容的功能，觀眾錯過直播也能稍後觀看。
+
+#### 專案目標
+
+1. 提高新用戶 D0 到 D7 的第七天留存率，目標提升 5%
+2. 增加透過分享功能的新用戶註冊數，目標從 0 增加到 1,500
+3. 提高短影片剪輯和離線內容的創建量，目標提升 10%，與平均每日典藏創作量一致
+
+#### 遇到的挑戰
+
+是否預設所有人，包含主播與所有用戶，都可以直接剪輯直播內容。跟 stakeholder 討論後決定預設關閉，兩個原因：主播希望對自己的內容有更多控制權；也擔心剪輯片段未必能代表直播的整體品質，讓觀眾產生誤解。但這也導致進入權限設定頁的主播太少，功能效益發揮不出來。
+
+#### 專案成果
+
+這個功能確實吸引用戶創建更多離線內容，也就是非直播時創建的內容，數據顯示增加 0.4%，而且有 10% 的新創作者是首次進行離線內容創作。這表示功能在某種程度上推動了平台的內容多樣性。
+
+90 秒影片的分享次數明顯高於一般貼文和普通影片，在類別頁和探索頁的點擊率也相當高，顯示用戶對這類短影音內容有強烈興趣。
+
+然而，這項功能並未如預期顯著提升新用戶註冊率，對留存率的影響也不大。原因之一是創建率高，但用它分享帶來的轉化率仍然較低；另外這些 90 秒影片大多只是日常直播的片段，沒有特別精彩或引人注目的部分。
+
+**我的建議**：鼓勵主播在直播時做當下流行的短影音表演。這不僅能吸引直播中的觀眾，剪輯分享出去的 90 秒影片也更能吸引新用戶註冊。
+
+#### 被追問「A/B 怎麼做」
+
+放量人數太低時很容易出現偽陰性或偽陽性。這種情況實驗可以照常繼續，等放量到一定比例，看指標是不是真的轉正，而且要看是在置信區間之內還是之外。等指標都穩定了，最後才做全量 release。
+`,
+        en: `
+In response to the growing trend of short videos, we built a 90-second clip feature on top of the existing Archive function. It lets users clip highlights from a streamer's live sessions at any time and share them on social media, helping streamers attract more fans. **Archive** lets streamers record and save their streams, so viewers who missed the live session can watch later.
+
+#### Project goals
+
+1. Increase day-seven retention for new users (D0 to D7), target +5%
+2. Increase new user registrations via sharing, target from 0 to 1,500
+3. Increase creation of clips and offline content, target +10%, in line with the average daily creation of archived content
+
+#### The challenge
+
+Whether everyone, streamers and all users, should be allowed to clip live content by default. After discussion with stakeholders we set it to off by default, for two reasons: streamers wanted more control over their content, and there was concern that clips might not represent the overall quality of a stream and could mislead viewers. But that also meant very few streamers visited the permission settings page, which limited the feature's impact.
+
+#### Outcomes
+
+The feature did get users to create more offline content, meaning content created outside live sessions: a 0.4% increase, with 10% of new creators making offline content for the first time. So it did push content diversity on the platform to some degree.
+
+The 90-second clips were shared far more often than regular posts and ordinary videos, and click-through on the genre and explore pages was also high, showing strong user interest in this kind of short-form content.
+
+However, the feature did not significantly lift new user registrations, and its effect on retention was small. One reason: creation was high but conversion from sharing stayed low. Another: most clips were just ordinary moments from a livestream, with nothing especially exciting or attention-grabbing.
+
+**My recommendation**: encourage streamers to perform trending short-form content during their streams. That engages the live audience, and the resulting 90-second clips are far more likely to attract new sign-ups when shared.
+
+#### If asked how the A/B test was run
+
+With a small rollout, false negatives and false positives are common. In that case the experiment simply keeps running; once the rollout reaches a certain share, you check whether the metric has genuinely turned positive, and whether it sits inside or outside the confidence interval. Only when the metrics are stable do you do the full release.
+`,
+        ja: `
+ショート動画の流行を受けて、私たちはアーカイブ配信の機能をベースに、ショート動画のクリップ機能を開発しました。ユーザーがいつでもライバーの配信のハイライトを切り出して、SNSにシェアできる機能です。ライバーがより多くのファンを集める助けになります。**アーカイブ配信**というのは、ライバーが配信の内容を録画して保存できる機能で、生配信を見逃した視聴者も、あとから見ることができます。
+
+#### プロジェクトの目標
+
+1. 新規ユーザーのD0からD7、つまり七日目のリテンションを高める。目標は5%の向上
+2. シェア機能を経由した新規登録数を増やす。目標は0から1,500
+3. ショート動画のクリップとオフラインコンテンツの作成数を増やす。目標は10%の向上で、これは一日あたりの平均アーカイブ作成数と同じ水準
+
+#### ぶつかった課題
+
+ライバーを含めたすべての人が、そのまま配信の内容をクリップできる状態をデフォルトにするかどうかでした。ステークホルダーと議論した結果、デフォルトはオフにしました。理由は二つあります。一つは、ライバーが自分のコンテンツをもっとコントロールしたいと考えていたこと。もう一つは、切り出された断片が配信全体の品質を代表するとは限らず、視聴者に誤解を与えるかもしれないという心配です。ただ、これによって権限設定のページまで来るライバーが少なすぎて、機能の効果を出しきれませんでした。
+
+#### プロジェクトの成果
+
+この機能は確かに、ユーザーがオフラインコンテンツ、つまり配信していないときに作るコンテンツを、より多く作るようになりました。データでは0.4%の増加で、しかも新規クリエイターの10%が、オフラインコンテンツの作成が初めてでした。つまりこの機能は、ある程度はプラットフォームのコンテンツの多様性を押し上げたと言えます。
+
+90秒動画のシェア回数は、通常の投稿や通常の動画よりも明らかに多くて、カテゴリーページと探索ページでのクリック率もかなり高かったです。ユーザーがこの種のショート動画に強い関心を持っていることが分かります。
+
+一方で、この機能は期待したほど新規登録率を大きく引き上げませんでしたし、リテンションへの影響も大きくありませんでした。理由の一つは、作成率は高いのに、それを使ってシェアした先の転換率が、やはり低かったことです。もう一つは、この90秒動画の多くが日常の配信の一部分にすぎず、特別に面白い部分や目を引く部分がなかったことです。
+
+**私の提案**：ライバーに、配信中に、そのとき流行しているショート動画のパフォーマンスをやってもらうことです。それは配信中の視聴者を引きつけるだけでなく、切り出してシェアされる90秒動画も、新規ユーザーの登録につながりやすくなります。
+
+#### 「A/Bテストはどうやったのか」と聞かれたら
+
+ロールアウトの対象人数が少なすぎると、偽陰性や偽陽性がとても出やすくなります。この場合、実験自体はそのまま続けます。一定の比率までロールアウトを広げたところで、指標が本当にプラスに転じているのか、しかも信頼区間の内側なのか外側なのかを見ます。指標が安定してから、最後に全量リリースをします。
+
+| 読み方 | |
+|---|---|
+| 配信 | はいしん |
+| 断片 | だんぺん |
+| 権限設定 | けんげんせってい |
+| 転換率 | てんかんりつ |
+| 探索 | たんさく |
+| 偽陰性 | ぎいんせい |
+| 信頼区間 | しんらいくかん |
+| 全量 | ぜんりょう |
+`
+      },
+      {
         q: '講一個你自己動手做的 side project',
         zh: `
 來英國念書時，租屋資訊過載且分散；同時我發現碩士班同學對 agentic coding 工具幾乎完全陌生。這兩件都不是別人交辦的事，是我自己判斷值得做。
@@ -807,557 +2234,8 @@ The tool solved a real problem of my own; the course proved that people without 
     ]
   },
   {
-    name: '動機與條件',
+    name: '協作與衝突',
     items: [
-      {
-        q: '為什麼想加入我們公司？',
-        zh: `
-> Trip.com 版。換公司時把產品名與作業那段替換掉即可。
-
-**第一層最直接：我自己就是重度使用者。** 我很喜歡旅遊，Trip.com 是我規劃行程時預設會打開的 App，介面怎麼走、搜尋邏輯、哪些資訊藏在第幾層，我都很熟。旅遊 App 其實非常吃使用習慣，一個使用者只要把操作練順了，通常就會一直用下去，我自己就是這樣。所以相對於一般應徵者，**我對這個產品的熟悉度不是查來的，是用出來的**。也因為熟，我做回家作業的時候才能自己走查台北到東京、台北到倫敦兩條航線的完整訂票流程，再加上台灣區 App Store 大約 500 則評論的主題分類，那份作業等於是我以使用者身分累積的判斷第一次被整理出來。
-
-**第二層是舞台。** 我想進的是真正的大型跨國公司，因為這種環境提供的是密集的跨國合作機會：同一個功能在不同市場的表現差異、不同區域的團隊怎麼決策、總部跟在地怎麼分工。這些東西只有在夠大的組織裡才看得到，我想用它把視野打開，建立對全球市場的理解，而不是只熟一個市場。
-
-**第三層是資源與結構。** 這種量級的公司在資源、預算、市場影響力上都有明顯優勢，而這對產品管理跟開發來說非常關鍵：你的假設有足夠的流量可以驗證，你的決定有資源可以真的落地。我過去待的是相對小的團隊，很多想法卡在沒有樣本數、沒有資源，所以我想去一個能把想法做完、也能被數據驗證的地方。
-
----
-
-#### 通用備用版（換公司時用）
-
-我對 **[公司]** 感興趣的原因是 **[具體的產品、使命，或你實際用過的體驗]**。我是一個會自己動手驗證的 PM，會做 prototype 也會做數據分析，所以我希望能在 **[對他們的具體貢獻]** 這件事上出力。我的背景橫跨金融科技（Typus）與 B2C 社群（17LIVE），跟你們在 **[他們的領域]** 的方向可以直接對上。
-`,
-        en: `
-What draws me to **[company]** is **[the specific product, mission, or your own experience using it]**. I'm a PM who validates things hands-on, building prototypes and doing my own analysis, so where I'd like to contribute is **[specific contribution to them]**. My background spans fintech at Typus and B2C social at 17LIVE, which maps directly onto what you're doing in **[their space]**.
-`,
-        ja: `
-**Trip.com 版。** 他社の面接では、プロダクト名と課題提出の部分を差し替えてください。
-
-**一番直接的な理由は、私自身がヘビーユーザーだということです。** 旅行が大好きで、旅程を組むときにまず開くのが Trip.com です。画面の流れ、検索のロジック、どの情報が何階層目にあるか、すべて体で覚えています。旅行アプリは使い慣れがとても大事で、一度操作が手になじんだユーザーは、そのまま使い続けることが多いです。私自身がまさにそうでした。ですから、一般の応募者と比べて、**このプロダクトへの理解は調べたものではなく、使い込んで得たものです**。使い慣れているからこそ、課題提出のときに、台北から東京、台北からロンドンの二つの路線について、予約フローを自分で最後まで通しで確認できました。さらに、台湾の App Store のレビュー約 500 件をテーマ別に分類しました。あの課題は、ユーザーとして積み重ねてきた判断を、初めて形にしたものです。
-
-**二つ目は、舞台です。** 私が入りたいのは、本当の意味でのグローバル企業です。こうした環境では、国をまたいだ協業の機会が密度高くあります。同じ機能が市場ごとにどう違う結果を出すのか、地域ごとのチームがどう意思決定するのか、本社と現地がどう役割分担するのか。こうしたことは、十分に大きな組織でなければ見えません。それを通じて視野を広げ、一つの市場だけでなく、グローバル市場への理解を築きたいと考えています。
-
-**三つ目は、リソースと構造です。** この規模の企業は、リソース、予算、市場への影響力で明確な強みがあります。これはプロダクトマネジメントと開発にとって非常に重要です。自分の仮説を検証できるだけのトラフィックがあり、自分の決定を実際に実現できるリソースがあるからです。私がこれまでいたのは比較的小さなチームで、サンプル数が足りない、リソースが足りない、という理由で止まってしまうアイデアが多くありました。ですから、アイデアを最後までやり切れて、データで検証できる場所に行きたいと考えています。
-
----
-
-#### 汎用バージョン（他社用）
-
-私が **[会社名]** に興味を持った理由は、**[具体的なプロダクト、ミッション、または実際に使った体験]** です。私は自分の手で検証する PM で、プロトタイプも作りますし、データ分析も自分で行います。ですので、**[相手への具体的な貢献]** の部分で力になりたいと考えています。私の経歴はフィンテック（Typus）と B2C コミュニティ（17LIVE）にまたがっており、御社の **[相手の領域]** の方向性と直接つながります。
-
-| 読み方 | |
-|---|---|
-| 応募者 | おうぼしゃ |
-| 階層 | かいそう |
-| 課題提出 | かだいていしゅつ |
-| 協業 | きょうぎょう |
-| 意思決定 | いしけってい |
-| 仮説 | かせつ |
-| 汎用 | はんよう |
-`
-      },
-      {
-        q: '我們為什麼要錄取你？',
-        zh: `
-因為我把 **PM 的判斷力和動手能力放在同一個人身上**。
-
-我有可被驗證的成果：Typus 的 MAU 從 1K 成長到 20K 以上、存入資產從 $8M 到 $20M；17LIVE 的正向回饋提升 30%。而且我自己做 prototype 和數據分析，**從洞察到交付的距離比較短**。加上中英日三語，我可以直接在跨區團隊裡工作。
-`,
-        en: `
-Because I put **the judgement of a PM and the ability to build in the same person**.
-
-I have results you can check: at Typus, monthly active users went from 1K to over 20K and deposits from $8M to $20M; at 17LIVE, positive feedback rose 30%. And because I build my own prototypes and do my own analysis, **the distance from insight to delivery is shorter**. On top of that I work in Mandarin, English and Japanese, so I can operate inside a cross-regional team directly.
-`,
-        ja: `
-**PM としての判断力と、自分で手を動かす力を、一人の中に持っている**からです。
-
-検証できる実績があります。Typus では MAU が 1K から 20K 以上に成長し、預け入れ資産は $8M から $20M になりました。17LIVE ではポジティブなフィードバックが 30% 向上しました。しかも、プロトタイプもデータ分析も自分でやるので、**インサイトから納品までの距離が短い**です。さらに中国語・英語・日本語の三言語が使えるので、地域をまたぐチームの中でそのまま働けます。
-
-| 読み方 | |
-|---|---|
-| 判断力 | はんだんりょく |
-| 実績 | じっせき |
-| 預け入れ資産 | あずけいれしさん |
-| 納品 | のうひん |
-| 三言語 | さんげんご |
-`
-      },
-      {
-        q: '你為什麼去念碩士？為什麼是英國、倫敦？',
-        zh: `
-說起來其實很單純：我小時候被哈利波特吸引，從那時候起就對英國有一種憧憬。高中的暑假我跟旅行團來過一次，走了不少知名景點，但那是一種「被帶著看」的體驗，看完之後反而更想長大以後自己來，用生活的方式真正待進這個文化裡，而不是隔著遊覽車的窗戶。所以念碩士的時候，我選了倫敦的 King's College London。
-
-真的住下來之後，倫敦給我的東西比我想像的多：這裡的團隊幾乎都是多國籍組成的，一個產品從第一天就要面對不同語言與市場，這跟我在 17LIVE 同時做台灣、日本與東南亞的經驗完全對得上；而倫敦的金融科技聚落又剛好接上我在 Typus 的背景。**所以現在的答案已經不只是童年的憧憬了，是我想在這裡把職涯做起來。**
-
-#### 那你打算待多久？會不會回去？
-
-我是打算長期留下來的。畢業後可以走 Graduate Route，約兩年內不需要雇主擔保，我希望在這段時間內找到一個能一起長期走下去的團隊。
-`,
-        en: `
-It started simply: I was drawn in by Harry Potter as a child, and had a fascination with Britain from then on. I came once on a school-holiday tour in high school and saw a lot of the famous sights, but it was very much a "being shown around" experience, and it left me wanting to come back on my own as an adult and actually live inside the culture rather than see it through a coach window. So when I chose a master's, I chose King's College London.
-
-Once I'd actually lived here, London gave me more than I expected. Teams here are almost all multinational, and a product has to face different languages and markets from day one, which lines up exactly with my experience running Taiwan, Japan and Southeast Asia at 17LIVE. And London's fintech cluster connects straight back to my background at Typus. **So the answer now isn't just a childhood fascination, it's that I want to build my career here.**
-
-#### How long do you plan to stay? Would you go back?
-
-I plan to stay long term. After graduating I can move onto the Graduate Route, which means about two years without needing employer sponsorship, and I'd like to use that time to find a team I can grow with.
-`,
-        ja: `
-きっかけは、実はとても単純です。子どものころにハリー・ポッターに夢中になって、それ以来ずっとイギリスに憧れがありました。高校の夏休みにツアーで一度来たことがあり、有名な観光地をたくさん回りました。ただ、それは「連れて行ってもらって見る」体験でした。見終わったあと、むしろ大人になったら自分で来て、観光バスの窓越しではなく、生活する形でこの文化の中に本当に入りたい、と強く思うようになりました。それで修士に進むとき、ロンドンの King's College London を選びました。
-
-実際に住んでみると、ロンドンは想像以上のものを与えてくれました。ここのチームはほとんどが多国籍で構成されていて、プロダクトは初日から異なる言語と市場に向き合わなければなりません。これは 17LIVE で台湾、日本、東南アジアを同時に担当した経験とぴったり重なります。そしてロンドンのフィンテック集積は、Typus での経歴にそのままつながります。**ですから今の答えは、子どものころの憧れだけではありません。ここでキャリアを築きたい、ということです。**
-
-#### では、どのくらい滞在する予定ですか？帰る予定はありますか？
-
-長期的に残るつもりです。卒業後は Graduate Route が使えて、約二年間は雇用主のスポンサーが不要です。その期間のうちに、長く一緒に歩んでいけるチームを見つけたいと考えています。
-
-| 読み方 | |
-|---|---|
-| 憧れ | あこがれ |
-| 観光地 | かんこうち |
-| 修士 | しゅうし |
-| 多国籍 | たこくせき |
-| 集積 | しゅうせき |
-| 滞在 | たいざい |
-| 雇用主 | こようぬし |
-`
-      },
-      {
-        q: '你的碩士跟職涯的關係是什麼？',
-        zh: `
-我在 17LIVE 和 Typus 都反覆遇到同一個問題：**產品和工程之間的翻譯成本非常高，PRD 到 SPEC 之間會流失大量資訊。**
-
-我想把這件事研究清楚，所以去念了 Management and Technological Change，論文題目是 PRD 作為 boundary object，AI 在其中扮演什麼角色。**這不是離開產業，是帶著一個具體的問題去找方法。**
-`,
-        en: `
-At both 17LIVE and Typus I kept hitting the same problem: **the translation cost between product and engineering is very high, and a lot of information is lost between the PRD and the spec.**
-
-I wanted to understand that properly, so I took a master's in Management and Technological Change. My dissertation looks at the PRD as a boundary object and what role AI plays in it. **This wasn't leaving the industry, it was taking a specific problem with me to go find a method.**
-`,
-        ja: `
-17LIVE でも Typus でも、繰り返し同じ課題にぶつかりました。**プロダクトとエンジニアリングの間の翻訳コストが非常に高く、PRD から SPEC の間で大量の情報が失われる**ということです。
-
-これをきちんと研究したくて、Management and Technological Change を専攻しました。論文のテーマは、boundary object としての PRD と、その中で AI がどんな役割を果たすか、です。**業界を離れたのではなく、具体的な課題を持って、方法を探しに行ったのです。**
-
-| 読み方 | |
-|---|---|
-| 翻訳 | ほんやく |
-| 研究 | けんきゅう |
-| 専攻 | せんこう |
-| 論文 | ろんぶん |
-| 役割 | やくわり |
-`
-      },
-      {
-        q: '為什麼是日本？',
-        zh: `
-我曾以交換生身分就讀群馬大學一年，具備商務日語能力（JLPT N1），在 17LIVE 也長期用日文做跨職能協作。加上家人在日本，我希望在當地建立長期職涯與生活，**這不是短期選項。**
-`,
-        en: `
-I spent a year at Gunma University as an exchange student, I have business-level Japanese (JLPT N1), and at 17LIVE I did cross-functional work in Japanese over a long period. My family is also in Japan, and I want to build a long-term career and life there. **This isn't a short-term option for me.**
-`,
-        ja: `
-群馬大学に交換留学生として一年間在籍し、ビジネスレベルの日本語（JLPT N1）があります。17LIVE でも長期にわたって、日本語で職能横断の協業をしてきました。さらに家族が日本にいるので、現地で長期的なキャリアと生活を築きたいと考えています。**短期的な選択肢ではありません。**
-
-| 読み方 | |
-|---|---|
-| 群馬大学 | ぐんまだいがく |
-| 交換留学生 | こうかんりゅうがくせい |
-| 在籍 | ざいせき |
-| 職能横断 | しょくのうおうだん |
-| 選択肢 | せんたくし |
-`
-      },
-      {
-        q: '這一年在念書，中間的空檔怎麼解釋？',
-        zh: `
-這段時間我在念全職碩士，同時把產品實作沒有停下來：做了 agentic AI 平台的產品規劃、租屋篩選工具、辦了三次 AI agent 實作課程，也用 agent pipeline 管理自己的求職流程。這些都在我的 portfolio 上可以看到。
-`,
-        en: `
-I've been on a full-time master's, and I didn't stop building during it: the product planning for the agentic AI platform, the rental filtering tool, three runs of the hands-on AI agent course, and an agent pipeline that manages my own job search. All of it is visible in my portfolio.
-`,
-        ja: `
-この期間はフルタイムの修士課程に在学していましたが、その間もプロダクトの実装は止めていません。agentic AI プラットフォームのプロダクト企画、賃貸物件のフィルタリングツール、AI agent 実装講座を三回開催、そして agent pipeline で自分の就職活動を管理しています。すべて私のポートフォリオで見られます。
-
-| 読み方 | |
-|---|---|
-| 修士課程 | しゅうしかてい |
-| 在学 | ざいがく |
-| 実装 | じっそう |
-| 企画 | きかく |
-| 賃貸物件 | ちんたいぶっけん |
-| 講座 | こうざ |
-| 就職活動 | しゅうしょくかつどう |
-`
-      },
-      {
-        q: '簽證、到職時間、地點、期望待遇',
-        zh: `
-| 問題 | 答案 |
-|---|---|
-| 需要擔保嗎？ | 表格只有 Yes/No 就選 **Yes**。有補充欄位就加：畢業後可走 Graduate Route，約兩年內不需要雇主擔保，之後才需要。 |
-| 何時可到職？ | **2026 年 9 月畢業後**；實習類可即時。 |
-| 地點彈性 | 以倫敦為主，可 on-site，也接受 remote 或 hybrid，願意 relocate。 |
-| 薪資期望 | 英國主帶 **£50,000–£60,000**；日本主帶 **600〜800 萬円**。 |
-`,
-        en: `
-| Question | Answer |
-|---|---|
-| Do you need sponsorship? | If the form only allows Yes/No, answer **Yes**. Where there's a free-text field, add: after graduating I can use the Graduate Route, which means no employer sponsorship is needed for about two years, only after that. |
-| When can you start? | **After graduating in September 2026**; immediately for internships. |
-| Location | London-based, happy to be on-site, also open to remote or hybrid, willing to relocate. |
-| Salary expectation | UK: **£50,000–£60,000**. Japan: **¥6,000,000–8,000,000**. |
-`,
-        ja: `
-| 質問 | 回答 |
-|---|---|
-| スポンサーは必要ですか？ | フォームが Yes/No しかなければ **Yes** を選ぶ。補足欄があれば追記：卒業後は Graduate Route が使えるので、約二年間は雇用主のスポンサーが不要。必要になるのはその後。 |
-| いつから勤務できますか？ | **2026 年 9 月の卒業後**。インターンであればすぐに可能。 |
-| 勤務地の柔軟性 | ロンドンを中心に、オンサイト可。リモートやハイブリッドも可。転勤も可能。 |
-| 希望年収 | イギリスは **£50,000–£60,000** が主。日本は **600〜800 万円** が主。 |
-`
-      }
-    ]
-  },
-  {
-    name: '反問',
-    items: [
-      {
-        q: '你有什麼想問我們的嗎？',
-        zh: `
-#### 必問
-
-1. Hiring manager 對這個角色**一年後的期待**是什麼？
-2. 產品開發團隊怎麼分工、多少人？依功能分組還是依專案編組？
-3. **需求從哪裡來？決策流程是什麼？**
-4. 後續流程與時間線是什麼？面試有幾關、各關會是誰？
-
-#### 高價值
-
-5. 這個角色在**前 90 天**，什麼樣的結果會讓你們覺得找對人了？
-6. **在你們公司做得好的人通常有什麼特質？**
-7. 團隊目前在產品與工程之間，最常卡住的環節是什麼？
-8. 這個職位的**產品決策權界線**在哪裡，PM 可以自己決定到什麼程度？
-9. 明年你們最大的障礙會是什麼？
-
-#### 看情境挑
-
-| 情境 | 問題 |
-|---|---|
-| 他們主動來找你 | 想先了解你們在我的背景裡看到的是哪一塊？ |
-| AI 導向公司 | AI 這條線目前佔營收多少？PM 要參與到什麼程度？非工程職也用 agent 嗎？ |
-| 有海外據點 | 海外團隊負責什麼？跟台灣怎麼協作？ |
-| 新開職位 | 這個角色以前是誰在兼？拆出來之後最想先解決的是什麼？ |
-| PM 職缺 | 在你們公司，product manager 跟 project manager 差在哪？ |
-| 接案公司 | 客戶臨時加需求或壓時程時，範圍與時程的決定權在 PM 還是業務？ |
-| 日本線 | 這個角色的日文實際使用比重是多少？ |
-| 先簽約聘 | Contractor 期間報酬怎麼計？轉正職時薪資怎麼銜接？有沒有試用期？ |
-| 獵頭、HR | 除了語言之外，我還有什麼需要加強的地方？ |
-`,
-        en: `
-#### Always ask
-
-1. What does the hiring manager expect from this role **a year from now**?
-2. How is the product team split up, and how many people? Grouped by function or by project?
-3. **Where do requirements come from, and what does the decision process look like?**
-4. What are the next steps and the timeline? How many rounds, and who would I meet?
-
-#### High value
-
-5. **In the first 90 days**, what result would make you feel you'd hired the right person?
-6. **What do the people who do well here usually have in common?**
-7. Where does the team most often get stuck between product and engineering?
-8. **Where is the boundary of product decision-making** in this role? How much can the PM decide alone?
-9. What will be your biggest obstacle next year?
-
-#### Pick by situation
-
-| Situation | Question |
-|---|---|
-| They approached you | I'd like to understand which part of my background stood out to you? |
-| AI-driven company | How much of revenue does the AI line represent today? How involved is the PM? Do non-engineering roles use agents too? |
-| Has overseas offices | What do the overseas teams own, and how do they work with Taiwan? |
-| Newly created role | Who was covering this before? Once it's split out, what do you most want solved first? |
-| PM role | In your company, what's the difference between a product manager and a project manager? |
-| Agency or client work | When a client adds scope or compresses the timeline, who decides on scope and schedule, the PM or sales? |
-| Japan track | How much of this role is actually conducted in Japanese? |
-| Contractor first | How is contractor pay calculated, and how does it carry over when converting to full time? Is there a probation period? |
-| Recruiter or HR | Aside from language, what else should I be strengthening? |
-`,
-        ja: `
-#### 必ず聞く
-
-1. Hiring manager は、この役割に**一年後**、何を期待していますか？
-2. プロダクト開発チームはどう分担していて、何人ですか？機能ごとのグループ分けですか、それともプロジェクトごとですか？
-3. **要件はどこから来ますか？意思決定のプロセスはどうなっていますか？**
-4. 今後の選考プロセスとスケジュールを教えてください。面接は何回あって、それぞれどなたが担当されますか？
-
-#### 価値の高い質問
-
-5. この役割で、**最初の 90 日**にどんな結果が出れば「正しい人を採用した」と感じますか？
-6. **御社で活躍している人には、どんな共通点がありますか？**
-7. チームでは今、プロダクトとエンジニアリングの間で、どこが一番つまずきやすいですか？
-8. このポジションの**プロダクトに関する決定権の境界**はどこですか？PM はどこまで自分で決められますか？
-9. 来年、御社にとって最大の障壁は何になりそうですか？
-
-#### 状況に応じて選ぶ
-
-| 状況 | 質問 |
-|---|---|
-| 先方からの声かけ | まず、私の経歴のどの部分に注目していただいたのか、教えていただけますか？ |
-| AI 志向の会社 | AI 事業は現在、売上のどのくらいを占めていますか？PM はどこまで関わりますか？エンジニア以外の職種も agent を使っていますか？ |
-| 海外拠点あり | 海外チームは何を担当していますか？台湾とはどう協業していますか？ |
-| 新設ポジション | この役割は以前どなたが兼任していましたか？切り出したあと、まず何を解決したいですか？ |
-| PM 職 | 御社では、product manager と project manager の違いは何ですか？ |
-| 受託会社 | クライアントが急に要件を追加したり納期を詰めてきたとき、スコープと納期の決定権は PM ですか、営業ですか？ |
-| 日本向け | この役割で、実際に日本語を使う割合はどのくらいですか？ |
-| まず契約社員 | Contractor 期間の報酬はどう計算されますか？正社員に転換するとき、給与はどう引き継がれますか？試用期間はありますか？ |
-| ヘッドハンター・HR | 言語以外に、私が強化すべき点はありますか？ |
-
-| 読み方 | |
-|---|---|
-| 要件 | ようけん |
-| 選考 | せんこう |
-| 決定権 | けっていけん |
-| 境界 | きょうかい |
-| 障壁 | しょうへき |
-| 兼任 | けんにん |
-| 受託 | じゅたく |
-| 試用期間 | しようきかん |
-`
-      }
-    ]
-  }
-  ]
-},
-
-/* ═══════════ PM Domain ═══════════ */
-{
-  id: 'pm',
-  label: 'PM Domain',
-  section: 'General',
-  groups: [
-  {
-    name: '方法論',
-    items: [
-      {
-        q: '你怎麼決定優先級？你如何排序需求？',
-        zh: `
-我不相信單一公式，但我有固定的三個問題：**這個問題影響多少人**（量化訊號）、**影響有多痛**（訪談與 VOC）、以及**做了之後我們會不會更靠近這一季的目標**。
-
-在 17LIVE 我就是用訪談加 SQL 交叉比對做這件事，質化告訴我為什麼、量化告訴我有多少人。爭不下來的時候，我會**把取捨明確寫出來讓決策者選**，而不是讓它懸在會議裡。
-`,
-        en: `
-I don't believe in a single formula, but I do have three fixed questions: **how many people does this affect** (the quantitative signal), **how painful is it** (interviews and VOC), and **does doing it move us closer to this quarter's goal**.
-
-At 17LIVE I did exactly this by cross-referencing interviews with SQL: qualitative told me why, quantitative told me how many people. When an argument can't be settled, I **write the trade-off out explicitly and let the decision-maker choose**, rather than leaving it hanging in a meeting.
-`,
-        ja: `
-単一の公式は信じていません。ただ、決まった三つの問いは持っています。**この課題は何人に影響するか**（定量的なシグナル）、**その影響はどれだけ痛いか**（インタビューと VOC）、そして**やったあとに、今四半期の目標に近づくか**です。
-
-17LIVE では、まさにインタビューと SQL を突き合わせてこれをやっていました。定性は「なぜ」を教えてくれ、定量は「何人か」を教えてくれます。議論が決着しないときは、**トレードオフを明文化して、意思決定者に選んでもらいます**。会議の中で宙に浮かせたままにはしません。
-
-| 読み方 | |
-|---|---|
-| 公式 | こうしき |
-| 定量 | ていりょう |
-| 定性 | ていせい |
-| 四半期 | しはんき |
-| 突き合わせて | つきあわせて |
-| 決着 | けっちゃく |
-| 明文化 | めいぶんか |
-`
-      },
-      {
-        q: '你怎麼定義一個功能的成功指標？',
-        zh: `
-**先定義行為，再定義數字。** 我會先問「如果這個功能成功了，使用者會多做哪一件事」，再把那件事變成可以追蹤的指標。
-
-接下來我用三個步驟。
-
-#### 一、先決定主要指標是採用率還是完成率
-
-這取決於我要衡量的是**一個新推出的東西**，還是**一條有起點終點的流程**。
-
-| 主要指標 | 什麼時候用 | 分母 | 分子 |
-|---|---|---|---|
-| **採用率** | 新推出的功能 | 有機會用到的人（曝光過、符合資格） | 實際用過至少一次的人 |
-| **完成率** | 有明確起點與終點的流程 | 開始這個流程的人 | 走到終點的人 |
-
-**這兩個不能互換。** 訂票主流程沒有採用率可言，因為使用者是帶著明確意圖進來的，不存在「要不要採用」這件事；反過來，剛上線的新功能也不該只看完成率，因為完成率再高，沒人進來就沒有意義。我在 17LIVE 踩過這個坑：短影音的剪輯權限預設關閉，幾乎沒有主播會去打開設定頁，**供給端根本沒被打開。**
-
-#### 二、配上診斷指標與護欄指標
-
-| 類型 | 回答什麼 | 常用的 |
-|---|---|---|
-| **主要指標** | 有沒有達成目標 | 採用率、完成率 |
-| **診斷指標** | 為什麼成功或失敗 | 各步驟轉化、點擊、停留時間、錯誤率 |
-| **護欄指標** | 有沒有產生副作用 | 留存、客服量、載入時間 |
-
-**主要指標只會告訴你成不成，它不會告訴你為什麼，也不會告訴你代價是什麼。** 診斷指標讓我知道要修哪一段，護欄指標讓我知道這個提升是不是拿別的東西換來的。
-
-舉個例子，如果我把一個必要的說明往流程後面藏，完成率很可能會上升，但客服量會跟著上升。**那不是贏，那是把成本推到別的地方去。**
-
-#### 三、用 A/B 測試驗證
-
-三類定完之後我會用 A/B 去驗證，而不是上線之後看趨勢就下結論。我做 AI 平台的時候也是同一套：先寫清楚什麼叫做好的輸出，才有辦法用 A/B 框架比較成本與品質，最後拿到降本 83%、品質只掉 3% 的結果。
-
----
-
-#### 套用示範：訂機票流程
-
-| 角色 | 指標 |
-|---|---|
-| **主要** | 整條流程的完成率：進入訂票流程 → 完成付款（我在作業裡算出來是 6.5%） |
-| **診斷** | 各步驟通過率，找出流失集中在哪一段 |
-| **護欄** | 客服量、付款失敗率 |
-
-這裡有一個陷阱值得單獨講：**訂票流程中間，使用者會離開去比價，這一步不能用完成率量。**
-
-因為完成率是二元的，走完或沒走完，而**離開去比價的人可能會回來**。用完成率量這一步，等於把「暫時離開」全部記成「流失」，我會去修一個其實沒那麼壞的環節。
-
-所以這一步我會加一個指標：**回流率，離開之後 30 分鐘或 24 小時內回來完成的比例。** 如果離開的人有七成會回來，那比價只是這個市場的正常行為，不是問題；如果只有一成回來，那才是要打的地方。**沒有回流率，我分不出這兩種情況。**
-
-**那採用率什麼時候會回到這題？** 當我為了處理這個離開做了一個新東西，例如價格保證徽章或降價通知。那時候採用率是「看到的人裡有多少用了」，完成率是「用了的人裡有多少完成訂票」，**兩個要一起看**：採用率高但完成率沒動，代表有人用但沒解決問題；採用率低，代表功能藏太深，還沒到能判斷有沒有效的階段。
-`,
-        en: `
-**Define the behaviour first, then the number.** I start by asking: if this feature works, what is the one thing users will do more of? Then I turn that into a trackable metric.
-
-From there I work in three steps.
-
-#### 1. Decide whether the primary metric is adoption or completion
-
-That depends on whether I'm measuring **something newly launched** or **a flow with a defined start and end**.
-
-| Primary metric | When to use it | Denominator | Numerator |
-|---|---|---|---|
-| **Adoption rate** | A newly launched feature | People who had the chance to use it (exposed, eligible) | People who used it at least once |
-| **Completion rate** | A flow with a clear start and end | People who started the flow | People who reached the end |
-
-**These two aren't interchangeable.** A booking flow has no adoption rate, because users arrive with clear intent and there's no question of whether to adopt it. Conversely, a newly launched feature shouldn't be judged on completion rate alone, because however high completion is, it means nothing if nobody arrives. I've been caught by that at 17LIVE: we shipped short-video editing with permissions off by default, almost no streamer ever opened the settings page, and **the supply side never opened up at all.**
-
-#### 2. Add diagnostic and guardrail metrics
-
-| Type | Answers | Typically |
-|---|---|---|
-| **Primary** | Did we hit the goal | Adoption rate, completion rate |
-| **Diagnostic** | Why did it succeed or fail | Step-by-step conversion, clicks, dwell time, error rate |
-| **Guardrail** | Did it cause side effects | Retention, support volume, load time |
-
-**The primary metric only tells you whether it worked. It won't tell you why, and it won't tell you what it cost.** Diagnostic metrics tell me which step to fix; guardrails tell me whether the lift was bought with something else.
-
-For example, if I hid a necessary disclosure later in the flow, completion rate would probably go up, and support volume would go up with it. **That isn't a win, it's moving the cost somewhere else.**
-
-#### 3. Validate with an A/B test
-
-Once those three are defined I'd validate with an A/B test, rather than shipping and reading the trend afterwards. I used the same approach on the AI platform: write down clearly what a good output means, and only then can you use an A/B framework to compare cost against quality. That's how we got to 83% lower cost with only a 3% quality drop.
-
----
-
-#### Worked example: a flight booking flow
-
-| Role | Metric |
-|---|---|
-| **Primary** | Completion rate for the whole flow: entering the booking flow through to completed payment (6.5% in my exercise) |
-| **Diagnostic** | Pass-through rate stage by stage, to find where the drop-off concentrates |
-| **Guardrail** | Support volume, payment failure rate |
-
-There's one trap here worth calling out on its own: **partway through the booking flow, users leave to compare prices, and you can't measure that step with completion rate.**
-
-Completion rate is binary, finished or not finished, and **the people who leave to compare prices may come back**. Measuring that step with completion rate records every temporary exit as a loss, and I'd end up fixing a stage that isn't actually that broken.
-
-So for that step I'd add one metric: **return rate, the share of people who come back and complete within 30 minutes or 24 hours.** If 70% of the people who leave come back, comparison shopping is just normal behaviour in this market and isn't the problem. If only 10% come back, that's where the work is. **Without return rate, I can't tell those two situations apart.**
-
-**So when does adoption rate come back into this question?** When I build something new to address that exit, a best-price guarantee badge or a price-drop alert, for example. Then adoption rate is "of the people who saw it, how many used it" and completion rate is "of the people who used it, how many completed the booking". **You need both**: high adoption with flat completion means people are using it but it isn't solving the problem; low adoption means the feature is buried too deep and we're not yet at the point where we can judge whether it works.
-`,
-        ja: `
-**先に行動を定義し、それから数字を定義します。** まず「この機能が成功したら、ユーザーはどの行動を今より多く取るか」を問い、その行動を追跡できる指標に変えます。
-
-そのうえで、三つのステップで進めます。
-
-#### 一、主要指標を採用率にするか完了率にするかを先に決める
-
-これは、測りたいのが**新しくリリースしたもの**なのか、**始点と終点があるフロー**なのかで決まります。
-
-| 主要指標 | いつ使うか | 分母 | 分子 |
-|---|---|---|---|
-| **採用率** | 新しくリリースした機能 | 使う機会があった人（表示された、対象条件を満たす） | 実際に一回以上使った人 |
-| **完了率** | 明確な始点と終点があるフロー | このフローを開始した人 | 終点まで到達した人 |
-
-**この二つは入れ替えられません。** 予約のメインフローに採用率はありません。ユーザーは明確な意図を持って入ってくるので、「採用するかどうか」という問い自体が存在しないからです。逆に、リリースしたばかりの新機能を完了率だけで見るべきでもありません。完了率がどれだけ高くても、誰も入ってこなければ意味がないからです。私は 17LIVE でこの落とし穴を踏みました。ショート動画の編集権限がデフォルトでオフになっていて、設定ページを開いて有効にするライバーはほとんどいませんでした。**供給側がまったく開かれていなかったのです。**
-
-#### 二、診断指標とガードレール指標を組み合わせる
-
-| 種類 | 何に答えるか | よく使うもの |
-|---|---|---|
-| **主要指標** | 目標を達成したか | 採用率、完了率 |
-| **診断指標** | なぜ成功したか、失敗したか | 各ステップのコンバージョン、クリック、滞在時間、エラー率 |
-| **ガードレール指標** | 副作用が出ていないか | リテンション、問い合わせ件数、読み込み時間 |
-
-**主要指標は、成功したかどうかしか教えてくれません。なぜかも、代償が何かも教えてくれません。** 診断指標があれば、どの段階を直せばいいかが分かります。ガードレール指標があれば、この改善が何かを犠牲にして得たものではないかが分かります。
-
-例えば、必要な説明をフローの後ろのほうに隠せば、完了率はおそらく上がります。でも、問い合わせ件数も一緒に増えます。**それは勝ちではなく、コストを別の場所に押し付けただけです。**
-
-#### 三、A/B テストで検証する
-
-三種類を決めたら、A/B テストで検証します。リリース後にトレンドを見て結論を出す、ということはしません。AI プラットフォームを作ったときも同じやり方でした。何が良い出力なのかを先に明文化して、初めて A/B の枠組みでコストと品質を比較できます。最終的に、コスト 83% 削減、品質低下はわずか 3% という結果を得ました。
-
----
-
-#### 適用例：航空券の予約フロー
-
-| 役割 | 指標 |
-|---|---|
-| **主要** | フロー全体の完了率：予約フローに入る → 決済完了（課題では 6.5% と算出しました） |
-| **診断** | 各ステップの通過率で、離脱がどの段階に集中しているかを特定する |
-| **ガードレール** | 問い合わせ件数、決済失敗率 |
-
-ここには、別に取り上げる価値のある落とし穴があります。**予約フローの途中で、ユーザーは価格比較のために一度離れます。このステップは完了率では測れません。**
-
-完了率は二値で、最後まで行ったか行っていないかしかありません。しかし**比較のために離れた人は、戻ってくる可能性があります**。このステップを完了率で測ると、「一時的な離脱」をすべて「流失」として記録してしまい、実はそれほど悪くない段階を直しに行くことになります。
-
-ですから、このステップには指標を一つ足します。**再訪率、つまり離脱後 30 分または 24 時間以内に戻ってきて完了した割合です。** 離れた人の七割が戻ってくるなら、価格比較はこの市場では普通の行動であって、課題ではありません。一割しか戻らないなら、そこが攻めるべき場所です。**再訪率がなければ、この二つの状況を見分けられません。**
-
-**では、採用率はいつこの話に戻ってくるのでしょうか？** この離脱に対処するために、新しいものを作ったときです。例えば、最低価格保証のバッジや値下げ通知です。そのときの採用率は「見た人のうち何人が使ったか」、完了率は「使った人のうち何人が予約を完了したか」で、**二つを一緒に見る必要があります**。採用率が高いのに完了率が動かなければ、使われてはいるが課題を解決していない、ということです。採用率が低ければ、機能が深いところに埋もれていて、効果を判断できる段階にまだ来ていない、ということです。
-
-| 読み方 | |
-|---|---|
-| 採用率 | さいようりつ |
-| 完了率 | かんりょうりつ |
-| 分母 | ぶんぼ |
-| 分子 | ぶんし |
-| 診断指標 | しんだんしひょう |
-| 供給側 | きょうきゅうがわ |
-| 代償 | だいしょう |
-| 再訪率 | さいほうりつ |
-`
-      },
-      {
-        q: '你怎麼做 product discovery？產品需求是怎麼產生的？',
-        zh: `
-質化加量化，兩邊都要。
-
-17LIVE 時我和 UX Research 一起訪談一般用戶與頭部主播，同時追蹤留存與行為數據。另外我很依賴一個習慣：**把散落的回饋集中起來看。** 客服工單、QA 紀錄、商店評論這些通常沒人整理，但它們是**最便宜的洞察來源**，我在 17LIVE 就是把它們整合成儀表板，讓問題處理速度提升 15%。
-`,
-        en: `
-Qualitative plus quantitative. You need both.
-
-At 17LIVE I interviewed general users and top streamers with UX Research, while tracking retention and behavioural data. I also rely on one habit: **pull the scattered feedback into one place and look at it.** Support tickets, QA records, store reviews usually have nobody organising them, but they are **the cheapest source of insight you have**. At 17LIVE I consolidated them into a dashboard and made issue resolution 15% faster.
-`,
-        ja: `
-定性と定量、両方必要です。
-
-17LIVE では UX Research と一緒に、一般ユーザーとトップライバーにインタビューしながら、同時にリテンションと行動データを追跡していました。それに加えて、私が強く頼りにしている習慣が一つあります。**散らばったフィードバックを一か所に集めて見ることです。** カスタマーサポートのチケット、QA の記録、ストアレビュー。こうしたものは普段誰も整理していませんが、**一番安上がりなインサイトの源泉**です。17LIVE ではこれらをダッシュボードに統合して、課題対応のスピードを 15% 向上させました。
-
-| 読み方 | |
-|---|---|
-| 定性 | ていせい |
-| 定量 | ていりょう |
-| 追跡 | ついせき |
-| 散らばった | ちらばった |
-| 源泉 | げんせん |
-| 統合 | とうごう |
-`
-      },
       {
         q: '你跟工程師意見不合的時候怎麼辦？',
         zh: `
@@ -1397,95 +2275,6 @@ Typus では、衝突の大半は実はキックオフで十分に説明でき�
 | 衝突 | しょうとつ |
 | 手戻り | てもどり |
 | 再設計 | さいせっけい |
-`
-      },
-      {
-        q: '你怎麼管理時間、追蹤專案進度？',
-        zh: `
-80/20。我把 20% 的時間用來完成 80% 的任務，騰出來的時間拿去做 side project 和自動化。重複性的事情我盡量交給自動化處理，專注在真正需要判斷的工作上，我的求職 pipeline 就是這樣做的。
-`,
-        en: `
-80/20. I use 20% of my time to clear 80% of the tasks, and spend what that frees up on side projects and automation. I hand repetitive work to automation and concentrate on the work that genuinely needs judgement. My own job-search pipeline is built exactly that way.
-`,
-        ja: `
-80/20 です。20% の時間で 80% のタスクを片付け、空いた時間をサイドプロジェクトと自動化に使います。繰り返しの作業はできるだけ自動化に任せて、本当に判断が必要な仕事に集中します。私の就職活動の pipeline も、まさにそうやって作りました。
-
-| 読み方 | |
-|---|---|
-| 自動化 | じどうか |
-| 繰り返し | くりかえし |
-| 判断 | はんだん |
-| 就職活動 | しゅうしょくかつどう |
-`
-      }
-    ]
-  },
-  {
-    name: 'AI',
-    items: [
-      {
-        q: '你怎麼用 AI 工具？你有實際動手做過 AI 嗎？',
-        zh: `
-我的分界點是**從 chatbot 變成 agent**。
-
-一開始我跟大家一樣把 Claude 當查資料和潤稿工具，直到用了 Claude Code，它是在我的檔案裡工作、自己執行步驟，我就從「問問題」變成「交付工作」。現在 AI agent 是我生活、學業與工作的一部分：租屋篩選工具、AI agent 實作課程、我自己的求職 pipeline 都是這樣做出來的。
-
-**模型從來不是難的部分，難的是框對請求、驗證回來的東西，然後穩定重複這兩件事。**
-`,
-        en: `
-The turning point for me was **going from chatbot to agent**.
-
-At first I used Claude like everyone else, for looking things up and polishing writing. Then I used Claude Code, which works inside my own files and executes steps by itself, and I shifted from asking questions to handing over work. AI agents are now part of my life, my studies and my work: the rental filtering tool, the hands-on AI agent course, and my own job-search pipeline were all built this way.
-
-**The model was never the hard part. The hard part is framing the request correctly, verifying what comes back, and then doing those two things repeatably.**
-`,
-        ja: `
-私にとっての分岐点は、**chatbot から agent への転換**でした。
-
-最初は皆さんと同じように、Claude を調べものや文章の推敲ツールとして使っていました。それが Claude Code を使ってから変わりました。Claude Code は私のファイルの中で動き、自分でステップを実行します。そこで「質問する」から「仕事を任せる」に変わりました。今では AI agent は私の生活、学業、仕事の一部です。賃貸物件のフィルタリングツール、AI agent 実装講座、自分の就職活動の pipeline は、すべてこの方法で作りました。
-
-**難しいのはモデルではありません。難しいのは、リクエストを正しく枠にはめること、返ってきたものを検証すること、そしてこの二つを安定して繰り返すことです。**
-
-| 読み方 | |
-|---|---|
-| 分岐点 | ぶんきてん |
-| 転換 | てんかん |
-| 推敲 | すいこう |
-| 学業 | がくぎょう |
-| 実装講座 | じっそうこうざ |
-| 検証 | けんしょう |
-`
-      },
-      {
-        q: '你怎麼衡量 AI 功能的品質？',
-        zh: `
-用**可測量的評估標準加 A/B**，不能只看 demo 好不好。
-
-在那個 33 模組、3 個 LLM 的平台上，我把「好的輸出」寫成評估標準，再用 A/B 框架比較不同模型組合，最後拿到運行成本降低 83%、品質只犧牲 3% 的結果。
-
-**關鍵是要先接受一定會有品質取捨，然後把取捨的幅度量化，而不是假裝沒有。**
-`,
-        en: `
-With **measurable evaluation criteria plus A/B testing**. You can't judge it on how good the demo looks.
-
-On that platform with 33 modules and three LLMs, I wrote down what "a good output" means as evaluation criteria, then used an A/B framework to compare model combinations. We ended up cutting running cost by 83% with only a 3% drop in quality.
-
-**The key is to accept up front that there will be a quality trade-off, and then quantify how big it is, rather than pretending there isn't one.**
-`,
-        ja: `
-**測定可能な評価基準と A/B テスト**を使います。デモの出来だけで判断してはいけません。
-
-33 モジュール、3 つの LLM を使ったあのプラットフォームでは、「良い出力」とは何かを評価基準として書き出し、A/B の枠組みで異なるモデルの組み合わせを比較しました。最終的に、運用コストを 83% 削減しつつ、品質の犠牲はわずか 3% という結果を得ました。
-
-**重要なのは、品質のトレードオフは必ず発生すると先に受け入れて、その幅を定量化することです。ないふりをしてはいけません。**
-
-| 読み方 | |
-|---|---|
-| 測定可能 | そくていかのう |
-| 評価基準 | ひょうかきじゅん |
-| 運用 | うんよう |
-| 犠牲 | ぎせい |
-| 定量化 | ていりょうか |
 `
       }
     ]
@@ -3061,7 +3850,7 @@ graph LR
 
 收入來源：行動廣告（原生＋feed 內程式化聯播）為主，加上資料授權、贊助內容、品牌專屬分頁。
 
-> **待查：** 一個來源說有 SmartNews Plus 訂閱制（$9.99–14.99/月免廣告），另一個 2026 評測說「ad-only，沒有付費去廣告的選項」。**面試前自己開 App 確認。**
+**待查：** 一個來源說有 SmartNews Plus 訂閱制（$9.99–14.99/月免廣告），另一個 2026 評測說「ad-only，沒有付費去廣告的選項」。**面試前自己開 App 確認。**
 `,
         en: `
 ::: mermaid
@@ -3146,7 +3935,7 @@ graph LR
 
 **一星比二星多兩倍以上，這是兩極化的形狀，不是平均偏低。** 代表有一群特定情境的用戶被明確惹惱。
 
-> ⚠️ 兩個數字不能直接比較：平台不同、市場不同、日本用戶普遍給分較嚴。
+**注意：兩個數字不能直接比較。** 平台不同、市場不同、日本用戶普遍給分較嚴。
 
 #### 五類抱怨
 
@@ -4046,8 +4835,8 @@ If they follow up with "What do you actually use Supabase for?":
         zh: `
 **討論階段的產出不是問很多問題，是逼出這句話並講出來。**
 
-> 為了讓【誰】能【做到什麼】，我要做【什麼】。
-> 今天不做【什麼】。做完之後用【什麼】判斷成不成功。
+**為了讓【誰】能【做到什麼】，我要做【什麼】。**
+**今天不做【什麼】。做完之後用【什麼】判斷成不成功。**
 
 **先講不做什麼，再講做什麼。** Non-Goals 講得出來，代表你知道 30 分鐘的極限在哪，這比多做一個功能加分。
 
@@ -4058,7 +4847,7 @@ If they follow up with "What do you actually use Supabase for?":
 **決定 → 理由 → 退路，三段一起講完。**
 
 例：
-> カテゴリの偏りで行きます。理由は、論調のラベルが今ないので、今日30分で検証できるのはカテゴリだからです。論調は次のステップに置きます。
+**カテゴリの偏りで行きます。理由は、論調のラベルが今ないので、今日30分で検証できるのはカテゴリだからです。論調は次のステップに置きます。**
 `,
         ja: `
 【誰】が【何ができる】ようにするために、【何】を作ります。
@@ -4742,7 +5531,7 @@ The agenda literally says "team atmosphere, the Prototyper role". **These 10 min
 
 **不要問「你們為什麼沒有網頁版」。** smartnews.com 根目錄有完整的新聞列表、頻道和搜尋，網頁版是存在的（只有 /ja 和 /en 是下載宣傳頁）。要問就問定位差異：
 
-> アプリとWebで、新しい情報体験を探索する際の位置づけの違いはありますか？
+**アプリとWebで、新しい情報体験を探索する際の位置づけの違いはありますか？**
 `,
         en: `
 **Ask 3 to 4 questions at most.** Pick by the interviewer's background.
