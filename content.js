@@ -51,6 +51,34 @@ What stayed with me is that the same feature did not perform the same way in Tai
 Alongside my industry experience, I'm completing a master's degree in London. The programme put me in front of AI agents early, and they have become my default way of working: I build prototypes to test ideas quickly and cheaply. My dissertation explores how AI is changing collaboration within product teams, drawing on interviews with companies including TikTok.
 
 After graduating I plan to return to Asia, with Japan as my first choice, where I previously spent an exchange year at Gunma University and also have family ties in Tokyo. I'm comfortable working in Mandarin, English and Japanese, which is part of why I'm drawn to teams that work across more than one market. In my next role I'd like to bring together my experience in product execution and the AI-driven way of working I've built up this year.
+`,
+        ja: `
+はじめまして、王薇（ヴィヴィアン）と申します。本日はよろしくお願いいたします。
+
+現在はプロダクトマネージャーとして働いていて、プロダクト開発の経験は四年になります。主な領域はライブ配信プラットフォーム、ブロックチェーン、暗号資産です。
+
+Typus Financeでは、オンチェーン金融の無期限先物プロダクトを、ゼロからイチまで、開発の全ライフサイクルにわたって主導しました。担当したのは、市場と競合の分析、要件定義、仕様書の作成、そしてエンジニアとデザイナーとのスケジュール調整です。リリース後のデータ追跡とプロダクトの改善も自分で回していました。Typusはスタートアップで、しかも暗号資産の市場はトレンドも値動きも特に速いです。そのため、市場が盛り上がっているうちに機能を出せるように、開発のリズムも圧縮する必要がありました。私たちの無期限先物プロダクトは、ちょうどその相場の波に乗ることができて、最初の四半期で約 **8,700万ドル** の取引高を積み上げました。
+
+その前は、アジア最大のライブ配信プラットフォームである17LIVEで、プラットフォームのユーザー体験とユーザー成長の指標を担当していました。エンジニア、データアナリスト、デザイナー、カスタマーサポートからなる五人の職種横断チームを率いて、社内向けのユーザーフィードバック分析プラットフォームを構築しました。ばらばらだったお客様からの苦情やご意見を、構造化されたプロダクト要件に変換して、そのデータをもとにロードマップの優先順位を決められるようにしました。これによってプロダクト開発のプロセスが大きく改善され、課題対応の効率が **15%** 向上し、リテンション率も **10%** 伸びました。
+
+現在はキングス・カレッジ・ロンドンで、マネジメントとテクノロジー変革の修士課程に在籍していて、今年の九月に修了する予定です。この専攻のおかげで、一般的な経営学のプログラムより早くAIエージェントという領域に触れることができました。今ではそれが自分のデフォルトの働き方になっています。学業でも、日常生活でも、これからの仕事でも、AIエージェントを使ってプロトタイプや社内ツールを作り、最小のコストで新しいアイデアを検証しています。修士論文のテーマはまさに「AI時代にプロダクト開発プロセスをどう最適化するか」です。要件ドキュメントがプロダクト、デザイン、エンジニアの各チームの間でどう翻訳されていくかという仕組みに焦点を当てて、AIが部門をまたぐコミュニケーションのコストをどう下げられるかを探っています。研究の過程では、TikTokを含む複数の大手テック企業に深いインタビューを行い、業界の現場からの実践的な知見を集めました。
+
+これまでのキャリアは主にアジア市場に根ざしたもので、この地域のユーザー行動や改善のスピード感は深く理解しています。修了後はアジア市場に戻る予定で、日本を第一希望として考えています。群馬大学への交換留学の経験と家族の背景があるので、日本市場には強いつながりと文化的な適応力を持っています。
+
+修了したあとは、この一年の研究成果と、AI主導の開発プロセスで積み重ねてきた実践的な気づきを次の仕事に持ち込み、チームのプロダクト開発プロセスの中で本当に実現していきたいと考えています。
+
+以上が私の簡単な経歴です。ぜひもう少しお話しさせていただければ幸いです。
+
+| 読み方 | |
+|---|---|
+| 無期限先物 | むきげんさきもの |
+| 取引高 | とりひきだか |
+| 四半期 | しはんき |
+| 職種横断 | しょくしゅおうだん |
+| 要件定義 | ようけんていぎ |
+| 仕様書 | しようしょ |
+| 交換留学 | こうかんりゅうがく |
+| 適応力 | てきおうりょく |
 `
       },
       {
@@ -88,6 +116,34 @@ I went to London to study the problems I kept running into in a more systematic 
 In my next role I'd like to bring together this year's research and what I've learned first-hand about AI-driven development, and actually put it into how a team builds products.
 
 That's my background in short. I'm looking forward to talking further.
+`,
+        ja: `
+はじめまして、王薇（ヴィヴィアン）と申します。本日はよろしくお願いいたします。
+
+現在はプロダクトマネージャーとして働いていて、プロダクト開発の経験は四年になります。主な領域はライブ配信プラットフォーム、ブロックチェーン、暗号資産です。
+
+Typus Financeでは、オンチェーン金融の無期限先物プロダクトを、ゼロからイチまで、開発の全ライフサイクルにわたって主導しました。担当したのは、市場と競合の分析、要件定義、仕様書の作成、そしてエンジニアとデザイナーとのスケジュール調整です。リリース後のデータ追跡とプロダクトの改善も自分で回していました。Typusはスタートアップで、しかも暗号資産の市場はトレンドも値動きも特に速いです。そのため、市場が盛り上がっているうちに機能を出せるように、開発のリズムも圧縮する必要がありました。私たちの無期限先物プロダクトは、ちょうどその相場の波に乗ることができて、最初の四半期で約 **8,700万ドル** の取引高を積み上げました。
+
+その前は、アジア最大のライブ配信プラットフォームである17LIVEで、プラットフォームのユーザー体験とユーザー成長の指標を担当していました。エンジニア、データアナリスト、デザイナー、カスタマーサポートからなる五人の職種横断チームを率いて、社内向けのユーザーフィードバック分析プラットフォームを構築しました。ばらばらだったお客様からの苦情やご意見を、構造化されたプロダクト要件に変換して、そのデータをもとにロードマップの優先順位を決められるようにしました。これによってプロダクト開発のプロセスが大きく改善され、課題対応の効率が **15%** 向上し、リテンション率も **10%** 伸びました。
+
+現在はキングス・カレッジ・ロンドンで、マネジメントとテクノロジー変革の修士課程に在籍していて、今年の九月に修了する予定です。この専攻のおかげで、一般的な経営学のプログラムより早くAIエージェントという領域に触れることができました。今ではそれが自分のデフォルトの働き方になっています。学業でも、日常生活でも、これからの仕事でも、AIエージェントを使ってプロトタイプや社内ツールを作り、最小のコストで新しいアイデアを検証しています。修士論文のテーマはまさに「AI時代にプロダクト開発プロセスをどう最適化するか」です。要件ドキュメントがプロダクト、デザイン、エンジニアの各チームの間でどう翻訳されていくかという仕組みに焦点を当てて、AIが部門をまたぐコミュニケーションのコストをどう下げられるかを探っています。研究の過程では、TikTokを含む複数の大手テック企業に深いインタビューを行い、業界の現場からの実践的な知見を集めました。
+
+そもそもロンドンで修士課程に進んだのは、実務で直面していた課題をもっと体系的に研究したかったからです。それと、異文化での協働の経験を補いたいという思いもありました。私のこれまでのキャリアは主にアジア市場で積み重ねてきたもので、この地域のユーザー行動や改善のスピード感は深く理解しています。ですので、修了後は台湾に戻り、この一年の研究成果と国際経験を、よく知っている市場に持ち帰りたいと考えています。
+
+修了したあとは、この一年の研究成果と、AI主導の開発プロセスで積み重ねてきた実践的な気づきを次の仕事に持ち込み、チームのプロダクト開発プロセスの中で本当に実現していきたいと考えています。
+
+以上が私の簡単な経歴です。ぜひもう少しお話しさせていただければ幸いです。
+
+| 読み方 | |
+|---|---|
+| 無期限先物 | むきげんさきもの |
+| 取引高 | とりひきだか |
+| 四半期 | しはんき |
+| 職種横断 | しょくしゅおうだん |
+| 要件定義 | ようけんていぎ |
+| 体系的 | たいけいてき |
+| 異文化 | いぶんか |
+| 協働 | きょうどう |
 `
       }
     ]
@@ -106,6 +162,20 @@ That's my background in short. I'm looking forward to talking further.
 I have about four years of product experience, across B2C live-streaming and fintech. Most recently at Typus Finance I owned on-chain derivatives end to end, shipping more than thirty features on a bi-weekly cycle. Over that period monthly active users went from around a thousand to over twenty thousand, and deposits in the product grew from 8 to 20 million US dollars. Before that, at 17LIVE, I led product work across Taiwan, Japan and Southeast Asia, using interviews plus SQL to turn insight into roadmap priorities. I'm currently finishing an MSc in Management and Technological Change at King's College London, with a dissertation on how AI lowers the communication cost between product and engineering.
 
 **What makes me a little different from most PMs is that I build the prototypes, build the dashboards, and wire AI agents into my own workflow, so I get from insight to something real faster.**
+`,
+        ja: `
+プロダクトの経験は約4年で、B2Cのライブ配信プラットフォームとフィンテックの両方にまたがっています。直近はTypus Financeで、オンチェーンのデリバティブをエンドツーエンドで担当し、隔週のリズムで30以上の機能をリリースしました。その間にMAUは約1,000から20,000以上に、プロダクト内の預かり資産は800万ドルから2,000万ドルに成長しました。その前は17LIVEで、台湾・日本・東南アジアのプロダクト案件を主導し、インタビューとSQLでインサイトをロードマップの優先順位に落とし込んでいました。現在はキングス・カレッジ・ロンドンでManagement and Technological Changeの修士課程に在籍していて、論文ではAIがプロダクトとエンジニアの間のコミュニケーションコストをどう下げるかを研究しています。
+
+**多くのPMと少し違うのは、自分でプロトタイプを作り、ダッシュボードを作り、AIエージェントを自分のワークフローに組み込んでいることです。だから、インサイトから実際のアウトプットまでのスピードが速いです。**
+
+| 読み方 | |
+|---|---|
+| 隔週 | かくしゅう |
+| 預かり資産 | あずかりしさん |
+| 案件 | あんけん |
+| 優先順位 | ゆうせんじゅんい |
+| 修士課程 | しゅうしかてい |
+| 組み込む | くみこむ |
 `
       }
     ]
@@ -192,6 +262,20 @@ That's my background in short. I look forward to speaking with you today.
 Over the next three years I want to be in a team that genuinely puts AI at the core of the product, as a PM who can both make the product judgement and validate it hands-on. In five years I'd like to own a whole product line, and turn "how AI lowers cross-functional communication cost" from my research topic into how a team actually works.
 
 To break that down: in the first year, I want to run my existing delivery skills inside a larger, more mature organisation, which is the scale experience I'm currently missing. At three years, Senior PM, owning a product line with clear commercial metrics. Beyond five years, leading a team, while keeping first-hand building ability on the question of productising AI.
+`,
+        ja: `
+これからの3年は、本当にAIをプロダクトの中核に置いているチームで、プロダクトの判断と自分の手での検証を両方できるPMになりたいです。5年後には、ひとつのプロダクトライン全体を任されて、「AIが職種をまたぐコミュニケーションコストをどう下げるか」というテーマを、自分の研究題目から、チームが実際に使う働き方に変えていきたいと考えています。
+
+もう少し細かく分けると、短期の一年以内は、今持っているプロダクトのデリバリー能力を、より大規模で成熟した組織の中で一度回してみたいです。今の自分に足りないスケールの経験を補うためです。三年目にはSenior PMとして、明確なビジネス指標を持つプロダクトラインを担当します。五年後にはチームを率いながら、AIのプロダクト化というテーマで、自分の手で作れる力を持ち続けたいです。
+
+| 読み方 | |
+|---|---|
+| 中核 | ちゅうかく |
+| 検証 | けんしょう |
+| 題目 | だいもく |
+| 成熟 | せいじゅく |
+| 指標 | しひょう |
+| 率いる | ひきいる |
 `
       },
       {
@@ -209,6 +293,23 @@ I'm almost obsessive about **turning a demo into something people can actually u
 That's why I turned my own flat-hunting pain into a filtering tool, packaged Claude Code into a hands-on course for classmates with no engineering background, and built my job search into a pipeline. International students are drowning in listings, so I treated my own search as a product problem: define the must-haves, do the requirements analysis, then build something more precise than the platforms already out there. For the AI agent course, I worked with an engineer friend and we ran it three times for non-engineering students at Imperial College London.
 
 **Watching a real pain point get narrowed down into something usable every day is the most satisfying part of the job for me.**
+`,
+        ja: `
+私は「**デモを本当に使えるものに変えること**」に、ほとんど執着に近い興味を持っています。agenticなプラットフォームを作ったとき、はっきり確信しました。難しいのはモデルそのものではなく、課題を正しく枠づけて出力を検証すること、そしてそれを安定して繰り返すこと、この二つだと。
+
+だからこそ、自分の部屋探しの悩みを絞り込みツールにしたり、Claude Codeをエンジニア以外の学生向けの実践講座にまとめたり、就職活動のプロセスをひとつのパイプラインにしたりしてきました。留学生の部屋探しは情報が多すぎるので、自分の検索をひとつのプロダクトの課題として捉え直し、must-haveの条件を定義してから、既存のプラットフォームより精度の高い絞り込みツールを作りました。AIエージェントの講座はエンジニアの友人と一緒に、インペリアル・カレッジ・ロンドンのエンジニア以外の学生向けに三回開催しました。
+
+**リアルな悩みが、毎日使えるものにまとまっていくのを見る瞬間が、一番達成感を感じるときです。**
+
+| 読み方 | |
+|---|---|
+| 執着 | しゅうちゃく |
+| 検証 | けんしょう |
+| 絞り込み | しぼりこみ |
+| 捉え直す | とらえなおす |
+| 精度 | せいど |
+| 開催 | かいさい |
+| 達成感 | たっせいかん |
 `
       },
       {
@@ -238,6 +339,29 @@ I try to write requirements to the point where an engineer doesn't have to come 
 #### How do you work remotely or across time zones?
 
 Typus was fully remote, and 17LIVE spanned Taiwan, Japan and Southeast Asia. My approach is to write the asynchronous things down properly, the spec, the decision log, the reasoning behind priorities, and save synchronous time for the disagreements that genuinely need a live conversation.
+`,
+        ja: `
+私の働き方は三つに凝縮できます。**まず合わせてから動く、データで議論を終わらせる、自分でできるものは先に作って見せる**、です。
+
+案件を始める前に、ビジネス目標、技術的な制約、現場の要望を、ひとつの優先順位に揃えます。Typusでキックオフからデリバリーまでのプロセスを設計し直したとき、手戻りの大半は最初にきちんと話せていなかったことから来ていると分かったからです。その見直しで、手戻りのサイクルを30%減らしました。進行中は、会議での説得力に頼るのではなく、プロトタイプやデータで議論を収束させるのが好みです。時間配分は80/20で、本当に判断が必要なことに大半の時間を残し、繰り返しの作業はできるだけ自動化します。
+
+#### エンジニアとはどう協働していますか？
+
+要件は、エンジニアがもう一度私に聞き返さなくて済むレベルまで書くようにしています。ユーザーストーリー、受け入れ条件、そしてなぜこれが先なのか、です。自分でプロトタイプを作るので、議論のときは想像上の画面を説明するのではなく、実際にクリックできるものをそのまま渡せます。
+
+#### リモートや時差のある環境ではどう働いていますか？
+
+Typusは完全リモートで、17LIVEは台湾・日本・東南アジアをまたいでいました。私のやり方は、非同期で済むものをきちんと書き残すことです。仕様、決定の記録、優先順位の理由をすべて書いておいて、同期の時間は本当にリアルタイムで議論が必要な論点のために残します。
+
+| 読み方 | |
+|---|---|
+| 凝縮 | ぎょうしゅく |
+| 制約 | せいやく |
+| 揃える | そろえる |
+| 手戻り | てもどり |
+| 収束 | しゅうそく |
+| 受け入れ条件 | うけいれじょうけん |
+| 非同期 | ひどうき |
 `
       },
       {
@@ -259,6 +383,24 @@ First, **AI-augmented building**. I build my own prototypes, dashboards and anal
 Second, **data-led prioritisation**. Interviews plus SQL are my baseline kit: qualitative tells me why, quantitative tells me how many people.
 
 Third, **cross-cultural communication**. I work in Mandarin, English and Japanese, and at 17LIVE I did cross-functional work in Japanese.
+`,
+        ja: `
+三つあります。
+
+一つ目は、**AI-augmented building**、AIで拡張したものづくりです。プロトタイプ、ダッシュボード、データ分析を自分で作るので、他の人のスケジュールを待たずに仮説を検証できます。
+
+二つ目は、**データに基づく優先順位の判断**です。インタビューとSQLは私の基本装備で、定性はなぜかを、定量は何人いるかを教えてくれます。
+
+三つ目は、**異文化コミュニケーション**です。中国語、英語、日本語の三言語が使えて、17LIVEでは日本語で職種横断の協働をしていました。
+
+| 読み方 | |
+|---|---|
+| 拡張 | かくちょう |
+| 仮説 | かせつ |
+| 基本装備 | きほんそうび |
+| 定性 | ていせい |
+| 定量 | ていりょう |
+| 異文化 | いぶんか |
 `
       },
       {
@@ -284,6 +426,27 @@ What I do now is **ask who should own this in three months' time**. If the answe
 Alternative version:
 
 I don't have enough experience in a product organisation at scale. The teams I've been in were small and fast, with short decision chains. I'm very aware that in a large organisation, **the cost of persuading and aligning is itself part of the job**, so I now deliberately practise writing the reasoning behind a decision down, instead of solving it in one face-to-face conversation.
+`,
+        ja: `
+以前の私は、つい自分で仕事を片付けてしまうところがありました。プロトタイプも作れるし、データも引けるので、詰まった箇所があると最初の反応が「自分でやる」だったんです。短期的には効率がいいのですが、チームが一緒に課題を理解する機会を一回減らしてしまいますし、自分がボトルネックにもなってしまいます。
+
+今のやり方はこうです。**まず、この仕事は三ヶ月後に誰が持つべきかを問う**。それが私でないなら、サンプル版とドキュメントを作って渡し、長く自分で握り続けないようにしています。これはTypusでデリバリープロセスを設計し直したときに特にはっきり出ました。自分の判断を仕様とユーザーストーリーのテンプレートにして、他の人も同じように回せるようにしました。
+
+---
+
+もう一つのバージョン：
+
+大規模なプロダクト組織での経験がまだ足りません。これまでいたのは小さくて速いチームばかりで、意思決定の経路が短かったです。大きな組織では、**説得と合意形成のコストそのものが仕事の一部**だとよく分かっているので、今は意識的に、決定の理由を書面のドキュメントにする練習をしています。一回の対面のコミュニケーションで済ませるのではなく、です。
+
+| 読み方 | |
+|---|---|
+| 片付ける | かたづける |
+| 箇所 | かしょ |
+| 握り続ける | にぎりつづける |
+| 意思決定 | いしけってい |
+| 経路 | けいろ |
+| 合意形成 | ごういけいせい |
+| 書面 | しょめん |
 `
       },
       {
@@ -297,6 +460,20 @@ I don't have enough experience in a product organisation at scale. The teams I'v
 Because I like sitting between what users want and what the technology can do.
 
 My background is in cultural and creative industries management, not product or engineering, so I'm used to translating between people who speak different languages. At 17LIVE I found that pulling feedback scattered across support, QA and the data team into a single view moved decisions further than any meeting did, and it made issue resolution 15% faster. **That was when I knew this was what I wanted to do long term.**
+`,
+        ja: `
+「ユーザーが何を求めているか」と「技術で何ができるか」の間に立つ位置が好きだからです。
+
+私のバックグラウンドは文化・クリエイティブ産業のマネジメントで、プロダクトやエンジニアリングの出身ではありません。だからこそ、違う言葉を話す人たちをお互いに翻訳することにとても慣れています。17LIVEで気づいたのは、カスタマーサポート、QA、データチームに散らばっていたフィードバックをひとつのビューにまとめることが、どんな会議よりも意思決定を前に進めるということでした。あのときは課題対応のスピードが15%上がりました。**そのとき、これが長くやっていきたい仕事だと確信しました。**
+
+| 読み方 | |
+|---|---|
+| 産業 | さんぎょう |
+| 出身 | しゅっしん |
+| 翻訳 | ほんやく |
+| 散らばる | ちらばる |
+| 意思決定 | いしけってい |
+| 確信 | かくしん |
 `
       },
       {
@@ -314,6 +491,21 @@ Two things.
 One is **seeing a metric actually move**, especially the kind of change you can trace back to a specific decision.
 
 The other is the process of narrowing down a vague problem with people who are better than me. The discussion itself is the part I find most rewarding.
+`,
+        ja: `
+二つあります。
+
+一つは、**指標が本当に動くのを見ること**です。特に、ある具体的な決定までさかのぼれる変化です。
+
+もう一つは、自分より能力の高い人たちと一緒に、曖昧な課題を収束させていくプロセスです。チームでの議論そのものが、私にとって一番達成感のある部分です。
+
+| 読み方 | |
+|---|---|
+| 指標 | しひょう |
+| 具体的 | ぐたいてき |
+| 曖昧 | あいまい |
+| 収束 | しゅうそく |
+| 達成感 | たっせいかん |
 `
       },
       {
@@ -327,6 +519,18 @@ The other is the process of narrowing down a vague problem with people who are b
 Three things, in order: **whether I'd learn something I don't already have**, particularly product experience at scale; **whether the team is high-trust and low-politics**; and **whether the product has real users**.
 
 Money matters, but I care more about what kind of PM I'll be in two years.
+`,
+        ja: `
+三つあります。順番に言うと、**今の自分にないものを学べるかどうか**、特に大規模なプロダクトの経験です。次に、**チームの信頼が高くて、政治が少ないかどうか**。そして、**プロダクトに本当のユーザーがいるかどうか**です。
+
+お金は大事ですが、二年後に自分がどんなPMになっているかのほうを、もっと気にしています。
+
+| 読み方 | |
+|---|---|
+| 大規模 | だいきぼ |
+| 信頼 | しんらい |
+| 政治 | せいじ |
+| 重視 | じゅうし |
 `
       },
       {
@@ -340,6 +544,20 @@ Money matters, but I care more about what kind of PM I'll be in two years.
 Early on at Typus, I wrote a feature spec too loosely. The team was small and I assumed talking it through would be enough. Once development started, we didn't share the same understanding of the acceptance criteria, we went through two rounds of rework, and the schedule slipped.
 
 What I took from it wasn't "write more documentation", it was "**write the right documentation**". I redesigned the process from kickoff to delivery, using specs backed by competitor analysis plus user stories, and cut the rework cycle by 30%.
+`,
+        ja: `
+Typusの初期に、ある機能の仕様をかなり粗く書いてしまいました。チームが小さいから、口頭で伝えれば十分だと思っていたんです。ところが開発に入ってから受け入れ基準の理解がずれていて、二回やり直すことになり、スケジュールが遅れました。
+
+そこから得た結論は「もっとドキュメントを書く」ではなく、「**正しいドキュメントを書く**」でした。その後、キックオフからデリバリーまでのプロセスを設計し直し、競合分析で裏付けた仕様とユーザーストーリーを使って、手戻りのサイクルを30%減らしました。
+
+| 読み方 | |
+|---|---|
+| 粗い | あらい |
+| 口頭 | こうとう |
+| 受け入れ基準 | うけいれきじゅん |
+| 競合分析 | きょうごうぶんせき |
+| 裏付ける | うらづける |
+| 手戻り | てもどり |
 `
       }
     ]
@@ -362,6 +580,23 @@ At 17LIVE, user feedback was scattered across support tickets, QA records, app s
 I brought together support, QA, data and engineering to define the feedback categories and fields we'd track, consolidated multiple sources into one shared view, and agreed a weekly review rhythm. **Issue resolution got 15% faster**, and the team could see problems emerging instead of waiting until they became a wave of complaints.
 
 The hard part wasn't building the dashboard, it was getting four teams to agree on one taxonomy. My approach was to build a rough version out of the data they already had, **so they could see the value before we argued about the standard**.
+`,
+        ja: `
+17LIVEでは、ユーザーからのフィードバックが、カスタマーサポートのチケット、QAの記録、アプリストアのレビュー、データチームのレポートに散らばっていました。全体像を持っている人が誰もいなくて、同じ課題が何度も議論されていました。これは私のKPIにはありませんでしたが、多くのプロダクトの議論の根本原因だと判断して、自分から提案しました。
+
+カスタマーサポート、QA、データ、エンジニアの各チームと組んで、追跡するフィードバックの分類と項目を定義し、複数のソースをひとつの共有ビューに統合して、毎週レビューするリズムを決めました。結果として **課題対応のスピードが15%向上** し、大量のクレームになる前に、浮かび上がってきた課題をチームが早く見られるようになりました。
+
+一番難しかったのはダッシュボードを作ることではなく、四つのチームに同じ分類を使ってもらうよう説得することでした。私のやり方は、まず彼らが今持っているデータで粗いバージョンを作り、**価値を見てもらってからルールの話をする**ことでした。
+
+| 読み方 | |
+|---|---|
+| 散らばる | ちらばる |
+| 全体像 | ぜんたいぞう |
+| 根本原因 | こんぽんげんいん |
+| 分類 | ぶんるい |
+| 統合 | とうごう |
+| 浮かび上がる | うかびあがる |
+| 説得 | せっとく |
 `
       },
       {
@@ -379,6 +614,23 @@ At 17LIVE we had more roadmap candidates than we could deliver, and every team h
 I worked with UX Research to interview both general users and top streamers, and in parallel used SQL to analyse behavioural data and retention. Cross-referencing the qualitative pain points against the quantitative signals, I turned that into prioritised requirements and a roadmap proposal. **Positive user feedback rose 30% and negative feedback dropped 10%.**
 
 **Interviews tell you why, data tells you how many people. Without either one, you'll get the priority order wrong.**
+`,
+        ja: `
+17LIVEでは、ロードマップの候補がデリバリーできる量を上回っていて、各チームがそれぞれの主張を持っていました。みんなが納得できる並べ方の根拠が必要でした。
+
+UXリサーチと一緒に一般ユーザーとトップ配信者にインタビューをしながら、同時にSQLで行動データとリテンション指標を分析しました。定性的な悩みと定量的なシグナルを突き合わせて、優先順位のついた要件とロードマップの提案に変換しました。結果は **ポジティブなユーザーフィードバックが30%増え、ネガティブなフィードバックが10%減りました**。
+
+**インタビューは「なぜ」を教えてくれて、データは「何人いるか」を教えてくれます。どちらか一方が欠けると、優先順位を間違えます。**
+
+| 読み方 | |
+|---|---|
+| 候補 | こうほ |
+| 上回る | うわまわる |
+| 納得 | なっとく |
+| 根拠 | こんきょ |
+| 配信者 | はいしんしゃ |
+| 突き合わせる | つきあわせる |
+| 欠ける | かける |
 `
       },
       {
@@ -396,6 +648,24 @@ I don't come from a finance background, but at Typus I owned options and perpetu
 I started from competitor analysis and product definition, then set the roadmap, managed the backlog and ran sprint planning, delivering more than thirty features and improvements on a bi-weekly release cycle. Over that period **monthly active users went from around a thousand to over twenty thousand, and deposits in the product grew from 8 to 20 million US dollars.**
 
 **Domain knowledge is learnable. The way to learn it is to take competitors apart and ask why they designed it that way, not just to read documentation.**
+`,
+        ja: `
+私は金融や財務の出身ではありませんが、TypusでSuiチェーン上のオプションと無期限先物のプロダクトを担当することになりました。短期間でオンチェーンのデリバティブと取引の仕組みに関するドメイン知識を補いながら、同時にプロダクトをリリースまで持っていく必要がありました。
+
+競合分析とプロダクト定義から始めて、ロードマップを策定し、バックログを管理し、スプリントプランニングを主催しました。隔週のリリースリズムで、30以上の機能と改善を届けました。その間に **MAUは約1,000から20,000以上に、プロダクト内の預かり資産の価値は800万ドルから2,000万ドルに成長しました。**
+
+**ドメイン知識は補えます。補い方は、チュートリアルを読むだけではなく、競合を分解して、なぜそう設計されているのかを見ることです。**
+
+| 読み方 | |
+|---|---|
+| 財務 | ざいむ |
+| 無期限先物 | むきげんさきもの |
+| 取引 | とりひき |
+| 策定 | さくてい |
+| 主催 | しゅさい |
+| 隔週 | かくしゅう |
+| 預かり資産 | あずかりしさん |
+| 分解 | ぶんかい |
 `
       },
       {
@@ -413,6 +683,22 @@ During a rebranding project at Typus, requirements kept getting reworked after t
 I redesigned the process from kickoff to delivery: specs backed by competitor analysis plus user stories, and a requirement that the trade-offs be put on the table at kickoff. **The rework cycle dropped 30%.**
 
 **Rework is almost never an engineering problem. It's a decision that didn't get made at the point where it was cheapest to make.**
+`,
+        ja: `
+Typusのリブランディング案件の期間中、要件が開発に入ってから理解のずれで手戻りすることが多く、スケジュールに影響が出ていました。残業で埋めるのではなく、手戻りの根本原因を見つけて直す必要がありました。
+
+キックオフからデリバリーまでのプロセスを設計し直し、競合分析で裏付けた仕様とユーザーストーリーに切り替えました。そして、キックオフの時点でトレードオフを全部テーブルに出して、話し切ることを求めました。**手戻りのサイクルは30%減りました。**
+
+**手戻りはほとんどエンジニアリングの問題ではありません。一番安いタイミングで意思決定がされていなかった、ということです。**
+
+| 読み方 | |
+|---|---|
+| 手戻り | てもどり |
+| 根本原因 | こんぽんげんいん |
+| 残業 | ざんぎょう |
+| 裏付ける | うらづける |
+| 仕様 | しよう |
+| 意思決定 | いしけってい |
 `
       },
       {
@@ -430,6 +716,24 @@ I worked with an engineering partner on an agentic platform processing more than
 I wrote down what "a good output" actually means as measurable evaluation criteria, then used the A/B framework to compare the cost and quality of different model combinations. We **cut running costs by 83% while giving up only 3% on quality**, and the platform ran in production for about a month and a half.
 
 **The hard part is never the model. It's the engineering discipline and the evaluation design that turn it into a product.**
+`,
+        ja: `
+エンジニアのパートナーと一緒に、毎日200本以上の記事を処理するagenticなプラットフォームを作りました。3つのLLMをつなぎ、全部で33のモジュールがあり、クロール、解析、分類とスコアリング、付加価値づけ、専門家レビューからRAGまでを扱います。私はプロダクト側を担当しました。要件の定義、評価基準の定義、そしてLLMのA/Bテストのフレームワークです。
+
+「何をもって良い出力とするか」を測定できる評価基準として書き、A/Bのフレームワークで異なるモデルの組み合わせのコストと品質を比較しました。結果は **運用コストが83%下がり、品質の犠牲は3%だけ** でした。プラットフォームは実際に約1.5ヶ月、本番で稼働しました。
+
+**難しいのはいつもモデルではなく、それをプロダクト化するためのエンジニアリングの規律と評価の設計です。**
+
+| 読み方 | |
+|---|---|
+| 解析 | かいせき |
+| 付加価値 | ふかかち |
+| 専門家 | せんもんか |
+| 評価基準 | ひょうかきじゅん |
+| 運用 | うんよう |
+| 犠牲 | ぎせい |
+| 稼働 | かどう |
+| 規律 | きりつ |
 `
       },
       {
@@ -447,6 +751,22 @@ At 17LIVE, features had to launch in Taiwan, Japan and Southeast Asia at the sam
 I acted as the translator between product, engineering, operations and leadership, aligning business goals, technical constraints and on-the-ground needs into one set of priorities. I also worked with the live-effects team to improve the V-Liver viewing experience for the Japanese market, which **lifted effective watch time by 10%**.
 
 **The most important thing in cross-cultural work isn't the language. It's knowing how much context the other person needs before they're willing to decide.**
+`,
+        ja: `
+17LIVEでは、機能を台湾・日本・東南アジアで同時にリリースする必要があり、地域ごとに市場のニーズも優先順位も違いました。私は地域をまたぐリリースのリズムの調整を担当し、日本市場では日本語で直接、職種横断のコミュニケーションをしていました。
+
+プロダクト、エンジニア、オペレーション、経営層の間で翻訳者の役割を果たし、ビジネス目標、技術的な制約、現場の要望をひとつの優先順位に揃えました。また、ライブ配信のエフェクトチームと協力して、日本市場のV-Liverの視聴体験を改善し、**有効視聴時間を10%伸ばしました**。
+
+**異文化の協働で一番大事なのは言語ではなく、相手が決断するのにどれだけのコンテキストが必要かを知ることです。**
+
+| 読み方 | |
+|---|---|
+| 経営層 | けいえいそう |
+| 翻訳者 | ほんやくしゃ |
+| 制約 | せいやく |
+| 揃える | そろえる |
+| 視聴 | しちょう |
+| 決断 | けつだん |
 `
       },
       {
@@ -464,6 +784,24 @@ When I came to the UK to study, rental information was overwhelming and scattere
 For the first, I treated it as a product problem: define the must-haves, do the requirements analysis, then build a filtering tool more precise than the platforms already available. For the second, I packaged Claude Code into a hands-on course and, with an engineer friend, ran it three times for non-engineering students at Imperial College London.
 
 The tool solved a real problem of my own; the course proved that people without an engineering background can start getting work done with agents within a few hours. **Both ended up being the parts of my CV that differentiate me most.**
+`,
+        ja: `
+イギリスに留学に来たとき、部屋探しの情報が多すぎて、しかもばらばらでした。同時に、修士課程の同級生がagentic codingのツールをほとんど知らないことにも気づきました。どちらも誰かに頼まれたことではなく、自分でやる価値があると判断したことです。
+
+前者はプロダクトのやり方で対処しました。must-haveの条件を定義して、要件分析をして、既存のプラットフォームより精度の高い絞り込みツールを作りました。後者はClaude Codeをひとつの実践講座にまとめて、エンジニアの友人と協力し、インペリアル・カレッジ・ロンドンのエンジニア以外の学生向けに三回開催しました。
+
+ツールは自分自身の本当の悩みを解決しました。講座は、エンジニア出身でない人でも数時間あればエージェントで仕事を始められることを証明しました。**この二つは、後に私の履歴書の中で一番差別化を示せる部分になりました。**
+
+| 読み方 | |
+|---|---|
+| 同級生 | どうきゅうせい |
+| 対処 | たいしょ |
+| 精度 | せいど |
+| 絞り込み | しぼりこみ |
+| 開催 | かいさい |
+| 証明 | しょうめい |
+| 履歴書 | りれきしょ |
+| 差別化 | さべつか |
 `
       }
     ]
@@ -490,6 +828,31 @@ The tool solved a real problem of my own; the course proved that people without 
 `,
         en: `
 What draws me to **[company]** is **[the specific product, mission, or your own experience using it]**. I'm a PM who validates things hands-on, building prototypes and doing my own analysis, so where I'd like to contribute is **[specific contribution to them]**. My background spans fintech at Typus and B2C social at 17LIVE, which maps directly onto what you're doing in **[their space]**.
+`,
+        ja: `
+**Trip.com 版。** 他社の面接では、プロダクト名と課題提出の部分を差し替えてください。
+
+**一番直接的な理由は、私自身がヘビーユーザーだということです。** 旅行が大好きで、旅程を組むときにまず開くのが Trip.com です。画面の流れ、検索のロジック、どの情報が何階層目にあるか、すべて体で覚えています。旅行アプリは使い慣れがとても大事で、一度操作が手になじんだユーザーは、そのまま使い続けることが多いです。私自身がまさにそうでした。ですから、一般の応募者と比べて、**このプロダクトへの理解は調べたものではなく、使い込んで得たものです**。使い慣れているからこそ、課題提出のときに、台北から東京、台北からロンドンの二つの路線について、予約フローを自分で最後まで通しで確認できました。さらに、台湾の App Store のレビュー約 500 件をテーマ別に分類しました。あの課題は、ユーザーとして積み重ねてきた判断を、初めて形にしたものです。
+
+**二つ目は、舞台です。** 私が入りたいのは、本当の意味でのグローバル企業です。こうした環境では、国をまたいだ協業の機会が密度高くあります。同じ機能が市場ごとにどう違う結果を出すのか、地域ごとのチームがどう意思決定するのか、本社と現地がどう役割分担するのか。こうしたことは、十分に大きな組織でなければ見えません。それを通じて視野を広げ、一つの市場だけでなく、グローバル市場への理解を築きたいと考えています。
+
+**三つ目は、リソースと構造です。** この規模の企業は、リソース、予算、市場への影響力で明確な強みがあります。これはプロダクトマネジメントと開発にとって非常に重要です。自分の仮説を検証できるだけのトラフィックがあり、自分の決定を実際に実現できるリソースがあるからです。私がこれまでいたのは比較的小さなチームで、サンプル数が足りない、リソースが足りない、という理由で止まってしまうアイデアが多くありました。ですから、アイデアを最後までやり切れて、データで検証できる場所に行きたいと考えています。
+
+---
+
+#### 汎用バージョン（他社用）
+
+私が **[会社名]** に興味を持った理由は、**[具体的なプロダクト、ミッション、または実際に使った体験]** です。私は自分の手で検証する PM で、プロトタイプも作りますし、データ分析も自分で行います。ですので、**[相手への具体的な貢献]** の部分で力になりたいと考えています。私の経歴はフィンテック（Typus）と B2C コミュニティ（17LIVE）にまたがっており、御社の **[相手の領域]** の方向性と直接つながります。
+
+| 読み方 | |
+|---|---|
+| 応募者 | おうぼしゃ |
+| 階層 | かいそう |
+| 課題提出 | かだいていしゅつ |
+| 協業 | きょうぎょう |
+| 意思決定 | いしけってい |
+| 仮説 | かせつ |
+| 汎用 | はんよう |
 `
       },
       {
@@ -503,6 +866,19 @@ What draws me to **[company]** is **[the specific product, mission, or your own 
 Because I put **the judgement of a PM and the ability to build in the same person**.
 
 I have results you can check: at Typus, monthly active users went from 1K to over 20K and deposits from $8M to $20M; at 17LIVE, positive feedback rose 30%. And because I build my own prototypes and do my own analysis, **the distance from insight to delivery is shorter**. On top of that I work in Mandarin, English and Japanese, so I can operate inside a cross-regional team directly.
+`,
+        ja: `
+**PM としての判断力と、自分で手を動かす力を、一人の中に持っている**からです。
+
+検証できる実績があります。Typus では MAU が 1K から 20K 以上に成長し、預け入れ資産は $8M から $20M になりました。17LIVE ではポジティブなフィードバックが 30% 向上しました。しかも、プロトタイプもデータ分析も自分でやるので、**インサイトから納品までの距離が短い**です。さらに中国語・英語・日本語の三言語が使えるので、地域をまたぐチームの中でそのまま働けます。
+
+| 読み方 | |
+|---|---|
+| 判断力 | はんだんりょく |
+| 実績 | じっせき |
+| 預け入れ資産 | あずけいれしさん |
+| 納品 | のうひん |
+| 三言語 | さんげんご |
 `
       },
       {
@@ -524,6 +900,25 @@ Once I'd actually lived here, London gave me more than I expected. Teams here ar
 #### How long do you plan to stay? Would you go back?
 
 I plan to stay long term. After graduating I can move onto the Graduate Route, which means about two years without needing employer sponsorship, and I'd like to use that time to find a team I can grow with.
+`,
+        ja: `
+きっかけは、実はとても単純です。子どものころにハリー・ポッターに夢中になって、それ以来ずっとイギリスに憧れがありました。高校の夏休みにツアーで一度来たことがあり、有名な観光地をたくさん回りました。ただ、それは「連れて行ってもらって見る」体験でした。見終わったあと、むしろ大人になったら自分で来て、観光バスの窓越しではなく、生活する形でこの文化の中に本当に入りたい、と強く思うようになりました。それで修士に進むとき、ロンドンの King's College London を選びました。
+
+実際に住んでみると、ロンドンは想像以上のものを与えてくれました。ここのチームはほとんどが多国籍で構成されていて、プロダクトは初日から異なる言語と市場に向き合わなければなりません。これは 17LIVE で台湾、日本、東南アジアを同時に担当した経験とぴったり重なります。そしてロンドンのフィンテック集積は、Typus での経歴にそのままつながります。**ですから今の答えは、子どものころの憧れだけではありません。ここでキャリアを築きたい、ということです。**
+
+#### では、どのくらい滞在する予定ですか？帰る予定はありますか？
+
+長期的に残るつもりです。卒業後は Graduate Route が使えて、約二年間は雇用主のスポンサーが不要です。その期間のうちに、長く一緒に歩んでいけるチームを見つけたいと考えています。
+
+| 読み方 | |
+|---|---|
+| 憧れ | あこがれ |
+| 観光地 | かんこうち |
+| 修士 | しゅうし |
+| 多国籍 | たこくせき |
+| 集積 | しゅうせき |
+| 滞在 | たいざい |
+| 雇用主 | こようぬし |
 `
       },
       {
@@ -537,6 +932,19 @@ I plan to stay long term. After graduating I can move onto the Graduate Route, w
 At both 17LIVE and Typus I kept hitting the same problem: **the translation cost between product and engineering is very high, and a lot of information is lost between the PRD and the spec.**
 
 I wanted to understand that properly, so I took a master's in Management and Technological Change. My dissertation looks at the PRD as a boundary object and what role AI plays in it. **This wasn't leaving the industry, it was taking a specific problem with me to go find a method.**
+`,
+        ja: `
+17LIVE でも Typus でも、繰り返し同じ課題にぶつかりました。**プロダクトとエンジニアリングの間の翻訳コストが非常に高く、PRD から SPEC の間で大量の情報が失われる**ということです。
+
+これをきちんと研究したくて、Management and Technological Change を専攻しました。論文のテーマは、boundary object としての PRD と、その中で AI がどんな役割を果たすか、です。**業界を離れたのではなく、具体的な課題を持って、方法を探しに行ったのです。**
+
+| 読み方 | |
+|---|---|
+| 翻訳 | ほんやく |
+| 研究 | けんきゅう |
+| 専攻 | せんこう |
+| 論文 | ろんぶん |
+| 役割 | やくわり |
 `
       },
       {
@@ -546,6 +954,17 @@ I wanted to understand that properly, so I took a master's in Management and Tec
 `,
         en: `
 I spent a year at Gunma University as an exchange student, I have business-level Japanese (JLPT N1), and at 17LIVE I did cross-functional work in Japanese over a long period. My family is also in Japan, and I want to build a long-term career and life there. **This isn't a short-term option for me.**
+`,
+        ja: `
+群馬大学に交換留学生として一年間在籍し、ビジネスレベルの日本語（JLPT N1）があります。17LIVE でも長期にわたって、日本語で職能横断の協業をしてきました。さらに家族が日本にいるので、現地で長期的なキャリアと生活を築きたいと考えています。**短期的な選択肢ではありません。**
+
+| 読み方 | |
+|---|---|
+| 群馬大学 | ぐんまだいがく |
+| 交換留学生 | こうかんりゅうがくせい |
+| 在籍 | ざいせき |
+| 職能横断 | しょくのうおうだん |
+| 選択肢 | せんたくし |
 `
       },
       {
@@ -555,6 +974,19 @@ I spent a year at Gunma University as an exchange student, I have business-level
 `,
         en: `
 I've been on a full-time master's, and I didn't stop building during it: the product planning for the agentic AI platform, the rental filtering tool, three runs of the hands-on AI agent course, and an agent pipeline that manages my own job search. All of it is visible in my portfolio.
+`,
+        ja: `
+この期間はフルタイムの修士課程に在学していましたが、その間もプロダクトの実装は止めていません。agentic AI プラットフォームのプロダクト企画、賃貸物件のフィルタリングツール、AI agent 実装講座を三回開催、そして agent pipeline で自分の就職活動を管理しています。すべて私のポートフォリオで見られます。
+
+| 読み方 | |
+|---|---|
+| 修士課程 | しゅうしかてい |
+| 在学 | ざいがく |
+| 実装 | じっそう |
+| 企画 | きかく |
+| 賃貸物件 | ちんたいぶっけん |
+| 講座 | こうざ |
+| 就職活動 | しゅうしょくかつどう |
 `
       },
       {
@@ -574,6 +1006,14 @@ I've been on a full-time master's, and I didn't stop building during it: the pro
 | When can you start? | **After graduating in September 2026**; immediately for internships. |
 | Location | London-based, happy to be on-site, also open to remote or hybrid, willing to relocate. |
 | Salary expectation | UK: **£50,000–£60,000**. Japan: **¥6,000,000–8,000,000**. |
+`,
+        ja: `
+| 質問 | 回答 |
+|---|---|
+| スポンサーは必要ですか？ | フォームが Yes/No しかなければ **Yes** を選ぶ。補足欄があれば追記：卒業後は Graduate Route が使えるので、約二年間は雇用主のスポンサーが不要。必要になるのはその後。 |
+| いつから勤務できますか？ | **2026 年 9 月の卒業後**。インターンであればすぐに可能。 |
+| 勤務地の柔軟性 | ロンドンを中心に、オンサイト可。リモートやハイブリッドも可。転勤も可能。 |
+| 希望年収 | イギリスは **£50,000–£60,000** が主。日本は **600〜800 万円** が主。 |
 `
       }
     ]
@@ -642,6 +1082,47 @@ I've been on a full-time master's, and I didn't stop building during it: the pro
 | Japan track | How much of this role is actually conducted in Japanese? |
 | Contractor first | How is contractor pay calculated, and how does it carry over when converting to full time? Is there a probation period? |
 | Recruiter or HR | Aside from language, what else should I be strengthening? |
+`,
+        ja: `
+#### 必ず聞く
+
+1. Hiring manager は、この役割に**一年後**、何を期待していますか？
+2. プロダクト開発チームはどう分担していて、何人ですか？機能ごとのグループ分けですか、それともプロジェクトごとですか？
+3. **要件はどこから来ますか？意思決定のプロセスはどうなっていますか？**
+4. 今後の選考プロセスとスケジュールを教えてください。面接は何回あって、それぞれどなたが担当されますか？
+
+#### 価値の高い質問
+
+5. この役割で、**最初の 90 日**にどんな結果が出れば「正しい人を採用した」と感じますか？
+6. **御社で活躍している人には、どんな共通点がありますか？**
+7. チームでは今、プロダクトとエンジニアリングの間で、どこが一番つまずきやすいですか？
+8. このポジションの**プロダクトに関する決定権の境界**はどこですか？PM はどこまで自分で決められますか？
+9. 来年、御社にとって最大の障壁は何になりそうですか？
+
+#### 状況に応じて選ぶ
+
+| 状況 | 質問 |
+|---|---|
+| 先方からの声かけ | まず、私の経歴のどの部分に注目していただいたのか、教えていただけますか？ |
+| AI 志向の会社 | AI 事業は現在、売上のどのくらいを占めていますか？PM はどこまで関わりますか？エンジニア以外の職種も agent を使っていますか？ |
+| 海外拠点あり | 海外チームは何を担当していますか？台湾とはどう協業していますか？ |
+| 新設ポジション | この役割は以前どなたが兼任していましたか？切り出したあと、まず何を解決したいですか？ |
+| PM 職 | 御社では、product manager と project manager の違いは何ですか？ |
+| 受託会社 | クライアントが急に要件を追加したり納期を詰めてきたとき、スコープと納期の決定権は PM ですか、営業ですか？ |
+| 日本向け | この役割で、実際に日本語を使う割合はどのくらいですか？ |
+| まず契約社員 | Contractor 期間の報酬はどう計算されますか？正社員に転換するとき、給与はどう引き継がれますか？試用期間はありますか？ |
+| ヘッドハンター・HR | 言語以外に、私が強化すべき点はありますか？ |
+
+| 読み方 | |
+|---|---|
+| 要件 | ようけん |
+| 選考 | せんこう |
+| 決定権 | けっていけん |
+| 境界 | きょうかい |
+| 障壁 | しょうへき |
+| 兼任 | けんにん |
+| 受託 | じゅたく |
+| 試用期間 | しようきかん |
 `
       }
     ]
@@ -669,6 +1150,21 @@ I've been on a full-time master's, and I didn't stop building during it: the pro
 I don't believe in a single formula, but I do have three fixed questions: **how many people does this affect** (the quantitative signal), **how painful is it** (interviews and VOC), and **does doing it move us closer to this quarter's goal**.
 
 At 17LIVE I did exactly this by cross-referencing interviews with SQL: qualitative told me why, quantitative told me how many people. When an argument can't be settled, I **write the trade-off out explicitly and let the decision-maker choose**, rather than leaving it hanging in a meeting.
+`,
+        ja: `
+単一の公式は信じていません。ただ、決まった三つの問いは持っています。**この課題は何人に影響するか**（定量的なシグナル）、**その影響はどれだけ痛いか**（インタビューと VOC）、そして**やったあとに、今四半期の目標に近づくか**です。
+
+17LIVE では、まさにインタビューと SQL を突き合わせてこれをやっていました。定性は「なぜ」を教えてくれ、定量は「何人か」を教えてくれます。議論が決着しないときは、**トレードオフを明文化して、意思決定者に選んでもらいます**。会議の中で宙に浮かせたままにはしません。
+
+| 読み方 | |
+|---|---|
+| 公式 | こうしき |
+| 定量 | ていりょう |
+| 定性 | ていせい |
+| 四半期 | しはんき |
+| 突き合わせて | つきあわせて |
+| 決着 | けっちゃく |
+| 明文化 | めいぶんか |
 `
       },
       {
@@ -772,6 +1268,67 @@ Completion rate is binary, finished or not finished, and **the people who leave 
 So for that step I'd add one metric: **return rate, the share of people who come back and complete within 30 minutes or 24 hours.** If 70% of the people who leave come back, comparison shopping is just normal behaviour in this market and isn't the problem. If only 10% come back, that's where the work is. **Without return rate, I can't tell those two situations apart.**
 
 **So when does adoption rate come back into this question?** When I build something new to address that exit, a best-price guarantee badge or a price-drop alert, for example. Then adoption rate is "of the people who saw it, how many used it" and completion rate is "of the people who used it, how many completed the booking". **You need both**: high adoption with flat completion means people are using it but it isn't solving the problem; low adoption means the feature is buried too deep and we're not yet at the point where we can judge whether it works.
+`,
+        ja: `
+**先に行動を定義し、それから数字を定義します。** まず「この機能が成功したら、ユーザーはどの行動を今より多く取るか」を問い、その行動を追跡できる指標に変えます。
+
+そのうえで、三つのステップで進めます。
+
+#### 一、主要指標を採用率にするか完了率にするかを先に決める
+
+これは、測りたいのが**新しくリリースしたもの**なのか、**始点と終点があるフロー**なのかで決まります。
+
+| 主要指標 | いつ使うか | 分母 | 分子 |
+|---|---|---|---|
+| **採用率** | 新しくリリースした機能 | 使う機会があった人（表示された、対象条件を満たす） | 実際に一回以上使った人 |
+| **完了率** | 明確な始点と終点があるフロー | このフローを開始した人 | 終点まで到達した人 |
+
+**この二つは入れ替えられません。** 予約のメインフローに採用率はありません。ユーザーは明確な意図を持って入ってくるので、「採用するかどうか」という問い自体が存在しないからです。逆に、リリースしたばかりの新機能を完了率だけで見るべきでもありません。完了率がどれだけ高くても、誰も入ってこなければ意味がないからです。私は 17LIVE でこの落とし穴を踏みました。ショート動画の編集権限がデフォルトでオフになっていて、設定ページを開いて有効にするライバーはほとんどいませんでした。**供給側がまったく開かれていなかったのです。**
+
+#### 二、診断指標とガードレール指標を組み合わせる
+
+| 種類 | 何に答えるか | よく使うもの |
+|---|---|---|
+| **主要指標** | 目標を達成したか | 採用率、完了率 |
+| **診断指標** | なぜ成功したか、失敗したか | 各ステップのコンバージョン、クリック、滞在時間、エラー率 |
+| **ガードレール指標** | 副作用が出ていないか | リテンション、問い合わせ件数、読み込み時間 |
+
+**主要指標は、成功したかどうかしか教えてくれません。なぜかも、代償が何かも教えてくれません。** 診断指標があれば、どの段階を直せばいいかが分かります。ガードレール指標があれば、この改善が何かを犠牲にして得たものではないかが分かります。
+
+例えば、必要な説明をフローの後ろのほうに隠せば、完了率はおそらく上がります。でも、問い合わせ件数も一緒に増えます。**それは勝ちではなく、コストを別の場所に押し付けただけです。**
+
+#### 三、A/B テストで検証する
+
+三種類を決めたら、A/B テストで検証します。リリース後にトレンドを見て結論を出す、ということはしません。AI プラットフォームを作ったときも同じやり方でした。何が良い出力なのかを先に明文化して、初めて A/B の枠組みでコストと品質を比較できます。最終的に、コスト 83% 削減、品質低下はわずか 3% という結果を得ました。
+
+---
+
+#### 適用例：航空券の予約フロー
+
+| 役割 | 指標 |
+|---|---|
+| **主要** | フロー全体の完了率：予約フローに入る → 決済完了（課題では 6.5% と算出しました） |
+| **診断** | 各ステップの通過率で、離脱がどの段階に集中しているかを特定する |
+| **ガードレール** | 問い合わせ件数、決済失敗率 |
+
+ここには、別に取り上げる価値のある落とし穴があります。**予約フローの途中で、ユーザーは価格比較のために一度離れます。このステップは完了率では測れません。**
+
+完了率は二値で、最後まで行ったか行っていないかしかありません。しかし**比較のために離れた人は、戻ってくる可能性があります**。このステップを完了率で測ると、「一時的な離脱」をすべて「流失」として記録してしまい、実はそれほど悪くない段階を直しに行くことになります。
+
+ですから、このステップには指標を一つ足します。**再訪率、つまり離脱後 30 分または 24 時間以内に戻ってきて完了した割合です。** 離れた人の七割が戻ってくるなら、価格比較はこの市場では普通の行動であって、課題ではありません。一割しか戻らないなら、そこが攻めるべき場所です。**再訪率がなければ、この二つの状況を見分けられません。**
+
+**では、採用率はいつこの話に戻ってくるのでしょうか？** この離脱に対処するために、新しいものを作ったときです。例えば、最低価格保証のバッジや値下げ通知です。そのときの採用率は「見た人のうち何人が使ったか」、完了率は「使った人のうち何人が予約を完了したか」で、**二つを一緒に見る必要があります**。採用率が高いのに完了率が動かなければ、使われてはいるが課題を解決していない、ということです。採用率が低ければ、機能が深いところに埋もれていて、効果を判断できる段階にまだ来ていない、ということです。
+
+| 読み方 | |
+|---|---|
+| 採用率 | さいようりつ |
+| 完了率 | かんりょうりつ |
+| 分母 | ぶんぼ |
+| 分子 | ぶんし |
+| 診断指標 | しんだんしひょう |
+| 供給側 | きょうきゅうがわ |
+| 代償 | だいしょう |
+| 再訪率 | さいほうりつ |
 `
       },
       {
@@ -785,6 +1342,20 @@ So for that step I'd add one metric: **return rate, the share of people who come
 Qualitative plus quantitative. You need both.
 
 At 17LIVE I interviewed general users and top streamers with UX Research, while tracking retention and behavioural data. I also rely on one habit: **pull the scattered feedback into one place and look at it.** Support tickets, QA records, store reviews usually have nobody organising them, but they are **the cheapest source of insight you have**. At 17LIVE I consolidated them into a dashboard and made issue resolution 15% faster.
+`,
+        ja: `
+定性と定量、両方必要です。
+
+17LIVE では UX Research と一緒に、一般ユーザーとトップライバーにインタビューしながら、同時にリテンションと行動データを追跡していました。それに加えて、私が強く頼りにしている習慣が一つあります。**散らばったフィードバックを一か所に集めて見ることです。** カスタマーサポートのチケット、QA の記録、ストアレビュー。こうしたものは普段誰も整理していませんが、**一番安上がりなインサイトの源泉**です。17LIVE ではこれらをダッシュボードに統合して、課題対応のスピードを 15% 向上させました。
+
+| 読み方 | |
+|---|---|
+| 定性 | ていせい |
+| 定量 | ていりょう |
+| 追跡 | ついせき |
+| 散らばった | ちらばった |
+| 源泉 | げんせん |
+| 統合 | とうごう |
 `
       },
       {
@@ -806,6 +1377,26 @@ I first work out which kind of disagreement it is, because the two are handled i
 **If it's a disagreement about priority, that's my responsibility, not theirs.** It means I haven't explained why this one comes first. My standard is: **they should be able to repeat back, in their own words, why this matters.** Once they can, the argument usually disappears. If they can't, it usually means I hadn't thought it through either.
 
 At Typus I found most conflict actually came from kickoff not being clear enough, so I moved my effort earlier, and after redesigning the process rework dropped 30%.
+`,
+        ja: `
+まず、どちらの種類の不一致なのかを切り分けます。この二つは、対処の仕方が正反対だからです。
+
+**実現可能性についての不一致なら、たいてい向こうが正しいです。** システムの中に、私の知らないことがあるのを彼らは知っています。私の仕事は説得することではなく、コストがどこで引っかかっているのかをはっきり聞き出して、**人ではなく要件を変えること**です。私が欲しい価値には第二の道があることが多く、最初に要件を一つの具体的なやり方として書いてしまっていただけ、というケースがよくあります。
+
+**優先順位についての不一致なら、それは私の責任で、彼らの責任ではありません。** 「なぜこれなのか」を私がきちんと説明できていない、ということです。私の基準は、**なぜこれが重要なのかを、彼ら自身の言葉で言い直せる状態にすること**です。そこまで伝われば、たいてい争いはなくなります。伝わらないなら、たいてい私自身もまだ考えきれていないのです。
+
+Typus では、衝突の大半は実はキックオフで十分に説明できていないことが原因だと気づきました。そこで力の入れどころを前に移し、プロセスを再設計したあと、手戻りは 30% 減りました。
+
+| 読み方 | |
+|---|---|
+| 不一致 | ふいっち |
+| 実現可能性 | じつげんかのうせい |
+| 説得 | せっとく |
+| 要件 | ようけん |
+| 優先順位 | ゆうせんじゅんい |
+| 衝突 | しょうとつ |
+| 手戻り | てもどり |
+| 再設計 | さいせっけい |
 `
       },
       {
@@ -815,6 +1406,16 @@ At Typus I found most conflict actually came from kickoff not being clear enough
 `,
         en: `
 80/20. I use 20% of my time to clear 80% of the tasks, and spend what that frees up on side projects and automation. I hand repetitive work to automation and concentrate on the work that genuinely needs judgement. My own job-search pipeline is built exactly that way.
+`,
+        ja: `
+80/20 です。20% の時間で 80% のタスクを片付け、空いた時間をサイドプロジェクトと自動化に使います。繰り返しの作業はできるだけ自動化に任せて、本当に判断が必要な仕事に集中します。私の就職活動の pipeline も、まさにそうやって作りました。
+
+| 読み方 | |
+|---|---|
+| 自動化 | じどうか |
+| 繰り返し | くりかえし |
+| 判断 | はんだん |
+| 就職活動 | しゅうしょくかつどう |
 `
       }
     ]
@@ -837,6 +1438,22 @@ The turning point for me was **going from chatbot to agent**.
 At first I used Claude like everyone else, for looking things up and polishing writing. Then I used Claude Code, which works inside my own files and executes steps by itself, and I shifted from asking questions to handing over work. AI agents are now part of my life, my studies and my work: the rental filtering tool, the hands-on AI agent course, and my own job-search pipeline were all built this way.
 
 **The model was never the hard part. The hard part is framing the request correctly, verifying what comes back, and then doing those two things repeatably.**
+`,
+        ja: `
+私にとっての分岐点は、**chatbot から agent への転換**でした。
+
+最初は皆さんと同じように、Claude を調べものや文章の推敲ツールとして使っていました。それが Claude Code を使ってから変わりました。Claude Code は私のファイルの中で動き、自分でステップを実行します。そこで「質問する」から「仕事を任せる」に変わりました。今では AI agent は私の生活、学業、仕事の一部です。賃貸物件のフィルタリングツール、AI agent 実装講座、自分の就職活動の pipeline は、すべてこの方法で作りました。
+
+**難しいのはモデルではありません。難しいのは、リクエストを正しく枠にはめること、返ってきたものを検証すること、そしてこの二つを安定して繰り返すことです。**
+
+| 読み方 | |
+|---|---|
+| 分岐点 | ぶんきてん |
+| 転換 | てんかん |
+| 推敲 | すいこう |
+| 学業 | がくぎょう |
+| 実装講座 | じっそうこうざ |
+| 検証 | けんしょう |
 `
       },
       {
@@ -854,6 +1471,21 @@ With **measurable evaluation criteria plus A/B testing**. You can't judge it on 
 On that platform with 33 modules and three LLMs, I wrote down what "a good output" means as evaluation criteria, then used an A/B framework to compare model combinations. We ended up cutting running cost by 83% with only a 3% drop in quality.
 
 **The key is to accept up front that there will be a quality trade-off, and then quantify how big it is, rather than pretending there isn't one.**
+`,
+        ja: `
+**測定可能な評価基準と A/B テスト**を使います。デモの出来だけで判断してはいけません。
+
+33 モジュール、3 つの LLM を使ったあのプラットフォームでは、「良い出力」とは何かを評価基準として書き出し、A/B の枠組みで異なるモデルの組み合わせを比較しました。最終的に、運用コストを 83% 削減しつつ、品質の犠牲はわずか 3% という結果を得ました。
+
+**重要なのは、品質のトレードオフは必ず発生すると先に受け入れて、その幅を定量化することです。ないふりをしてはいけません。**
+
+| 読み方 | |
+|---|---|
+| 測定可能 | そくていかのう |
+| 評価基準 | ひょうかきじゅん |
+| 運用 | うんよう |
+| 犠牲 | ぎせい |
+| 定量化 | ていりょうか |
 `
       }
     ]
@@ -877,6 +1509,18 @@ On that platform with 33 modules and three LLMs, I wrote down what "a good outpu
 `,
         en: `
 One is **short-haul, high-frequency** and the other is **long-haul, high-value**. Between them they cover two completely different decision modes. On the short-haul route users compare convenience and price; on the long-haul route they start caring about change rules and after-sales protection.
+`,
+        ja: `
+一つは**短距離で高頻度**、もう一つは**長距離で高単価**の路線です。この二本で、まったく違う二つの意思決定パターンをちょうどカバーできます。短距離路線のユーザーが比べるのは、便利さと価格です。長距離路線になると、ユーザーはキャンセル・変更のルールや購入後の保障を気にし始めます。
+
+| 読み方 | |
+|---|---|
+| 短距離 | たんきょり |
+| 高頻度 | こうひんど |
+| 高単価 | こうたんか |
+| 路線 | ろせん |
+| 意思決定 | いしけってい |
+| 保障 | ほしょう |
 `
       },
       {
@@ -890,6 +1534,20 @@ One is **short-haul, high-frequency** and the other is **long-haul, high-value**
 No. **Price is the effect, not the cause.**
 
 What I'd recommend isn't a price cut, it's **making the depth visible on the comparison shelf**. What Taiwanese users spontaneously praise in five-star reviews is product depth: seat and gate numbers, and the baggage carousel number, all visible before landing. None of that is visible on the comparison shelf today. At the moment of choosing, all the user sees is the price and one line of globally generic copy.
+`,
+        ja: `
+いいえ、おすすめしません。**価格は結果であって、原因ではありません。**
+
+私が提案したいのは値下げではなく、**プロダクトの深さを価格比較の一覧の上で見えるようにすること**です。台湾のユーザーが五つ星レビューで自発的にほめているのは、プロダクトの深さです。チェックインカウンターの番号、搭乗ゲート、手荷物のターンテーブル番号が、着陸前に確認できます。こうした強みは、いま価格比較の一覧の上ではまったく見えていません。ユーザーが選んでいるその瞬間に見えるのは、価格と、世界共通の一行の文言だけです。
+
+| 読み方 | |
+|---|---|
+| 値下げ | ねさげ |
+| 自発的 | じはつてき |
+| 搭乗 | とうじょう |
+| 手荷物 | てにもつ |
+| 着陸 | ちゃくりく |
+| 文言 | もんごん |
 `
       },
       {
@@ -903,6 +1561,20 @@ What I'd recommend isn't a price cut, it's **making the depth visible on the com
 Start by splitting them with **proxy signals**, and raise the tracking requirement in parallel.
 
 I'd use whatever signals the existing data can already separate to build an approximate classification, so the judgement can start running. At the same time I'd write up the events we actually need as a requirement and get them scheduled, then come back and correct the accuracy of the classification once the tracking is in place.
+`,
+        ja: `
+まずは**代理になるシグナル**で分けて、同時に計測（イベント埋め込み）の要件を出します。
+
+いまあるデータの中で区別できるシグナルを使って、近似的に分類します。そうすれば判断を先に回し始められます。同時に、本当に必要なイベントを要件として整理して、開発計画に入れてもらいます。計測がそろったら、あとから分類の精度を補正します。
+
+| 読み方 | |
+|---|---|
+| 代理 | だいり |
+| 計測 | けいそく |
+| 要件 | ようけん |
+| 近似的 | きんじてき |
+| 精度 | せいど |
+| 補正 | ほせい |
 `
       }
     ]
@@ -933,6 +1605,28 @@ So I'd do three things.
 **Second, find evidence that the problem isn't only happening in Taiwan.** If all I can say is "Taiwan is special", I'm competing for resources. If I can say "Taiwan is where this problem is most visible, but Japan and Korea probably have it too", then I'm helping headquarters find a global problem they hadn't seen. **Same request, and the second framing has a much higher success rate.**
 
 **Third, shrink the ask to the smallest viable version.** I wouldn't open by asking to change the global checkout flow. I'd ask: is there a setting that only affects one market? Could we run one experiment in Taiwan and trade the result for the next round of resources? **Asking for something small and getting a result with it is a much better way to earn a second chance than asking for something big once.**
+`,
+        ja: `
+まず一つの前提を受け入れます。**本社には台湾のために何かを変える義務はありません。私の仕事は、これが本社にとっても割に合うと見せることです。**
+
+そのために、三つのことをします。
+
+**第一に、どれだけ痛いかを語る前に、それがいくらの価値になるかを数字にします。** 「台湾のユーザーが不便です」は論点になりません。「この段階で毎月どれだけ注文が漏れていて、GMVに換算するといくらか」が論点です。事前課題でもそうしました。「Trip.comは高すぎる」とは言わず、二つの路線とも最安の販売者より5.0%高く、しかも長距離路線では航空会社の公式サイトに対して1.7%しか安くない、価格の優位性はすでに薄まっている、と言いました。**数字があると、会話が好みの話からトレードオフの話に変わります。**
+
+**第二に、この課題が台湾だけで起きているのではない証拠を探します。** 「台湾は特別です」としか言えないなら、私は本社とリソースを奪い合っていることになります。「台湾はこの課題がいちばん目立つ市場ですが、日本や韓国にもたぶんあります」と言えるなら、本社がまだ気づいていないグローバルな課題を、私が見つける手伝いをしていることになります。**同じ要望でも、二つ目の言い方のほうが成功率はずっと高いです。**
+
+**第三に、要求を最小限の実行可能な形まで縮めます。** 最初からグローバルの決済フローを変えてくださいとは言いません。こう聞きます。一つの市場にしか影響しない設定スイッチはありませんか。まず台湾で一度実験して、その結果で次のリソースを取りに行けませんか。**小さいものを一つもらって成果を出すほうが、大きいものを一度に求めるより、二度目のチャンスをもらいやすいです。**
+
+| 読み方 | |
+|---|---|
+| 前提 | ぜんてい |
+| 義務 | ぎむ |
+| 換算 | かんさん |
+| 最安 | さいやす |
+| 優位性 | ゆういせい |
+| 奪い合う | うばいあう |
+| 決済 | けっさい |
+| 成果 | せいか |
 `
       },
       {
@@ -974,6 +1668,36 @@ So I'd break the request into three layers, cheapest first.
 I wouldn't frame this as "headquarters doesn't understand Taiwan". Most of the time they do understand. It's that **the cost structure on their side and the upside I'm seeing aren't on the same spreadsheet**, and my job is to complete that spreadsheet.
 
 And honestly, I suspect you know this better than I do. You're in Sydney and headquarters is in Shanghai, so everything you push probably goes through this same process.
+`,
+        ja: `
+まず、本社が出せないものを私が求めていないか、確認します。
+
+事前課題で見た例で言います。Skyscannerの同じ価格比較の一覧で、Trip.comより上に並んでいる販売者は、全員が現地決済を前面に出していました。山富旅遊は「LINE Payで支払える」、易遊網は「分割払いができる」と打ち出していて、Trip.comの枠に出ているのは世界共通の一行の文言でした。本社の立場は筋が通っています。決済フローはグローバルで統一しているから維持できるのであって、現地決済を一つつなぐたびに、連携、リスク管理のルール、照合ロジック、長期の運用コストが一式ついてきます。
+
+この案件の要は、**私が欲しいのは必ずしも「LINE Payをつなぐこと」ではない**という点です。欲しいのは「価格比較の一覧の上で、台湾のユーザーに刺さる理由を一つ見せること」です。**この二つは、コストが一桁違います。**
+
+そこで要望を三つの層に分けます。安いほうから順にです。
+
+**第一層は、文言だけ変えて、システムは触りません。** 一覧のあの一行は世界共通です。台湾だけ現地の特典を語る一文に差し替えられるなら、エンジニアの工数はほぼゼロで、そのままA/Bテストができます。**文言ですら差が出ないなら、この課題に対する私の判断がそもそも間違っていたということです。大きな機能を求める前に、まずそれを知るべきです。**
+
+**第二層は、文言が効いたときに初めて、その結果を持って決済連携を求めます。** その時点で私の手にあるのは推測ではなく、「同じトラフィックで、一行変えたら、コンバージョン率がこれだけ動いた」という事実です。これは本社に通じる言葉です。
+
+**第三層は、第二層すら通らないなら、この区間は短期では勝てないと認めて、自分で動かせるところにリソースを移します。** 台湾のユーザーが五つ星レビューでほめているのは、プロダクトの深さです。チェックインカウンターの番号、搭乗ゲート、手荷物のターンテーブル番号が着陸前にわかります。**その深さは、価格比較の一覧の上ではまったく見えていません。** すでにある強みを見えるようにすることは、本社の承認なしで進められます。
+
+これを「本社は台湾を理解していない」という話にはしません。たいていの場合、本社は理解していないのではなく、**本社が持っているコスト構造と、私が見ている収益が、同じ一枚の表に載っていない**だけです。その表を埋めるのが私の仕事です。
+
+それと正直に言うと、この話はあなたのほうが私よりずっと詳しいと思います。あなたはシドニーにいて、本社は上海にあります。あなたが進めることは、どれもこのプロセスを通っているはずです。
+
+| 読み方 | |
+|---|---|
+| 現地決済 | げんちけっさい |
+| 分割払い | ぶんかつばらい |
+| 照合 | しょうごう |
+| 一桁 | ひとけた |
+| 工数 | こうすう |
+| 差し替える | さしかえる |
+| 承認 | しょうにん |
+| 収益 | しゅうえき |
 `
       },
       {
@@ -1003,6 +1727,28 @@ So I'd fix three things.
 **Third, lock the metric definitions and don't change them casually.** If I do change a definition in a given month, I flag it and include the old definition alongside, otherwise the trend line breaks.
 
 There's a selfish reason for designing it this way too: **if the format is fixed, when you want to put it side by side with another market or take it upwards, I don't have to redo it.**
+`,
+        ja: `
+私の原則はこうです。**あなたの時間は意思決定に使うべきで、フォーマットの理解に使うべきではありません。**
+
+そのために三つのことを固定します。
+
+**第一に、骨組みを固定します。** 同じファネルの段階、同じ指標の定義で、毎月同じ見た目にします。市場ごとの違いは同じ欄の中で説明して、毎月構成を変えることはしません。こうすると三回目に見るときには、変わったところだけに直接飛べます。
+
+**第二に、「あなたの決裁が必要なこと」と「共有だけのこと」を分けて、いちばん前に置きます。** 最後まで積み上げてからやっと要望が出てくる報告を、たくさん見てきました。私は逆にします。いちばん上に、今回あなたに決めてほしいこと、私の提案、その理由を書きます。真ん中が根拠です。完全なデータは最後です。**もし二分しかなければ、いちばん上の段落だけ読めば十分です。**
+
+**第三に、数字の定義を固定して、むやみに変えません。** ある月にどこかの指標の定義を変えたなら、そこに印をつけて、同時に旧定義の数字も添えます。そうしないとトレンドが途切れます。
+
+こう設計するのには、少し私の都合もあります。**フォーマットが固定されていれば、あとで他の市場と並べて見るときも、上に持っていくときも、私が作り直さなくて済みます。**
+
+| 読み方 | |
+|---|---|
+| 骨組み | ほねぐみ |
+| 指標 | しひょう |
+| 決裁 | けっさい |
+| 根拠 | こんきょ |
+| 旧定義 | きゅうていぎ |
+| 途切れる | とぎれる |
 `
       },
       {
@@ -1032,6 +1778,30 @@ I use three checks to tell them apart.
 **Three: if it really is cultural, you should be able to state the mechanism.** "Taiwanese people are more cautious" isn't a mechanism. "Credit card penetration in Taiwan is high and instalments are normal consumer behaviour, so the instalment option becomes a decision point in high-value categories" is a mechanism. **A cultural difference you can't state a mechanism for usually means the investigation isn't finished.**
 
 Getting this right matters because the conclusions are opposite: a product flaw gets fixed, a genuine cultural difference gets localised, and **misreading a product flaw as a cultural difference is a decision never to fix it.**
+`,
+        ja: `
+私の初期設定は、**まず「プロダクトがきちんと作れていない」と仮定すること**です。「これは文化の違いだ」という結論はあまりに便利で、いったん受け入れられると、誰もそれ以上調べなくなるからです。
+
+三つのチェックで見分けます。
+
+**第一に、同じ市場の中で、私たちよりうまくやっている人はいるか。** 台湾のユーザーが「そもそもオンライン決済が嫌い」なら、すべての販売者のコンバージョン率が同じように悪いはずです。でも事前課題で見たのは、私たちより上に並ぶ販売者が同じことをやって勝っている姿でした。**同じ文化の中で成功している競合がいる限り、それは文化の課題ではありません。**
+
+**第二に、この差が他の市場でも同じ方向の弱いシグナルとして出ていないか。** 台湾で特に目立って、日本と韓国にも少しあるなら、それは台湾固有というより、グローバルなプロダクトの欠陥が台湾で増幅されている可能性のほうが高いです。
+
+**第三に、本当に文化の違いなら、説明できるメカニズムがあるはずです。** 「台湾人は慎重だ」はメカニズムではありません。「台湾はクレジットカードの普及率が高く、分割払いが日常的な消費行動なので、高単価のカテゴリーでは分割払いの選択肢が意思決定のポイントになる」がメカニズムです。**メカニズムを説明できない文化の違いは、たいてい調べ終わっていないだけです。**
+
+見分けることが大事なのは、結論がまったく違うからです。プロダクトの欠陥なら直す、本当の文化の違いならローカライズする。そして**プロダクトの欠陥を文化の違いと誤認するのは、それを永遠に直さないと決めるのと同じです。**
+
+| 読み方 | |
+|---|---|
+| 仮定 | かてい |
+| 競合 | きょうごう |
+| 固有 | こゆう |
+| 欠陥 | けっかん |
+| 増幅 | ぞうふく |
+| 慎重 | しんちょう |
+| 普及率 | ふきゅうりつ |
+| 誤認 | ごにん |
 `
       },
       {
@@ -1061,6 +1831,29 @@ The competitive structure differs too. Taiwan is a scrap between many players; S
 So my answer is: **what transfers is the method, going to the comparison shelf and looking at what the user actually sees. What doesn't transfer is any specific conclusion.** If someone took the Taiwan LINE Pay conclusion straight to Indonesia, that proposal is wrong on page one.
 
 I should also be honest that this role is based in Taiwan and I'm looking at Southeast Asia from the outside. My read on Taiwan is something I researched myself; my read on Southeast Asia comes from public sources, and I'd keep those two levels of confidence separate.
+`,
+        ja: `
+表面はよく似ていますが、底の部分はまったく違います。だからこそ、経験として持ち運べるのは「方法」であって「答え」ではないと考えています。
+
+**似ているのは、どちらもモバイルファーストで、勝負が決済の段階で決まるところです。** 事前課題で、台湾の価格比較の一覧で私たちより上に並ぶ販売者は、全員が現地決済を前面に出していると分かりました。東南アジアはもっと極端です。Travelokaは基本的に、現地決済とmobile-firstで勝ち上がってきた会社で、OTAのトラフィックの七割五分以上がモバイル端末です。
+
+**でも底のメカニズムは逆です。** 台湾はクレジットカードのエコシステムなので、現地決済の答えはLINE Payと分割払いです。東南アジアはクレジットカードの普及率が低く、政府が作ったQRの基盤と電子ウォレットで動いています。タイはPromptPay、インドネシアはQRIS、ベトナムはVietQRです。しかも**ウォレットは国ごとに分裂していて、互いにつながっていません**。フィリピンはGCash、インドネシアはGoPayとOVO、ベトナムはMoMoです。**台湾で「現地決済を一つつなぐ」は一つの仕事ですが、東南アジアでは六つの仕事です。**
+
+競争の構造も違います。台湾は混戦で、東南アジアにはAgodaのように、ベトナムでオンライン旅行者の六割を取っている支配的なプレイヤーがいます。**混戦と向き合うのと、一人の支配者と向き合うのでは、戦うべき戦いがまるで違います。**
+
+なので私の答えはこうです。**持ち運べるのは「まず価格比較の一覧に行って、ユーザーが実際に何を見ているかを確かめる」という方法です。持ち運べないのは、具体的な結論のどれか一つでもです。** 台湾のLINE Payの結論をそのままインドネシアに持っていったら、その提案は一ページ目から間違っています。
+
+ただ、正直にも言っておきたいです。このポジションは台湾ベースで、東南アジアは私が外から見ているものです。台湾についての判断は自分で調べたもの、東南アジアについての判断は公開情報から来たものです。この二つの信頼度は分けてお話しします。
+
+| 読み方 | |
+|---|---|
+| 底 | そこ |
+| 極端 | きょくたん |
+| 端末 | たんまつ |
+| 分裂 | ぶんれつ |
+| 混戦 | こんせん |
+| 支配的 | しはいてき |
+| 信頼度 | しんらいど |
 `
       },
       {
@@ -1078,6 +1871,21 @@ The V-Liver avatar, the virtual persona feature. The same feature was received c
 Acceptance of virtual personas is far higher in the Japanese market. I worked with the live-effects team to improve the V-Liver viewing experience for Japan, and **effective watch time rose 10%**. The same feature didn't produce that effect in the other markets.
 
 That's where I picked up a habit: when I see a gap between markets, ask first whether it's a genuine market difference, or whether we simply didn't build the product well in that market.
+`,
+        ja: `
+V-Liver Avatar、つまりバーチャルのアバター機能です。同じ機能なのに、台湾と日本で受け入れられ方がまったく違いました。
+
+日本市場はバーチャルな姿への受容度がずっと高いです。私はライブ配信のエフェクトチームと協力して、日本市場向けにV-Liverの視聴体験を最適化し、**有効視聴時間を10%伸ばしました**。同じものを他の市場に出しても、同じ効果は出ませんでした。
+
+その経験で一つ習慣ができました。市場のあいだに差が見えたら、まずそれが本当の市場の違いなのか、それとも私たちがその市場でプロダクトをきちんと作れていないだけなのかを問うことです。
+
+| 読み方 | |
+|---|---|
+| 受容度 | じゅようど |
+| 配信 | はいしん |
+| 視聴 | しちょう |
+| 最適化 | さいてきか |
+| 習慣 | しゅうかん |
 `
       }
     ]
@@ -1108,6 +1916,28 @@ That's where I picked up a habit: when I see a gap between markets, ask first wh
 **Then separate internal from external causes.** Internal is what we did: releases, experiments, price or inventory changes, payment success rate, third-party APIs. External is what we can't control: seasonality, competitor promotions, flight supply, exchange rates.
 
 **What I'd hand over at the end of week one isn't an answer, it's a hypothesis narrowed to one or two candidates, plus what's needed to verify it.** If I gave you a confident single cause in week one, it would usually mean I skipped the first step.
+`,
+        ja: `
+**初日は原因を探しません。まず、この低下が本当かどうかを確認します。** 計測タグが壊れていないか、リリースでイベントが差し替わっていないか、指標の定義が変えられていないか、データパイプラインに遅延がないか。同時に、同じ時期にリリースや実験があったかも見ます。それから、先週との比較だけではなく、前年同期とも比べます。旅行は季節性がとても強いからです。**数字が本物だと確認できるまでは、原因の推測はすべて時間の無駄です。**
+
+**二日目から三日目は、切り口を変えて、低下が全体なのか一部なのかを見ます。** 時間帯、プラットフォームとバージョン、流入元、新規と既存のユーザー、プロダクトライン。**急に落ちたなら技術かリリース、じわじわ落ちたなら市場か競合であることが多いです。** このステップの目的はひとつだけ、範囲を絞ることです。
+
+**四日目から五日目は、ファネルに戻して、どの段階かを特定します。** 検索、結果ページ、詳細、情報入力、決済、確認。**「コンバージョン率」そのものが悪くなるのではなく、どこか一つの段階が悪くなっています。** 段階ごとの通過率を比べて、ベースラインから一番離れている段階を探します。
+
+**その次に、内部要因と外部要因に分けます。** 内部要因は自分たちがやったこと。リリース、実験、価格や在庫の変更、決済の成功率、サードパーティの API。外部要因はコントロールできないもの。季節、競合のプロモーション、フライトの供給、為替。
+
+**一週目の終わりに出すのは答えではありません。一つか二つの候補まで絞り込んだ仮説と、それを検証するために何が必要か、です。** 一週目で断定的な原因を出したとしたら、たぶん最初のステップを飛ばしています。
+
+| 読み方 | |
+|---|---|
+| 計測 | けいそく |
+| 遅延 | ちえん |
+| 季節性 | きせつせい |
+| 流入元 | りゅうにゅうもと |
+| 通過率 | つうかりつ |
+| 決済 | けっさい |
+| 為替 | かわせ |
+| 仮説 | かせつ |
 `
       },
       {
@@ -1137,6 +1967,30 @@ Which means **if I only optimise the in-app signup flow, I'm optimising for a gr
 So my order would be: **first confirm how much volume that shelf segment actually represents.** If new users mainly come from there, the priority is giving them a non-price reason on the shelf, because cutting price is neither something I can do nor something I should do. What Taiwanese users praise in five-star reviews is product depth, seat and gate numbers and the baggage carousel visible before landing. **None of that is visible on the shelf today, and that's the segment I think is most underrated.**
 
 If the data shows new users actually come mostly from another channel, then this whole read has to be redone, and I'd go look at that number first.
+`,
+        ja: `
+最初にアイデアを並べることはしません。まず**どの段階の天井が一番高いか**を問います。同じ工数でも、どの段階に打つかで、リターンが大きく変わるからです。
+
+台湾について、事前の宿題をやった上での私の判断はこうです。**新規ユーザーのファネルの最初の段階は、そもそも私たちのアプリの中にありません。比較サイトの棚の上にあります。**
+
+台湾の新規ユーザーは、たいてい最初から Trip.com を思い浮かべるわけではありません。Skyscanner のような場所で、並んだ販売者の中から一つを選びます。**その瞬間に見えるのは、価格と一行のコピーだけです。** そして私が実際に調べた結果、二つの路線のどちらでも、私たちは OTA の中で一番高く、最安の販売者より 5.0% 高い。しかも私たちより上に並んでいる販売者は、全部ローカル決済を前面に出しています。私たちが出しているのは、世界共通の一文です。
+
+つまり、**アプリ内の登録フローだけを最適化すると、そもそも入ってきていない人たちを最適化していることになります。**
+
+だから私の順番はこうです。**まず、棚の段階のボリュームがどれくらいあるかを確認する。** 新規ユーザーが主にそこから来ているなら、優先すべきは「棚の上で、価格以外の理由を出すこと」です。値下げは私ができることでも、すべきことでもないからです。台湾のユーザーが五つ星レビューで自発的に褒めているのは、プロダクトの深さです。チェックインカウンターの番号、搭乗ゲート、手荷物のターンテーブルが、着陸前に見える。**その強みは、今の棚の上ではまったく見えていません。ここが一番過小評価されている段階だと思っています。**
+
+もしデータで、新規ユーザーが実は別のチャネルから来ていると分かったら、この判断は全部やり直しです。まずその数字を見に行きます。
+
+| 読み方 | |
+|---|---|
+| 天井 | てんじょう |
+| 工数 | こうすう |
+| 棚 | たな |
+| 販売者 | はんばいしゃ |
+| 最安 | さいやす |
+| 前面 | ぜんめん |
+| 搭乗 | とうじょう |
+| 過小評価 | かしょうひょうか |
 `
       },
       {
@@ -1208,6 +2062,52 @@ Once the definition is fixed, the rule is simple. **Clearly below the comparable
 **When would I flip to new users?** When conversion is already at a reasonable level but very few people are arriving. Optimising a funnel for a small group is a low-return exercise.
 
 **I'm choosing conversion because that's where Taiwan's bottleneck is, not because it's inherently more important.** If the numbers looked different, my answer would flip.
+`,
+        ja: `
+**私はコンバージョン率を守ります。** ただ理由の前に、まず GMV を外させてください。これは他の二つと同じ種類のものではないからです。
+
+**GMV ＝ トラフィック × コンバージョン率 × 客単価**
+
+GMV はプラットフォーム上で成約した航空券とホテルの総額です。**これは私たちの売上ではありません。私たちが受け取るのは、その中の手数料です。** そして GMV は、上の式に完全に分解できます。**だから GMV は四つ目の選択肢ではなく、他の要素を掛け合わせた結果です。** 「GMV を守る」は「三つとも欲しい」と同じで、**唯一、選んでいないのと同じ答えです。**
+
+ついでに言うと、この式の中で忘れられがちなレバーが**客単価**です。台北からロンドンの運賃は、台北から東京よりはるかに大きい。**注文の構成が長距離側に動くだけで、GMV は動きます。トラフィックにもコンバージョン率にも触らずに。** 今日は選びませんが、実際に存在する第三の道です。
+
+---
+
+**残るのはトラフィックとコンバージョン率です。ただ、どちらかを答える前に、一つ聞きたいことがあります。このコンバージョン率は、どの段階のコンバージョン率ですか。** 同じ名前でも、定義が違えば数字は六倍以上違うからです。
+
+| 定義 | おおよその水準 |
+|---|---|
+| **OTA サイト内**（Booking、Expedia） | **12% から 15%**。ユーザーが明確な意図を持って来るため |
+| ホテルの公式サイト | 1.5% から 2.5% |
+| 一般的な EC | 約 2.7% |
+
+**だから「いくつなら良いか」という問いには、どこからどこまでを測るかを決めない限り、答えがありません。** 私が宿題で計算した 6.5% は「予約フローに入ってから完了まで」で、これは三つ目の定義です。上のどれとも比較できません。
+
+---
+
+定義を決めれば、判断のルールは簡単です。**同じ定義の水準より明らかに低い**なら、伸びしろがあるので、コンバージョン率にフォーカスする。**すでに近いか上回っている**なら、天井が低くて、絞っても大して出ないので、トラフィックをやるべきです。
+
+**台湾についてはコンバージョン率を守ります。根拠は二つあります。**
+
+**一つ目、ファネルの形がおかしい。** 私の計算では、離脱が起きている四つの段階で、離脱の **96.5%** を占めています。**課題は分散しておらず、集中しています。集中しているということは、直せるということです。**
+
+**二つ目、これは業界全体の既知の弱点です。** 旅行は EC 全体で一番放棄率が高いカテゴリで、約 **81.7%**。一般的な EC は 70% です。しかも**そのうち約 37% は決済に関係しています。** 決済手段が足りない、信頼できない、カードが拒否される。これは私が台湾の比較サイトの棚で見たものと、完全に一致します。**私たちより上に並んでいる販売者は、全部ローカル決済を前面に出していました。** つまり台湾の課題は、**この業界で一番漏れやすく、しかも直し方がすでに分かっている**段階に、ちょうど落ちています。
+
+**では、いつなら逆に新規ユーザーをやるか。** コンバージョン率がすでに妥当な水準なのに、そもそも人がほとんど入ってきていないときです。**そのときにファネルを最適化しても、少数の人に微調整をしているだけで、リターンは限られます。**
+
+**コンバージョン率を選ぶのは、それが重要だからではなく、台湾の今のボトルネックがそこにあるからです。** 数字の形が違えば、答えは逆になります。
+
+| 読み方 | |
+|---|---|
+| 客単価 | きゃくたんか |
+| 成約 | せいやく |
+| 手数料 | てすうりょう |
+| 運賃 | うんちん |
+| 伸びしろ | のびしろ |
+| 離脱 | りだつ |
+| 放棄率 | ほうきりつ |
+| 妥当 | だとう |
 `
       },
       {
@@ -1253,6 +2153,38 @@ For example, if I pushed baggage fees and change rules later in the flow, **conv
 **Stopping rules get agreed up front.** No peeking and calling it early, **the more you look, the more false positives you see**. What counts as a win and when we stop gets written down before we start.
 
 **Statistical significance isn't the same as worth shipping, and that call is mine, not data science's.** A change can be significant but too small to justify long-term maintenance. It can also miss significance while being directionally right and nearly free, in which case I'd ship and keep watching. **Data science tells me whether the difference is real. Whether we do it is my decision.**
+`,
+        ja: `
+統計の部分は、たいてい実験プラットフォームとデータサイエンスの同僚が担当しています。サンプルサイズの計算、有意性の判定、分流の健全性。これらはプラットフォームに組み込まれていることが多いです。**だから「どう計算するか」より、この中で私が実際に何を担っているかをお話しします。**
+
+**一つ目は、主要指標とガードレール指標を定義することです。** 主要指標は誰でも決めますが、**ガードレールはよく忘れられます。でも旅行業界では特に重要です。**
+
+例を挙げます。もし手荷物料金や変更・キャンセル規定をフローの後ろに隠したら、**コンバージョン率はおそらく上がります。** ユーザーがためらう理由を一つ見なくて済むからです。**でもそれは勝ちではなく、コストをカスタマーサポートと返金に押し付けているだけです。** だからこの種の実験では、必ずクレーム率とキャンセル率も同時に見ます。**コンバージョン率が上がっても、サービスコストも一緒に上がるなら、その実験は採用しません。**
+
+**二つ目は、どれくらい小さい改善までなら実施する価値があるかを決めることです。** これはサンプルサイズ計算の入力値ですが、統計の判断ではなくビジネスの判断です。**1% の改善でもやるなら、「5% ないとやらない」よりはるかに多いサンプルが必要です。** だから最初にチームと決めておきます。**どれくらい小さい改善なら、私たちは本当に採用するのか。この問いに答えがないなら、実験をどれだけ長く回しても意味がありません。結果が出ても、それをどうすればいいか分からないからです。**
+
+**三つ目は期間です。期間を決めるのはサンプルではなく、周期です。** サンプルが一週間で集まっても、丸一週間は回します。平日と週末で行動が違うからです。旅行はもっと慎重で、**季節性や連休が実験の効果を丸ごと覆い隠すことがあります。** 連休をまたぐものには、特別に注記を付けます。
+
+**最後に、トラフィックがそもそも結論を出すのに足りないなら、この実験はできないとはっきり言います。** 代わりにウォークスルー、カスタマーサポートの記録、ユーザーインタビューで特定して、正確な帰属はできないと受け入れます。**有意に達しないと分かっているテストを無理に回して、ノイズを解釈する方が、やらないより悪いです。**
+
+#### 深掘りされたときに展開する
+
+**これは実験でやるべきことか。** すべてがテストに値するわけではありません。明らかなバグは直せばいいし、法規制の要件は選択の余地がありません。しかも**実験のトラフィックは希少なリソースです。** 同時に回せる実験には限りがあって、一つ一つがトラフィックを消費します。だからまず一つの問いに答えます。この課題は、実験の枠を一つ使う価値があるか。
+
+**停止ルールは事前に決めておきます。** 途中で覗いて結論を出さない。**見る回数が多いほど、偽の有意が見えやすくなります。** どんな結果なら勝ちか、いつ止めるかは、始める前にチームと書き出します。そうしないと、あとから見栄えのいいタイミングを選んで終わらせる、ということになりがちです。
+
+**統計的に有意でも、リリースする価値があるとは限りません。この判断は私のもので、データサイエンスのものではありません。** ある変更が有意でも、効果が小さすぎて長期の保守コストに見合わないことがあります。逆に有意に達しなくても、方向が正しくてコストが極めて低いなら、先に出して様子を見る選択をします。**データサイエンスが教えてくれるのは「この差は本物か」。やるかどうかは私が決めます。**
+
+| 読み方 | |
+|---|---|
+| 有意性 | ゆういせい |
+| 健全性 | けんぜんせい |
+| 手荷物 | てにもつ |
+| 規定 | きてい |
+| 返金 | へんきん |
+| 帰属 | きぞく |
+| 希少 | きしょう |
+| 保守 | ほしゅ |
 `
       }
     ]
@@ -1283,6 +2215,27 @@ This hit me once while doing the exercise. On the Taipei to London route I found
 That's my clearest knowledge gap right now: **I have no practical feel for how much flexibility exists in supply-side rules, which are hard constraints, and which are actually negotiable.** That isn't something you close by reading. You only get it after going through a few rounds with the supply and operations people.
 
 I wouldn't say it won't affect me. In the short term it will make me slower to judge. But I think the more dangerous person is the other kind: **someone who treats the supply side as changeable and brings a pile of proposals that can't be built.** At least I know where that line is.
+`,
+        ja: `
+一番大きなギャップは**供給側**です。
+
+Typus と 17LIVE では、プロダクトは自分たちのものでした。価格、ルール、在庫、変えたければ変えられました。**OTA は違います。航空券の価格、クラスのルール、変更・キャンセル条件、在庫、全部航空会社と予約システムから来ていて、私には変えられません。私が決められるのは、それをどう見せるか、いつ見せるか、だけです。**
+
+これは宿題をやっているときに、一度痛いところを突かれました。台北からロンドンの路線で、エミレーツ航空の公式サイトは Trip.com より 658 元高いのに、ユーザーはそれでも公式サイトを選ぶ、ということに気づいたんです。最初は私たちの問題だと思いましたが、考えてみると、**その差額で買っているのは航空会社自身のアフターサポートで、それはもともと私たちの手にないものでした。** 私にできるのは、それを自分たちのものにすることではなく、その路線で戦い方を変えるかどうかを決めることです。
+
+これが今の私の一番はっきりした知識のギャップです。**供給側のルールにどれだけ柔軟性があるのか、どれが固い制約で、どれが実は交渉できるのか、実務的な感覚がまったくありません。** これはデータを見ても補えなくて、入ってから供給側や運営の人と実際に何周か回して、初めて身につくものです。
+
+影響がないとは言いません。短期的には、判断が少し遅くなると思います。ただ、もっと危ないのは別のタイプの人だと思っています。**供給側を変えられるものだと思い込んで、実現できない提案をたくさん出す人です。** 少なくとも私は今、その線がどこにあるかを知っています。
+
+| 読み方 | |
+|---|---|
+| 供給側 | きょうきゅうがわ |
+| 在庫 | ざいこ |
+| 差額 | さがく |
+| 柔軟性 | じゅうなんせい |
+| 制約 | せいやく |
+| 交渉 | こうしょう |
+| 運営 | うんえい |
 `
       },
       {
@@ -1300,6 +2253,23 @@ What a small team trains you to do is everything yourself. In a structure where 
 At 17LIVE I was also working across Taiwan, Japan and Southeast Asia at the same time, so aligning priorities with people in different markets is something I've done.
 
 What I need to build is how you move things in a large organisation. In a small team the decision chain is short and being clear is enough. In a large one, **the cost of persuading and aligning is itself part of the job.** So I'd put my effort into translating local evidence into upside that headquarters recognises, rather than arguing my case harder.
+`,
+        ja: `
+小さいチームで鍛えられるのは「何でも自分でやる」力です。一人が一つの市場を担当する体制では、**これがちょうど強みになります。** データを引くのも、フローのウォークスルーも、仕様を書くのも、誰かのスケジュールを待つ必要がありません。
+
+17LIVE でも、台湾、日本、東南アジアの三つの市場を同時にまたいで協業していたので、違う市場の人と優先順位をすり合わせることは経験済みです。
+
+補う必要があるのは、大きな組織での進め方です。小さいチームでは意思決定の経路が短くて、きちんと説明すれば動きます。大きな組織では、**説得とすり合わせのコストそのものが仕事の一部です。** だから私は、正論で押し切るのではなく、「現地の証拠を、本社に伝わる利益の言葉に翻訳する」ことに力を注ぎます。
+
+| 読み方 | |
+|---|---|
+| 鍛える | きたえる |
+| 体制 | たいせい |
+| 仕様 | しよう |
+| 協業 | きょうぎょう |
+| 経路 | けいろ |
+| 説得 | せっとく |
+| 正論 | せいろん |
 `
       },
       {
@@ -1317,6 +2287,21 @@ Two things.
 The first is a fixed prioritisation method: **how many people does this affect, how painful is it, and does doing it move us closer to this quarter's goal.** If something can't clear those three questions, I won't do it just because it looks urgent.
 
 The second is a fixed self-check rhythm: **once a week I stop and ask whether what I did this week connects to the segment we're trying to move this quarter.** The biggest risk of working alone isn't running out of time, it's spending three weeks doing an unimportant thing extremely well.
+`,
+        ja: `
+二つのことに頼っています。
+
+一つ目は、決まった優先順位の付け方です。**この課題は何人に影響するか、どれくらい痛いか、やれば今四半期の目標に近づくか。** この三つの問いに入らないことは、急いで見えても手を付けません。
+
+二つ目は、決まったセルフチェックのリズムです。**毎週一回、必ず振り返って「今週やったことは、今四半期に攻める段階と関係があるか」と自分に問います。** 一人で仕事をするときの一番のリスクは、終わらないことではなく、重要でないことに三週間かけて、とても上手に仕上げてしまうことです。
+
+| 読み方 | |
+|---|---|
+| 頼る | たよる |
+| 四半期 | しはんき |
+| 振り返る | ふりかえる |
+| 攻める | せめる |
+| 仕上げる | しあげる |
 `
       },
       {
@@ -1334,6 +2319,22 @@ No, because **AI is exactly how I handle the repetitive work**. The two don't co
 The exercise I submitted is the evidence. Pulling 500 reviews and classifying them by theme, running price walkthroughs on two routes, producing the flow diagram, **none of that finishes by hand. I did it with tools.** Which means I compress the repetitive part as far as I can and keep my time for the parts that need judgement.
 
 And localisation work being detailed doesn't make it unimportant. What I saw in the exercise is that the Taiwanese user's decision actually happens on the comparison shelf, and the detail in that segment is where it's won or lost.
+`,
+        ja: `
+思いません。**AI はまさに、私が細かい作業を処理するための手段だからです。** この二つは私の中で矛盾しません。
+
+提出した宿題そのものが証拠です。500 件のレビューを取ってきてテーマ分類する、二つの路線で価格比較のウォークスルーを回す、フロー図を作る。**これは全部、手作業ではやり切れない量で、私はツールを使ってやりました。** つまり、細かい部分はできるだけ圧縮して、本当に判断が必要なところに時間を残します。
+
+それに、ローカライズの仕事が細かいからといって、重要でないわけではありません。宿題で見えたのは、台湾のユーザーの意思決定は実は比較サイトの棚の上で起きていて、その段階の細部こそが勝負だ、ということです。
+
+| 読み方 | |
+|---|---|
+| 矛盾 | むじゅん |
+| 証拠 | しょうこ |
+| 分類 | ぶんるい |
+| 圧縮 | あっしゅく |
+| 細部 | さいぶ |
+| 勝負 | しょうぶ |
 `
       },
       {
@@ -1347,6 +2348,21 @@ And localisation work being detailed doesn't make it unimportant. What I saw in 
 I haven't stopped doing product work this year. My dissertation is about the product development process itself, and I ran in-depth interviews with technology companies including TikTok. Alongside that I kept building: the product planning for the agentic AI platform, the rental filtering tool and the hands-on AI agent course were all done this year.
 
 **The most recent and most realistic piece of work is the exercise I submitted to you**, and it was made for this role: the price walkthroughs, the thematic classification of 500 reviews, the funnel breakdown. That's the same method I'd be using once I'm inside.
+`,
+        ja: `
+この一年、プロダクトを作るのを止めていません。論文のテーマはプロダクト開発プロセスそのもので、TikTok を含む複数のテック企業に深いインタビューをしました。同時に、ずっと実装もしています。agentic AI プラットフォームのプロダクト企画、賃貸物件のスクリーニングツール、AI エージェントの実装講座、全部この一年でやったものです。
+
+**一番最近で、一番実戦に近いアウトプットが、皆さんに提出したこの宿題です。** しかもこのポジションのために作りました。価格比較のウォークスルー、500 件のレビューのテーマ分類、ファネルの分解。使っているのは、入ってから使うのと同じ方法です。
+
+| 読み方 | |
+|---|---|
+| 論文 | ろんぶん |
+| 複数 | ふくすう |
+| 実装 | じっそう |
+| 企画 | きかく |
+| 賃貸 | ちんたい |
+| 講座 | こうざ |
+| 実戦 | じっせん |
 `
       },
       {
@@ -1360,6 +2376,19 @@ I haven't stopped doing product work this year. My dissertation is about the pro
 One fixed-format document: **the current state of the Taiwan funnel, plus which segment we're going after this quarter.**
 
 Fixed format means the same funnel stages and the same metric definitions, looking the same every month, with what you need to decide and what I recommend written at the very top. **Your time should go into making decisions, not into understanding the format.**
+`,
+        ja: `
+「**台湾のファネルの現状と、今四半期に攻める段階**」を、決まったフォーマットでまとめた一枚のドキュメントです。
+
+決まったフォーマットというのは、同じファネルの段階、同じ指標の定義で、毎月同じ形にすること。一番上に「今回あなたに決めてほしいことは何か、私の提案は何か」を直接書きます。**あなたの時間は決めることに使うべきで、フォーマットを理解することに使うべきではありません。**
+
+| 読み方 | |
+|---|---|
+| 現状 | げんじょう |
+| 四半期 | しはんき |
+| 攻める | せめる |
+| 指標 | しひょう |
+| 提案 | ていあん |
 `
       }
     ]
@@ -1386,6 +2415,25 @@ Fixed format means the same funnel stages and the same metric definitions, looki
 **Week four, produce the first alignment document.** The state of Taiwan, the top three problems I see, which segment I recommend we go after this quarter, and what I need. Then review it with you.
 
 **And here's what I'd deliberately not do in month one: I wouldn't propose a major redesign.** One month of understanding isn't deep enough to support that kind of proposal, and raising it too early makes it look like I'm giving opinions before I understand the situation. **The output of month one should be what I've understood, not what you should change.**
+`,
+        ja: `
+**一週目は、自分のベースラインを持ちます。** 台湾の今のファネルの数字を、自分で一度引きます。誰かがまとめたレポートを見るだけではなくて。理由は簡単で、**この数字がどう計算されているかを知らなければ、あとで動いたときに、本当に動いたのか、定義が変わっただけなのか分からないからです。** 同時に指標の定義を書き出して、データの人と一度確認します。
+
+**二週目から三週目は、自分の体感を持ちます。** 台湾の予約フローを、本物のお金で最後まで一度通します。これは実はすでに一度やっていて、それがこの宿題です。入ったら社内のデータでもう一度やります。外からは見えないものが多いからです。同時にカスタマーサポートと現地マーケティングの人と話します。**クレームは一番安いユーザーリサーチで、しかもたいてい誰も体系的に見ていません。**
+
+**四週目に、最初のすり合わせ資料を出します。** 内容は、台湾の現状、私が見た上位三つの課題、今四半期にどの段階を攻めるべきかの提案、そして私が必要とするもの。それをあなたと一度すり合わせます。
+
+**それから、最初の一か月にあえてやらないこと。大きなリニューアルの提案はしません。** 一か月の理解の深さでは、そういう提案を支えられません。早すぎると、状況を分かっていないのに意見している、と思われるだけです。**最初の一か月のアウトプットは「私が何を理解したか」であって、「あなたたちが何を変えるべきか」ではありません。**
+
+| 読み方 | |
+|---|---|
+| 体感 | たいかん |
+| 予約 | よやく |
+| 現地 | げんち |
+| 体系的 | たいけいてき |
+| 上位 | じょうい |
+| 支える | ささえる |
+| 状況 | じょうきょう |
 `
       },
       {
@@ -1415,6 +2463,30 @@ Three things specifically.
 **Third, be willing to tell me bad news.** If what I'm building is pointed the wrong way, I'd rather know in week two than at the end-of-quarter review.
 
 I say this partly because you're in Sydney, I'd be in Taipei and headquarters is in Shanghai, so **our synchronous time is expensive.** I don't think it should be spent on progress updates, which I can write up clearly for you. It should be spent on the judgements that genuinely need a back-and-forth.
+`,
+        ja: `
+私に必要なのは、**判断基準をはっきり伝えてから任せてくれる**上司です。一つ一つ確認する上司ではなく。
+
+具体的には三つあります。
+
+**一つ目、四半期の始めに、あなたが成功をどう測るかを知っていること。** KPI の数字ではなく、判断基準です。同じ数字を達成しても、どんなやり方なら正しくやったと思うか、どんなやり方ならただ運が良かっただけと思うか。
+
+**二つ目、「自分で決めていい」と「先に聞く」の境界線を引いてもらうこと。** この線は最初は狭くて構いません。結果で広げていきます。**一番怖いのは境界線が曖昧なことで、そうなると全部あなたの意図を推測することになります。**
+
+**三つ目、悪い知らせを言ってくれること。** 私のやっていることの方向が間違っていたら、四半期末の振り返りではなく、二週目に知りたいです。
+
+こう言うのは、あなたがシドニー、私が台北、本社が上海にいて、**同期の時間がとても高くつくからです。** その時間を進捗報告に使うべきではないと思っています。それは私が文章ではっきり書けます。本当に往復の議論が必要な判断に使うべきです。
+
+| 読み方 | |
+|---|---|
+| 判断基準 | はんだんきじゅん |
+| 上司 | じょうし |
+| 任せる | まかせる |
+| 境界線 | きょうかいせん |
+| 曖昧 | あいまい |
+| 推測 | すいそく |
+| 進捗 | しんちょく |
+| 往復 | おうふく |
 `
       },
       {
@@ -1440,6 +2512,28 @@ I first work out which kind of disagreement it is, because the two are handled i
 I've been caught by a related mistake. When we built the short-video editing feature at 17LIVE, we shipped with editing permissions off by default. That was a deliberate decision after talking to stakeholders, so streamers kept control over their own content. The result was that almost no streamer ever went into the settings page to turn it on, **so the supply side never opened up at all.**
 
 **What I learned is that if I can't convince myself the trade-off is worth it, I shouldn't accept it.** I gave way at the time because their reasoning sounded sensible, but I never quantified whether this would shut off supply outright. Now, in a similar situation, I work out the cost of the trade-off before deciding whether to concede.
+`,
+        ja: `
+まず、どの種類の不一致かを分けます。この二つは対処が正反対だからです。
+
+**実現可能性の不一致なら、たいてい向こうが正しいです。** 彼らはシステムの中の、私が知らないことを知っています。私の仕事は説得することではなく、コストがどこで引っかかっているのかを聞き出して、**人を変えるのではなく要件を変える**ことです。私が欲しい価値には別の道で届くことが多くて、ただ最初に私が要件を一つの具体的なやり方として書いてしまっただけ、ということがよくあります。
+
+**優先順位の不一致なら、それは私の責任で、彼らの責任ではありません。** 「なぜこれなのか」を私が伝えきれていないということです。私の基準は、**なぜこれが重要かを、彼ら自身の言葉で言い直せること。** そこまで伝われば、たいてい争いはなくなります。伝わらないなら、たぶん私自身もまだ考えきれていません。
+
+関連する失敗を一度しています。17LIVE でショート動画の編集機能を作ったとき、編集の許可をデフォルトでオフにしました。ステークホルダーと相談した上での意図的な決定で、配信者が自分のコンテンツをコントロールできるようにするためでした。結果は、設定ページを開く配信者がほとんどいなくて、**供給側がまったく開かれませんでした。**
+
+**学んだのは、そのトレードオフが割に合うと自分を納得させられないなら、受け入れるべきではない、ということです。** そのとき私は譲りました。相手の理由がもっともらしく聞こえたからです。でも「これが供給を直接止めてしまわないか」を数字にしていませんでした。今は似た状況になったら、トレードオフの代償を先に計算してから、譲るかどうかを決めます。
+
+| 読み方 | |
+|---|---|
+| 不一致 | ふいっち |
+| 対処 | たいしょ |
+| 実現可能性 | じつげんかのうせい |
+| 要件 | ようけん |
+| 配信者 | はいしんしゃ |
+| 納得 | なっとく |
+| 譲る | ゆずる |
+| 代償 | だいしょう |
 `
       },
       {
@@ -1457,6 +2551,21 @@ I've been caught by a related mistake. When we built the short-video editing fea
 2. Over the past year and a half building this regional team, **what turned out to be harder than you expected**?
 
 3. Of the things this Taiwan role needs to push through, **what proportion needs headquarters to sign off**? I'd like to understand how that line actually works in practice.
+`,
+        ja: `
+1. 台湾は組織上、SEA の下に付いているのでしょうか。この役割の範囲が、一般的に言う東南アジアと少し違うように見えたので、実際にどう分かれているのか知りたいです。
+
+2. この一年あまりでこの地域のチームを立ち上げてきた中で、**当初の想定より難しかったことは何ですか。**
+
+3. 台湾のこの役割で推進することのうち、**本社の承認が必要なものはどれくらいの割合ですか。** 実際にそのラインがどう動いているのか知りたいです。
+
+| 読み方 | |
+|---|---|
+| 組織上 | そしきじょう |
+| 想定 | そうてい |
+| 推進 | すいしん |
+| 承認 | しょうにん |
+| 割合 | わりあい |
 `
       }
     ]
@@ -1544,6 +2653,73 @@ flowchart LR
 `,
         ja: `
 SmartNewsは、たくさんのニュースの中から、**今いちばん大事な0.01％だけを選んで**、すぐ読めるかたちで見せてくれるニュースアプリで、**無料で使えて、広告で成り立っている**サービスだと理解しています。
+`,
+        en: `
+**In one sentence: a news aggregation app that shows you only the 0.01% of news that matters most right now.** No infinite scroll. The algorithm picks the hottest headlines from across the web, articles open instantly thanks to its own ultra-fast rendering, it is free, and it makes money from ads.
+
+#### There are actually three things under one brand
+
+::: mermaid
+graph TB
+    Brand["SmartNews brand"]
+
+    Brand --> JP["SmartNews Japan<br/>スマートニュース"]
+    Brand --> US["SmartNews US<br/>SmartNews: Breaking News"]
+    Brand --> Arc["NewsArc<br/>standalone app · 2025-08-05"]
+
+    JP --> JP1["クーポン coupons"]
+    JP --> JP2["スマニューAIまとめ<br/>AI summaries · top of home feed"]
+    JP --> JP3["Election / Fact-Check channels"]
+
+    US --> US1["Rewards: earn points for reading"]
+    US --> US2["AI translation · iOS only<br/>Spanish / Chinese"]
+    US --> US3["News From All Sides<br/>political spectrum side by side"]
+
+    Arc --> Arc1["Not driven by the usual algorithm<br/>deliberately shows everyone the same set of important stories"]
+
+    Shared["Shared foundation of both versions"]
+    Shared --> S1["Algorithmic article selection"]
+    Shared --> S2["SmartView fast rendering"]
+    Shared --> S3["Channels"]
+    Shared --> S4["Local news and weather"]
+    Shared --> S5["Offline preloading"]
+
+    JP -.-> Shared
+    US -.-> Shared
+
+    style JP fill:#F7EDE6
+    style US fill:#EDF0FF
+    style Arc fill:#F3EDFA
+    style Shared fill:#F1EFED
+:::
+
+#### How content flows
+
+::: mermaid
+flowchart LR
+    P["Thousands of<br/>publishers"] --> C["Crawl / SmartFormat feed"]
+    C --> R["Algorithm evaluates<br/>articles + social signals + engagement"]
+    R --> T["Picks the most important<br/>0.01% right now"]
+    T --> CH["Assigned to Channels"]
+    CH --> SV["SmartView<br/>strip ads · re-layout · preload"]
+    SV --> U["Users"]
+
+    style T fill:#F7EDE6
+    style SV fill:#EDF0FF
+:::
+
+#### Core features
+
+| Feature | What it does | Market |
+|---|---|---|
+| Algorithmic selection | Evaluates millions of articles plus social signals and engagement; **deliberately no infinite scroll** | Shared |
+| SmartView | SmartNews' own version of AMP: strips ads and heavy images, re-lays out the article so it opens instantly | Shared |
+| Offline preloading | Fetches while online so you can still read with no signal | Shared |
+| Channels | Breaking, World, Business, Tech, Sports; add or remove as you like | Shared |
+| Local and weather | City-level news, weather, and traffic based on your location | Shared |
+| **クーポン (coupons)** | Convenience store and restaurant coupons; **the key to stickiness in the Japan market** | Japan |
+| Rewards | Earn points for reading articles, redeemable for gift cards or donations | US |
+| News From All Sides | Shows left and right perspectives on the same issue side by side | US |
 `
       },
       {
@@ -1604,6 +2780,131 @@ opt-in 的授權方案，加入後拿到更完整的**品牌露出**，可以把
 3. **第一方資料** — **用戶不離開 App，所有閱讀行為都留在 SmartNews 手上**
 
 **同時它也是抱怨的來源。** SmartView 裡的廣告位由 SmartNews 控制，用戶抱怨的「全版廣告關不掉」就發生在這一層。
+`,
+        en: `
+**The vast majority of articles do not send you to the publisher's website. They open inside the app via SmartView.**
+
+::: mermaid
+flowchart TB
+    A["Publisher provides<br/>SmartFormat feed"] --> B["SmartNews parses it"]
+    B --> C["Stripped out"]
+    B --> D["Kept"]
+    B --> E["Added"]
+
+    C --> C1["Website ad scripts"]
+    C --> C2["Heavy images and decoration"]
+    C --> C3["Tracking code and layout noise"]
+
+    D --> D1["Body text and captions"]
+    D --> D2["Embedded media<br/>YouTube · JW Player<br/>Spotify · SoundCloud"]
+    D --> D3["Publisher branding"]
+
+    E --> E1["SmartNews native layout"]
+    E --> E2["display / video ad slots"]
+    E --> E3["Pre-downloaded, readable offline"]
+
+    C1 --> F["SmartView article page<br/>opens instantly · never leaves the app"]
+    D1 --> F
+    E1 --> F
+
+    style F fill:#F7EDE6
+:::
+
+#### Technical side
+
+| Item | Detail |
+|---|---|
+| **Format** | **SmartFormat**, an **extension of RSS 2.0 or Atom**. Publishers must provide a validated feed |
+| **Where it renders** | **Natively inside the app**, not a WebView of the publisher's page |
+| **Comparison** | Conceptually the same as Google AMP, but only within the SmartNews ecosystem |
+| **Ad slots** | Display and video ads inserted inline, commonly 300×250 |
+
+#### How publishers join: SmartView First
+
+An opt-in licensing program. Publishers who join get fuller **brand exposure** and can route articles to their own **sponsored content** or **subscription landing pages**. Most partner publishers have opted in.
+
+#### Two monetization routes
+
+| Route | Who places the ads | How revenue is split |
+|---|---|---|
+| **A: The publisher sells** | The publisher places its own ads on the SmartView version of its own articles | **100% goes to the publisher, no share to SmartNews** |
+| **B: SmartNews sells** | SmartNews places ads inside the article | Publisher gets a **licensing fee** plus **ad revenue share**. The share is **tiered: the more readers, the higher the publisher's cut** |
+
+#### Why it is the pivot
+
+1. **Speed**: stripping the site's ad scripts and heavy images is the real reason articles open instantly
+2. **Offline**: content is already structured and preloaded, so it reads with no signal
+3. **First-party data**: **users never leave the app, so every reading behavior stays in SmartNews' hands**
+
+**It is also where the complaints come from.** The ad slots inside SmartView are controlled by SmartNews, so the "full-screen ad I cannot close" complaint happens at exactly this layer.
+`,
+        ja: `
+**ほとんどの記事は、出版社のサイトに飛ばすのではなく、アプリ内でSmartViewとして開きます。**
+
+::: mermaid
+flowchart TB
+    A["出版社が<br/>SmartFormat feedを提供"] --> B["SmartNewsが解析"]
+    B --> C["取り除く"]
+    B --> D["残す"]
+    B --> E["加える"]
+
+    C --> C1["サイトの広告スクリプト"]
+    C --> C2["重い画像と装飾"]
+    C --> C3["トラッキングコードとレイアウトのノイズ"]
+
+    D --> D1["本文とキャプション"]
+    D --> D2["埋め込みメディア<br/>YouTube · JW Player<br/>Spotify · SoundCloud"]
+    D --> D3["出版社のブランド表示"]
+
+    E --> E1["SmartNewsのネイティブレイアウト"]
+    E --> E2["display / video 広告枠"]
+    E --> E3["事前ダウンロード、オフラインで読める"]
+
+    C1 --> F["SmartView記事ページ<br/>一瞬で開く · アプリを離れない"]
+    D1 --> F
+    E1 --> F
+
+    style F fill:#F7EDE6
+:::
+
+#### 技術面
+
+| 項目 | 内容 |
+|---|---|
+| **フォーマット** | **SmartFormat**。**RSS 2.0またはAtomの拡張**です。出版社は検証済みのfeedを提供する必要があります |
+| **レンダリング場所** | **アプリ内ネイティブ**です。WebViewで出版社のページを開くのではありません |
+| **比較対象** | 概念的にはGoogle AMPと同じですが、SmartNewsのエコシステム内だけで使われます |
+| **広告枠** | displayとvideo広告を記事内に挿入します。よくあるサイズは300×250です |
+
+#### 出版社の参加方法：SmartView First
+
+opt-in型のライセンスプログラムです。参加すると、より充実した**ブランド表示**が得られ、記事から自社の**スポンサードコンテンツ**や**サブスクリプションのランディングページ**へ誘導できます。提携出版社の多くが参加しています。
+
+#### 二つのマネタイズ経路
+
+| 経路 | 誰が広告を出すか | 収益の分け方 |
+|---|---|---|
+| **A：出版社が自分で売る** | 出版社が自社記事のSmartView上に自社の広告を載せます | **100%出版社のもので、SmartNewsへの分配はありません** |
+| **B：SmartNewsが売る** | SmartNewsが記事内に広告を載せます | **ライセンス料**＋**広告レベニューシェア**を支払います。シェアは**段階制で、読者が多いほど出版社の取り分が増えます** |
+
+#### なぜ支点なのか
+
+1. **速度**：サイトの広告スクリプトと重い画像を取り除くこと。これが「一瞬で開く」本当の理由です
+2. **オフライン**：コンテンツはすでに構造化され、事前に読み込まれているので、電波がなくても読めます
+3. **ファーストパーティデータ**：**ユーザーがアプリを離れないので、すべての閲覧行動がSmartNewsの手元に残ります**
+
+**同時に、ここが不満の発生源でもあります。** SmartView内の広告枠はSmartNewsが管理しているので、ユーザーが不満を言う「全画面広告が閉じられない」問題は、まさにこの層で起きています。
+
+| 読み方 | |
+|---|---|
+| 出版社 | しゅっぱんしゃ |
+| 解析 | かいせき |
+| 拡張 | かくちょう |
+| 検証済み | けんしょうずみ |
+| 提携 | ていけい |
+| 段階制 | だんかいせい |
+| 取り分 | とりぶん |
+| 発生源 | はっせいげん |
 `
       },
       {
@@ -1644,6 +2945,90 @@ graph LR
 **如果用戶被導去出版商網站**，行為資料歸出版商、廣告收益歸出版商，**兩條迴路都會斷**。
 
 **面試可以這樣講：** 能講出「兩條迴路都靠 SmartView 把用戶留在 App 內才成立」，顯示你看的是系統不是功能。
+`,
+        en: `
+**This is why the whole business model can propel itself. Both loops only work because SmartView keeps users inside the app.**
+
+::: mermaid
+graph LR
+    U["User reads"]
+
+    subgraph L1["Loop 1: data loop"]
+        direction LR
+        D1["First-party behavior data<br/>what they read · how long · what they tap"]
+        D2["Algorithm gets more accurate"]
+        D3["Article selection fits this person better"]
+    end
+
+    subgraph L2["Loop 2: supply loop"]
+        direction LR
+        M1["Ad impressions"]
+        M2["Ad revenue"]
+        M3["Licensing fee + tiered revenue share<br/>to publishers"]
+        M4["Publishers keep supplying<br/>more and better content"]
+    end
+
+    U --> D1 --> D2 --> D3 --> U
+    U --> M1 --> M2 --> M3 --> M4 --> U
+
+    SV["SmartView<br/>users never leave the app"] -.->|"makes both loops work"| U
+
+    style U fill:#F7EDE6
+    style SV fill:#EDF0FF
+    style L1 fill:#F8F7F6
+    style L2 fill:#F8F7F6
+:::
+
+**If users were sent to the publisher's website**, the behavior data would belong to the publisher and the ad revenue would belong to the publisher, so **both loops would break**.
+
+**How to say it in the interview:** being able to say "both loops only work because SmartView keeps users inside the app" shows you are looking at the system, not the features.
+`,
+        ja: `
+**これが、ビジネスモデル全体が自走できる理由です。二つのループはどちらも、SmartViewがユーザーをアプリ内に留めることで初めて成り立ちます。**
+
+::: mermaid
+graph LR
+    U["ユーザーが読む"]
+
+    subgraph L1["一つ目のループ：データループ"]
+        direction LR
+        D1["ファーストパーティの行動データ<br/>何を読んだか · どれだけ滞在したか · 何をタップしたか"]
+        D2["アルゴリズムの精度が上がる"]
+        D3["記事選定がその人に合ってくる"]
+    end
+
+    subgraph L2["二つ目のループ：供給ループ"]
+        direction LR
+        M1["広告表示"]
+        M2["広告収益"]
+        M3["ライセンス料 + 段階制レベニューシェア<br/>を出版社へ"]
+        M4["出版社が記事を出し続ける<br/>コンテンツがもっと増えて良くなる"]
+    end
+
+    U --> D1 --> D2 --> D3 --> U
+    U --> M1 --> M2 --> M3 --> M4 --> U
+
+    SV["SmartView<br/>ユーザーがアプリを離れない"] -.->|"二つのループを成立させる"| U
+
+    style U fill:#F7EDE6
+    style SV fill:#EDF0FF
+    style L1 fill:#F8F7F6
+    style L2 fill:#F8F7F6
+:::
+
+**もしユーザーが出版社のサイトへ誘導されると**、行動データは出版社のもの、広告収益も出版社のものになり、**二つのループは両方とも切れてしまいます**。
+
+**面接ではこう話せます：**「二つのループはどちらも、SmartViewがユーザーをアプリ内に留めることで成り立つ」と言えれば、機能ではなくシステムを見ていることが伝わります。
+
+| 読み方 | |
+|---|---|
+| 自走 | じそう |
+| 成り立つ | なりたつ |
+| 滞在 | たいざい |
+| 精度 | せいど |
+| 供給 | きょうきゅう |
+| 誘導 | ゆうどう |
+| 成立 | せいりつ |
 `
       },
       {
@@ -1677,6 +3062,76 @@ graph LR
 收入來源：行動廣告（原生＋feed 內程式化聯播）為主，加上資料授權、贊助內容、品牌專屬分頁。
 
 > **待查：** 一個來源說有 SmartNews Plus 訂閱制（$9.99–14.99/月免廣告），另一個 2026 評測說「ad-only，沒有付費去廣告的選項」。**面試前自己開 App 確認。**
+`,
+        en: `
+::: mermaid
+graph LR
+    subgraph TM["Three-sided market"]
+        A["Publishers<br/>provide content"]
+        B["Users<br/>use it for free"]
+        C["Advertisers<br/>pay"]
+    end
+
+    C -->|"Ad spend"| S["SmartNews"]
+    S -->|"Licensing fee + tiered revenue share"| A
+    A -->|"SmartFormat feed"| S
+    S -->|"Free news + coupons / points"| B
+    B -->|"Attention + first-party data"| S
+
+    style S fill:#F7EDE6
+:::
+
+| Item | Figure | Confidence |
+|---|---|---|
+| Cumulative downloads | 60 million+ (early 2025) | Confirmed |
+| MAU | **20 million+** | Confirmed |
+| Annual revenue | About USD 104.5 million | Third-party estimate |
+| Valuation | About USD 2 billion | Third-party estimate |
+| Ads as share of revenue | **About 75%** | Estimate |
+
+Revenue sources: mobile advertising (native plus programmatic in-feed) is the main one, plus data licensing, sponsored content, and brand-dedicated tabs.
+
+**To verify:** one source says there is a SmartNews Plus subscription ($9.99–14.99/month, ad-free), while another 2026 review says it is "ad-only, with no paid option to remove ads". **Open the app and check for yourself before the interview.**
+`,
+        ja: `
+::: mermaid
+graph LR
+    subgraph 三者間市場
+        A["出版社<br/>コンテンツを提供"]
+        B["ユーザー<br/>無料で利用"]
+        C["広告主<br/>お金を払う"]
+    end
+
+    C -->|"広告費"| S["SmartNews"]
+    S -->|"ライセンス料 + 段階制レベニューシェア"| A
+    A -->|"SmartFormat feed"| S
+    S -->|"無料ニュース + クーポン / ポイント"| B
+    B -->|"注意 + ファーストパーティデータ"| S
+
+    style S fill:#F7EDE6
+:::
+
+| 項目 | 数字 | 信頼度 |
+|---|---|---|
+| 累計ダウンロード | 6,000万以上（2025年初め） | 確定 |
+| MAU | **2,000万以上** | 確定 |
+| 年間売上 | 約1.045億ドル | 第三者の推定 |
+| 評価額 | 約20億ドル | 第三者の推定 |
+| 売上に占める広告の割合 | **約75%** | 推定 |
+
+収入源：モバイル広告（ネイティブ＋feed内のプログラマティック配信）が中心で、そのほかにデータライセンス、スポンサードコンテンツ、ブランド専用タブがあります。
+
+**要確認：** ある情報源ではSmartNews Plusというサブスクリプション（月額$9.99–14.99で広告なし）があるとされ、別の2026年のレビューでは「広告のみで、有料で広告を消すオプションはない」とされています。**面接前に自分でアプリを開いて確認してください。**
+
+| 読み方 | |
+|---|---|
+| 累計 | るいけい |
+| 評価額 | ひょうかがく |
+| 推定 | すいてい |
+| 収入源 | しゅうにゅうげん |
+| 配信 | はいしん |
+| 専用 | せんよう |
+| 月額 | げつがく |
 `
       },
       {
@@ -1713,6 +3168,83 @@ graph LR
 #### 稱讚的地方
 
 速度與速報性、一個 App 什麼都有（新聞＋優惠券＋市區級天氣）、優惠券真的有用、涵蓋面廣。
+`,
+        en: `
+| Platform / Market | Rating | Reviews |
+|---|---|---|
+| Google Play Japan | **4.1** | 646,413 |
+| App Store US | **4.6** | 929,000 |
+
+Star distribution in Japan: 5 stars 52%, 4 stars 25%, 3 stars 10%, 2 stars 4%, **1 star 9%**.
+
+**One-star reviews outnumber two-star by more than double. That is the shape of polarization, not a low average.** It means a specific group of users in specific situations is being clearly annoyed.
+
+**Caution: the two numbers cannot be compared directly.** Different platforms, different markets, and Japanese users tend to rate more strictly.
+
+#### Five categories of complaints
+
+**1. Ads, overwhelmingly number one**
+The close button on full-screen ads is hidden, and sometimes you have to tap several times. Some users say the button sits right at the screen edge and cannot be tapped, and the ad does not close on its own. "It has gotten worse over the past year." Japanese reviews likewise list "広告の多さ" (the sheer number of ads) as the top drawback.
+
+**2. Navigation kicks you back to the home screen**
+"左スワイプすると、スマニューのトップに戻ってしまい" (a left swipe sends you back to the SmartNews top page). English-side reviews likewise complain that the app reloads to the home screen without warning, and **you lose your place in whatever you were reading**.
+
+**3. Inconsistent content quality**
+"肝心のニュースはまとめサイトと同レベル、情報の鮮度も良くない" (the actual news is on the level of aggregator sites, and not very fresh), "漢字の誤字等が少し多く" (quite a few kanji typos). English side: **clickbait still slips through**, and **there is no source list you can edit**.
+
+**4. Accessibility is broken**
+Visually impaired users report that **VoiceOver has been broken across several consecutive versions**; there is a dedicated thread on the AppleVis forum.
+
+**5. Overloaded first-run experience**
+"初期状態ではデフォルトで非常に沢山のタブが表示されるので使いづらい" (by default there are far too many tabs at first launch, which makes it hard to use).
+
+#### What gets praised
+
+Speed and breaking-news timeliness, one app that has everything (news plus coupons plus city-level weather), coupons that are actually useful, and broad coverage.
+`,
+        ja: `
+| プラットフォーム / 市場 | 評価 | レビュー数 |
+|---|---|---|
+| Google Play 日本 | **4.1** | 646,413 |
+| App Store 米国 | **4.6** | 929,000 |
+
+日本の星の分布：5つ星52%、4つ星25%、3つ星10%、2つ星4%、**1つ星9%**。
+
+**一つ星が二つ星の二倍以上あります。これは二極化の形であって、平均が低いのではありません。** 特定の状況にいる一部のユーザーが、はっきりと不快な思いをしているということです。
+
+**注意：二つの数字は直接比較できません。** プラットフォームも市場も違いますし、日本のユーザーは全体的に採点が厳しめです。
+
+#### 五つの不満カテゴリ
+
+**1. 広告。圧倒的な一位です**
+全画面広告の閉じるボタンが分かりにくい場所にあり、何度もタップしないと閉じないことがあります。ボタンが画面の端に貼り付いていて押せない、しかも自動では閉じない、という声もあります。「この一年でさらにひどくなった」とも言われています。日本語のレビューでも「広告の多さ」が第一の欠点として挙げられています。
+
+**2. ナビゲーションでトップに戻されてしまう**
+「左スワイプすると、スマニューのトップに戻ってしまい」。英語側でも、アプリが予告なくリロードされてトップに戻り、**読みかけの位置が消えてしまう**という不満があります。
+
+**3. コンテンツの品質が安定しない**
+「肝心のニュースはまとめサイトと同レベル、情報の鮮度も良くない」「漢字の誤字等が少し多く」。英語側では、**clickbaitがまだ紛れ込んでくる**、しかも**編集できるソース一覧がない**という指摘です。
+
+**4. アクセシビリティが壊れている**
+視覚障害のあるユーザーから、**VoiceOverが何バージョンも続けて壊れている**と報告されています。AppleVisのフォーラムに専用スレッドがあります。
+
+**5. 初回体験が情報過多**
+「初期状態ではデフォルトで非常に沢山のタブが表示されるので使いづらい」。
+
+#### 評価されている点
+
+速さと速報性、一つのアプリで何でもそろう（ニュース＋クーポン＋市区レベルの天気）、クーポンが実際に役立つ、カバー範囲が広い、といった点です。
+
+| 読み方 | |
+|---|---|
+| 二極化 | にきょくか |
+| 採点 | さいてん |
+| 圧倒的 | あっとうてき |
+| 欠点 | けってん |
+| 鮮度 | せんど |
+| 誤字 | ごじ |
+| 視覚障害 | しかくしょうがい |
+| 速報性 | そくほうせい |
 `
       },
       {
@@ -1773,6 +3305,61 @@ graph TD
 **What I would not start with:** rebuilding the recommendation algorithm, adding a source blocklist, or changing editorial quality control. These are high impact but low certainty and high cost, and they run directly into the business model.
 
 I am interviewing for a prototyper role, and all three of these I could build as a clickable prototype within an hour, which shows the team the difference faster than an analysis would.
+`,
+        ja: `
+**まず構造、それから個別の施策です。** 主な不満の三つの流れは、すべて同じ根本原因にたどり着きます。
+
+::: mermaid
+graph TD
+    Root["核心の矛盾<br/>無料 + 広告が売上の75%"]
+
+    Root --> A1["広告密度を高く保つ必要がある"]
+    A1 --> A2["SmartView内の全画面広告<br/>閉じるボタンが押しにくい"]
+    A2 --> A3["読書が中断される"]
+
+    Root --> B1["表示回数のためにfeedを頻繁に更新"]
+    B1 --> B2["左スワイプ / リロードでトップに戻る"]
+    B2 --> A3
+
+    Root --> C1["トラフィックが編集チェックより優先"]
+    C1 --> C2["clickbaitが紛れ込む<br/>ソースのブラックリストがない"]
+    C2 --> C3["信頼の低下"]
+
+    A3 --> D["一つ星レビュー<br/>日本では9%"]
+    C3 --> D
+
+    style Root fill:#FFE6E6
+    style D fill:#FFE6E6
+:::
+
+**ですから「広告を減らす」は実行可能な提案ではありません。** 実行可能なのは、同じ広告収益のままで**邪魔になるコストを下げる**ことです。
+
+#### 私が優先する三つのこと
+
+**一つ目は、閉じるボタンのタップ領域とタイミングです。** これは影響がいちばん大きく、原因がいちばん確かで、コストがいちばん低い施策です。ユーザーの不満は、広告があることではなく、**閉じられない**ことです。収益モデルには手を付けず、タップ領域とカウントダウンのロジックだけを変えます。
+
+**二つ目は、読みかけの位置の保存です。** 左スワイプやリロードでトップに戻るのは、ユーザーがすでに注いだ注意をゼロにするのと同じです。これは純粋な状態管理の課題で、ビジネス指標には影響しません。
+
+**三つ目は、アクセシビリティです。** VoiceOverが何バージョンも続けて壊れています。これはプロダクトの欠陥であり、コンプライアンスのリスクであり、ブランドの問題でもあります。しかも修正範囲がはっきりしています。**ほとんどの候補者はここに触れません。**
+
+#### 最初にはやらないこと
+
+レコメンドアルゴリズムの作り直し、ソースのブラックリスト追加、コンテンツ品質チェックの見直しです。これらは**影響は大きいが確実性が低く、コストが高い**うえに、ビジネスモデルに正面からぶつかります。
+
+---
+
+**締め：** 私が受けているのはPrototyperのポジションです。この三つはどれも、一時間以内にクリック可能なプロトタイプを作れます。分析を話すより、チームに違いを見せるほうが早いです。
+
+| 読み方 | |
+|---|---|
+| 矛盾 | むじゅん |
+| 施策 | しさく |
+| 根本原因 | こんぽんげんいん |
+| 収益 | しゅうえき |
+| 領域 | りょういき |
+| 欠陥 | けっかん |
+| 修正範囲 | しゅうせいはんい |
+| 候補者 | こうほしゃ |
 `
       },
       {
@@ -1804,6 +3391,72 @@ I am interviewing for a prototyper role, and all three of these I could build as
 一家對外強調「對 AI 非常狂熱」的公司，把三個 AI 功能拆在**日本版、美國版 iOS、和一個獨立 App**，沒有任何一個用戶能一次體驗到全部。
 
 **可以直接問面試官：這是刻意的市場策略，還是組織結構造成的？**
+`,
+        en: `
+**The three AI features are locked in three different places, and no single user can see all of them at once.**
+
+| AI feature | Launched | Where | Limitation |
+|---|---|---|---|
+| **スマニューAIまとめ**<br>Generative AI multi-article summaries | 2025-08 | A dedicated block at the **top of the Japan version's home feed** | **Japan version only**; officially billed as "the first among domestic news apps" (国内ニュースアプリ初). Requires **v6.5.0 or later**; on older versions the UI does not even appear |
+| **AI translation**<br>One-tap translation to Spanish / Chinese | 2026-07 | US version, a button in the article list or reading page | **iOS only, US version only**; not on Android |
+| **NewsArc** | 2025-08 | **A completely separate app** | Not inside the main app |
+
+#### Which version you will get
+
+| Your situation | Result |
+|---|---|
+| Taiwan / UK store, iOS | US version; **you see AI translation but not AIまとめ** |
+| Taiwan / UK store, Android | US version; **you see neither AI feature** |
+| Japan account, version 6.5.0 or later | AIまとめ at the top of the home feed |
+| Japan account, version below 6.5.0 | Not visible; update first |
+
+**To actually try AIまとめ**, you need to switch to a Japan App Store account and download the Japan version.
+
+---
+
+#### This is interview material in itself
+
+A company that publicly emphasizes being "extremely enthusiastic about AI" has split its three AI features across **the Japan version, the US version on iOS, and a standalone app**, so no single user can experience all of them at once.
+
+**You can ask the interviewer directly: is this a deliberate market strategy, or a result of the org structure?**
+`,
+        ja: `
+**三つのAI機能は、それぞれ別の場所に閉じ込められていて、すべてを一度に見られるユーザーは一人もいません。**
+
+| AI機能 | リリース | 場所 | 制限 |
+|---|---|---|---|
+| **スマニューAIまとめ**<br>生成AIによる複数記事の要約 | 2025-08 | **日本版ホームの最上部**にある専用ブロック | **日本版のみ**。公式には「国内ニュースアプリ初」とうたっています。**v6.5.0以上**が必要で、旧バージョンではUI自体が表示されません |
+| **AI翻訳**<br>ワンタップでスペイン語 / 中国語へ | 2026-07 | 米国版。記事一覧または閲覧ページのボタン | **iOSのみ、米国版のみ**。Androidにはありません |
+| **NewsArc** | 2025-08 | **完全に別の独立したアプリ** | メインアプリの中にはありません |
+
+#### 自分はどの版を手にするか
+
+| 自分の状況 | 結果 |
+|---|---|
+| 台湾 / イギリスのストア、iOS | 米国版。**AI翻訳は見えるが、AIまとめは見えない** |
+| 台湾 / イギリスのストア、Android | 米国版。**AI機能は両方とも見えない** |
+| 日本のアカウント、バージョン ≥ 6.5.0 | ホーム最上部にAIまとめがある |
+| 日本のアカウント、バージョン < 6.5.0 | 見えない。先にアップデートが必要 |
+
+**AIまとめを実際に体験したい場合**は、日本のApp Storeアカウントに切り替えて日本版をダウンロードする必要があります。
+
+---
+
+#### このこと自体が面接の材料になります
+
+対外的に「AIにとても熱狂している」と強調している会社が、三つのAI機能を**日本版、米国版iOS、そして独立したアプリ**に分けていて、すべてを一度に体験できるユーザーは一人もいません。
+
+**面接官に直接聞けます：これは意図的な市場戦略なのか、それとも組織構造がそうさせたのか。**
+
+| 読み方 | |
+|---|---|
+| 要約 | ようやく |
+| 制限 | せいげん |
+| 閲覧 | えつらん |
+| 材料 | ざいりょう |
+| 熱狂 | ねっきょう |
+| 意図的 | いとてき |
+| 組織構造 | そしきこうぞう |
 `
       }
     ]
@@ -1878,6 +3531,52 @@ Thank you again for your time today.
 | 中文 | 日文 |
 |---|---|
 | 抱歉，那個詞我沒有準確掌握。我的理解接近 ○○，這樣對嗎？ | すみません、その用語は正確には把握していません。私の理解では〇〇に近いと思っているのですが、合っていますか？ |
+`,
+        en: `
+**You can't dodge these five in the interview. Every other technical term can be swapped for plain words.**
+
+| Term | Plain explanation | How to say it |
+|---|---|---|
+| **HTML / CSS** | The skeleton and the look of a web page | Just say it, no explanation needed |
+| **JavaScript** | The language that makes a page move | Just say it. You don't need to write it, the AI will |
+| **API** | The window where you ask a server for data. You call out, it hands you back a bundle of data | サーバーからデータをもらう窓口 |
+| **JSON file** | A plain-text data file, basically data written into a file | データを書いたファイル |
+| **GitHub Pages** | GitHub's free hosting for web pages: upload the files and you get a URL | Just say it |
+
+#### When you're asked about a term you don't know
+
+**Don't bluff. Admit you don't know it, then still offer a guess. In a Japanese interview that earns points, it doesn't lose them.**
+
+| English | Japanese |
+|---|---|
+| Sorry, I don't have a precise grasp of that term. My understanding is that it's close to ○○, is that right? | すみません、その用語は正確には把握していません。私の理解では〇〇に近いと思っているのですが、合っていますか？ |
+`,
+        ja: `
+**面接でこの5つは避けられません。ほかの専門用語はすべて平易な言葉に言い換えられます。**
+
+| 用語 | 平易な説明 | 言い方 |
+|---|---|---|
+| **HTML / CSS** | Webページの骨組みと見た目 | そのまま言う。説明は不要 |
+| **JavaScript** | ページを動かすための言語 | そのまま言う。自分で書けなくてよい。AIが書く |
+| **API** | サーバーにデータをもらいに行く窓口。こちらが呼ぶと、データがひとまとまり返ってくる | サーバーからデータをもらう窓口 |
+| **JSONファイル** | テキストだけのデータファイル。データを1つのファイルに書いたもの | データを書いたファイル |
+| **GitHub Pages** | GitHubが提供する無料のWeb公開サービス。ファイルを置くだけでURLがもらえる | そのまま言う |
+
+#### 知らない用語を聞かれたら
+
+**ごまかさないこと。「知らない」と認めたうえで、それでも推測を一つ添える。日本の面接では減点ではなく加点です。**
+
+| 趣旨 | 日本語 |
+|---|---|
+| 知らないと認めたうえで、推測を添えて確認する | すみません、その用語は正確には把握していません。私の理解では〇〇に近いと思っているのですが、合っていますか？ |
+
+| 読み方 | |
+|---|---|
+| 用語 | ようご |
+| 把握 | はあく |
+| 骨組み | ほねぐみ |
+| 窓口 | まどぐち |
+| 推測 | すいそく |
 `
       },
       {
@@ -1921,6 +3620,96 @@ Thank you again for your time today.
 |---|---|
 | 為什麼用中文？母語，把指令講精準最快。30 分鐘我想把時間留給做出東西。 | 母語なので、指示のニュアンスを詰めるのが一番速いからです。30分という制限の中では、プロンプトを書く時間を短くして、動くものを出す時間に回したいと考えています。 |
 | 對方說「請用日文」，立刻照做不要爭辯。 | 承知しました。日本語で書きます。 |
+`,
+        en: `
+**Timing: the boundary between the end of discussion and the start of hands-on work (around minute 15). Don't wait until you've already started building.**
+
+Ask all three at once. Each one is "the question + a protective line", and **the protective line is not optional**.
+
+#### ① Can I write the prompts in Chinese?
+
+| English | Japanese |
+|---|---|
+| Before I start building, I'd like to confirm one thing. I usually write my prompts to the AI in Chinese, because I can get the details across faster. Is it OK if I write today's prompts in Chinese or English? | 実装に入る前に、一点だけ確認させてください。AIエージェントへのプロンプトは、普段は中国語で書いていて、そのほうが細かいニュアンスまで速く指示できます。今日もプロンプトだけ中国語、もしくは英語で書かせていただいてもよろしいでしょうか。 |
+| **Protective line**: I'll explain my thinking in Japanese the whole time, and as I write I'll say in Japanese what instructions I'm giving. Code comments and on-screen text will also be in Japanese. | 考えていることの説明は、すべて日本語でお話しします。書きながら、どういう指示を出しているかも日本語で声に出しますので、画面が中国語でも中身は追えるようにします。コード内のコメントや画面上の文言も日本語で書きます。 |
+
+If you only say the first part, it can be read as "her Japanese isn't good enough". Add the protective line and it becomes a judgment about efficiency.
+
+#### ② Can I use voice input?
+
+| English | Japanese |
+|---|---|
+| One more thing I'd like to confirm. I usually enter prompts by speaking directly, which is much faster than typing. Is it OK to work that way today too? | もう一点確認させてください。プロンプトの入力は、普段は音声で直接話す形にしています。タイプするより速いので、今日もその形で進めさせていただいてもよろしいでしょうか。 |
+| **Protective line**: Every time I finish giving an instruction, I'll say in Japanese what I just asked for. | 指示を出すたびに、今何を依頼したかを日本語で一度まとめますので、何をしているかは常に追っていただけるようにします。 |
+
+**Stop after each chunk and summarize in Japanese.** Don't run through three chunks before you say anything in Japanese. For a remote interview, test the microphone beforehand with the exact setup you'll use that day.
+
+#### ③ Three lines to get out of the way at the same time
+
+| English | Japanese |
+|---|---|
+| Is it OK to look at documentation or search while I work? | 作業中、ドキュメントや検索を使っても差し支えないでしょうか。 |
+| I'll be using Claude Code today. If there's a designated tool, I'll go with that. | 今日はClaude Codeを使って進めます。もし指定のツールがあれば、そちらに合わせます。 |
+| I've only prepared an empty project and dummy news data. Today I'll build the task logic on top of that. | 事前に空のプロジェクトと、ニュース記事のダミーデータだけ用意してあります。今日はそこにお題のロジックを載せる形で進めます。 |
+
+The last line is **a declaration, not a question, so you have to say it proactively**: what I prepared is a blank sheet, not an answer.
+
+#### If they push back
+
+| English | Japanese |
+|---|---|
+| Why Chinese? It's my native language, so it's the fastest way to make instructions precise. With 30 minutes, I want to keep the time for actually building something. | 母語なので、指示のニュアンスを詰めるのが一番速いからです。30分という制限の中では、プロンプトを書く時間を短くして、動くものを出す時間に回したいと考えています。 |
+| If they say "please use Japanese", do it immediately. Don't argue. | 承知しました。日本語で書きます。 |
+`,
+        ja: `
+**タイミング：議論が終わって実装に入る境目（15分あたり）。実装に入ってから聞くのは遅い。**
+
+3つをまとめて一度に聞く。どれも「質問＋保護の一文」のセットで、**保護の一文は省かないこと**。
+
+#### ① プロンプトを中国語で書いてよいか
+
+| 趣旨 | 日本語 |
+|---|---|
+| 実装前に一点確認。プロンプトは普段中国語で書いていて、細かい指示が速く出せる。今日は中国語か英語でよいか | 実装に入る前に、一点だけ確認させてください。AIエージェントへのプロンプトは、普段は中国語で書いていて、そのほうが細かいニュアンスまで速く指示できます。今日もプロンプトだけ中国語、もしくは英語で書かせていただいてもよろしいでしょうか。 |
+| **保護の一文**：考えの説明は全部日本語。書きながら、どんな指示を出したかも日本語で声に出す。コメントと画面の文言も日本語で書く | 考えていることの説明は、すべて日本語でお話しします。書きながら、どういう指示を出しているかも日本語で声に出しますので、画面が中国語でも中身は追えるようにします。コード内のコメントや画面上の文言も日本語で書きます。 |
+
+最初の段落だけ言うと「日本語ができない」と受け取られかねません。保護の一文を足すと、効率の判断だと伝わります。
+
+#### ② 音声入力を使ってよいか
+
+| 趣旨 | 日本語 |
+|---|---|
+| もう一点確認。プロンプトの入力は普段は音声で、タイプより速い。今日もこの形でよいか | もう一点確認させてください。プロンプトの入力は、普段は音声で直接話す形にしています。タイプするより速いので、今日もその形で進めさせていただいてもよろしいでしょうか。 |
+| **保護の一文**：指示を出すたびに、今何を依頼したかを日本語で一度まとめる | 指示を出すたびに、今何を依頼したかを日本語で一度まとめますので、何をしているかは常に追っていただけるようにします。 |
+
+**ひと区切り話したら止まって、日本語で要約する。** 3区切り続けて話してから日本語にするのは避ける。リモート面接の前に、当日の設定でマイクを一度テストしておく。
+
+#### ③ ついでに済ませる3つ
+
+| 趣旨 | 日本語 |
+|---|---|
+| 作業中にドキュメントや検索を使ってよいか | 作業中、ドキュメントや検索を使っても差し支えないでしょうか。 |
+| 今日は Claude Code で進める。指定ツールがあれば合わせる | 今日はClaude Codeを使って進めます。もし指定のツールがあれば、そちらに合わせます。 |
+| 用意したのは空のプロジェクトとダミーのニュースデータだけ。今日はその上にお題のロジックを載せる | 事前に空のプロジェクトと、ニュース記事のダミーデータだけ用意してあります。今日はそこにお題のロジックを載せる形で進めます。 |
+
+最後の一文は**質問ではなく宣言なので、自分から言うこと**：用意したのは白紙であって、答えではない。
+
+#### 追加で聞かれたら
+
+| 趣旨 | 日本語 |
+|---|---|
+| なぜ中国語か？母語なので、指示を正確に詰めるのが一番速い。30分は動くものを作る時間に使いたい | 母語なので、指示のニュアンスを詰めるのが一番速いからです。30分という制限の中では、プロンプトを書く時間を短くして、動くものを出す時間に回したいと考えています。 |
+| 「日本語で書いてください」と言われたら、すぐ従う。反論しない | 承知しました。日本語で書きます。 |
+
+| 読み方 | |
+|---|---|
+| 実装 | じっそう |
+| 音声入力 | おんせいにゅうりょく |
+| 差し支えない | さしつかえない |
+| 文言 | もんごん |
+| 母語 | ぼご |
+| 承知しました | しょうちしました |
+| 依頼 | いらい |
 `
       },
       {
@@ -2029,6 +3818,227 @@ Thank you again for your time today.
 | 我不會為了一個原型去租一台伺服器，那是在解決還沒發生的問題。 | プロトタイプのためにサーバーを借りて環境を組むことはしません。まだ起きていない問題を解くことになるので。 |
 
 **最後一句尤其重要。這個職位最怕招到「什麼都想做完整」的人。**
+`,
+        en: `
+**★ = the answer changes what your hands do for the next 30 minutes, so you must ask. For everything else, assume it yourself and say the assumption out loud.**
+
+**The Japanese column is not a neutral question, it's a proposal.** State the approach you're going to take first, then ask them to confirm. That steers the interviewer onto the path you've prepared far more easily than an open-ended question. The part in parentheses is the answer you're steering toward.
+
+#### ① Problem and users
+
+| English | Japanese |
+|---|---|
+| ★ Who is the main user? (steer toward: a general user who reads about 15 minutes a day) | 主なユーザーは、毎日15分くらい読む一般ユーザーを想定して進めようと思いますが、よろしいですか？ |
+| ★ Once they notice, what do you want them to do? (don't bring an answer, let them say it) | 気づかせた後、ユーザーに何をしてほしいですか。気づくこと自体がゴールですか、それとも読む記事が変わることがゴールですか？ |
+| ★ How do we judge success? | 成功指標は何を置きますか？ |
+| How is this pain point handled today? (steer toward: there's no corresponding feature right now) | 今はこの課題に対応する機能はない、という前提で進めても大丈夫ですか？ |
+
+#### ② Scope and constraints
+
+| English | Japanese |
+|---|---|
+| ★ Is there anything I must not touch? (steer toward: don't touch the core, layer on top of it) | レコメンド本体は触らない前提で、その上に乗せる形で進めようと思いますが、よろしいですか？ |
+| ★ Today, is "it works" or "it looks good" the priority? (steer toward: working first) | 今日は見た目より、動くことを優先します。見た目は後で整えられるので。 |
+| ★ Is dummy data OK? (steer toward: one file = one API response) | データはあらかじめ用意したファイルで進めます。「1ファイル＝1回分のレスポンス」の形にしておくので、本物に差し替えるときは取得先を変えるだけで済みます。 |
+
+**If they say "you can touch the core", still say proactively: "not touching it today is faster, so I won't."** If they insist on good-looking, shrink the scope to one screen and polish that.
+
+#### ③ Business Logic
+
+| English | Japanese |
+|---|---|
+| ★ What exactly does this word mean? (pin down the vaguest word in the task) | この言葉、具体的にはどういう意味で使っていますか？ |
+| ★ What happens when someone with no data opens it? (say proactively that you'll handle it, this is a bonus-point question) | データがないユーザーが見る画面も用意します。新規ユーザーにとってはそこが第一印象なので。 |
+| Should we set a baseline value first? (steer toward: not today, just show the distribution and the gaps) | 今日は基準値を決めず、分布と抜けている部分を出す形にします。基準の設計は実際のデータを見てからのほうが正確なので。 |
+| When does it update? (steer toward: not handled today, calculate once on open) | 更新のタイミングは今日は扱いません。今回は開いたときに一度計算する形にします。 |
+
+**If they insist on a baseline value, pick one and add "provisional for now".**
+
+#### ④ Data
+
+| English | Japanese |
+|---|---|
+| ★ Where does the data come from? (steer toward: a pre-written data file) | データはあらかじめ用意したファイルを読み込む形にします。読み込み方は本物のAPIと同じなので、あとで差し替えるのが簡単です。 |
+| ★ **What labels are on the articles?** | 記事にはどんなラベルが付いていますか？ |
+| ★ Can we get reading history? What does it contain? (steer toward: which article, read when) | 閲覧履歴は「どの記事を、いつ読んだか」が取れる前提で進めます。それだけあればカテゴリの分布は出せるので。 |
+| If they mention an API: just give me one sample record, I won't actually connect to it today | 実際に返ってくるデータのサンプルを1件だけ見せていただけますか。1件あれば形が分かります。実際に繋ぎ込むのは今日はしません。 |
+| Roughly how much data? (steer toward: one week, a few dozen records) | 1週間・数十件のスケールを想定します。 |
+
+**The second question in ④ is the easiest one to skip and the most expensive one to miss.** If the field doesn't exist, the whole feature can't be built.
+
+**If reading history isn't available**, switch to "what they tapped since opening the app this time". **If they say there are hundreds of thousands of records**, answer "what's shown on screen is the aggregated numbers, so the way it's drawn is the same".
+
+#### ⑤ UI
+
+| English | Japanese |
+|---|---|
+| ★ Where does this feature live? (steer toward: no new tab, make it a standalone screen) | 新しいタブは増やさず、既存の導線から開ける1画面として作ります。タブを増やすのは社内調整のコストが高いと思うので。 |
+| Proactive pop-up, or the user goes to look? (steer toward: they go to look) | 今日は能動的に通知は出さず、ユーザーが見に行く形にします。 |
+| Any design guidelines to follow? (steer toward: minimal styling today) | 今日は見た目は最小限にします。デザインの規約に合わせるのは製品化のときに。 |
+
+#### ⑥ Three defensive scripts for when they push
+
+**This group is not what you ask, it's what you answer when they push you.** The trigger is almost always "how do you publish it once it's done / do you need a server".
+
+#### ⑥-1 They say "please publish it / others need to be able to see it"
+
+**This is where your approach is strongest: no extra work, upload the files and it's a website.**
+
+| English | Japanese |
+|---|---|
+| It's all plain web files, so I'll put it on GitHub Pages. Upload, turn it on in settings, about two minutes. What we're building today doesn't need a server. | 普通のファイルだけなので、GitHub Pagesで公開します。アップロードして設定で有効にするだけ、2分程度です。今日作るものにサーバーは必要ありません。 |
+
+**Don't type commands yourself. Paste "② Publish" from the next card and let the AI do it.** Typing live is error-prone, and people are watching.
+
+#### ⑥-2 They say "this needs a server / it needs to store data" ★ most important
+
+**Three-part structure: acknowledge it's doable → give the real cost → propose today's alternative.**
+
+| English | Japanese |
+|---|---|
+| If a server is needed, I normally use Supabase. Database, login, and file storage are all ready-made, so I don't have to set anything up myself. | サーバーが必要な場合は普段 Supabase を使っています。データベースもログインもファイルの保存も用意されているので、サーバーを自分で立てる必要がありません。 |
+| But today there are two practical problems: creating the project plus configuring it takes ten-odd minutes, which eats half the time; and the free plan auto-pauses after seven days without use. | ただ今日は現実的な問題が二つあります。作成と設定で十数分かかり時間の半分を使うこと、無料プランは7日間使わないと自動的に停止されることです。 |
+| So I'd propose that today's goal is "it runs on my machine". If it really needs to stay up for people to use, I'll hook up Supabase afterward, about half a day. | ですので今日はまず自分の環境で動くところまでを目標にしたいです。実際に残す必要があれば、そのあと Supabase に繋ぎ込みます。半日程度で終わります。 |
+
+**⚠️ Don't say "because it costs money".** Supabase has a free plan. Say "it costs money" and anyone who knows will instantly tell you've never actually used it, which loses points. "**The free plan auto-pauses after seven days without use**" is true and specific, far more credible than "it costs money".
+
+If they follow up with "What do you actually use Supabase for?":
+
+| English | Japanese |
+|---|---|
+| Mainly storing data and handling login. I use its ready-made features, I'm not writing server code myself. | 主にデータの保存とログインです。用意されている機能を使う形で、サーバーのコードを自分で書いているわけではありません。 |
+
+**Honestly saying "I use the ready-made features" is far safer than pretending you can write a backend.** For a Prototyper role, "knowing which tool is fastest" is valued more than "writing everything yourself" anyway.
+
+#### ⑥-3 They ask "When you normally build a site with a server, what's the minimum you'd use?"
+
+**This question tests whether you've actually finished building something. Name services and your decision rule, don't talk abstract architecture.**
+
+| English | Japanese |
+|---|---|
+| My rule is "can I avoid managing a server myself". | 判断基準は「サーバーを自分で管理しなくて済むか」です。 |
+| If the screen itself doesn't need a server, I put it on GitHub Pages or Vercel. No server to run means no server to maintain. | 画面だけで完結するなら GitHub Pages か Vercel に置きます。動かすサーバーがなければ、保守するサーバーもないので。 |
+| When I need to store data or handle login, I use Supabase. Those features are already there. | データの保存やログインが必要なときは Supabase を使います。その機能が最初から用意されているので。 |
+| Only when I truly need a piece of my own server logic do I add one small bit of code running in the cloud, and only that piece. | 自前のサーバー処理が本当に必要なときだけ、クラウド上で動く小さな処理を一つ足します。足すのはその部分だけです。 |
+| I won't rent a server for a prototype. That's solving a problem that hasn't happened yet. | プロトタイプのためにサーバーを借りて環境を組むことはしません。まだ起きていない問題を解くことになるので。 |
+
+**The last line matters most. What this role fears most is hiring someone who "wants to build everything completely".**
+`,
+        ja: `
+**★ = 答えによってこの後30分の手の動きが変わるものなので、必ず聞く。それ以外は自分で仮定して、口に出す。**
+
+**日本語欄は中立な質問ではなく、提案の形です。** 自分が進めたいやり方を先に言ってから確認を取る。オープンな質問より、面接官を自分が準備した道筋に乗せやすい。括弧の中は、誘導したい答え。
+
+#### ① 課題とユーザー
+
+| 趣旨 | 日本語 |
+|---|---|
+| ★ 主なユーザーは誰か？（誘導先：毎日15分くらい読む一般ユーザー） | 主なユーザーは、毎日15分くらい読む一般ユーザーを想定して進めようと思いますが、よろしいですか？ |
+| ★ 気づかせた後、何をしてほしいか？（答えは持ち込まず、相手に言わせる） | 気づかせた後、ユーザーに何をしてほしいですか。気づくこと自体がゴールですか、それとも読む記事が変わることがゴールですか？ |
+| ★ 成功は何で判断するか？ | 成功指標は何を置きますか？ |
+| この課題は今どう解決されているか？（誘導先：今は対応する機能がない） | 今はこの課題に対応する機能はない、という前提で進めても大丈夫ですか？ |
+
+#### ② 範囲と制約
+
+| 趣旨 | 日本語 |
+|---|---|
+| ★ 触ってはいけない部分はあるか？（誘導先：コアは触らず、その上に一層乗せる） | レコメンド本体は触らない前提で、その上に乗せる形で進めようと思いますが、よろしいですか？ |
+| ★ 今日は「動く」と「見た目」のどちらを優先するか？（誘導先：動くこと優先） | 今日は見た目より、動くことを優先します。見た目は後で整えられるので。 |
+| ★ ダミーデータでよいか？（誘導先：1ファイル＝1回分のAPIレスポンス） | データはあらかじめ用意したファイルで進めます。「1ファイル＝1回分のレスポンス」の形にしておくので、本物に差し替えるときは取得先を変えるだけで済みます。 |
+
+**「コアを触ってもいい」と言われても、自分から「今日は触らないほうが速いので触りません」と言う。** 見た目にこだわられたら、範囲を1画面に絞って作り込む。
+
+#### ③ Business Logic
+
+| 趣旨 | 日本語 |
+|---|---|
+| ★ この言葉は具体的にどういう意味か？（お題の中で一番あいまいな言葉を確定させる） | この言葉、具体的にはどういう意味で使っていますか？ |
+| ★ データがない人が開いたらどうなるか？（自分から対応すると言う。加点ポイント） | データがないユーザーが見る画面も用意します。新規ユーザーにとってはそこが第一印象なので。 |
+| 先に基準値を決めるか？（誘導先：今日は決めず、分布と抜けだけを出す） | 今日は基準値を決めず、分布と抜けている部分を出す形にします。基準の設計は実際のデータを見てからのほうが正確なので。 |
+| いつ更新するか？（誘導先：今日は扱わず、開いたときに一度計算） | 更新のタイミングは今日は扱いません。今回は開いたときに一度計算する形にします。 |
+
+**どうしても基準値を求められたら一つ取り、「暫定です」と一言添える。**
+
+#### ④ Data
+
+| 趣旨 | 日本語 |
+|---|---|
+| ★ データはどこから来るか？（誘導先：事前に書いたデータファイル） | データはあらかじめ用意したファイルを読み込む形にします。読み込み方は本物のAPIと同じなので、あとで差し替えるのが簡単です。 |
+| ★ **記事にはどんなラベルが付いているか？** | 記事にはどんなラベルが付いていますか？ |
+| ★ 閲覧履歴は取れるか？何が取れるか？（誘導先：どの記事を、いつ読んだか） | 閲覧履歴は「どの記事を、いつ読んだか」が取れる前提で進めます。それだけあればカテゴリの分布は出せるので。 |
+| 相手がAPIに触れたら：サンプルを1件だけもらえればよい。今日は実際に繋がない | 実際に返ってくるデータのサンプルを1件だけ見せていただけますか。1件あれば形が分かります。実際に繋ぎ込むのは今日はしません。 |
+| データ量はどのくらいか？（誘導先：1週間・数十件） | 1週間・数十件のスケールを想定します。 |
+
+**④の2問目が、全体で一番見落としやすく、一番代償が大きい。** 項目がなければ、機能そのものが作れない。
+
+**閲覧履歴が取れないときは**、「今回開いてからタップしたもの」に切り替える。**データが数十万件あると言われたら**、「画面に出すのは集計後の数字なので、描き方は同じです」と返す。
+
+#### ⑤ UI
+
+| 趣旨 | 日本語 |
+|---|---|
+| ★ この機能はどこに置くか？（誘導先：タブは増やさず、独立した1画面にする） | 新しいタブは増やさず、既存の導線から開ける1画面として作ります。タブを増やすのは社内調整のコストが高いと思うので。 |
+| 能動的に出すか、ユーザーが見に行くか？（誘導先：見に行く） | 今日は能動的に通知は出さず、ユーザーが見に行く形にします。 |
+| 従うべきデザイン規約はあるか？（誘導先：今日はスタイルを最小限に） | 今日は見た目は最小限にします。デザインの規約に合わせるのは製品化のときに。 |
+
+#### ⑥ 追い込まれたときの守りの話法3セット
+
+**このグループは自分が聞くものではなく、相手に押されたときに答えるもの。** トリガーはほぼ「作った後どう公開するか／サーバーは要るか」。
+
+#### ⑥-1 「公開してください／人に見せられるように」と言われたら
+
+**ここは自分のやり方が一番有利な場面：追加の処理は不要、ファイルを上げればそのままサイトになる。**
+
+| 趣旨 | 日本語 |
+|---|---|
+| 全部ただのWebファイルなので GitHub Pages に置く。上げて設定で有効化するだけ、2分ほど。今日の内容にサーバーは要らない | 普通のファイルだけなので、GitHub Pagesで公開します。アップロードして設定で有効にするだけ、2分程度です。今日作るものにサーバーは必要ありません。 |
+
+**自分でコマンドを打たないこと。次のカードの「② 公開」を貼ってAIにやらせる。** その場で手打ちするとミスしやすいし、人が見ている。
+
+#### ⑥-2 「これはサーバーが要る／データを保存できないと」と言われたら ★ 最重要
+
+**三段構成：できると認める → 現実のコストを示す → 今日の代替案を提案する。**
+
+| 趣旨 | 日本語 |
+|---|---|
+| サーバーが要るなら普段は Supabase。データベース・ログイン・ファイル保存が全部そろっていて、自分で立てなくてよい | サーバーが必要な場合は普段 Supabase を使っています。データベースもログインもファイルの保存も用意されているので、サーバーを自分で立てる必要がありません。 |
+| ただ今日は現実的な問題が2つ：作成と設定で十数分かかり、時間の半分を食う。無料プランは7日間使わないと自動停止する | ただ今日は現実的な問題が二つあります。作成と設定で十数分かかり時間の半分を使うこと、無料プランは7日間使わないと自動的に停止されることです。 |
+| なので今日は「自分のPCで動く」をゴールに提案する。本当に残して使ってもらうなら、その後 Supabase を繋ぐ。半日ほど | ですので今日はまず自分の環境で動くところまでを目標にしたいです。実際に残す必要があれば、そのあと Supabase に繋ぎ込みます。半日程度で終わります。 |
+
+**⚠️ 「お金がかかるから」とは言わない。** Supabase には無料プランがある。「お金がかかる」と言うと、分かる人には実際に使ったことがないとすぐばれて、逆に減点。「**無料プランは7日間使わないと自動的に止まる**」は事実で具体的、「お金がかかる」より信頼度がはるかに高い。
+
+「Supabase は何に使っていますか？」と追加で聞かれたら：
+
+| 趣旨 | 日本語 |
+|---|---|
+| 主にデータ保存とログイン。用意された機能を使っていて、サーバーのコードを自分で書いているわけではない | 主にデータの保存とログインです。用意されている機能を使う形で、サーバーのコードを自分で書いているわけではありません。 |
+
+**正直に「用意された機能を使っている」と言うほうが、バックエンドが書けるふりをするよりずっと安全。** Prototyper というポジションでは、「何を使えば一番速いかを知っている」ことのほうが、「全部自分で書く」よりもともと重視される。
+
+#### ⑥-3 「普段サーバーありのサイトを作るとき、最低限何を使いますか？」と聞かれたら
+
+**この質問は、本当に一つ作り切った経験があるかを見ている。サービス名と判断基準を言う。抽象的なアーキテクチャの話はしない。**
+
+| 趣旨 | 日本語 |
+|---|---|
+| 判断基準は「サーバーを自分で管理せずに済むか」 | 判断基準は「サーバーを自分で管理しなくて済むか」です。 |
+| 画面だけならサーバー不要。GitHub Pages か Vercel に置く。動かすサーバーがなければ、保守するサーバーもない | 画面だけで完結するなら GitHub Pages か Vercel に置きます。動かすサーバーがなければ、保守するサーバーもないので。 |
+| データ保存やログインが要るなら Supabase。機能は全部用意されている | データの保存やログインが必要なときは Supabase を使います。その機能が最初から用意されているので。 |
+| 本当に自前のサーバー処理が要るときだけ、クラウドで動く小さな処理を一つ足す。足すのはその部分だけ | 自前のサーバー処理が本当に必要なときだけ、クラウド上で動く小さな処理を一つ足します。足すのはその部分だけです。 |
+| プロトタイプのためにサーバーは借りない。まだ起きていない問題を解くことになるから | プロトタイプのためにサーバーを借りて環境を組むことはしません。まだ起きていない問題を解くことになるので。 |
+
+**最後の一文が特に重要。このポジションが一番恐れるのは、「何でも完全に作りたがる人」を採ること。**
+
+| 読み方 | |
+|---|---|
+| 基準値 | きじゅんち |
+| 閲覧履歴 | えつらんりれき |
+| 導線 | どうせん |
+| 規約 | きやく |
+| 保守 | ほしゅ |
+| 繋ぎ込む | つなぎこむ |
+| 差し替える | さしかえる |
+| 暫定 | ざんてい |
 `
       },
       {
@@ -2067,6 +4077,24 @@ Thank you again for your time today.
 #### 43-45分の締め
 
 今日作ったもので検証できたのは〇〇です。逆に検証できていないのは△△で、これは□□を作れば分かります。
+`,
+        en: `
+**The output of the discussion phase is not asking lots of questions. It's forcing out this one sentence and saying it out loud.**
+
+**So that [who] can [do what], I'm going to build [what].**
+**Today I'm not doing [what]. Once it's done, I'll judge success by [what].**
+
+**Say what you're not doing first, then what you are doing.** Being able to state Non-Goals shows you know where the 30-minute limit is, and that earns more points than adding one more feature.
+
+---
+
+#### When the ball is thrown back (the interviewer says "you decide")
+
+**Decision → reason → fallback, all three in one go.**
+
+Example:
+**カテゴリの偏りで行きます。理由は、論調のラベルが今ないので、今日30分で検証できるのはカテゴリだからです。論調は次のステップに置きます。**
+(I'll go with category skew. The reason: there's no tone label right now, so what I can verify in 30 minutes today is category. Tone goes in the next step.)
 `
       },
       {
@@ -2224,6 +4252,324 @@ First check that the images and data still load once it's published, and fix it 
 Then create a public repo, push it, and turn on the page publishing setting.
 Finally give me the URL and confirm it actually opens.</pre>
 :::
+`,
+        en: `
+**Short version, typable on the spot, no technical jargon.** The Chinese version is recommended: it's the fastest for you to type, and the AI reads Chinese with no problem at all. The Japanese version is for when you want the interviewer to be able to follow what you're instructing.
+
+**Order**: ① Build the skeleton (pick one based on the data source) → (only if asked) ② Publish
+
+| What the discussion phase revealed | Which one to paste |
+|---|---|
+| Data is local / dummy data is fine | **①-A** (90% of the time it's this one) |
+| They explicitly ask you to connect to real data | **①-B** |
+
+---
+
+#### ①-A Build the skeleton: data is local ★ default
+
+**Chinese ★ Recommended**
+
+::: html
+<pre class="prompt">用最單純的方式做一個網頁原型：一個 HTML、一個 CSS，JavaScript 放在 js 資料夾，
+分成 main（負責畫面）和 data（負責讀資料）兩個檔。
+不要用任何框架，不要安裝任何東西，不要多任何處理步驟。
+資料放在 data 資料夾裡的獨立檔案，用讀檔的方式拿進來，不要連外網。
+不要問我問題，不確定的地方選最簡單的做法。
+做完用兩行告訴我：檔案結構、每個檔案的定義。</pre>
+:::
+
+**Japanese**
+
+::: html
+<pre class="prompt">一番シンプルな形でWebのプロトタイプを作ってください。HTML1つ、CSS1つ、
+JavaScriptは js フォルダに main（画面）と data（データ読み込み）の2つに分けて。
+フレームワークは使わない、インストールもしない、余計な処理も入れない。
+データは data フォルダの独立したファイルに置いて、ファイルから読む形にしてください。外部通信はなし。
+質問はせず、迷ったら一番シンプルな方を選んでください。
+完了したら2行で教えてください：ファイル構成と、各ファイルの役割。</pre>
+:::
+
+**English**
+
+::: html
+<pre class="prompt">Build a web prototype the simplest possible way: one HTML, one CSS, and JavaScript in a
+js folder split into main (the screen) and data (loading the data).
+No framework, no installing anything, no extra processing step.
+Put the data in its own file inside a data folder and read it from there. No external network.
+Don't ask me questions; when unsure pick the simplest option.
+When done tell me in 2 lines: the file structure, and what each file is for.</pre>
+:::
+
+---
+
+#### ①-B Build the skeleton: data comes from an API
+
+**Say this line yourself before you paste.** It states up front that "if it can't connect, that's a configuration issue on their side, not my problem", and at the same time proves you've thought about the failure case. Don't wait until it fails to explain.
+
+| English | Japanese |
+|---|---|
+| If I actually connect to it and their side doesn't allow fetching data directly from the browser, this approach won't get through. So I'll build it as "use the real data if I can get it, otherwise use the local file", so the screen is there either way. | 実際に繋ぐ場合、先方が直接の取得を許可していないと通らないことがあります。なので「取得できれば本物、できなければ用意したファイル」という形にします。そうすればどちらでも画面は出ます。 |
+
+**Chinese ★ Recommended**
+
+::: html
+<pre class="prompt">用最單純的方式做一個網頁原型：一個 HTML、一個 CSS，JavaScript 放在 js 資料夾，
+分成 main（負責畫面）和 data（負責讀資料）兩個檔。
+不要用任何框架，不要安裝任何東西，不要多任何處理步驟。
+
+資料從這裡拿：&lt;網址&gt;
+回傳的資料長這樣：
+&lt;貼一筆對方給的範例&gt;
+
+規則：
+1. 欄位名稱完全照上面的範例，不要自己改名或多加。
+2. 同時在 data 資料夾放一份一樣格式的本機檔案。
+3. 拿不到資料的時候（不管什麼原因）自動改用本機檔案，並在畫面上標示「目前用的是本機資料」。畫面絕對不能空白。
+4. 載入中、沒有資料、失敗這三種情況都要有畫面。
+
+不要問我問題，不確定的地方選最簡單的做法。
+做完用兩行告訴我：檔案結構、每個檔案的定義。</pre>
+:::
+
+**Japanese**
+
+::: html
+<pre class="prompt">一番シンプルな形でWebのプロトタイプを作ってください。HTML1つ、CSS1つ、
+JavaScriptは js フォルダに main（画面）と data（データ読み込み）の2つに分けて。
+フレームワークは使わない、インストールもしない、余計な処理も入れない。
+
+データの取得先：&lt;URL&gt;
+返ってくるデータはこの形です：
+&lt;先方からもらったサンプルを1件貼る&gt;
+
+ルール：
+1. 項目名はサンプルの通りに。勝手に変えたり増やしたりしないでください。
+2. 同じ形式のファイルを data フォルダにも置いてください。
+3. 取得できないとき（理由は問わず）は自動でそのファイルに切り替えて、画面に「ローカルのデータを使用中」と表示してください。真っ白は絶対に避けてください。
+4. 読み込み中・データなし・失敗、この3つの状態すべてに画面を用意してください。
+
+質問はせず、迷ったら一番シンプルな方を選んでください。
+完了したら2行で教えてください：ファイル構成と、各ファイルの役割。</pre>
+:::
+
+**English**
+
+::: html
+<pre class="prompt">Build a web prototype the simplest possible way: one HTML, one CSS, and JavaScript in a
+js folder split into main (the screen) and data (loading the data).
+No framework, no installing anything, no extra processing step.
+
+Get the data from: &lt;URL&gt;
+The data comes back like this:
+&lt;paste the one sample they gave you&gt;
+
+Rules:
+1. Use the exact field names from the sample. Don't rename or add any.
+2. Also put a file in the same shape inside the data folder.
+3. If it can't get the data for any reason, fall back to that file automatically and show a
+   note on screen saying it's using local data. The screen must never be blank.
+4. Cover all three states: loading, no data, and failed.
+
+Don't ask me questions; when unsure pick the simplest option.
+When done tell me in 2 lines: the file structure, and what each file is for.</pre>
+:::
+
+---
+
+#### ② Publish (only when asked)
+
+**Don't type commands yourself. Paste this and let the AI run it.** Typing live is error-prone, and people are watching.
+
+**Chinese ★ Recommended**
+
+::: html
+<pre class="prompt">幫我把它放到 GitHub Pages。你自己執行，不要只告訴我要打什麼。
+先確認發布之後圖片和資料還讀得到，有問題先修好。
+然後建一個公開的 repo、傳上去、把網頁公開的設定打開。
+最後給我網址，並確認真的打得開。</pre>
+:::
+
+**Japanese**
+
+::: html
+<pre class="prompt">GitHub Pagesで公開してください。指示するだけでなく、自分で実行してください。
+まず、公開したあとも画像とデータが読めるかを確認して、問題があれば直してください。
+そのうえで公開リポジトリを作成し、アップロードして、ページ公開の設定を有効にしてください。
+最後にURLを教えて、実際に開けることを確認してください。</pre>
+:::
+
+**English**
+
+::: html
+<pre class="prompt">Publish this to GitHub Pages. Do it yourself — don't just tell me what to type.
+First check that the images and data still load once it's published, and fix it if not.
+Then create a public repo, push it, and turn on the page publishing setting.
+Finally give me the URL and confirm it actually opens.</pre>
+:::
+`,
+        ja: `
+**短い版。その場で自分で打てる、専門用語なし。** 中国語版を推奨：自分が一番速く打てるし、AIは中国語を問題なく読める。日本語版は「面接官に、何を指示しているか分かってもらいたい」ときに使う。
+
+**順番**：① 骨組みを作る（データの取得元で二択）→（求められたときだけ）② 公開
+
+| 議論フェーズで分かったこと | 貼るもの |
+|---|---|
+| データはローカル／ダミーデータでよい | **①-A**（90%はこちら） |
+| 本物のデータに繋ぐよう明確に求められた | **①-B** |
+
+---
+
+#### ①-A 骨組みを作る：データはローカル　★ デフォルトはこちら
+
+**中国語　★ 推奨**
+
+::: html
+<pre class="prompt">用最單純的方式做一個網頁原型：一個 HTML、一個 CSS，JavaScript 放在 js 資料夾，
+分成 main（負責畫面）和 data（負責讀資料）兩個檔。
+不要用任何框架，不要安裝任何東西，不要多任何處理步驟。
+資料放在 data 資料夾裡的獨立檔案，用讀檔的方式拿進來，不要連外網。
+不要問我問題，不確定的地方選最簡單的做法。
+做完用兩行告訴我：檔案結構、每個檔案的定義。</pre>
+:::
+
+**日本語**
+
+::: html
+<pre class="prompt">一番シンプルな形でWebのプロトタイプを作ってください。HTML1つ、CSS1つ、
+JavaScriptは js フォルダに main（画面）と data（データ読み込み）の2つに分けて。
+フレームワークは使わない、インストールもしない、余計な処理も入れない。
+データは data フォルダの独立したファイルに置いて、ファイルから読む形にしてください。外部通信はなし。
+質問はせず、迷ったら一番シンプルな方を選んでください。
+完了したら2行で教えてください：ファイル構成と、各ファイルの役割。</pre>
+:::
+
+**英語**
+
+::: html
+<pre class="prompt">Build a web prototype the simplest possible way: one HTML, one CSS, and JavaScript in a
+js folder split into main (the screen) and data (loading the data).
+No framework, no installing anything, no extra processing step.
+Put the data in its own file inside a data folder and read it from there. No external network.
+Don't ask me questions; when unsure pick the simplest option.
+When done tell me in 2 lines: the file structure, and what each file is for.</pre>
+:::
+
+---
+
+#### ①-B 骨組みを作る：データをAPIから取る
+
+**貼る前に、まずこの一文を自分で言う。** 「繋がらないのは先方の設定の問題で、自分の問題ではない」と先に明示しつつ、失敗ケースを考えていたことも示せる。失敗してから説明するのでは遅い。
+
+| 趣旨 | 日本語 |
+|---|---|
+| 実際に繋ぐとき、先方がブラウザからの直接取得を許可していないと通らない。なので「取れれば本物、取れなければローカルのファイル」の形にして、どちらでも画面は出るようにする | 実際に繋ぐ場合、先方が直接の取得を許可していないと通らないことがあります。なので「取得できれば本物、できなければ用意したファイル」という形にします。そうすればどちらでも画面は出ます。 |
+
+**中国語　★ 推奨**
+
+::: html
+<pre class="prompt">用最單純的方式做一個網頁原型：一個 HTML、一個 CSS，JavaScript 放在 js 資料夾，
+分成 main（負責畫面）和 data（負責讀資料）兩個檔。
+不要用任何框架，不要安裝任何東西，不要多任何處理步驟。
+
+資料從這裡拿：&lt;網址&gt;
+回傳的資料長這樣：
+&lt;貼一筆對方給的範例&gt;
+
+規則：
+1. 欄位名稱完全照上面的範例，不要自己改名或多加。
+2. 同時在 data 資料夾放一份一樣格式的本機檔案。
+3. 拿不到資料的時候（不管什麼原因）自動改用本機檔案，並在畫面上標示「目前用的是本機資料」。畫面絕對不能空白。
+4. 載入中、沒有資料、失敗這三種情況都要有畫面。
+
+不要問我問題，不確定的地方選最簡單的做法。
+做完用兩行告訴我：檔案結構、每個檔案的定義。</pre>
+:::
+
+**日本語**
+
+::: html
+<pre class="prompt">一番シンプルな形でWebのプロトタイプを作ってください。HTML1つ、CSS1つ、
+JavaScriptは js フォルダに main（画面）と data（データ読み込み）の2つに分けて。
+フレームワークは使わない、インストールもしない、余計な処理も入れない。
+
+データの取得先：&lt;URL&gt;
+返ってくるデータはこの形です：
+&lt;先方からもらったサンプルを1件貼る&gt;
+
+ルール：
+1. 項目名はサンプルの通りに。勝手に変えたり増やしたりしないでください。
+2. 同じ形式のファイルを data フォルダにも置いてください。
+3. 取得できないとき（理由は問わず）は自動でそのファイルに切り替えて、画面に「ローカルのデータを使用中」と表示してください。真っ白は絶対に避けてください。
+4. 読み込み中・データなし・失敗、この3つの状態すべてに画面を用意してください。
+
+質問はせず、迷ったら一番シンプルな方を選んでください。
+完了したら2行で教えてください：ファイル構成と、各ファイルの役割。</pre>
+:::
+
+**英語**
+
+::: html
+<pre class="prompt">Build a web prototype the simplest possible way: one HTML, one CSS, and JavaScript in a
+js folder split into main (the screen) and data (loading the data).
+No framework, no installing anything, no extra processing step.
+
+Get the data from: &lt;URL&gt;
+The data comes back like this:
+&lt;paste the one sample they gave you&gt;
+
+Rules:
+1. Use the exact field names from the sample. Don't rename or add any.
+2. Also put a file in the same shape inside the data folder.
+3. If it can't get the data for any reason, fall back to that file automatically and show a
+   note on screen saying it's using local data. The screen must never be blank.
+4. Cover all three states: loading, no data, and failed.
+
+Don't ask me questions; when unsure pick the simplest option.
+When done tell me in 2 lines: the file structure, and what each file is for.</pre>
+:::
+
+---
+
+#### ② 公開（求められたときだけ）
+
+**自分でコマンドを打たないこと。これを貼ってAIに実行させる。** その場で手打ちするとミスしやすいし、人が見ている。
+
+**中国語　★ 推奨**
+
+::: html
+<pre class="prompt">幫我把它放到 GitHub Pages。你自己執行，不要只告訴我要打什麼。
+先確認發布之後圖片和資料還讀得到，有問題先修好。
+然後建一個公開的 repo、傳上去、把網頁公開的設定打開。
+最後給我網址，並確認真的打得開。</pre>
+:::
+
+**日本語**
+
+::: html
+<pre class="prompt">GitHub Pagesで公開してください。指示するだけでなく、自分で実行してください。
+まず、公開したあとも画像とデータが読めるかを確認して、問題があれば直してください。
+そのうえで公開リポジトリを作成し、アップロードして、ページ公開の設定を有効にしてください。
+最後にURLを教えて、実際に開けることを確認してください。</pre>
+:::
+
+**英語**
+
+::: html
+<pre class="prompt">Publish this to GitHub Pages. Do it yourself — don't just tell me what to type.
+First check that the images and data still load once it's published, and fix it if not.
+Then create a public repo, push it, and turn on the page publishing setting.
+Finally give me the URL and confirm it actually opens.</pre>
+:::
+
+| 読み方 | |
+|---|---|
+| 骨組み | ほねぐみ |
+| 取得先 | しゅとくさき |
+| 先方 | せんぽう |
+| 公開 | こうかい |
+| 有効 | ゆうこう |
+| 構成 | こうせい |
+| 役割 | やくわり |
 `
       }
     ]
@@ -2273,6 +4619,99 @@ Finally give me the URL and confirm it actually opens.</pre>
 | ★ 像我這種背景的人進來，最容易出現落差的是哪裡？ | 私のようなバックグラウンドの人がこのポジションに入ったとき、一番ギャップが出やすいのはどこだと思われますか？ |
 | 前三個月做到什麼程度算是「上軌道了」？ | 入社後の最初の3ヶ月で、何ができていれば「立ち上がった」と見なされますか？ |
 | 這個職位一年後成功的話，會是什麼狀態？ | このロールが1年後に成功していたら、どんな状態になっていますか？ |
+`,
+        en: `
+The agenda literally says "team atmosphere, the Prototyper role". **These 10 minutes are a scored item, not a break.**
+
+**Ask one question at a time. Listen, follow up with one line, then move to the next. Rapid-fire questions turn into an interrogation.**
+
+#### A. The role itself
+
+| English | Japanese |
+|---|---|
+| ★ This position sits under Business & Operations rather than Product or Engineering. What's the intent behind that placement? | このポジションは Business & Operations の下にありますが、Product や Engineering ではなくこの位置に置かれているのには、どういう意図がありますか？ |
+| ★ What proportion of the prototypes make it into production development? What happens to the ones that don't? | プロトタイパーが作ったもののうち、実際に本番開発に進む割合はどのくらいですか？進まなかったものはどう扱われますか？ |
+| Roughly what's the split between external user experiences and internal team tools? | プロトタイパーが作るものは、社外向けのユーザー体験と、社内チーム向けのツールと、割合としてはどのくらいですか？ |
+| Is a prototype basically finished by one person, or do you team up with designers and engineers? | プロトタイプは基本お一人で完結させる形ですか？デザイナーやエンジニアと組むケースもありますか？ |
+| "Build prototypes in units of days": how does one sprint actually run? | 「数日単位でプロトタイプを作る」とありますが、実際の1スプリントの回し方を教えてください。 |
+| Who evaluates the prototypes, and by what criteria? Are there quantitative standards? | プロトタイプの評価は誰が、どういう基準で行いますか？定量的な基準はありますか？ |
+
+#### B. Team atmosphere
+
+| English | Japanese |
+|---|---|
+| ★ In day-to-day communication, is it more Japanese or English? Which language are documents written in? | チーム内の実際のコミュニケーションは、日本語と英語どちらが多いですか？ドキュメントはどちらで書かれていますか？ |
+| When opinions split, what does the final decision rest on? Data, or one person's judgment? | 意見が割れたとき、最終的には何を根拠に決めますか？データですか、それとも誰かの判断ですか？ |
+| What rhythm does a product team's week actually run on? | プロダクトチームの1週間は、実際にはどんなリズムで動いていますか？ |
+| When rolling out Gen-AI development workflows inside the company, what's the biggest obstacle right now? | Gen-AIの開発ワークフローを社内に展開する際、今一番の障壁は何ですか？ |
+
+#### C. Showing research depth
+
+| English | Japanese |
+|---|---|
+| I saw the public information about the AI transformation of the ad platform in 2026. Are internal and advertiser-facing products like that also within the exploration scope? | 2026年の広告プラットフォームのAI化について公開情報を拝見しました。ああいった社内向け・広告主向けのプロダクトも、プロトタイパーの探索範囲に入りますか？ |
+| For external partnership projects like the J.League channels for all 60 clubs, at which stage does prototype validation come in? | Jリーグ全60クラブのチャンネルのような、外部パートナーと組む企画では、プロトタイプの検証はどの段階で入りますか？ |
+| Do the product exploration policies differ between the Japan and US editions? Which side would this position be involved with? | 日本版と米国版でプロダクト探索の方針は違いますか？このポジションはどちらに関わりますか？ |
+
+#### D. For closing
+
+| English | Japanese |
+|---|---|
+| ★ For someone with my background coming in, where is a gap most likely to show up? | 私のようなバックグラウンドの人がこのポジションに入ったとき、一番ギャップが出やすいのはどこだと思われますか？ |
+| What needs to be in place by the end of the first three months to count as "up and running"? | 入社後の最初の3ヶ月で、何ができていれば「立ち上がった」と見なされますか？ |
+| If this role is a success a year from now, what does that look like? | このロールが1年後に成功していたら、どんな状態になっていますか？ |
+`,
+        ja: `
+アジェンダに「team atmosphere, the Prototyper role」と明記されている。**この10分は評価項目であって、休憩時間ではない。**
+
+**一度に一問だけ。聞き終えたら一言だけ追加で聞いて、次へ。矢継ぎ早に聞くと詰問になる。**
+
+#### A. このロールそのもの
+
+| 趣旨 | 日本語 |
+|---|---|
+| ★ Business & Operations の下に置かれている意図 | このポジションは Business & Operations の下にありますが、Product や Engineering ではなくこの位置に置かれているのには、どういう意図がありますか？ |
+| ★ 本番開発に進む割合と、進まなかったものの扱い | プロトタイパーが作ったもののうち、実際に本番開発に進む割合はどのくらいですか？進まなかったものはどう扱われますか？ |
+| 社外向けの体験と社内ツールの比率 | プロトタイパーが作るものは、社外向けのユーザー体験と、社内チーム向けのツールと、割合としてはどのくらいですか？ |
+| 一人で完結か、デザイナー・エンジニアと組むか | プロトタイプは基本お一人で完結させる形ですか？デザイナーやエンジニアと組むケースもありますか？ |
+| 「数日単位」の実際のスプリントの回し方 | 「数日単位でプロトタイプを作る」とありますが、実際の1スプリントの回し方を教えてください。 |
+| 評価者と評価基準。定量基準の有無 | プロトタイプの評価は誰が、どういう基準で行いますか？定量的な基準はありますか？ |
+
+#### B. チームの雰囲気
+
+| 趣旨 | 日本語 |
+|---|---|
+| ★ 日本語と英語の比率、ドキュメントの言語 | チーム内の実際のコミュニケーションは、日本語と英語どちらが多いですか？ドキュメントはどちらで書かれていますか？ |
+| 意見が割れたときの決め方：データか、誰かの判断か | 意見が割れたとき、最終的には何を根拠に決めますか？データですか、それとも誰かの判断ですか？ |
+| プロダクトチームの1週間のリズム | プロダクトチームの1週間は、実際にはどんなリズムで動いていますか？ |
+| Gen-AI 開発ワークフローを社内展開する際の最大の障壁 | Gen-AIの開発ワークフローを社内に展開する際、今一番の障壁は何ですか？ |
+
+#### C. リサーチの深さを見せる
+
+| 趣旨 | 日本語 |
+|---|---|
+| 2026年の広告プラットフォームAI化の公開情報。社内向け・広告主向けも探索範囲か | 2026年の広告プラットフォームのAI化について公開情報を拝見しました。ああいった社内向け・広告主向けのプロダクトも、プロトタイパーの探索範囲に入りますか？ |
+| Jリーグ全60クラブのような外部パートナー企画で、プロトタイプ検証が入る段階 | Jリーグ全60クラブのチャンネルのような、外部パートナーと組む企画では、プロトタイプの検証はどの段階で入りますか？ |
+| 日本版と米国版の探索方針の違い。このポジションはどちらに関わるか | 日本版と米国版でプロダクト探索の方針は違いますか？このポジションはどちらに関わりますか？ |
+
+#### D. 締めに使う
+
+| 趣旨 | 日本語 |
+|---|---|
+| ★ 自分のような経歴の人が入ったとき、一番ギャップが出やすい場所 | 私のようなバックグラウンドの人がこのポジションに入ったとき、一番ギャップが出やすいのはどこだと思われますか？ |
+| 最初の3ヶ月で何ができていれば「立ち上がった」か | 入社後の最初の3ヶ月で、何ができていれば「立ち上がった」と見なされますか？ |
+| 1年後に成功していたら、どんな状態か | このロールが1年後に成功していたら、どんな状態になっていますか？ |
+
+| 読み方 | |
+|---|---|
+| 意図 | いと |
+| 割合 | わりあい |
+| 定量的 | ていりょうてき |
+| 根拠 | こんきょ |
+| 障壁 | しょうへき |
+| 拝見 | はいけん |
+| 探索 | たんさく |
+| 詰問 | きつもん |
 `
       },
       {
@@ -2304,6 +4743,72 @@ Finally give me the URL and confirm it actually opens.</pre>
 **不要問「你們為什麼沒有網頁版」。** smartnews.com 根目錄有完整的新聞列表、頻道和搜尋，網頁版是存在的（只有 /ja 和 /en 是下載宣傳頁）。要問就問定位差異：
 
 > アプリとWebで、新しい情報体験を探索する際の位置づけの違いはありますか？
+`,
+        en: `
+**Ask 3 to 4 questions at most.** Pick by the interviewer's background.
+
+| Situation | Suggested combination |
+|---|---|
+| First round (Lead PM, vibe coding) | production rate → department placement → my gap |
+| Interviewer with an engineering background | how sprints run → solo or team → how decisions are made |
+| Interviewer with a business / operations background | ad platform AI transformation → internal vs external ratio → language |
+| Senior executive | what success looks like in a year → Japan vs US policy difference → first three months |
+
+---
+
+#### Why the three ★ questions are strong
+
+**Department placement**: A detail that's in the JD but almost nobody notices. Asking it instantly proves you read every word, and the answer tells you whether this job leans consumer-facing or internal.
+
+**Language**: On the surface it's about atmosphere, but really it confirms which language to prepare in for the later rounds. Two birds, one stone.
+
+**My gap**: The killer closing question. You get a real list of weaknesses, and they feel you're seriously assessing whether you fit. After listening, follow with "その部分は〇〇で埋められると思っています" (I think I can fill that part with ○○).
+
+---
+
+#### One reminder
+
+**Don't ask "why don't you have a web version".** The smartnews.com root has a full news list, channels, and search, so the web version does exist (only /ja and /en are download promo pages). If you ask, ask about the positioning difference:
+
+**アプリとWebで、新しい情報体験を探索する際の位置づけの違いはありますか？**
+(Between the app and the web, is there a difference in positioning when exploring new information experiences?)
+`,
+        ja: `
+**質問は多くて3〜4問。** 面接官の経歴で選ぶ。
+
+| 場面 | おすすめの組み合わせ |
+|---|---|
+| 一次面接（Lead PM、vibe coding） | 本番進入率 → 部門の位置づけ → 自分のギャップ |
+| エンジニア出身の面接官 | スプリントの回し方 → 一人か組むか → 決め方 |
+| ビジネス／オペレーション出身の面接官 | 広告のAI化 → 社内外の比率 → 言語 |
+| 経営層 | 1年後の成功像 → 日米の方針差 → 最初の3ヶ月 |
+
+---
+
+#### ★の3問が強い理由
+
+**部門の位置づけ**：JDに書いてあるのに、ほとんど誰も気づかない細部。聞いた瞬間に一字一句読んだと証明できるし、答えからこの仕事がC向け寄りか社内寄りかが分かる。
+
+**言語**：表向きは雰囲気の質問だが、実際はこの後の選考をどの言語で準備するかの確認。一石二鳥。
+
+**自分のギャップ**：締めの決め球。本当の弱点リストが手に入り、相手には「自分が合うかを真剣に見ている」と映る。聞き終えたら「その部分は〇〇で埋められると思っています」と続ける。
+
+---
+
+#### 一つ注意
+
+**「なぜWeb版がないのですか」とは聞かない。** smartnews.com のルートには記事一覧・チャンネル・検索が一通りあり、Web版は存在する（/ja と /en だけがダウンロード誘導ページ）。聞くなら位置づけの違いを聞く：
+
+**アプリとWebで、新しい情報体験を探索する際の位置づけの違いはありますか？**
+
+| 読み方 | |
+|---|---|
+| 位置づけ | いちづけ |
+| 経歴 | けいれき |
+| 経営層 | けいえいそう |
+| 一石二鳥 | いっせきにちょう |
+| 細部 | さいぶ |
+| 埋められる | うめられる |
 `
       }
     ]
