@@ -2331,6 +2331,18 @@ Finally give me the URL and confirm it actually opens.</pre>
 I noticed that Rakuten has made **AI-nization** the company-wide theme for 2026. Chairman Mikitani has talked about the goal of becoming the platform that uses AI best in the world, and **25.5 billion yen of profit already comes from AI applications.**
 
 I've built an agentic platform myself with 33 modules and three LLMs, and I've built an evaluation framework for AI quality, so I have first-hand experience of **how you get AI from a demo to a product people use every day.**
+`,
+        ja: `
+楽天が2026年に**AI-nization**を全社のテーマにされていることに注目しています。三木谷会長が「世界で一番AIを使いこなすプラットフォームになる」とおっしゃっていて、すでに**255億円の利益がAI活用から**生まれていると伺いました。
+
+私自身、33モジュール・3つのLLMを繋いだエージェント型のプラットフォームを作って、AIの品質を評価する枠組みも作ってきました。なので、**AIをデモで終わらせずに、毎日使われるプロダクトにする**、というところに実体験があります。
+
+| 読み方 | |
+|---|---|
+| 全社 | ぜんしゃ |
+| 利益 | りえき |
+| 活用 | かつよう |
+| 実体験 | じったいけん |
 `
       },
       {
@@ -2340,6 +2352,15 @@ I've built an agentic platform myself with 33 modules and three LLMs, and I've b
 `,
         en: `
 **¥7.5 to 9.5 million per year**, negotiable depending on the level and the overall package.
+`,
+        ja: `
+**750万円から950万円**を希望しています。等級や待遇全体を踏まえて、ご相談させていただければと思います。
+
+| 読み方 | |
+|---|---|
+| 等級 | とうきゅう |
+| 待遇 | たいぐう |
+| 踏まえて | ふまえて |
 `
       }
     ]
@@ -2563,6 +2584,48 @@ There are two ways to combine them. **The blunt way is that business overrides e
 #### 優先順序
 
 主體三題 ①③④ 每題練到能講 60 到 90 秒。加分題有餘力再看。自己紹介只花 20 分鐘，志望動機只留一句。
+`,
+        en: `
+**A PM's technical round doesn't test whether you can build it. It tests whether you can hold a conversation with engineers.** Four things, concretely:
+
+| What they check | How it shows |
+|---|---|
+| **Right vocabulary** | Engineers understand the words you use; you don't sound like an outsider |
+| **Sense of boundaries** | You know what you don't know and don't bluff |
+| **Sense of feasibility** | You don't propose things that can't be built |
+| **Decomposition** | Given a goal, you can break it into nodes and know who to go to |
+
+**None of these is "can you write the algorithm".** An engineer friend said the same thing: you don't need deep knowledge, you need to know how the mechanism works.
+
+In Japanese your depth of expression will be one notch below Chinese, so don't learn anything new; convert what you already understand into Japanese you can say out loud.
+
+#### Priorities
+
+Core three questions ①③④, each practised to 60 to 90 seconds. Bonus questions only if there's time. Self-introduction gets 20 minutes, motivation gets one sentence.
+`,
+        ja: `
+**PMの技術面接は「作れるか」ではなく「エンジニアと会話できるか」を見ています。** 具体的には四つです。
+
+| 見られる点 | どう表れるか |
+|---|---|
+| **言葉が正しい** | エンジニアに通じる言葉で話している |
+| **境界感覚** | 知らないことを知らないと言える |
+| **実現可能性の感覚** | 作れない要求を出さない |
+| **分解力** | 目標をノードに分けて、誰に相談すべきかわかる |
+
+**「アルゴリズムが書けるか」は一つも入っていません。**
+
+日本語では中国語より一段浅くしか話せないので、新しいことは覚えず、すでに理解していることを日本語で言えるようにする。
+
+#### 優先順位
+
+主体の三問 ①③④ を各60〜90秒で話せるまで。加点問題は余裕があれば。自己紹介は20分だけ、志望動機は一言。
+
+| 読み方 | |
+|---|---|
+| 境界 | きょうかい |
+| 実現可能性 | じつげんかのうせい |
+| 分解力 | ぶんかいりょく |
 `
       },
       {
@@ -2632,6 +2695,138 @@ There are two ways to combine them. **The blunt way is that business overrides e
 | 併買 | 併売 | Cross-purchase | へいばい |
 | 交叉銷售 | クロスセル | Cross-sell | |
 | 庫存 | 在庫 | Inventory | ざいこ |
+`,
+        en: `
+Two uses for the English column: many Japanese terms are katakana loans from English, so they're easier to memorise side by side; and if the interview switches to English you have the word ready.
+
+#### Recommender core
+
+| English | 日本語 | 中文 | Reading / note |
+|---|---|---|---|
+| **Recommender system** | **レコメンドシステム** | 推薦系統 | Not 推薦システム |
+| Personalization | パーソナライズ | 個人化 | |
+| **Collaborative filtering** | **協調フィルタリング** | 協同過濾 | きょうちょう |
+| Content-based | コンテンツベース推薦 | 內容導向推薦 | |
+| **Cold start** | **コールドスタート** | 冷啟動 | |
+| Warm start | ウォームスタート | 熱啟動 | warm, not hot |
+| Candidate list | 候補リスト | 候選清單 | こうほ |
+| **Ranking** | **ランキング** | 排序 | |
+| Feature | 特徴量 | 特徵量 | とくちょうりょう |
+| Inference | 推論 | 推論 | すいろん |
+| **Diversity** | **多様性** | 多樣性 | たようせい |
+| Accuracy | 精度 | 精度 | せいど |
+| Purchase history | 購買履歴 | 購買履歷 | こうばいりれき |
+| Browsing history | 閲覧履歴 | 瀏覽履歷 | えつらんりれき |
+| **Clickbait** | **クリックベイト** | 點擊誘餌 | Not バイアス |
+| Position bias | ポジションバイアス | 位置偏差 | |
+
+#### Metrics and validation
+
+| English | 日本語 | 中文 | Reading / note |
+|---|---|---|---|
+| **CTR** | **クリック率** | 點擊率 | クリックりつ |
+| **CVR** | **コンバージョン率** | 轉換率 | or 転換率 てんかんりつ |
+| AOV | 客単価 | 客單價 | きゃくたんか |
+| **Drop-off** | **離脱** | 流失 | りだつ |
+| Funnel | ファネル | 漏斗 | |
+| **A/B test** | **ABテスト** | A/B 測試 | |
+| **Guardrail metric** | **ガードレール指標** | 護欄指標 | Not ガイドライン |
+| **Offline evaluation** | **オフライン評価** | 離線評估 | ひょうか, not 指標 |
+| **Online evaluation** | **オンライン評価** | 線上評估 | |
+| Impact validation | 効果検証 | 效果驗證 | こうかけんしょう |
+| Return rate | 返品率 | 退貨率 | へんぴんりつ |
+
+#### Engineering and process
+
+| English | 日本語 | 中文 | Reading / note |
+|---|---|---|---|
+| **Data pipeline** | **データパイプライン** | 資料管線 | Japanese 資料 means "documents"; always say データ |
+| **Batch processing** | **バッチ処理** | 批次處理 | バッチしょり |
+| **Real-time** | **リアルタイム** | 即時 | Not 早速 |
+| Preprocessing | 前処理 | 前處理 | まえしょり |
+| **Requirements definition** | **要件定義** | 需求定義 | ようけんていぎ |
+| Release | リリース | 上線 | |
+| Cache | キャッシュ | 快取 | In memory: fast, small |
+| Disk / DB | ハードディスク／データベース | 硬碟／資料庫 | Large, slow, persistent |
+
+#### Japanese business vocabulary
+
+| English | 日本語 | 中文 | Reading / note |
+|---|---|---|---|
+| **Initiative** | **施策** | 對策／措施 | しさく, almost guaranteed to come up |
+| **Issue** | **課題** | 課題 | かだい, not 過程 |
+| Hypothesis | 仮説 | 假設 | かせつ |
+| Prioritization | 優先順位 | 優先順序 | ゆうせんじゅんい |
+| **Browsing across the site** | **回遊** | 站內逛 | かいゆう, EC-specific |
+| Cross-purchase | 併売 | 併買 | へいばい |
+| Cross-sell | クロスセル | 交叉銷售 | |
+| Inventory | 在庫 | 庫存 | ざいこ |
+`,
+        ja: `
+太字は必ず言えるようにする語。読み方は右列。
+
+#### レコメンドの基本
+
+| 日本語 | 読み方 | English | 中文 |
+|---|---|---|---|
+| **レコメンドシステム** | | Recommender system | 推薦系統 |
+| パーソナライズ | | Personalization | 個人化 |
+| **協調フィルタリング** | きょうちょう | Collaborative filtering | 協同過濾 |
+| コンテンツベース推薦 | すいせん | Content-based | 內容導向推薦 |
+| **コールドスタート** | | Cold start | 冷啟動 |
+| ウォームスタート | | Warm start | 熱啟動 |
+| 候補リスト | こうほ | Candidate list | 候選清單 |
+| **ランキング** | | Ranking | 排序 |
+| 特徴量 | とくちょうりょう | Feature | 特徵量 |
+| 推論 | すいろん | Inference | 推論 |
+| **多様性** | たようせい | Diversity | 多樣性 |
+| 精度 | せいど | Accuracy | 精度 |
+| 購買履歴 | こうばいりれき | Purchase history | 購買履歷 |
+| 閲覧履歴 | えつらんりれき | Browsing history | 瀏覽履歷 |
+| **クリックベイト** | | Clickbait | 點擊誘餌 |
+| ポジションバイアス | | Position bias | 位置偏差 |
+
+#### 指標と検証
+
+| 日本語 | 読み方 | English | 中文 |
+|---|---|---|---|
+| **クリック率** | クリックりつ | CTR | 點擊率 |
+| **コンバージョン率** | | CVR | 轉換率 |
+| 客単価 | きゃくたんか | AOV | 客單價 |
+| **離脱** | りだつ | Drop-off | 流失 |
+| ファネル | | Funnel | 漏斗 |
+| **ABテスト** | | A/B test | A/B 測試 |
+| **ガードレール指標** | しひょう | Guardrail metric | 護欄指標 |
+| **オフライン評価** | ひょうか | Offline evaluation | 離線評估 |
+| **オンライン評価** | ひょうか | Online evaluation | 線上評估 |
+| 効果検証 | こうかけんしょう | Impact validation | 效果驗證 |
+| 返品率 | へんぴんりつ | Return rate | 退貨率 |
+
+#### エンジニアリングとプロセス
+
+| 日本語 | 読み方 | English | 中文 |
+|---|---|---|---|
+| **データパイプライン** | | Data pipeline | 資料管線 |
+| **バッチ処理** | バッチしょり | Batch processing | 批次處理 |
+| **リアルタイム** | | Real-time | 即時 |
+| 前処理 | まえしょり | Preprocessing | 前處理 |
+| **要件定義** | ようけんていぎ | Requirements definition | 需求定義 |
+| リリース | | Release | 上線 |
+| キャッシュ | | Cache | 快取 |
+| ハードディスク／データベース | | Disk / DB | 硬碟／資料庫 |
+
+#### ビジネスでよく使う語
+
+| 日本語 | 読み方 | English | 中文 |
+|---|---|---|---|
+| **施策** | しさく | Initiative | 對策／措施 |
+| **課題** | かだい | Issue | 課題 |
+| 仮説 | かせつ | Hypothesis | 假設 |
+| 優先順位 | ゆうせんじゅんい | Prioritization | 優先順序 |
+| **回遊** | かいゆう | Browsing across the site | 站內逛 |
+| 併売 | へいばい | Cross-purchase | 併買 |
+| クロスセル | | Cross-sell | 交叉銷售 |
+| 在庫 | ざいこ | Inventory | 庫存 |
 `
       },
       {
@@ -3439,6 +3634,37 @@ A pipeline that **turns content from 200+ sources every day into articles writte
 | **不知道** | **申し訳ありません、そこはまだ経験がありません。ただ、○○であれば近いことをやったことがあります。** | **很抱歉，那部分我還沒有經驗。不過如果是○○的話，我做過類似的事。** |
 
 最後那句最重要。技術面問到底是常態，承認 + 立刻接相近經驗，比沉默或硬掰好太多。
+`,
+        en: `
+Rehearse these first; you can only use them under pressure if they're automatic.
+
+| Situation | Japanese | Meaning |
+|---|---|---|
+| Didn't catch it | もう一度お願いできますでしょうか。 | Could you say that once more? |
+| Need a moment | 少し考えるお時間をいただけますか。 | May I have a moment to think? |
+| Checking understanding | ○○という理解で合っていますでしょうか。 | Is my understanding of ○○ correct? |
+| Can't continue in Japanese | すみません、この部分だけ英語でもよろしいでしょうか。 | Sorry, may I answer just this part in English? |
+| **Don't know** | **申し訳ありません、そこはまだ経験がありません。ただ、○○であれば近いことをやったことがあります。** | **I'm sorry, I don't have experience there yet. But I have done something similar with ○○.** |
+
+The last one matters most. Being pushed to the limit is normal in a technical round; admitting it and immediately offering a related experience beats silence or bluffing.
+`,
+        ja: `
+先に練習しておかないと、本番では出てきません。
+
+| 場面 | 言い方 |
+|---|---|
+| 聞き取れなかった | もう一度お願いできますでしょうか。 |
+| 考える時間がほしい | 少し考えるお時間をいただけますか。 |
+| 理解を確認したい | ○○という理解で合っていますでしょうか。 |
+| 日本語で続けられない | すみません、この部分だけ英語でもよろしいでしょうか。 |
+| **わからない** | **申し訳ありません、そこはまだ経験がありません。ただ、○○であれば近いことをやったことがあります。** |
+
+最後の一文が一番大事。技術面接で突っ込まれるのは普通のこと。認めてから、すぐ近い経験に繋げる。
+
+| 読み方 | |
+|---|---|
+| 申し訳ありません | もうしわけありません |
+| 経験 | けいけん |
 `
       },
       {
@@ -3452,6 +3678,26 @@ A pipeline that **turns content from 200+ sources every day into articles writte
 - 五句退路句念過三次
 - 自己紹介日本語版講一次
 - 打開楽天市場 App 用 10 分鐘，找一個親眼看到的現象
+`,
+        en: `
+- Can say every bold term in the vocabulary table
+- Can draw the architecture diagram with eyes closed
+- Architecture explanation, without notes
+- Batch vs real-time, without notes (including the three cache sentences)
+- Questions ①③④, each once without notes
+- Five fallback phrases read three times
+- Japanese self-introduction once
+- Open the Rakuten Ichiba app for 10 minutes and find one thing you actually noticed
+`,
+        ja: `
+- 用語表の太字を全部言える
+- アーキテクチャの図を目を閉じて描ける
+- アーキテクチャの説明を、原稿なしで最後まで
+- バッチとリアルタイムを、原稿なしで最後まで（キャッシュの三文を含む）
+- ①③④ を各一回、原稿なしで
+- 逃げ道の五文を三回読む
+- 自己紹介の日本語版を一回
+- 楽天市場アプリを10分使って、自分で気づいたことを一つ見つける
 `
       },
     ]
@@ -3470,6 +3716,29 @@ A pipeline that **turns content from 200+ sources every day into articles writte
 | JD 提到會和歐洲的團隊協作，可以多說明一下嗎？例如協作的方式和頻率。 | 募集要項に欧州のチームとの連携とありましたが、具体的にどのような形で、どのくらいの頻度で協力されているのか、伺えますか。 |
 
 | 讀音 | |
+|---|---|
+| 経歴 | けいれき |
+| 組織構成 | そしきこうせい |
+| 募集要項 | ぼしゅうようこう |
+| 欧州 | おうしゅう |
+| 連携 | れんけい |
+| 頻度 | ひんど |
+`,
+        en: `
+| English | 日本語 |
+|---|---|
+| May I ask which part of my background caught your interest, and what you are hoping for from the person in this role? | 私の経歴のどの部分に興味を持っていただけたのか、また、このポジションにどのようなことを期待されているのか、伺ってもよろしいでしょうか。 |
+| How is the department organised at the moment, and how many PMs are there? | 現在のチームの組織構成と、PMは何名いらっしゃるのか、教えていただけますか。 |
+| Day to day, does the team mostly communicate in Japanese or in English? | チーム内のコミュニケーションは、普段は日本語と英語のどちらが中心でしょうか。 |
+| The JD mentions working with the team in Europe. Could you tell me more about that, for example how and how often you collaborate? | 募集要項に欧州のチームとの連携とありましたが、具体的にどのような形で、どのくらいの頻度で協力されているのか、伺えますか。 |
+`,
+        ja: `
+1. 私の経歴のどの部分に興味を持っていただけたのか、また、このポジションにどのようなことを期待されているのか、伺ってもよろしいでしょうか。
+2. 現在のチームの組織構成と、PMは何名いらっしゃるのか、教えていただけますか。
+3. チーム内のコミュニケーションは、普段は日本語と英語のどちらが中心でしょうか。
+4. 募集要項に欧州のチームとの連携とありましたが、具体的にどのような形で、どのくらいの頻度で協力されているのか、伺えますか。
+
+| 読み方 | |
 |---|---|
 | 経歴 | けいれき |
 | 組織構成 | そしきこうせい |
