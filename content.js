@@ -3223,6 +3223,89 @@ But **the approach is the same: fix the evaluation criteria first, compare sever
 `
       },
       {
+        q: '技術不如工程師時，你怎麼跟他們溝通？（SmartNews 問過）',
+        zh: `
+SmartNews 第一關實際被問：「PM 技術知識不足時，你怎麼跟工程師溝通？」面試官特別點名 front-end、back-end、ML infrastructure。當時答「企劃階段就去問可行性和工量」，並坦承「很花時間，因為他們講的是他們的語言」。面試官接受了，但紀錄裡建議下次往前推一步。
+
+| 可能的問法 | 用哪一段回 |
+|---|---|
+| 技術知識不足時怎麼溝通 | 全部四點 |
+| 你怎麼確認一個需求做不做得到 | 第 1、2 點 |
+| 需求怎麼寫給工程師 | 第 3 點 |
+| 跟工程師意見不合怎麼辦 | 最後「意見不合」那段 |
+
+我不會假裝懂他們的技術，我做的是四件事。
+
+**第一，企劃階段就去問，不要等到規格寫完。** 這個功能包含這些，做得到嗎？這個 sprint 要多少工？早問一句，比後面返工便宜太多。
+
+**第二，用他們的地圖講話。** 推薦系統我會先把節點畫出來：前處理、模型、商業邏輯、排序呈現。有問題的時候我指著節點說「我覺得是這一段」，這樣找的人就對、用的詞就對。工程師不需要我懂實作，需要我知道問題在哪一格。
+
+**第三，只寫目的和限制，不寫做法。** 要達成什麼、哪些指標不能掉、什麼不能出現。用哪個演算法、怎麼切，讓實作端決定。我寫成具體做法的時候，往往就是衝突的來源。
+
+**第四，現在我會直接做出可跑的原型。** 用 AI agent 幾小時做一個 prototype，把討論從「你聽得懂我要什麼嗎」變成「這樣對不對」。這是我這一年最大的改變。
+
+#### 意見不合的時候
+
+先分清楚是哪一種不同意。**可行性的不同意，通常他們是對的**，我改需求不改人，很多時候價值有第二條路可以達成。**優先序的不同意，是我的責任**，代表我沒把「為什麼是這個」講清楚；標準是他們能用自己的話複述出來為什麼重要。
+
+在 Typus 我發現大部分衝突來自 kickoff 沒講清楚，所以把力氣往前放，重新設計 kickoff 到交付的流程，**返工降了 30%**。
+`,
+        en: `
+Actually asked in the SmartNews first round: "When a PM lacks technical knowledge, how do you communicate with engineers?" The interviewer named front-end, back-end and ML infrastructure. The answer then was "ask about feasibility and effort at the planning stage", plus an honest "it takes a lot of time because they speak their own language". It was accepted, but the notes say to push one step further next time.
+
+| Likely phrasing | Which part to use |
+|---|---|
+| How do you communicate when you lack the technical depth | All four points |
+| How do you check whether a requirement is feasible | Points 1 and 2 |
+| How do you write requirements for engineers | Point 3 |
+| What do you do when you disagree with engineers | The "disagreement" section |
+
+I don't pretend to know their stack. I do four things.
+
+**First, ask at the planning stage, not after the spec is written.** This feature includes these pieces, is it doable, how much effort for this sprint? One early question is far cheaper than rework later.
+
+**Second, speak on their map.** For a recommender I draw the nodes first: preprocessing, model, business logic, ranking and display. When something is wrong I point at a node and say "I think it's this segment". That way I go to the right person with the right vocabulary. Engineers don't need me to understand the implementation; they need me to know which box the problem is in.
+
+**Third, write objectives and constraints, not solutions.** What to achieve, which metrics must not drop, what must never appear. Which algorithm and how to segment is for the implementation side. When I have written a requirement as a specific implementation, that is usually where the conflict came from.
+
+**Fourth, these days I build a running prototype.** With AI agents I can put a prototype together in a few hours, so the conversation moves from "do you understand what I want" to "is this right". That is the biggest change in how I work this year.
+
+#### When we disagree
+
+First work out which kind of disagreement it is. **On feasibility, they're usually right**, so I change the requirement rather than their mind; the value I want often has a second route. **On priority, that's my responsibility**: it means I haven't explained why this one comes first. My bar is that they can repeat back in their own words why it matters.
+
+At Typus I found most conflict came from kickoff not being clear, so I moved my effort earlier and redesigned the process from kickoff to delivery. **Rework dropped 30%.**
+`,
+        ja: `
+エンジニアの技術を全部わかっているふりはしません。私がやっているのは四つです。
+
+**一つ目、企画の段階で先に聞きます。** この機能にはこういう要素が入りますが、できますか、このスプリントでどのくらい工数がかかりますか、と。仕様を書き終わってから聞くより、ずっと安く済みます。
+
+**二つ目、相手の地図で話します。** レコメンドなら、前処理、モデル、ビジネスロジック、ランキングと表示、というノードを先に描いて、問題があるときは「ここの段階だと思います」と指して話します。実装を理解する必要はなくて、**どのノードの話なのかがわかれば、相談する相手も言葉も合います。**
+
+**三つ目、目的と制約だけを書いて、やり方は書きません。** 何を達成したいか、どの指標を落としてはいけないか、何を出してはいけないか。どのアルゴリズムを使うかは実装側に任せます。私がやり方まで書いてしまったときが、だいたい衝突の原因でした。
+
+**四つ目、今は動くプロトタイプを先に作ります。** AIエージェントを使えば数時間で作れるので、「言っていることがわかりますか」ではなくて「これで合っていますか」という話ができます。この一年で一番変わったところです。
+
+#### 意見が合わないときは
+
+まず、どの種類の不一致かを分けます。**実現可能性の話なら、たいてい向こうが正しい**ので、人を変えるのではなく要件を変えます。**優先順位の話なら、それは私の責任**で、「なぜこれなのか」を説明しきれていないということです。相手が自分の言葉で理由を言い直せるまで説明する、というのが私の基準です。
+
+Typusでは、衝突の多くがキックオフの段階で決めきれていないことが原因だとわかったので、キックオフから納品までの流れを作り直して、**手戻りを30%減らしました。**
+
+| 読み方 | |
+|---|---|
+| 企画 | きかく |
+| 工数 | こうすう |
+| 仕様 | しよう |
+| 制約 | せいやく |
+| 実現可能性 | じつげんかのうせい |
+| 不一致 | ふいっち |
+| 納品 | のうひん |
+| 手戻り | てもどり |
+`
+      },
+      {
         q: 'Side project：Creator-Persona Content Engine 是什麼？',
         zh: `
 CV 原句：Designed and built a five-stage agentic content pipeline (collection, persona modelling, generation, validation and distribution): 33 modules orchestrating 3 LLMs with RAG over 200+ sources crawled daily; ran head-to-head evaluations of models at each stage of the pipeline, cutting operating costs by 83% while limiting quality loss to ~3%.
