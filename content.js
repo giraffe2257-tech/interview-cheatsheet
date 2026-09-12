@@ -19,7 +19,7 @@ const DATA = [
     name: '自我介紹',
     items: [
       {
-        q: '請你自我介紹（面向日商）',
+        q: '自我介紹（中文・面向日商）',
         zh: `
 您好，我是王薇 (Vivian)。
 
@@ -36,53 +36,10 @@ const DATA = [
 畢業之後，我希望能把這一年的研究成果，以及自己在 AI 驅動開發流程上累積的實作體悟，帶進下一份工作，真正落實在團隊的產品開發流程裡。
 
 以上是我的背景簡介，期待能與您進一步交流。
-`,
-        en: `
-Thank you for making the time today. I'm Wei Wang, and I go by Vivian.
-
-I'm a product manager with four years of experience across live-streaming platforms and the blockchain industry.
-
-Most recently, at Typus Finance, I took an on-chain perpetual futures product from zero to one. The numbers we watched were fairly basic: trading volume, active users, and deposits. The crypto market moves fast, so I ran bi-weekly releases and shipped more than thirty features over the year. The product reached about **87 million US dollars** in trading volume in its first quarter, growing 383% month over month.
-
-Before that, at 17LIVE, I owned platform user experience and growth, working with the Taiwan, Japan and Southeast Asia market teams. My features were measured on conversion and retention. For a 90-second clips feature, I defined D0 to D7 retention as the success metric with the data team at the planning stage, and we A/B tested before full rollout. I also proposed an internal user-feedback dashboard and led a five-person cross-functional team to build it, turning scattered support tickets, store reviews and interviews into a single prioritisation view. **Issue resolution got 15% faster and retention rose 10%.**
-
-What stayed with me is that the same feature did not perform the same way in Taiwan as in Japan, which is where I learned to ask whether a gap is a real market difference or simply a product we did not build well.
-
-Alongside my industry experience, I'm completing a master's degree in London. The programme put me in front of AI agents early, and they have become my default way of working: I build prototypes to test ideas quickly and cheaply. My dissertation explores how AI is changing collaboration within product teams, drawing on interviews with companies including TikTok.
-
-After graduating I plan to return to Asia, with Japan as my first choice, where I previously spent an exchange year at Gunma University and also have family ties in Tokyo. I'm comfortable working in Mandarin, English and Japanese, which is part of why I'm drawn to teams that work across more than one market. In my next role I'd like to bring together my experience in product execution and the AI-driven way of working I've built up this year.
-`,
-        ja: `
-はじめまして、王薇（ヴィヴィアン）と申します。本日はよろしくお願いいたします。
-
-現在はプロダクトマネージャーとして働いていて、プロダクト開発の経験は四年になります。主な領域はライブ配信プラットフォーム、ブロックチェーン、暗号資産です。
-
-Typus Financeでは、オンチェーン金融の無期限先物プロダクトを、ゼロからイチまで、開発の全ライフサイクルにわたって主導しました。担当したのは、市場と競合の分析、要件定義、仕様書の作成、そしてエンジニアとデザイナーとのスケジュール調整です。リリース後のデータ追跡とプロダクトの改善も自分で回していました。Typusはスタートアップで、しかも暗号資産の市場はトレンドも値動きも特に速いです。そのため、市場が盛り上がっているうちに機能を出せるように、開発のリズムも圧縮する必要がありました。私たちの無期限先物プロダクトは、ちょうどその相場の波に乗ることができて、最初の四半期で約 **8,700万ドル** の取引高を積み上げました。
-
-その前は、アジア最大のライブ配信プラットフォームである17LIVEで、プラットフォームのユーザー体験とユーザー成長の指標を担当していました。エンジニア、データアナリスト、デザイナー、カスタマーサポートからなる五人の職種横断チームを率いて、社内向けのユーザーフィードバック分析プラットフォームを構築しました。ばらばらだったお客様からの苦情やご意見を、構造化されたプロダクト要件に変換して、そのデータをもとにロードマップの優先順位を決められるようにしました。これによってプロダクト開発のプロセスが大きく改善され、課題対応の効率が **15%** 向上し、リテンション率も **10%** 伸びました。
-
-現在はキングス・カレッジ・ロンドンで、マネジメントとテクノロジー変革の修士課程に在籍していて、今年の九月に修了する予定です。この専攻のおかげで、一般的な経営学のプログラムより早くAIエージェントという領域に触れることができました。今ではそれが自分のデフォルトの働き方になっています。学業でも、日常生活でも、これからの仕事でも、AIエージェントを使ってプロトタイプや社内ツールを作り、最小のコストで新しいアイデアを検証しています。修士論文のテーマはまさに「AI時代にプロダクト開発プロセスをどう最適化するか」です。要件ドキュメントがプロダクト、デザイン、エンジニアの各チームの間でどう翻訳されていくかという仕組みに焦点を当てて、AIが部門をまたぐコミュニケーションのコストをどう下げられるかを探っています。研究の過程では、TikTokを含む複数の大手テック企業に深いインタビューを行い、業界の現場からの実践的な知見を集めました。
-
-これまでのキャリアは主にアジア市場に根ざしたもので、この地域のユーザー行動や改善のスピード感は深く理解しています。修了後はアジア市場に戻る予定で、日本を第一希望として考えています。群馬大学への交換留学の経験と家族の背景があるので、日本市場には強いつながりと文化的な適応力を持っています。
-
-修了したあとは、この一年の研究成果と、AI主導の開発プロセスで積み重ねてきた実践的な気づきを次の仕事に持ち込み、チームのプロダクト開発プロセスの中で本当に実現していきたいと考えています。
-
-以上が私の簡単な経歴です。ぜひもう少しお話しさせていただければ幸いです。
-
-| 読み方 | |
-|---|---|
-| 無期限先物 | むきげんさきもの |
-| 取引高 | とりひきだか |
-| 四半期 | しはんき |
-| 職種横断 | しょくしゅおうだん |
-| 要件定義 | ようけんていぎ |
-| 仕様書 | しようしょ |
-| 交換留学 | こうかんりゅうがく |
-| 適応力 | てきおうりょく |
 `
       },
       {
-        q: '請你自我介紹（面向台灣企業）',
+        q: '自我介紹（中文・面向台灣企業）',
         zh: `
 您好，我是王薇 (Vivian)。
 
@@ -99,130 +56,61 @@ Typus Financeでは、オンチェーン金融の無期限先物プロダクト�
 畢業之後，我希望能把這一年的研究成果，以及自己在 AI 驅動開發流程上累積的實作體悟，帶進下一份工作，真正落實在團隊的產品開發流程裡。
 
 以上是我的背景簡介，期待能與您進一步交流。
-`,
+`
+      },
+      {
+        q: '自我介紹（英文・面向日商）',
         en: `
 Thank you for making the time today. I'm Wei Wang, and I go by Vivian.
 
 I'm a product manager with four years of experience across live-streaming platforms and the blockchain industry.
 
-Most recently, at Typus Finance, I took an on-chain perpetual futures product from zero to one. I owned market and competitor analysis, requirements, specs, and the delivery schedule with engineering and design, then tracked the numbers after launch and iterated. Typus is a startup, and the crypto market moves and swings very fast, so the development cycle had to be compressed to match it, to ship while the market was still hot. The product caught that wave and reached about **87 million US dollars** in trading volume in its first quarter.
+Most recently, at Typus Finance, I took an on-chain perpetual futures product from zero to one. The numbers we watched were fairly basic: trading volume, active users, and deposits. The crypto market moves fast, to keep pace with the market, I ran bi-weekly releases and shipped more than thirty features over the year. The product reached about 87 million US dollars in trading volume in its first quarter, this experience taught me how to prioritize under uncertainty, move quickly, and stay focused on the metrics that matter.
 
-Before that, at 17LIVE, Asia's largest live-streaming platform, I owned platform user experience and growth. I led a five-person cross-functional team of engineers, a data analyst, a designer and support, and we built an internal user-feedback platform that turned scattered complaints and comments into structured product requirements, then used that data to prioritise the roadmap. **Issue resolution got 15% faster and retention rose 10%.**
+Before that, at 17LIVE, I owned platform user experience and growth, working with the Taiwan, Japan and Southeast Asia market teams. My features were measured on conversion and retention. For a 90-second clips feature, I defined D0 to D7 retention as the success metric with the data team at the planning stage, and we A/B tested before full rollout. I also proposed an internal user-feedback dashboard and led a five-person cross-functional team to build it, we brought together customer-support tickets, app-store reviews, and creator interviews into one view for prioritization. It improved issue-resolution speed by 15% and contributed to a 10% improvement in retention.
 
-I'm currently completing an MSc in Management and Technological Change at King's College London, graduating this September. Because of the programme, I came across AI agents earlier than most management students, and they have gradually become my default way of working: in coursework, in daily life and in my work, I use AI agents to build prototypes and internal tools so I can validate ideas at the lowest possible cost. My dissertation is on optimising the product development process in the age of AI, specifically how requirements documents get translated between product, design and engineering, and how AI lowers that cross-functional communication cost. I ran in-depth interviews with large technology companies including TikTok.
+I also learned that the same feature can perform differently across markets. So I learned to use both data and user research to understand whether the problem came from local behavior, local needs, or the product itself.
 
-I went to London to study the problems I kept running into in a more systematic way, and to strengthen my cross-cultural collaboration experience. My career so far has been built in Asian markets, and I understand this region's user behaviour and iteration pace well, so after graduating I plan to come back to Taiwan and bring this year of research and international experience back to a market I know.
+Alongside my industry experience, I'm completing a master's degree in London. The programme put me in front of AI agents early, and they have become my default way of working: I build prototypes to test ideas quickly and cheaply. My dissertation explores how AI is changing collaboration within product teams, drawing on interviews with companies including TikTok.
 
-In my next role I'd like to bring together this year's research and what I've learned first-hand about AI-driven development, and actually put it into how a team builds products.
-
-That's my background in short. I'm looking forward to talking further.
-`,
-        ja: `
-はじめまして、王薇（ヴィヴィアン）と申します。本日はよろしくお願いいたします。
-
-現在はプロダクトマネージャーとして働いていて、プロダクト開発の経験は四年になります。主な領域はライブ配信プラットフォーム、ブロックチェーン、暗号資産です。
-
-Typus Financeでは、オンチェーン金融の無期限先物プロダクトを、ゼロからイチまで、開発の全ライフサイクルにわたって主導しました。担当したのは、市場と競合の分析、要件定義、仕様書の作成、そしてエンジニアとデザイナーとのスケジュール調整です。リリース後のデータ追跡とプロダクトの改善も自分で回していました。Typusはスタートアップで、しかも暗号資産の市場はトレンドも値動きも特に速いです。そのため、市場が盛り上がっているうちに機能を出せるように、開発のリズムも圧縮する必要がありました。私たちの無期限先物プロダクトは、ちょうどその相場の波に乗ることができて、最初の四半期で約 **8,700万ドル** の取引高を積み上げました。
-
-その前は、アジア最大のライブ配信プラットフォームである17LIVEで、プラットフォームのユーザー体験とユーザー成長の指標を担当していました。エンジニア、データアナリスト、デザイナー、カスタマーサポートからなる五人の職種横断チームを率いて、社内向けのユーザーフィードバック分析プラットフォームを構築しました。ばらばらだったお客様からの苦情やご意見を、構造化されたプロダクト要件に変換して、そのデータをもとにロードマップの優先順位を決められるようにしました。これによってプロダクト開発のプロセスが大きく改善され、課題対応の効率が **15%** 向上し、リテンション率も **10%** 伸びました。
-
-現在はキングス・カレッジ・ロンドンで、マネジメントとテクノロジー変革の修士課程に在籍していて、今年の九月に修了する予定です。この専攻のおかげで、一般的な経営学のプログラムより早くAIエージェントという領域に触れることができました。今ではそれが自分のデフォルトの働き方になっています。学業でも、日常生活でも、これからの仕事でも、AIエージェントを使ってプロトタイプや社内ツールを作り、最小のコストで新しいアイデアを検証しています。修士論文のテーマはまさに「AI時代にプロダクト開発プロセスをどう最適化するか」です。要件ドキュメントがプロダクト、デザイン、エンジニアの各チームの間でどう翻訳されていくかという仕組みに焦点を当てて、AIが部門をまたぐコミュニケーションのコストをどう下げられるかを探っています。研究の過程では、TikTokを含む複数の大手テック企業に深いインタビューを行い、業界の現場からの実践的な知見を集めました。
-
-そもそもロンドンで修士課程に進んだのは、実務で直面していた課題をもっと体系的に研究したかったからです。それと、異文化での協働の経験を補いたいという思いもありました。私のこれまでのキャリアは主にアジア市場で積み重ねてきたもので、この地域のユーザー行動や改善のスピード感は深く理解しています。ですので、修了後は台湾に戻り、この一年の研究成果と国際経験を、よく知っている市場に持ち帰りたいと考えています。
-
-修了したあとは、この一年の研究成果と、AI主導の開発プロセスで積み重ねてきた実践的な気づきを次の仕事に持ち込み、チームのプロダクト開発プロセスの中で本当に実現していきたいと考えています。
-
-以上が私の簡単な経歴です。ぜひもう少しお話しさせていただければ幸いです。
-
-| 読み方 | |
-|---|---|
-| 無期限先物 | むきげんさきもの |
-| 取引高 | とりひきだか |
-| 四半期 | しはんき |
-| 職種横断 | しょくしゅおうだん |
-| 要件定義 | ようけんていぎ |
-| 体系的 | たいけいてき |
-| 異文化 | いぶんか |
-| 協働 | きょうどう |
+After graduating I plan to return to Asia, with Japan as my first choice, where I previously spent an exchange year at Gunma University and also have family ties in Tokyo. I'm comfortable working in Mandarin, English and Japanese, which is part of why I'm drawn to teams that work across more than one market. In my next role I'd like to bring together my experience in product execution and the AI-driven way of working I've built up this year.
 `
       },
       {
-        q: '請你自我介紹（60 秒短版）',
-        zh: `
-我有大約 4 年的產品經驗，橫跨 B2C 直播平台與金融科技。最近在 Typus Finance 端到端負責鏈上衍生品，雙週節奏交付 30 多項功能，期間 MAU 從約 1,000 成長到 20,000 以上、產品內存入資產從 800 萬成長到 2,000 萬美元。在那之前在 17LIVE 主導台灣、日本與東南亞的產品專案，用訪談加 SQL 把洞察轉成 roadmap 優先級。我目前在倫敦國王學院讀 Management and Technological Change 碩士，論文研究 AI 如何降低產品與工程之間的溝通成本。
-
-**跟多數 PM 不太一樣的地方是：我自己會做 prototype、做儀表板、也自己把 AI agent 接進工作流，所以我從洞察走到實際產出的速度比較快。**
-`,
+        q: '自我介紹（英文・面向台灣企業）',
         en: `
-I have about four years of product experience, across B2C live-streaming and fintech. Most recently at Typus Finance I owned on-chain derivatives end to end, shipping more than thirty features on a bi-weekly cycle. Over that period monthly active users went from around a thousand to over twenty thousand, and deposits in the product grew from 8 to 20 million US dollars. Before that, at 17LIVE, I led product work across Taiwan, Japan and Southeast Asia, using interviews plus SQL to turn insight into roadmap priorities. I'm currently finishing an MSc in Management and Technological Change at King's College London, with a dissertation on how AI lowers the communication cost between product and engineering.
+Thank you for making the time today. I'm Wei Wang, and I go by Vivian.
 
-**What makes me a little different from most PMs is that I build the prototypes, build the dashboards, and wire AI agents into my own workflow, so I get from insight to something real faster.**
-`,
-        ja: `
-プロダクトの経験は約4年で、B2Cのライブ配信プラットフォームとフィンテックの両方にまたがっています。直近はTypus Financeで、オンチェーンのデリバティブをエンドツーエンドで担当し、隔週のリズムで30以上の機能をリリースしました。その間にMAUは約1,000から20,000以上に、プロダクト内の預かり資産は800万ドルから2,000万ドルに成長しました。その前は17LIVEで、台湾・日本・東南アジアのプロダクト案件を主導し、インタビューとSQLでインサイトをロードマップの優先順位に落とし込んでいました。現在はキングス・カレッジ・ロンドンでManagement and Technological Changeの修士課程に在籍していて、論文ではAIがプロダクトとエンジニアの間のコミュニケーションコストをどう下げるかを研究しています。
+I'm a product manager with four years of experience across live-streaming platforms and the blockchain industry.
 
-**多くのPMと少し違うのは、自分でプロトタイプを作り、ダッシュボードを作り、AIエージェントを自分のワークフローに組み込んでいることです。だから、インサイトから実際のアウトプットまでのスピードが速いです。**
+Most recently, at Typus Finance, I took an on-chain perpetual futures product from zero to one. The numbers we watched were fairly basic: trading volume, active users, and deposits. The crypto market moves fast, to keep pace with the market, I ran bi-weekly releases and shipped more than thirty features over the year. The product reached about 87 million US dollars in trading volume in its first quarter, this experience taught me how to prioritize under uncertainty, move quickly, and stay focused on the metrics that matter.
 
-| 読み方 | |
-|---|---|
-| 隔週 | かくしゅう |
-| 預かり資産 | あずかりしさん |
-| 案件 | あんけん |
-| 優先順位 | ゆうせんじゅんい |
-| 修士課程 | しゅうしかてい |
-| 組み込む | くみこむ |
+Before that, at 17LIVE, I owned platform user experience and growth, working with the Taiwan, Japan and Southeast Asia market teams. My features were measured on conversion and retention. For a 90-second clips feature, I defined D0 to D7 retention as the success metric with the data team at the planning stage, and we A/B tested before full rollout. I also proposed an internal user-feedback dashboard and led a five-person cross-functional team to build it, we brought together customer-support tickets, app-store reviews, and creator interviews into one view for prioritization. It improved issue-resolution speed by 15% and contributed to a 10% improvement in retention.
+
+I also learned that the same feature can perform differently across markets. So I learned to use both data and user research to understand whether the problem came from local behavior, local needs, or the product itself.
+
+Alongside my industry experience, I'm completing a master's degree in London. The programme put me in front of AI agents early, and they have become my default way of working: I build prototypes to test ideas quickly and cheaply. My dissertation explores how AI is changing collaboration within product teams, drawing on interviews with companies including TikTok.
+
+I am comfortable working in Mandarin and English, which is part of why I am drawn to teams that work across more than one market. I am interested in roles with cross-cultural collaboration, where I can bring together my experience in product execution and the AI-driven way of working I have built up this year.
 `
       },
       {
-        q: '自己紹介をお願いします。',
-        zh: `
-初次見面，我是王薇（Vivian）。今天感謝您撥出時間。
-
-我做產品經理大約四年。主要是直播服務和區塊鏈這兩個領域。兩邊都是看使用者的行為數據，決定下一步要做什麼的工作。
-
-前一家公司是 Typus Finance 這家新創，在那裡我把一個新的交易服務從零開始做起來。工作內容是調查市場、決定需要哪些功能，然後和工程師、設計師一起帶到上線。這個產業變動非常快，所以我建立了每兩週發布一次的節奏，一年推出了 30 個以上的功能。
-
-在那之前，我在 17LIVE 這家直播公司負責使用者體驗和用戶成長。不過客戶的意見雖然收到很多，卻沒有一套機制把它接到接下來要做的東西上，所以我主動提案，帶了一個橫跨台灣、日本、東南亞的五人團隊做了內部的分析工具。
-
-而且不是做完就算了，我主動去推給其他團隊用，一直推到它真的被用在決定優先順序的場合為止。結果對應效率提升了 **15%**，不過比數字更重要的是，從使用者的聲音到實際改善的流程，整個團隊都變快了。
-
-現在我在倫敦的研究所，研究 AI 會如何改變產品團隊的工作方式。因為這個學程，我很早就接觸到 AI agent，現在每天都在用 AI 做 prototype 和 MVP。
-
-九月修完之後，我打算回亞洲，第一志願是日本。原因是我大學畢業後去群馬大學留學了一年，家人也在東京，我自己也持續在學日文，所以我想的不是短期，而是在日本長期累積職涯。我可以用日文、英文、中文工作，也很嚮往有各國同事的環境。下一份工作，我想把過去的產品經驗和把 AI 帶進工作流程的做法，一起帶進團隊裡貢獻。
-
-簡單來說就是這樣。今天請多指教。
-`,
-        en: `
-Nice to meet you. I'm Wei Wang, and I go by Vivian. Thank you for making the time today.
-
-I've worked as a product manager for about four years, mainly in live-streaming services and blockchain. In both, the job was to look at user behaviour data and decide what to build next.
-
-Most recently I was at a startup called Typus Finance, where I built a new trading product from zero. I handled everything: researching the market, deciding which features we needed, working with engineers and designers through to launch, and improving it afterwards. The industry moves very fast, so I set up a release cycle every two weeks and we shipped more than thirty features in a year.
-
-Before that I was at 17LIVE, a live-streaming company, where I owned user experience and growth. What I noticed there was that a lot of user feedback was coming in, but there was no mechanism connecting it to what we built next. So I proposed an internal analytics tool myself and led a five-person team across Taiwan, Japan and Southeast Asia to build it.
-
-I didn't stop at shipping it. I pushed other teams to adopt it until it was actually being used in the meetings where priorities get decided. Issue resolution got **15%** faster, but the bigger win was that the whole path from a user's voice to a shipped improvement got faster for the entire team.
-
-I'm now doing a master's in London, researching how AI is changing the way product teams work. Thanks to the programme I came across AI agents early, and now I build prototypes and MVPs with AI almost every day.
-
-After I finish in September I plan to return to Asia, with Japan as my first choice. I spent a year on exchange at Gunma University after university, my family is in Tokyo, and I've kept studying Japanese, so I'm thinking about Japan as a long-term career, not a short stay. I can work in Japanese, English and Mandarin, and I'm drawn to environments with colleagues from different countries. In my next role I'd like to contribute both my product experience and the way I've learned to bring AI into how work gets done.
-
-That's my background in short. I look forward to speaking with you today.
-`,
+        q: '自我介紹（日文）',
         ja: `
-改めまして、王薇（ヴィヴィアン）と申します。ヴィヴィアンとお呼びください。よろしくお願いいたします。
+改めまして、王薇（ヴィヴィアン）と申します。Vivian とお呼びください。よろしくお願いいたします。
 
 プロダクトマネージャーとして、4年ほど働いてきました。主にライブ配信のサービスと、ブロックチェーンの分野です。どちらも、ユーザーの行動データを見ながら、次に何を作るかを決めていく仕事でした。そして今は、ロンドンで修士課程を修了するところです。
 
 直近では、Typus Financeというスタートアップで、オンチェーンの無期限先物をゼロから立ち上げました。市場調査から必要な機能の検討、エンジニアチームと連携した開発、その後の改善まで、全体を一貫して担当していました。この業界は動きがとても速いので、2週間ごとにリリースする体制をつくり、1年間で30以上の機能を出しました。
 
-その前は17LIVEで、プラットフォームのユーザー体験とサービスの成長を担当して、いろいろな機能を企画からリリースまでしました。その仕事を進めるなかで気づいたのが、ユーザーからのご意見はたくさん届いているのに、それを次の改善につなげる仕組みがなかったことです。そこで、社内向けのユーザーフィードバック・ダッシュボードを自分から提案し、台湾・日本・東南アジアにまたがる5人の職種横断型チームをリードして開発しました。
+その前は17LIVEで、プラットフォームのユーザー体験とサービスの成長を担当して、台湾・日本・東南アジアの市場チームと連携しながら、いろいろな機能を企画からリリースまでしました。その仕事を進めるなかで気づいたのが、ユーザーからのご意見はたくさん届いているのに、それを次の改善につなげる仕組みがなかったことです。そこで、社内向けのユーザーフィードバック・ダッシュボードを自分から提案し、5人の職種横断型チームをリードして開発しました。
 
-このダッシュボードによって、さまざまな場所に分かれていたユーザーの声を整理し、具体的な要件につなげられるようになりました。ただ、作って終わりではなくて、他のチームにも使ってもらえるように自分から働きかけて、実際に優先順位を決める場で使われる状態まで持っていきました。その結果、問題対応の効率が **15％** 向上したのですが、数字以上に大きかったのは、ユーザーの声を受け取ってから、実際の改善としてリリースするまでの流れが、チーム全体で速くなったことです。
+このダッシュボードによって、さまざまな場所に分かれていたユーザーの声を整理し、具体的な要件につなげられるようになりました。ただ、作って終わりではなくて、他のチームにも使ってもらえるように自分から働きかけて、実際に優先順位を決める場で使われる状態まで持っていきました。その結果、問題対応の効率が15％向上したのですが、数字以上に大きかったのは、ユーザーの声を受け取ってから、実際の改善としてリリースするまでの流れが、チーム全体で速くなったことです。
 
 現在はロンドンの大学院で勉強していて、AIがプロダクトチームの働き方をどのように変えているのかを研究しています。このプログラムのおかげで、早い段階からAIエージェントに触れることができて、毎日AIを使ってプロトタイプやMVPをよく作っています。
 
-大学院を修了したあとはアジアに戻る予定で、第一希望は日本です。というのも、以前、群馬大学に1年間留学した経験があり、東京には家族もいるし、自分も日本語の勉強を続けているので、今後は日本で長くキャリアを築いていきたいです。また、日本語、英語、中国語で仕事ができますので、さまざまな国の方と協力できる環境にも魅力を感じています。次の仕事では、これまでのプロダクトマネージャーとしての経験と、AIを取り入れた仕事の進め方を生かし、チームに貢献していきたいと考えています。
+大学院を修了したあとはアジアに戻る予定で、第一希望は日本です。というのも、以前、群馬大学に1年間留学した経験があり、東京には家族もいるし、自分も日本語の勉強を続けているので、今後は日本で長くキャリアを築いていきたいです。
+また、日本語、英語、中国語で仕事ができますので、さまざまな国の方と協力できる環境にも魅力を感じています。次の仕事では、これまでのプロダクトマネージャーとしての経験と、AIを取り入れた仕事の進め方を生かし、チームに貢献していきたいと考えています。
 
 簡単ですが、以上です。本日はどうぞよろしくお願いいたします。
 `
@@ -257,92 +145,6 @@ To break that down: in the first year, I want to run my existing delivery skills
 | 成熟 | せいじゅく |
 | 指標 | しひょう |
 | 率いる | ひきいる |
-`
-      },
-      {
-        q: '你對什麼有熱情？',
-        zh: `
-我對「**把 demo 變成真的能用的東西**」有近乎執著的興趣。做 agentic platform 那次讓我很確定：困難的從來不是模型本身，而是框對問題、驗證輸出、然後穩定重複這兩件事。
-
-這也是為什麼我會把自己的租屋痛點做成篩選工具，把 Claude Code 包成給非工程背景同學的實作課程，把求職流程做成一條 pipeline。留學生找房資訊過載，我把自己的搜尋變成一個產品問題，定義 must-have 條件再做成比現成平台更精準的篩選工具；AI agent 的課我和工程師朋友合作，替倫敦帝國學院的非工程背景學生辦過三次。
-
-**看到一個真實的痛點被收斂成一個可以每天使用的東西，是我最有成就感的時刻。**
-`,
-        en: `
-I'm almost obsessive about **turning a demo into something people can actually use**. Building that agentic platform confirmed it for me: the hard part is never the model, it's framing the request correctly, verifying what comes back, and then doing those two things repeatably.
-
-That's why I turned my own flat-hunting pain into a filtering tool, packaged Claude Code into a hands-on course for classmates with no engineering background, and built my job search into a pipeline. International students are drowning in listings, so I treated my own search as a product problem: define the must-haves, do the requirements analysis, then build something more precise than the platforms already out there. For the AI agent course, I worked with an engineer friend and we ran it three times for non-engineering students at Imperial College London.
-
-**Watching a real pain point get narrowed down into something usable every day is the most satisfying part of the job for me.**
-`,
-        ja: `
-私は「**デモを本当に使えるものに変えること**」に、ほとんど執着に近い興味を持っています。agenticなプラットフォームを作ったとき、はっきり確信しました。難しいのはモデルそのものではなく、課題を正しく枠づけて出力を検証すること、そしてそれを安定して繰り返すこと、この二つだと。
-
-だからこそ、自分の部屋探しの悩みを絞り込みツールにしたり、Claude Codeをエンジニア以外の学生向けの実践講座にまとめたり、就職活動のプロセスをひとつのパイプラインにしたりしてきました。留学生の部屋探しは情報が多すぎるので、自分の検索をひとつのプロダクトの課題として捉え直し、must-haveの条件を定義してから、既存のプラットフォームより精度の高い絞り込みツールを作りました。AIエージェントの講座はエンジニアの友人と一緒に、インペリアル・カレッジ・ロンドンのエンジニア以外の学生向けに三回開催しました。
-
-**リアルな悩みが、毎日使えるものにまとまっていくのを見る瞬間が、一番達成感を感じるときです。**
-
-| 読み方 | |
-|---|---|
-| 執着 | しゅうちゃく |
-| 検証 | けんしょう |
-| 絞り込み | しぼりこみ |
-| 捉え直す | とらえなおす |
-| 精度 | せいど |
-| 開催 | かいさい |
-| 達成感 | たっせいかん |
-`
-      },
-      {
-        q: '你的工作風格是什麼？',
-        zh: `
-我的工作風格可以濃縮成三件事：**先對齊再開工、用數據結束爭論、能自己做的先做出來給人看**。
-
-開案前我會先把商業目標、技術限制與現場需求對齊成同一套優先順序，因為我在 Typus 重新設計 kickoff 到交付的流程時發現，返工大多來自一開始沒講清楚，那次調整讓返工週期降低 30%。過程中我偏好用 prototype 或數據來收斂討論，而不是靠會議上的說服力。時間分配上我用 80/20，把大部分時間留給真正需要判斷的事，重複性的事情盡量自動化。
-
-#### 你怎麼跟工程師合作？
-
-我盡量把需求寫到工程師不用回頭問我第二次的程度：user story、驗收條件、以及為什麼這件事排在前面。我自己會做 prototype，所以討論的時候可以直接給一個可以點的東西，而不是描述一個想像中的畫面。
-
-#### 遠端、跨時區怎麼工作？
-
-Typus 是完全遠端，17LIVE 是跨台日與東南亞。我的作法是把非同步的東西寫清楚，規格、決策紀錄、優先級理由都寫下來，把同步的時間留給真正需要即時討論的爭議點。
-`,
-        en: `
-My working style comes down to three things: **align before starting, end arguments with data, and if I can build it myself, build it and show people**.
-
-Before a project starts I align the business goal, the technical constraints and what the team on the ground actually needs into one set of priorities. When I redesigned the kickoff-to-delivery process at Typus, I found most rework came from things not being said clearly at the start, and that change cut the rework cycle by 30%. During the work, I prefer to close discussions with a prototype or with data rather than by being persuasive in a meeting. On time, I use 80/20: most of my time goes to the things that genuinely need judgement, and I automate the repetitive parts.
-
-#### How do you work with engineers?
-
-I try to write requirements to the point where an engineer doesn't have to come back and ask me a second time: user stories, acceptance criteria, and why this sits at the top of the list. I build prototypes myself, so in a discussion I can hand over something clickable instead of describing an imaginary screen.
-
-#### How do you work remotely or across time zones?
-
-Typus was fully remote, and 17LIVE spanned Taiwan, Japan and Southeast Asia. My approach is to write the asynchronous things down properly, the spec, the decision log, the reasoning behind priorities, and save synchronous time for the disagreements that genuinely need a live conversation.
-`,
-        ja: `
-私の働き方は三つに凝縮できます。**まず合わせてから動く、データで議論を終わらせる、自分でできるものは先に作って見せる**、です。
-
-案件を始める前に、ビジネス目標、技術的な制約、現場の要望を、ひとつの優先順位に揃えます。Typusでキックオフからデリバリーまでのプロセスを設計し直したとき、手戻りの大半は最初にきちんと話せていなかったことから来ていると分かったからです。その見直しで、手戻りのサイクルを30%減らしました。進行中は、会議での説得力に頼るのではなく、プロトタイプやデータで議論を収束させるのが好みです。時間配分は80/20で、本当に判断が必要なことに大半の時間を残し、繰り返しの作業はできるだけ自動化します。
-
-#### エンジニアとはどう協働していますか？
-
-要件は、エンジニアがもう一度私に聞き返さなくて済むレベルまで書くようにしています。ユーザーストーリー、受け入れ条件、そしてなぜこれが先なのか、です。自分でプロトタイプを作るので、議論のときは想像上の画面を説明するのではなく、実際にクリックできるものをそのまま渡せます。
-
-#### リモートや時差のある環境ではどう働いていますか？
-
-Typusは完全リモートで、17LIVEは台湾・日本・東南アジアをまたいでいました。私のやり方は、非同期で済むものをきちんと書き残すことです。仕様、決定の記録、優先順位の理由をすべて書いておいて、同期の時間は本当にリアルタイムで議論が必要な論点のために残します。
-
-| 読み方 | |
-|---|---|
-| 凝縮 | ぎょうしゅく |
-| 制約 | せいやく |
-| 揃える | そろえる |
-| 手戻り | てもどり |
-| 収束 | しゅうそく |
-| 受け入れ条件 | うけいれじょうけん |
-| 非同期 | ひどうき |
 `
       },
       {
@@ -458,38 +260,6 @@ My background is in cultural and creative industries management, not product or 
 `
       },
       {
-        q: '什麼激勵你？',
-        zh: `
-兩件事。
-
-一是**看到指標真的動了**，尤其是那種可以追溯回某個具體決定的變化。
-
-二是和一群能力比我強的人一起把一個模糊的問題收斂掉的過程，團隊討論本身就是我覺得最有成就感的部分。
-`,
-        en: `
-Two things.
-
-One is **seeing a metric actually move**, especially the kind of change you can trace back to a specific decision.
-
-The other is the process of narrowing down a vague problem with people who are better than me. The discussion itself is the part I find most rewarding.
-`,
-        ja: `
-二つあります。
-
-一つは、**指標が本当に動くのを見ること**です。特に、ある具体的な決定までさかのぼれる変化です。
-
-もう一つは、自分より能力の高い人たちと一緒に、曖昧な課題を収束させていくプロセスです。チームでの議論そのものが、私にとって一番達成感のある部分です。
-
-| 読み方 | |
-|---|---|
-| 指標 | しひょう |
-| 具体的 | ぐたいてき |
-| 曖昧 | あいまい |
-| 収束 | しゅうそく |
-| 達成感 | たっせいかん |
-`
-      },
-      {
         q: '除了薪水，你最重視什麼？',
         zh: `
 三件事，依序是：**能不能學到我現在還沒有的東西**，特別是規模化的產品經驗；**團隊是不是高信任低政治**；以及**產品有沒有真實的使用者**。
@@ -602,32 +372,6 @@ What draws me to **[company]** is **[the specific product, mission, or your own 
 | 意思決定 | いしけってい |
 | 仮説 | かせつ |
 | 汎用 | はんよう |
-`
-      },
-      {
-        q: '我們為什麼要錄取你？',
-        zh: `
-因為我把 **PM 的判斷力和動手能力放在同一個人身上**。
-
-我有可被驗證的成果：Typus 的 MAU 從 1K 成長到 20K 以上、存入資產從 $8M 到 $20M；17LIVE 的正向回饋提升 30%。而且我自己做 prototype 和數據分析，**從洞察到交付的距離比較短**。加上中英日三語，我可以直接在跨區團隊裡工作。
-`,
-        en: `
-Because I put **the judgement of a PM and the ability to build in the same person**.
-
-I have results you can check: at Typus, monthly active users went from 1K to over 20K and deposits from $8M to $20M; at 17LIVE, positive feedback rose 30%. And because I build my own prototypes and do my own analysis, **the distance from insight to delivery is shorter**. On top of that I work in Mandarin, English and Japanese, so I can operate inside a cross-regional team directly.
-`,
-        ja: `
-**PM としての判断力と、自分で手を動かす力を、一人の中に持っている**からです。
-
-検証できる実績があります。Typus では MAU が 1K から 20K 以上に成長し、預け入れ資産は $8M から $20M になりました。17LIVE ではポジティブなフィードバックが 30% 向上しました。しかも、プロトタイプもデータ分析も自分でやるので、**インサイトから納品までの距離が短い**です。さらに中国語・英語・日本語の三言語が使えるので、地域をまたぐチームの中でそのまま働けます。
-
-| 読み方 | |
-|---|---|
-| 判断力 | はんだんりょく |
-| 実績 | じっせき |
-| 預け入れ資産 | あずけいれしさん |
-| 納品 | のうひん |
-| 三言語 | さんげんご |
 `
       },
       {
@@ -769,33 +513,6 @@ I've been on a full-time master's, and I didn't stop building during it: the pro
 | 賃貸物件 | ちんたいぶっけん |
 | 講座 | こうざ |
 | 就職活動 | しゅうしょくかつどう |
-`
-      },
-      {
-        q: '簽證、到職時間、地點、期望待遇',
-        zh: `
-| 問題 | 答案 |
-|---|---|
-| 需要擔保嗎？ | 表格只有 Yes/No 就選 **Yes**。有補充欄位就加：畢業後可走 Graduate Route，約兩年內不需要雇主擔保，之後才需要。 |
-| 何時可到職？ | **2026 年 9 月畢業後**；實習類可即時。 |
-| 地點彈性 | 以倫敦為主，可 on-site，也接受 remote 或 hybrid，願意 relocate。 |
-| 薪資期望 | 英國主帶 **£50,000–£60,000**；日本主帶 **600〜800 萬円**。 |
-`,
-        en: `
-| Question | Answer |
-|---|---|
-| Do you need sponsorship? | If the form only allows Yes/No, answer **Yes**. Where there's a free-text field, add: after graduating I can use the Graduate Route, which means no employer sponsorship is needed for about two years, only after that. |
-| When can you start? | **After graduating in September 2026**; immediately for internships. |
-| Location | London-based, happy to be on-site, also open to remote or hybrid, willing to relocate. |
-| Salary expectation | UK: **£50,000–£60,000**. Japan: **¥6,000,000–8,000,000**. |
-`,
-        ja: `
-| 質問 | 回答 |
-|---|---|
-| スポンサーは必要ですか？ | フォームが Yes/No しかなければ **Yes** を選ぶ。補足欄があれば追記：卒業後は Graduate Route が使えるので、約二年間は雇用主のスポンサーが不要。必要になるのはその後。 |
-| いつから勤務できますか？ | **2026 年 9 月の卒業後**。インターンであればすぐに可能。 |
-| 勤務地の柔軟性 | ロンドンを中心に、オンサイト可。リモートやハイブリッドも可。転勤も可能。 |
-| 希望年収 | イギリスは **£50,000–£60,000** が主。日本は **600〜800 万円** が主。 |
 `
       }
     ]
@@ -1644,7 +1361,7 @@ On that platform with 33 modules and three LLMs, I wrote down what "a good outpu
     name: '成就與挑戰',
     items: [
       {
-        q: '過去帶給你強烈成就感的項目',
+        q: '過去帶給你強烈成就感的項目（User Feedback Dashboard 專案）',
         zh: `
 是我在 17LIVE 主動提案並主導的用戶回饋分析平台。時間點其實很早，那是我第一個真正掛名 Owner、從頭到尾自己負責的專案，所以印象特別深刻。
 
@@ -1691,7 +1408,7 @@ But what actually gave me the sense of achievement wasn't those three numbers. I
 `
       },
       {
-        q: '那個專案當中有沒有遇到什麼挑戰？（成就感項目的追問）',
+        q: '那個專案當中有沒有遇到什麼挑戰？（User Feedback Dashboard 專案・追問）',
         zh: `
 有，而且是我自己造成的。
 
@@ -1731,7 +1448,7 @@ Yes, and it was one I caused myself.
 `
       },
       {
-        q: '工作經驗中遇到最大的挑戰：Typus 版（陌生領域）',
+        q: '工作經驗中遇到最大的挑戰：陌生領域（Typus 永續合約專案）',
         zh: `
 **Situation**：上一份工作在 Typus Finance，做 Sui 鏈上的衍生性金融商品。我前四年都在直播平台，沒有金融背景，對加密貨幣投資也談不上熟悉。而我進去要負責的第一個產品就是永續合約，這是 DeFi 裡機制最複雜的產品之一。
 
@@ -1772,7 +1489,7 @@ Yes, and it was one I caused myself.
 `
       },
       {
-        q: '工作經驗中遇到最大的挑戰：17LIVE 版（客訴擴大）',
+        q: '工作經驗中遇到最大的挑戰：客訴擴大（17LIVE 客訴追蹤）',
         zh: `
 **Situation**：剛開始追蹤客訴時，每天收到的客訴種類繁多，我漸漸麻痺，覺得不是每個客訴都值得特別關注。然而某天我發現一個問題開始擴大：從一天只有一位用戶回報，到第三天增加到十多個用戶抱怨。這個狀況已經不正常了。
 
@@ -1819,7 +1536,7 @@ Yes, and it was one I caused myself.
 `
       },
       {
-        q: '講一個你的失敗經驗',
+        q: '講一個你的失敗經驗（Typus Kickoff 流程重設計）',
         zh: `
 在 Typus 早期，我把一個功能的規格寫得太粗，覺得團隊夠小、口頭講清楚就好。結果進入開發後對驗收標準的理解不一致，來回改了兩輪，時程延誤。
 
@@ -1851,7 +1568,7 @@ Typusの初期に、ある機能の仕様をかなり粗く書いてしまいま
     name: '經驗故事',
     items: [
       {
-        q: '講一個你主動發起、不在你 KPI 上的事',
+        q: '講一個你主動發起、不在你 KPI 上的事（User Feedback Dashboard 專案）',
         zh: `
 17LIVE 的用戶回饋散落在客服工單、QA 紀錄、應用商店評論與數據團隊的報表裡，沒有人擁有全貌，重複的問題會被重複討論。這件事不在我的 KPI 上，但我判斷它是很多產品爭論的根因，所以我主動提案。
 
@@ -1885,7 +1602,7 @@ The hard part wasn't building the dashboard, it was getting four teams to agree 
 `
       },
       {
-        q: '講一個你用數據做決定的例子',
+        q: '講一個你用數據做決定的例子（17LIVE Roadmap 優先排序）',
         zh: `
 在 17LIVE，roadmap 上的候選項目多過可交付量，各團隊各有主張，我需要一套能讓大家接受的排序依據。
 
@@ -1919,7 +1636,7 @@ UXリサーチと一緒に一般ユーザーとトップ配信者にインタビ
 `
       },
       {
-        q: '講一個你從 0 到 1、在陌生領域交付的例子',
+        q: '講一個你從 0 到 1、在陌生領域交付的例子（Typus 永續合約專案）',
         zh: `
 我不是金融或財經背景，卻要在 Typus 負責 Sui 鏈上的選擇權與永續合約產品。我必須在短時間內補足鏈上衍生品與交易機制的領域知識，同時把產品推上線。
 
@@ -1954,7 +1671,7 @@ I started from competitor analysis and product definition, then set the roadmap,
 `
       },
       {
-        q: '講一個你改善流程、降低返工的例子',
+        q: '講一個你改善流程、降低返工的例子（Typus Rebranding 與 Kickoff 流程）',
         zh: `
 Typus 的 rebranding 專案期間，需求進到開發後常因理解落差而返工，時程受影響。我要找出返工的根因並修掉，而不是靠加班補。
 
@@ -1987,7 +1704,7 @@ Typusのリブランディング案件の期間中、要件が開発に入って
 `
       },
       {
-        q: '講一個你做 AI 產品的例子',
+        q: '講一個你做 AI 產品的例子（Creator-Persona Content Engine）',
         zh: `
 我和一位工程夥伴合作，做了一個每天處理 200 篇以上文章的 agentic 平台，串接 3 個 LLM，共 33 個模組，從爬取、解析、分類評分、加值、專家審核到 RAG。我負責產品：定義需求、定義評估標準，以及 LLM 的 A/B 測試框架。
 
@@ -2022,7 +1739,7 @@ I wrote down what "a good output" actually means as measurable evaluation criter
 `
       },
       {
-        q: '講一個跨文化、跨時區協作的例子',
+        q: '講一個跨文化、跨時區協作的例子（17LIVE 跨區上線與 V-Liver）',
         zh: `
 在 17LIVE，功能要同時在台灣、日本與東南亞上線，各區市場需求與優先級不同。我負責協調跨區的上線節奏，並在日本市場用日文直接做跨職能溝通。
 
@@ -2055,7 +1772,7 @@ I acted as the translator between product, engineering, operations and leadershi
 `
       },
       {
-        q: 'V-Liver 虛擬頭像專案：同一個功能在日本市場的在地化',
+        q: '同一個功能在日本市場的在地化（V-Liver Avatar 專案）',
         zh: `
 最清楚的例子，是我在 17LIVE 負責的虛擬頭像專案。
 
@@ -2102,7 +1819,7 @@ Two clear results. First, effective viewing time in the Japanese market increase
 `
       },
       {
-        q: '90 秒短影音專案：目標、挑戰、成果',
+        q: '短影音功能的目標、挑戰與成果（90s Clip 專案）',
         zh: `
 因應短影音的流行趨勢，我們基於典藏直播功能開發了一個短影片剪輯功能，讓用戶隨時剪輯主播直播間的精彩片段、分享到社群平台，幫助主播吸引更多粉絲。**典藏直播**是讓主播錄下並儲存直播內容的功能，觀眾錯過直播也能稍後觀看。
 
@@ -2197,7 +1914,7 @@ With a small rollout, false negatives and false positives are common. In that ca
 `
       },
       {
-        q: '講一個你自己動手做的 side project',
+        q: '講一個你自己動手做的 side project（租屋篩選工具與 Claude Code 課程）',
         zh: `
 來英國念書時，租屋資訊過載且分散；同時我發現碩士班同學對 agentic coding 工具幾乎完全陌生。這兩件都不是別人交辦的事，是我自己判斷值得做。
 
