@@ -6762,6 +6762,457 @@ The last one matters most. Being pushed to the limit is normal in a technical ro
     ]
   }
   ]
+},
+
+
+/* ═══════════ 第一關面試問題 ═══════════ */
+{
+  id: 'r1-tripcom',
+  label: 'Trip.com 面試問題集',
+  section: '第一關面試問題',
+  groups: [
+  {
+    name: '第一關題目清單',
+    items: [
+      {
+        q: 'Recruiter 初談實際被問的 7 題（2026-08-18）',
+        zh: `
+**面試官**：Recruiter（招募端）　**形式**：線上約 40 分鐘，全英文
+**出處**：trip.com / 逐字稿-recruiter初談-2026-08-18.md
+
+| # | 題目 | 類型 |
+|---|---|---|
+| 1 | 說說你的背景，還有你目前的狀況 | 開場自介 |
+| 2 | 是什麼讓你決定去念碩士？ | 動機與經歷 |
+| 3 | 碩士什麼時候完成？ | 條件確認 |
+| 4 | 舉一個例子：你怎麼依當地使用者行為去優化產品功能或體驗？ | 經驗深掘 |
+| 5 | 你處理過 conversion rate、GMV 這類數據嗎？這些指標怎麼進到你的工作裡？ | 數據能力 ⚠️ |
+| 6 | 那這個產品怎麼變現？17LIVE 的變現產品是什麼？ | 商業理解 ⚠️ |
+| 7 | 你下一步想找什麼樣的角色？ | 職涯規劃 |
+
+⚠️ = 原始紀錄標記為當時答得不穩的題。第 5、6 題是連在一起的，對方從指標一路問到變現，你回「我的專案跟營收關聯不大」就收掉了。這條線是這一關唯一的破口。
+`,
+        en: `
+**Interviewer**: Recruiter　**Format**: ~40 min online, all English
+**Source**: trip.com / 逐字稿-recruiter初談-2026-08-18.md
+
+| # | Question | Type |
+|---|---|---|
+| 1 | Walk me through your background and your current situation | Opening |
+| 2 | What made you decide to pursue your master's? | Motivation |
+| 3 | When would you be expected to complete your master's? | Logistics |
+| 4 | Can you share an example of how you optimised product features or experience based on local user behaviours? | Experience deep-dive |
+| 5 | Have you worked with data points such as conversion rate and GMV? How do those metrics play into what you do? | Data ⚠️ |
+| 6 | How does the business monetise the product? What was the monetisation product at 17LIVE? | Business sense ⚠️ |
+| 7 | What kind of ideal role are you looking for in your next move? | Career plan |
+
+⚠️ = flagged in the original record as a shaky answer. Questions 5 and 6 came as a pair, moving from metrics into monetisation, and the answer ended at "my project didn't link much to revenue." That thread was the only weak spot in this round.
+`,
+        ja: `
+**面接官**：リクルーター　**形式**：オンライン約40分、すべて英語
+**出典**：trip.com / 逐字稿-recruiter初談-2026-08-18.md
+
+| # | 質問 | 種類 |
+|---|---|---|
+| 1 | ご経歴と現在の状況を教えてください | 冒頭・自己紹介 |
+| 2 | 修士課程に進もうと決めた理由は何ですか | 動機 |
+| 3 | 修士はいつ修了の予定ですか | 条件確認 |
+| 4 | 現地ユーザーの行動に合わせて機能や体験を改善した例を教えてください | 経験の深掘り |
+| 5 | コンバージョン率やGMVといった数値を扱った経験はありますか。それらの指標は仕事にどう関わっていましたか | データ ⚠️ |
+| 6 | そのプロダクトはどうやって収益化しているのですか。17LIVEの収益化の仕組みは何でしたか | ビジネス理解 ⚠️ |
+| 7 | 次のキャリアではどのような役割を希望されますか | キャリア設計 |
+
+⚠️ = 当時の回答が弱いと元の記録で印がついている質問です。5番と6番は続けて聞かれ、指標から収益化へ話が移り、「自分の案件は売上とあまり繋がっていませんでした」で終わってしまいました。このラインがこの回の唯一の弱点です。
+
+| 読み方 | |
+|---|---|
+| 経歴 | けいれき |
+| 修了 | しゅうりょう |
+| 深掘り | ふかぼり |
+| 収益化 | しゅうえきか |
+| 弱点 | じゃくてん |
+`
+      },
+      {
+        q: '你當時問回去的 3 題',
+        zh: `
+| # | 反問 |
+|---|---|
+| 1 | Trip.com 在台灣最大的在地化挑戰是什麼？ |
+| 2 | 這個角色為什麼掛在 product marketing 底下？Hiring manager 是誰？ |
+| 3 | 這個角色需要英文嗎？ |
+
+對方也主動說明了面試流程共三關，以及 case study 的安排。
+`,
+        en: `
+| # | Your question back |
+|---|---|
+| 1 | What is Trip.com's biggest localisation challenge in Taiwan? |
+| 2 | Why does this role sit under product marketing? Who is the hiring manager? |
+| 3 | Does this role require English? |
+
+The recruiter also volunteered that the process runs three rounds, and explained the case study arrangement.
+`,
+        ja: `
+| # | 逆質問 |
+|---|---|
+| 1 | 台湾市場における最大のローカライズ課題は何ですか |
+| 2 | このポジションがproduct marketingの下にあるのはなぜですか。採用責任者はどなたですか |
+| 3 | この役割では英語は必要ですか |
+
+先方からは、選考が全3回であること、およびケーススタディの進め方についても説明がありました。
+
+| 読み方 | |
+|---|---|
+| 逆質問 | ぎゃくしつもん |
+| 選考 | せんこう |
+| 先方 | せんぽう |
+`
+      }
+    ]
+  }
+  ]
+},
+
+{
+  id: 'r1-smartnews',
+  label: 'SmartNews 面試問題集',
+  section: '第一關面試問題',
+  groups: [
+  {
+    name: '第一關題目清單',
+    items: [
+      {
+        q: 'Web Coding 第一關實際被問的 7 題（2026-09-09）',
+        zh: `
+**面試官**：Moriyama（森山）　**形式**：線上約 50 分鐘，英日夾雜，實際全程英文
+**出處**：smartnews / 面試紀錄-01-Web-Coding-2026-09-09.md
+
+| # | 題目 | 類型 |
+|---|---|---|
+| 1 | 你會說日文嗎？ | 語言確認 |
+| 2 | PM 在每家公司職責範圍都不一樣，你現在的角色是什麼？最專注在什麼？ | 角色定義 |
+| 3 | 你在 17LIVE 台灣？現在還在用嗎？ | 背景確認 |
+| 4 | 直播很吃網路，延遲和伺服器成本會不會是問題？有沒有要特別小心的地方？ | 技術理解 |
+| 5 | PM 技術知識不足時，你怎麼跟工程師溝通？（前端、後端、ML infra） | 協作 ★核心 |
+| 6 | AI 一直在成長，你日常用哪些工具？ | AI 工具 |
+| 7 | 你有把生活中的什麼事自動化嗎？ | AI 實作 ★加分 |
+
+★ 第 5 題是這個職位的核心，Prototyper 就是要跨過「PM 技術不足」這條線。你當時答「真的很花時間，因為他們講的是他們的語言」，誠實但停在原地，下次可以往前推一步：現在我會直接做出可跑的原型，讓討論從「你聽得懂嗎」變成「這樣對不對」。
+
+★ 第 7 題反應最好。你講 Eurostar 便宜票監控、兩小時做完，他的評語是「That's very concrete purpose. Useful.」具體、有場景、有時間成本，這個模板可以重複用。
+`,
+        en: `
+**Interviewer**: Moriyama　**Format**: ~50 min online, mixed EN/JA, conducted in English
+**Source**: smartnews / 面試紀錄-01-Web-Coding-2026-09-09.md
+
+| # | Question | Type |
+|---|---|---|
+| 1 | Do you speak Japanese? | Language check |
+| 2 | A PM's scope differs at every company. What is your role right now, and what do you focus on most? | Role definition |
+| 3 | You were at 17LIVE Taiwan? Do you still use it? | Background |
+| 4 | Live streaming is network-heavy. Are latency and server cost a problem? Anything you had to be careful about? | Technical grasp |
+| 5 | When a PM lacks technical knowledge, how do you communicate with engineers? (front-end, back-end, ML infrastructure) | Collaboration ★core |
+| 6 | AI keeps growing. Which tools do you use day to day? | AI tooling |
+| 7 | Have you automated anything in your own life? | AI in practice ★bonus |
+
+★ Question 5 is the core of this role: a Prototyper is exactly the person who crosses the line where a PM's technical knowledge runs out. The answer given, "it really takes time because they speak their own language," was honest but stopped there. Next time push one step further: these days I just build a working prototype, so the conversation moves from "do you understand me" to "is this right."
+
+★ Question 7 drew the best reaction. The Eurostar cheap-ticket monitor, built in two hours, got "That's very concrete purpose. Useful." Concrete, situated, with a stated time cost. Reuse that template.
+`,
+        ja: `
+**面接官**：森山さん　**形式**：オンライン約50分、英語・日本語まじり、実際は全編英語
+**出典**：smartnews / 面試紀錄-01-Web-Coding-2026-09-09.md
+
+| # | 質問 | 種類 |
+|---|---|---|
+| 1 | 日本語は話せますか | 言語確認 |
+| 2 | PMの職務範囲は会社ごとに違いますが、今のご自身の役割は何ですか。一番力を入れているのはどこですか | 役割の定義 |
+| 3 | 17LIVEは台湾でしたよね。今も使っていますか | 背景確認 |
+| 4 | ライブ配信は通信負荷が高いですが、遅延やサーバーコストは課題になりませんでしたか。特に気をつけた点はありますか | 技術理解 |
+| 5 | PMとして技術知識が足りないとき、エンジニアとはどうコミュニケーションを取っていますか（フロント、バック、ML基盤） | 協働 ★中核 |
+| 6 | AIが伸びていますが、普段どんなツールを使っていますか | AIツール |
+| 7 | ご自身の生活で何か自動化したものはありますか | AI実践 ★加点 |
+
+★ 5番はこのポジションの核心です。Prototyperとは、まさに「PMの技術知識が尽きる線」を越える人だからです。当時は「彼らは彼らの言葉で話すので、本当に時間がかかります」と答えましたが、正直ではあるもののそこで止まっています。次はもう一歩進めて、「今は動くプロトタイプを自分で作るので、議論が『伝わっていますか』から『これで合っていますか』に変わります」と言えます。
+
+★ 7番が最も反応が良かった質問です。Eurostarの格安チケット監視ツールを2時間で作った話に「That's very concrete purpose. Useful.」という評価でした。具体的で、場面があり、かかった時間まで言える。この型は使い回せます。
+
+| 読み方 | |
+|---|---|
+| 職務範囲 | しょくむはんい |
+| 遅延 | ちえん |
+| 基盤 | きばん |
+| 協働 | きょうどう |
+| 核心 | かくしん |
+| 監視 | かんし |
+`
+      },
+      {
+        q: '實作題的完整規格（20 分鐘）',
+        zh: `
+| 項目 | 規格 |
+|---|---|
+| 主題 | 倫敦的在地新聞 |
+| 形式 | Web app，但長得像手機 App。不需要做原生 App |
+| 主畫面 | 全螢幕地圖，不是列表 |
+| 內容 | 新聞以經緯度 plot 在地圖上的各個地點 |
+| 核心目的 | Discovery，不是 navigation |
+| 內容類型 | 事故、大雨、活動、餐廳都可以，類別由你決定 |
+| 資料 | Mock data 即可，不用接 Google Maps API |
+| 環境 | 本機 localhost |
+| Prompt 語言 | 任何語言都可以 |
+| 時間 | 20 分鐘 |
+
+**他親口講的產品邏輯**：使用者想去某個地方時會開 Google Maps。但反過來說，如果這個人沒有特定目的、沒有想去的地方，新聞 App 就可以推薦他附近的新聞。
+
+**這道題就是他們 2026-08-10 上線的 iOS 地圖 App Wanderland 的簡化版**，不是隨機出的題。
+
+#### 他的回饋
+
+| 評語 | 原文 |
+|---|---|
+| 乾淨 | I think it's very clean. |
+| 誠實、好讀 | This is a very honest and easy-to-read app. |
+| ★ 喜歡那個按鈕 | I like the button to take you to a place you don't know. |
+
+**唯一的批評**：你把手機外框和地圖並排了，他期待的是地圖填滿手機外框內部，也就是真正模擬 App 的樣子。這其實是他一開始就講過的「全螢幕 map view」。
+`,
+        en: `
+| Item | Spec |
+|---|---|
+| Topic | Local news in London |
+| Form | A web app that looks like a mobile app. No native app needed |
+| Main screen | Full-screen map view, not a list view |
+| Content | News plotted onto locations by latitude and longitude |
+| Core purpose | Discovery, not navigation |
+| Categories | Accidents, heavy rain, events, restaurants. Your choice |
+| Data | Mock data is fine, no Google Maps API needed |
+| Environment | Local host |
+| Prompt language | Any language |
+| Time | 20 minutes |
+
+**His own framing of the product**: when a user wants to go somewhere, they open Google Maps. But turn it around, and if the person has no particular destination in mind, a news app can recommend what is happening nearby.
+
+**The task is a stripped-down version of Wanderland**, the iOS map app SmartNews launched on 2026-08-10. It was not a random exercise.
+
+#### His feedback
+
+| Verdict | Quote |
+|---|---|
+| Clean | I think it's very clean. |
+| Honest, readable | This is a very honest and easy-to-read app. |
+| ★ Liked the button | I like the button to take you to a place you don't know. |
+
+**The one criticism**: the phone frame and the map were placed side by side. He expected the map to fill the inside of the phone frame, actually simulating the app. That was the full-screen map view he had specified at the start.
+`,
+        ja: `
+| 項目 | 仕様 |
+|---|---|
+| テーマ | ロンドンのローカルニュース |
+| 形式 | ウェブアプリだが、見た目はモバイルアプリ。ネイティブアプリは不要 |
+| メイン画面 | 全画面の地図ビュー。リストではない |
+| コンテンツ | ニュースを緯度経度で地図上の各地点にプロット |
+| 目的 | ナビゲーションではなく、ディスカバリー |
+| カテゴリ | 事故、大雨、イベント、レストランなど。分類は自由 |
+| データ | モックデータで可。Google Maps APIは不要 |
+| 環境 | ローカルホスト |
+| プロンプト言語 | 何語でも可 |
+| 時間 | 20分 |
+
+**面接官が語ったプロダクトの考え方**：ユーザーが行きたい場所があるときはGoogle Mapsを開きます。しかし逆に、特に目的地がない人に対しては、ニュースアプリが近くのニュースを薦めることができます。
+
+**この課題は、SmartNewsが2026年8月10日にリリースしたiOS地図アプリ Wanderland の簡易版**です。ランダムな出題ではありません。
+
+#### フィードバック
+
+| 評価 | 原文 |
+|---|---|
+| 清潔感がある | I think it's very clean. |
+| 素直で読みやすい | This is a very honest and easy-to-read app. |
+| ★ あのボタンが好き | I like the button to take you to a place you don't know. |
+
+**唯一の指摘**：スマホの枠と地図を横並びに置いてしまいました。面接官が期待していたのは、地図が枠の内側を埋めて、本当にアプリを模した形になることです。これは冒頭で指定された「全画面の地図ビュー」そのものでした。
+
+| 読み方 | |
+|---|---|
+| 仕様 | しよう |
+| 緯度経度 | いどけいど |
+| 簡易版 | かんいばん |
+| 指摘 | してき |
+| 枠 | わく |
+`
+      }
+    ]
+  }
+  ]
+},
+
+{
+  id: 'r1-rakuten',
+  label: 'Rakuten 面試問題集',
+  section: '第一關面試問題',
+  groups: [
+  {
+    name: '第一關題目清單',
+    items: [
+      {
+        q: 'Recommendation PM 一次面接實際被問的 17 題（2026-09-11）',
+        zh: `
+**面試官**：Josh（senior manager）　**形式**：線上約 60 分鐘，日文段 + 英文段
+**出處**：rakuten / 逐字稿-Recommendation一次面接-2026-09-11.md（PART 1 §1-3）
+
+| # | 題目 | 語言・類型 |
+|---|---|---|
+| 1 | 你的日文程度到哪？ | 英・語言確認 |
+| 2 | 請用日文自我介紹 | 日・自介 |
+| 3 | 你現在做金融，這次是電商推薦，可以嗎？你的興趣在哪一邊？ | 日・動機 ⚠️ |
+| 4 | 17LIVE 具體做什麼？是做主播端還是觀眾端？ | 日・經驗 |
+| 5 | 有沒有一個痛點、你怎麼改善的例子？ | 日・STAR ⚠️ |
+| 6 | 90 秒 clip 是什麼？給誰用？ | 英・經驗深掘 |
+| 7 | 17LIVE 首頁怎麼把直播給用戶？有個人化嗎？ | 英・推薦相關 |
+| 8 | 需求從哪來？你自己決定 roadmap 還是有人來找你？ | 英・工作方式 |
+| 9 | 跟工程師近嗎？前端還後端？熟 API 嗎？ | 英・協作 |
+| 10 | **情境**：客戶要求兩週內交一個功能，你手上已有專案，怎麼回？ | 英・情境 ★ |
+| 11 | 工程師說兩週做不到怎麼辦？ | 英・情境 ⚠️ |
+| 12 | **白板**：五個 processing 排順序（item master API / 查 DB 拿推薦 / AI ranker / size cut / business filter） | 英・技術 ★ |
+| 13 | 為什麼 size cut 放 item master 前面，不放最後？ | 英・技術追問 ⚠️ |
+| 14 | 為什麼先 business filter 再 rank，不反過來？ | 英・技術追問 ⚠️ |
+| 15 | 你平常用什麼電商 App？打開看它的推薦版位 | 英・產品洞察 |
+| 16 | 薪資期待？ | 英・條件 |
+| 17 | 這場交流的感想？太技術嗎？ | 英・收尾 |
+
+★ = 答得好的題　⚠️ = 要修的題
+
+白板題最終順序正確：**查 DB → size cut → item master → business filter → rank**，而且「call fewer is better」是你自己講出來的，Josh 說 quite happy。
+`,
+        en: `
+**Interviewer**: Josh (senior manager)　**Format**: ~60 min online, a Japanese section then English
+**Source**: rakuten / 逐字稿-Recommendation一次面接-2026-09-11.md (PART 1 §1-3)
+
+| # | Question | Language / Type |
+|---|---|---|
+| 1 | What is your Japanese level? | EN, language check |
+| 2 | Please introduce yourself in Japanese | JA, self-intro |
+| 3 | You work in finance now, this is e-commerce recommendation. Is that alright? Which side interests you? | JA, motivation ⚠️ |
+| 4 | What exactly did you do at 17LIVE? The streamer side or the viewer side? | JA, experience |
+| 5 | Can you give an example of a pain point and how you improved it? | JA, STAR ⚠️ |
+| 6 | What is the 90-second clip? Who is it for? | EN, deep-dive |
+| 7 | How does the 17LIVE home page surface streams to users? Is it personalised? | EN, recsys-adjacent |
+| 8 | Where do requirements come from? Do you set the roadmap yourself, or do people come to you? | EN, ways of working |
+| 9 | Are you close to engineers? Front-end or back-end? Are you comfortable with APIs? | EN, collaboration |
+| 10 | **Scenario**: a client wants a feature delivered in two weeks and you already have projects. How do you respond? | EN, scenario ★ |
+| 11 | What if the engineers say two weeks is impossible? | EN, scenario ⚠️ |
+| 12 | **Whiteboard**: order these five processing steps (item master API / query DB for recommendations / AI ranker / size cut / business filter) | EN, technical ★ |
+| 13 | Why put the size cut before the item master call rather than last? | EN, technical follow-up ⚠️ |
+| 14 | Why run the business filter before ranking rather than the other way round? | EN, technical follow-up ⚠️ |
+| 15 | Which e-commerce app do you use? Open it and look at the recommendation slots | EN, product sense |
+| 16 | What are your salary expectations? | EN, logistics |
+| 17 | How did this conversation feel? Too technical? | EN, closing |
+
+★ = answered well　⚠️ = needs fixing
+
+The final whiteboard order was correct: **query DB, size cut, item master, business filter, rank**, and "call fewer is better" came unprompted. Josh said he was quite happy with it.
+`,
+        ja: `
+**面接官**：Joshさん（シニアマネージャー）　**形式**：オンライン約60分、日本語パートのあと英語
+**出典**：rakuten / 逐字稿-Recommendation一次面接-2026-09-11.md（PART 1 §1-3）
+
+| # | 質問 | 言語・種類 |
+|---|---|---|
+| 1 | 日本語のレベルはどのくらいですか | 英・言語確認 |
+| 2 | 日本語で自己紹介をお願いします | 日・自己紹介 |
+| 3 | 今は金融ですが、今回はEコマースの推薦です。大丈夫ですか。興味はどちらにありますか | 日・動機 ⚠️ |
+| 4 | 17LIVEでは具体的に何をされていましたか。配信者側ですか、視聴者側ですか | 日・経験 |
+| 5 | 課題を一つ挙げて、どう改善したか教えてください | 日・STAR ⚠️ |
+| 6 | 90秒クリップとは何ですか。誰向けの機能ですか | 英・深掘り |
+| 7 | 17LIVEのホーム画面はどうやって配信をユーザーに届けていますか。パーソナライズはありますか | 英・推薦関連 |
+| 8 | 要件はどこから来ますか。ロードマップはご自身で決めますか、それとも誰かが持ってきますか | 英・仕事の進め方 |
+| 9 | エンジニアとの距離は近いですか。フロントですか、バックですか。APIには慣れていますか | 英・協働 |
+| 10 | **シナリオ**：クライアントから2週間でこの機能をと言われ、手元には既存の案件があります。どう返しますか | 英・シナリオ ★ |
+| 11 | エンジニアに2週間では無理だと言われたらどうしますか | 英・シナリオ ⚠️ |
+| 12 | **ホワイトボード**：5つの処理を順番に並べてください（item master API／DBから推薦を取得／AIランカー／size cut／business filter） | 英・技術 ★ |
+| 13 | なぜsize cutをitem masterの前に置くのですか。最後ではいけませんか | 英・技術追加質問 ⚠️ |
+| 14 | なぜbusiness filterを先にしてからランキングするのですか。逆ではだめですか | 英・技術追加質問 ⚠️ |
+| 15 | 普段どのECアプリを使っていますか。開いて推薦枠を見てみてください | 英・プロダクト感覚 |
+| 16 | 希望年収はいくらですか | 英・条件 |
+| 17 | 今回のやり取りの感想は。技術寄りすぎましたか | 英・締め |
+
+★ = よく答えられた質問　⚠️ = 修正が必要な質問
+
+ホワイトボードの最終的な順序は正解でした：**DBから取得 → size cut → item master → business filter → ランキング**。しかも「呼び出しは少ないほど良い」という点を自分から言えており、Joshさんからは quite happy との評価でした。
+
+| 読み方 | |
+|---|---|
+| 配信者 | はいしんしゃ |
+| 視聴者 | しちょうしゃ |
+| 要件 | ようけん |
+| 協働 | きょうどう |
+| 感覚 | かんかく |
+| 順序 | じゅんじょ |
+`
+      },
+      {
+        q: '四個要修的點（最終面前必看）',
+        zh: `
+| 題 | 問題 | 下次怎麼答 |
+|---|---|---|
+| 11 | 講了「想拿 codebase 權限用 AI 驗證工程師有沒有說謊」，Josh 立刻打斷「假設他們誠實」 | 從「先理解他們的限制 → 切 scope → 談 trade-off」開始，不要把工程師放在被驗證的位置 |
+| 13、14 | 兩次追問都答「很難解釋」或講一個感覺上的原則 | 骨架是同一句：**越重的步驟越晚做、越少資料進去越好**。item master 是呼叫量，ranker 是運算量與 latency |
+| 5 | 日文講痛點案例時卡住，這是 STAR 最基本的追問 | 備一則日文版 STAR（90 秒 clip：問題 → 做法 → D0–D7 數字）背到不用想 |
+| 3 | 說「對區塊鏈產業沒興趣」，日本面試官容易讀成「這份也可能沒興趣」 | 改正面版：PM 角色是第一優先，電商推薦每天影響數百萬用戶，比金融更貼近我在 17LIVE 的 B2C 經驗 |
+
+#### 最終面的已知條件
+
+- **下一輪就是最終面**，面試官是 Josh 的主管或另一位 senior manager，加上你的直屬主管（人在巴黎）
+- 技術比重較低，主軸是「你怎麼處理事情」
+- Josh 兩次強調這**不是 UI PM**，是「AI 怎麼運作、怎麼處理輸入來提升品質」。最終面要主動證明你懂這個差別
+- 可用的團隊資訊：部門 20 出頭人、直屬主管在巴黎、與歐洲每天重疊 2 小時、平均每兩週 10 個 release、內部客戶是各事業部的 UI/UX 人員
+`,
+        en: `
+| Q | Problem | Next time |
+|---|---|---|
+| 11 | Said you would ask for codebase access and use AI to check whether the engineers were lying. Josh cut in: "assume they are honest" | Start from understanding their constraints, then cut scope, then discuss trade-offs. Never put engineers in the position of being verified |
+| 13, 14 | Both follow-ups got "that's hard to explain" or a vague principle | One frame covers both: **do the heavy step last, and feed it as little data as possible.** Item master is call volume; the ranker is compute and latency |
+| 5 | Froze on the pain-point example in Japanese, which is the most basic STAR follow-up there is | Prepare one Japanese STAR (90-second clip: problem, action, D0–D7 numbers) until it needs no thinking |
+| 3 | Saying you are not interested in the blockchain industry reads, to a Japanese interviewer, as "she may not be interested in this one either" | Positive version: the PM role comes first, and e-commerce recommendation reaches millions of users daily, closer to the B2C work at 17LIVE than finance is |
+
+#### What is already known about the final round
+
+- **The next round is the final round**, with Josh's manager or another senior manager, plus your direct manager, who is based in Paris
+- Lighter on technical content, centred on how you handle things
+- Josh twice stressed this is **not a UI PM role**, but "how the AI works, and how you handle inputs to improve quality." Show you understand that distinction without being asked
+- Team facts you can use: just over 20 people in the department, direct manager in Paris, two hours of daily overlap with Europe, around ten releases every two weeks, and internal clients who are the UI/UX people in each business unit
+`,
+        ja: `
+| 問 | 問題点 | 次はこう答える |
+|---|---|---|
+| 11 | 「コードベースへのアクセスをもらい、AIでエンジニアが嘘をついていないか確認したい」と言い、Joshさんに即座に「みんな正直だと仮定してください」と遮られた | まず制約を理解し、スコープを切り、トレードオフを話す。エンジニアを検証される側に置かない |
+| 13、14 | 二度の追加質問とも「説明が難しい」または感覚的な原則で答えた | 骨格は同じ一文：**重い処理ほど後に、入れるデータは少ないほどよい**。item masterは呼び出し回数、rankerは計算量とレイテンシの問題です |
+| 5 | 日本語で課題事例を話そうとして詰まった。STARの最も基本的な追加質問である | 日本語版のSTARを一本（90秒クリップ：課題→打ち手→D0〜D7の数字）、考えずに言えるまで準備する |
+| 3 | 「ブロックチェーン業界には興味がない」という言い方は、日本の面接官には「この仕事にも興味がないかもしれない」と読まれやすい | 前向きな型に：PMという役割が第一優先で、EC推薦は毎日数百万人に届くため、金融より17LIVEのB2C経験に近い |
+
+#### 最終面接について分かっていること
+
+- **次はもう最終面接**です。面接官はJoshさんの上長または別のシニアマネージャーと、直属の上長（パリ在住）です
+- 技術の比重は低く、「物事の進め方」が主軸になります
+- Joshさんは二度、これは**UIのPMではない**と強調しました。「AIがどう動くか、入力をどう扱って品質を上げるか」が仕事です。この違いを理解していることを、聞かれる前に示す必要があります
+- 使える情報：部署は20名強、直属の上長はパリ、欧州との重なりは毎日2時間、平均2週間で10リリース、社内のお客様は各事業部門のUI/UX担当者
+
+| 読み方 | |
+|---|---|
+| 制約 | せいやく |
+| 検証 | けんしょう |
+| 計算量 | けいさんりょう |
+| 打ち手 | うちて |
+| 上長 | じょうちょう |
+| 比重 | ひじゅう |
+| 部署 | ぶしょ |
+`
+      }
+    ]
+  }
+  ]
 }
 
 ];

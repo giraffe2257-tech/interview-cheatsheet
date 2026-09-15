@@ -461,8 +461,13 @@ function md(src){
 }
 
 /* ── state ── */
-const S={tab:DATA[0].id,q:'',fold:false,lang:'zh'};
-const isCo=id=>{const t=DATA.find(x=>x.id===id);return t&&t.section==='Company';};
+const S={tab:DATA[0].id,q:'',folds:[],lang:'zh'};
+/* 側欄折疊分組：DATA 裡 section 不是 General 的，依出現順序各成一組 */
+const SECTIONS=(()=>{const s=[];DATA.forEach(t=>{
+  if(t.section&&t.section!=='General'&&s.indexOf(t.section)<0)s.push(t.section);});return s;})();
+const sectionOf=id=>{const t=DATA.find(x=>x.id===id);
+  return t&&SECTIONS.indexOf(t.section)>=0?t.section:null;};
+const openFold=s=>{if(s&&S.folds.indexOf(s)<0)S.folds.push(s);};
 
 const LANGS=[['zh','中'],['en','EN'],['ja','日']];
 function bodies(it){
@@ -520,17 +525,19 @@ function renderRail(){
   const btn=t=>'<li><button data-tab="'+t.id+'" aria-current="'+(!S.q&&S.tab===t.id)+'">'
     +'<span class="tname">'+esc(t.label)+'</span><span class="tnum">'+String(count(t)).padStart(2,'0')+'</span>'
     +'</button></li>';
-  const gen=DATA.filter(t=>t.section!=='Company');
-  const co=DATA.filter(t=>t.section==='Company');
-  const coTotal=co.reduce((a,t)=>a+count(t),0);
+  const gen=DATA.filter(t=>SECTIONS.indexOf(t.section)<0);
   tabsEl.innerHTML = gen.map(btn).join('')
-    + '<li class="fold'+(S.fold?' open':'')+'">'
-    +   '<button class="parent" data-fold aria-expanded="'+S.fold+'">'
-    +     '<span class="fchev"></span><span class="tname">Company</span>'
-    +     '<span class="tnum">'+coTotal+'</span>'
-    +   '</button>'
-    +   '<div class="foldwrap"><div class="foldin"><ul class="kids">'+co.map(btn).join('')+'</ul></div></div>'
-    + '</li>';
+    + SECTIONS.map((s,si)=>{
+        const kids=DATA.filter(t=>t.section===s);
+        const open=S.folds.indexOf(s)>=0;
+        return '<li class="fold'+(open?' open':'')+'">'
+          +   '<button class="parent" data-fold="'+si+'" aria-expanded="'+open+'">'
+          +     '<span class="fchev"></span><span class="tname">'+esc(s)+'</span>'
+          +     '<span class="tnum">'+kids.reduce((a,t)=>a+count(t),0)+'</span>'
+          +   '</button>'
+          +   '<div class="foldwrap"><div class="foldin"><ul class="kids">'+kids.map(btn).join('')+'</ul></div></div>'
+          + '</li>';
+      }).join('');
   const t=DATA.find(x=>x.id===S.tab);
   jumpEl.innerHTML=(S.q||t.groups.length<2)?'':t.groups
     .map((g,i)=>'<li><a href="#g'+i+'">'+esc(g.name)+'</a></li>').join('');
@@ -689,7 +696,10 @@ function observe(){
 /* ── events ── */
 tabsEl.addEventListener('click',e=>{
   const f=e.target.closest('button[data-fold]');
-  if(f){S.fold=!S.fold;try{localStorage.setItem('cheat.fold',S.fold?'1':'0')}catch(err){}renderRail();return;}
+  if(f){const s=SECTIONS[+f.dataset.fold],i=S.folds.indexOf(s);
+    if(i<0)S.folds.push(s);else S.folds.splice(i,1);
+    try{localStorage.setItem('cheat.folds',JSON.stringify(S.folds))}catch(err){}
+    renderRail();return;}
   const b=e.target.closest('button[data-tab]');if(!b)return;
   S.tab=b.dataset.tab;S.q='';qEl.value='';
   try{localStorage.setItem('cheat.tab',S.tab)}catch(err){}
@@ -712,16 +722,17 @@ document.addEventListener('keydown',e=>{
   if(e.key==='/'){e.preventDefault();qEl.focus();qEl.select();return;}
   if(e.key>='1'&&e.key<='9'){
     const t=DATA[+e.key-1];
-    if(t){S.tab=t.id;S.q='';qEl.value='';if(isCo(t.id))S.fold=true;render();window.scrollTo({top:0});}
+    if(t){S.tab=t.id;S.q='';qEl.value='';openFold(sectionOf(t.id));render();window.scrollTo({top:0});}
   }
 });
 
 try{
   const s=localStorage.getItem('cheat.tab');if(s&&DATA.some(t=>t.id===s))S.tab=s;
-  S.fold=localStorage.getItem('cheat.fold')==='1';
+  const fs=JSON.parse(localStorage.getItem('cheat.folds')||'[]');
+  if(Array.isArray(fs))S.folds=fs.filter(x=>SECTIONS.indexOf(x)>=0);
   const l=localStorage.getItem('cheat.lang');if(l&&LANGS.some(([k])=>k===l))S.lang=l;
 }catch(e){}
-if(isCo(S.tab))S.fold=true;
+openFold(sectionOf(S.tab));
 render();
 </script>
 <script type="module">
