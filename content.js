@@ -6702,8 +6702,6 @@ But **the approach is the same: fix the evaluation criteria first, compare sever
       {
         q: '技術不如工程師時，你怎麼跟他們溝通？（SmartNews 問過）',
         zh: `
-SmartNews 第一關實際被問：「PM 技術知識不足時，你怎麼跟工程師溝通？」面試官特別點名 front-end、back-end、ML infrastructure。當時答「企劃階段就去問可行性和工量」，並坦承「很花時間，因為他們講的是他們的語言」。面試官接受了，但紀錄裡建議下次往前推一步。
-
 | 可能的問法 | 用哪一段回 |
 |---|---|
 | 技術知識不足時怎麼溝通 | 全部四點 |
@@ -6728,8 +6726,6 @@ SmartNews 第一關實際被問：「PM 技術知識不足時，你怎麼跟工�
 在 Typus 我發現大部分衝突來自 kickoff 沒講清楚，所以把力氣往前放，重新設計 kickoff 到交付的流程，**返工降了 30%**。
 `,
         en: `
-Actually asked in the SmartNews first round: "When a PM lacks technical knowledge, how do you communicate with engineers?" The interviewer named front-end, back-end and ML infrastructure. The answer then was "ask about feasibility and effort at the planning stage", plus an honest "it takes a lot of time because they speak their own language". It was accepted, but the notes say to push one step further next time.
-
 | Likely phrasing | Which part to use |
 |---|---|
 | How do you communicate when you lack the technical depth | All four points |
@@ -6949,39 +6945,6 @@ The last one matters most. Being pushed to the limit is normal in a technical ro
 | 経験 | けいけん |
 `
       },
-      {
-        q: '睡前檢查清單',
-        zh: `
-- 用語表粗體字全部念得出來
-- 架構那張圖，閉著眼睛畫得出來
-- 架構說明，不看稿講完
-- Batch vs リアルタイム，不看稿講完（含 cache 那三句）
-- ①③④ 三題，各講一次不看稿
-- 五句退路句念過三次
-- 自己紹介日本語版講一次
-- 打開楽天市場 App 用 10 分鐘，找一個親眼看到的現象
-`,
-        en: `
-- Can say every bold term in the vocabulary table
-- Can draw the architecture diagram with eyes closed
-- Architecture explanation, without notes
-- Batch vs real-time, without notes (including the three cache sentences)
-- Questions ①③④, each once without notes
-- Five fallback phrases read three times
-- Japanese self-introduction once
-- Open the Rakuten Ichiba app for 10 minutes and find one thing you actually noticed
-`,
-        ja: `
-- 用語表の太字を全部言える
-- アーキテクチャの図を目を閉じて描ける
-- アーキテクチャの説明を、原稿なしで最後まで
-- バッチとリアルタイムを、原稿なしで最後まで（キャッシュの三文を含む）
-- ①③④ を各一回、原稿なしで
-- 逃げ道の五文を三回読む
-- 自己紹介の日本語版を一回
-- 楽天市場アプリを10分使って、自分で気づいたことを一つ見つける
-`
-      },
     ]
   },
   {
@@ -7040,7 +7003,13 @@ The last one matters most. Being pushed to the limit is normal in a technical ro
         zh: `
 我從三個地方講好了：公司、部門，然後這個職位本身。
 
-**先講公司。** 吸引我的其實不是它大，是 **AI 在這裡已經是要對數字負責的東西了**。今年 AI-nization 是全公司最重要的方向，而且已經有一部分獲利是 AI 賺回來的。很多公司講 AI 是在講願景，**這裡是在講賺多少。對 PM 來說，這兩種環境差很多。**
+**先講公司。** Rakuten 在日本是領先的電商與網路服務公司，以產品服務和技術創新受到大家的歡迎。而且作為一家跨國公司，這裡提供了很豐富的跨國合作機會，可以拓展視野、增進我對全球市場的理解。
+
+這一點對我來說是具體的，不是想像的。**我知道這個部門在日本和歐洲都有研發中心，直屬主管在巴黎，團隊成員的國籍也很多元。** 我自己在 17LIVE 就是同時跟台灣、日本、東南亞三個市場團隊工作，那段經驗讓我知道跨國協作真正難的地方在哪裡，也知道自己喜歡這種環境。
+
+另外，我也有朋友在貴公司工作，經常聽到貴公司對員工的尊重、以及對職業發展的重視，這也讓我非常想成為其中的一員。
+
+> 朋友那句只有你真的有朋友在樂天才講，沒有就直接刪掉。
 
 **再講部門。** 我最有興趣的是這個團隊在公司裡的位置。你們做的是給整個集團用的推薦平台，客戶是各個事業部，每天有幾百萬人會碰到。
 
@@ -7053,7 +7022,13 @@ The last one matters most. Being pushed to the limit is normal in a technical ro
         en: `
 Let me take it from three angles: the company, the department, then the job itself.
 
-**The company first.** What draws me isn't that it's big. It's that **AI here already has to answer to numbers**. AI-nization is the company's main direction this year, and some of the profit is already money AI brought in. Plenty of companies talk about AI as a vision. **Here it's talked about as how much it earns. For a PM those are two very different places to work.**
+**The company first.** Rakuten is a leading e-commerce and internet services company in Japan, and it's well regarded for both its products and its technical innovation. On top of that, as a multinational it offers a lot of genuine cross-border collaboration, which broadens my perspective and deepens my understanding of global markets.
+
+That part is concrete for me rather than imagined. **I know this department has R&D in both Japan and Europe, that the line manager is based in Paris, and that the team is very mixed in nationality.** At 17LIVE I worked with the Taiwan, Japan and Southeast Asia market teams at the same time, so I know where cross-border collaboration actually gets hard, and I know I enjoy working that way.
+
+I also have friends working at Rakuten, and I often hear about how the company respects its people and takes career development seriously. That's a large part of why I want to be one of them.
+
+> Only say the line about friends if you really do have friends at Rakuten. Otherwise cut it.
 
 **Then the department.** What interests me most is where this team sits inside the company. You build the recommendation platform the whole group uses, your clients are the business units, and millions of people touch it every day.
 
@@ -7066,7 +7041,13 @@ So it isn't "Rakuten is big, so I want in." It's that **those three things happe
         ja: `
 三つのところからお話しします。会社、部署、それからこの仕事そのものです。
 
-**まず会社です。** 惹かれているのは、大きいからではありません。**ここではAIがもう数字に責任を持つものになっている**、というところです。今年は AI-nization が全社で一番大事な方向ですし、利益の一部はすでにAIが稼いだものだと伺いました。AIをビジョンとして語る会社は多いですが、**ここでは「いくら稼ぐか」として語られています。PMにとって、この二つはかなり違う環境です。**
+**まず会社です。** 楽天は日本を代表するEコマース・インターネットサービスの会社で、プロダクトとサービス、そして技術の革新で広く支持されていると思っています。さらに、グローバル企業として国をまたいだ協業の機会が豊富にあり、視野を広げて、世界の市場への理解を深められる環境だと感じています。
+
+この点は、私にとって想像ではなく具体的なものです。**この部署が日本と欧州の両方に開発拠点を持っていること、直属の上長がパリにいらっしゃること、チームのメンバーの国籍も多様であることを伺いました。** 私自身、17LIVEで台湾・日本・東南アジアの三つの市場チームと同時に仕事をしていたので、国をまたぐ協業の本当に難しいところがどこかも分かっていますし、自分がその環境を好きだということも分かっています。
+
+それから、貴社で働いている友人が何人かいて、社員を大切にする姿勢や、キャリア形成を重視する文化についてよく聞いています。それも、自分もその一員になりたいと強く思う理由です。
+
+> 友人の話は、本当に楽天に友人がいる場合だけ言ってください。いない場合は削除。
 
 **次に部署です。** 一番興味があるのは、このチームが会社の中で立っている場所です。グループ全体が使う推薦のプラットフォームを作っていて、お客様は各事業部、毎日何百万人もが触れるものです。
 
@@ -7078,11 +7059,14 @@ So it isn't "Rakuten is big, so I want in." It's that **those three things happe
 
 | 読み方 | |
 |---|---|
-| 惹かれる | ひかれる |
-| 全社 | ぜんしゃ |
-| 稼ぐ | かせぐ |
-| 規模 | きぼ |
-| 詰まる | つまる |
+| 革新 | かくしん |
+| 支持 | しじ |
+| 協業 | きょうぎょう |
+| 視野 | しや |
+| 拠点 | きょてん |
+| 上長 | じょうちょう |
+| 多様 | たよう |
+| 姿勢 | しせい |
 | 噛み合う | かみあう |
 `
       },
@@ -7136,48 +7120,61 @@ There are two transitions, so I take whichever one you're asking about.
       {
         q: '為什麼從金融轉電商推薦？',
         zh: `
-我找工作的第一優先確實是 PM 這個角色本身，但這次不是隨便挑的，我是刻意想回到 B2C。
+我找工作的第一優先確實是 PM 這個角色本身，但這次不是隨便挑的。
 
-**我最有成就感的工作都是 B2C 的。** 在 17LIVE 的時候，我改的東西當天就有幾十萬人用得到，客訴和留存數字第二天就會動。**那種回饋速度是我做產品的動力來源。**
+**我想清楚了一件事：我要的不是「直接面對使用者」，是「我做的東西會被很多人用到」。** 這兩件事常常被混在一起，但它們不一樣，而這個職位剛好是後者。
 
-**Typus 教了我另一件事，就是在不確定的環境裡把東西做出來。** 加密市場的節奏很快，我兩週一個 release、一年推了 30 個以上的功能，也學會在沒有先例的情況下自己定指標。但那個產品的使用者是幾千個交易者，不是幾百萬個一般人。
+**我做過對內部客戶的工作，而且那是我最有成就感的一段。** 17LIVE 的回饋平台，我的客戶是客服和 PM，不是終端用戶。我要做的是搞懂他們每天卡在哪、把他們口中的抱怨翻成可以排序的需求，最後那個平台被台灣、日本、東南亞三個市場團隊接去用。**所以「客戶是別的團隊」這件事，我不是第一次做。**
 
-**電商推薦對我來說剛好是兩邊的交集。** 規模回到 B2C，每天影響數百萬人；難度又比我以前做的更高，因為要處理的是模型的輸出品質，不是版位。而且它是橫向平台，客戶是集團內各事業部，這跟我在 17LIVE 同時服務台灣、日本、東南亞三個市場團隊的位置很像。
+**Typus 教了我另一件事，就是在不確定的環境裡把東西做出來。** 加密市場節奏很快，我兩週一個 release、一年推了 30 個以上的功能，也學會在沒有先例的情況下自己定指標。但那個產品的使用者是幾千個交易者，做得再好，影響到的人就是那麼多。
+
+**電商推薦對我來說剛好是兩邊的交集。** 我每天講話的對象是各事業部的專業人員，需求講得清楚、看得懂數字，這是我熟悉也喜歡的工作方式；但我做出來的東西最後會落在數百萬使用者身上。**工作對象是內部客戶，影響規模卻是消費級的，這個組合我覺得很少見。**
+
+而且難度比我以前做的更高，因為要處理的是模型輸出的品質，不是版位。
 
 所以這不是「我離開金融」，是**我想回到會被很多人用到的產品，而且這次想做更難的那一層。**
 `,
         en: `
-The role itself really is my first priority when I look for work, but this wasn't a random pick. I deliberately want to get back to B2C.
+The role itself really is my first priority when I look for work, but this wasn't a random pick.
 
-**The work I've found most rewarding has all been B2C.** At 17LIVE, what I changed reached hundreds of thousands of people the same day, and complaint and retention numbers moved the next day. **That feedback speed is where my motivation as a PM comes from.**
+**I've worked one thing out: what I want isn't to face users directly, it's for what I build to be used by a lot of people.** Those two get conflated often, but they aren't the same, and this role is squarely the second one.
 
-**Typus taught me something different, which is shipping under uncertainty.** The crypto market moves fast. I ran a release every two weeks, shipped more than thirty features in a year, and learned to define my own metrics with no precedent to copy. But that product's users were a few thousand traders, not a few million ordinary people.
+**I've worked for internal clients before, and that's the work I found most rewarding.** For the feedback platform at 17LIVE, my customers were support and PMs, not end users. My job was to understand where they got stuck every day and translate their complaints into requirements you could actually rank. That platform ended up being used by the Taiwan, Japan and Southeast Asia teams. **So "the customer is another team" isn't new to me.**
 
-**E-commerce recommendation is the intersection of the two for me.** The scale goes back to B2C, reaching millions of people a day, and the difficulty is higher than anything I've done, because what you handle is the quality of a model's output rather than a slot. It's also a horizontal platform whose clients are the group's business units, which is close to where I sat at 17LIVE serving the Taiwan, Japan and Southeast Asia teams at once.
+**Typus taught me something different, which is shipping under uncertainty.** The crypto market moves fast. I ran a release every two weeks, shipped more than thirty features in a year, and learned to define my own metrics with no precedent to copy. But that product's users were a few thousand traders. However well you did it, that was the size of the audience.
+
+**E-commerce recommendation is the intersection of the two for me.** The people I'd talk to every day are specialists in the business units, who state requirements clearly and read numbers, which is a way of working I know and like. But what I build lands on millions of users. **The client is internal while the scale of impact is consumer-grade, and that combination feels rare to me.**
+
+It's also harder than anything I've done, because what you handle is the quality of a model's output rather than a slot.
 
 So it isn't "I'm leaving finance." It's that **I want to be back on a product many people use, and this time I want the harder layer of it.**
 `,
         ja: `
-仕事を探すときの第一優先が、PMという役割そのものであるのは確かです。ただ今回は適当に選んだわけではなく、意識してB2Cに戻りたいと考えました。
+仕事を探すときの第一優先が、PMという役割そのものであるのは確かです。ただ今回は適当に選んだわけではありません。
 
-**手応えを感じてきた仕事は、どれもB2Cでした。** 17LIVEでは、自分が変えたものがその日のうちに数十万人に届き、クレームやリテンションの数字が翌日には動きました。**あのフィードバックの速さが、プロダクトをやる原動力です。**
+**自分の中で一つはっきりしたことがあります。私が求めているのは「ユーザーと直接向き合うこと」ではなく、「自分が作ったものが多くの人に使われること」です。** この二つはよく一緒にされますが、別のものです。そしてこのポジションは、後者にぴったり当てはまります。
 
-**Typusでは別のことを学びました。不確実な状況で、とにかく形にすることです。** 暗号資産市場は速度が速く、二週間に一度リリースし、一年で30以上の機能を出し、前例のない中で自分で指標を決めることも身につけました。ただ、あのプロダクトのユーザーは数千人のトレーダーで、数百万人の一般の方ではありません。
+**社内のお客様に向けた仕事の経験もありますし、実はそれが一番手応えのあった仕事でした。** 17LIVEのフィードバックのプラットフォームでは、お客様はカスタマーサポートとPMで、エンドユーザーではありませんでした。彼らが毎日どこで詰まっているのかを理解して、口から出てくる不満を、順位づけできる要件に翻訳するのが私の仕事でした。あのプラットフォームは最終的に台湾・日本・東南アジアの三つのチームが使うようになりました。**ですので「お客様が他のチームである」ことは、私にとって初めてではありません。**
 
-**EC推薦は、私にとってその二つの交点です。** 規模はB2Cに戻り、毎日数百万人に届きます。難易度はこれまでより高い。枠ではなく、モデルの出力品質を扱うからです。しかも横断プラットフォームで、お客様はグループ内の各事業部。17LIVEで台湾・日本・東南アジアの三つの市場チームを同時に相手にしていた立ち位置とよく似ています。
+**Typusでは別のことを学びました。不確実な状況で、とにかく形にすることです。** 暗号資産市場は速度が速く、二週間に一度リリースし、一年で30以上の機能を出し、前例のない中で自分で指標を決めることも身につけました。ただ、あのプロダクトのユーザーは数千人のトレーダーで、どれだけ良いものを作っても、届く人数はそこまでです。
+
+**EC推薦は、私にとってその二つの交点です。** 毎日やり取りするのは各事業部の専門の方々で、要件が明確で数字も読める。これは私が慣れていて、好きな働き方です。それでいて、作ったものは最終的に数百万人のユーザーに届きます。**お客様は社内なのに、影響の規模はコンシューマー級。この組み合わせは珍しいと思っています。**
+
+しかも難易度はこれまでより高い。枠ではなく、モデルの出力品質を扱うからです。
 
 ですので「金融を離れる」のではなく、**多くの人に使われるプロダクトに戻りたい、しかも今回はより難しい層をやりたい**、ということです。
 
 | 読み方 | |
 |---|---|
 | 手応え | てごたえ |
-| 原動力 | げんどうりょく |
+| 要件 | ようけん |
+| 翻訳 | ほんやく |
 | 不確実 | ふかくじつ |
 | 前例 | ぜんれい |
 | 交点 | こうてん |
+| 珍しい | めずらしい |
 | 難易度 | なんいど |
 | 出力 | しゅつりょく |
-| 立ち位置 | たちいち |
 `
       },
       {
