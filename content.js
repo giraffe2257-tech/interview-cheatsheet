@@ -7038,48 +7038,52 @@ The last one matters most. Being pushed to the limit is normal in a technical ro
       {
         q: '為什麼想加入我們公司？（最終面版）',
         zh: `
-我分三層講，公司、部門，然後這個角色。
+我從三個地方講好了：公司、部門，然後這個職位本身。
 
-**公司這一層**，吸引我的其實不是規模。是 AI 在這裡已經是會被算進損益的東西，今年 AI-nization 是全公司的主軸，而且已經有一部分利益是從 AI 應用來的。**很多公司講 AI 是在講願景，這裡講的是數字。對 PM 來說，那是完全不同的工作環境。**
+**先講公司。** 吸引我的其實不是它大，是 **AI 在這裡已經是要對數字負責的東西了**。今年 AI-nization 是全公司最重要的方向，而且已經有一部分獲利是 AI 賺回來的。很多公司講 AI 是在講願景，**這裡是在講賺多少。對 PM 來說，這兩種環境差很多。**
 
-**部門這一層**，我最有興趣的是這個團隊站的位置。它是橫跨全集團的推薦平台，客戶是各個事業部，每天影響數百萬人。老實說，**我在 17LIVE 做的回饋平台是同一種型態**，也是內部平台、客戶是別的團隊，後來被台灣、日本、東南亞三個市場團隊接過去用。規模差很多，但那種「你要服務的是別的團隊，而不是直接面對終端使用者」的難處，我是熟悉的。
+**再講部門。** 我最有興趣的是這個團隊在公司裡的位置。你們做的是給整個集團用的推薦平台，客戶是各個事業部，每天有幾百萬人會碰到。
 
-**角色這一層**，Josh 上次講得很清楚，這份工作不是 UI PM，是處理 AI 怎麼運作、怎麼提升輸出的品質。**我反而是聽到這句才更想來。** 因為我自己做 agentic 平台的時候，最卡的就是怎麼把「好的輸出」定義到可以量測，那個問題我覺得我還沒解夠。
+老實說，**我在 17LIVE 做的回饋平台其實是同一種東西**，也是內部平台，客戶是別的團隊，後來台灣、日本、東南亞三個市場團隊都接去用。規模當然差很多，但**「你服務的對象是別的團隊，不是直接面對使用者」，這種難處我很熟。**
 
-所以不是「Rakuten 是大公司所以我想進來」，是這三層剛好疊在一起。
+**最後是這個職位。** Josh 上次講得很清楚，這份工作不是 UI PM，是要去弄懂 AI 怎麼運作、怎麼讓它吐出來的東西更好。**我反而是聽到這句才更想來。** 因為我自己做 agentic 平台的時候，最卡的就是怎麼講清楚什麼叫「做得好」，而且要能打分數。那題我還沒解完。
+
+所以不是「Rakuten 很大所以我想進來」，是**這三件事剛好對上了。**
 `,
         en: `
-Let me take it in three layers: the company, the department, then this role.
+Let me take it from three angles: the company, the department, then the job itself.
 
-**At the company level**, what draws me isn't the size. It's that AI here is already something that lands in the P&L. AI-nization is the company-wide theme this year, and a real share of profit already comes from AI applications. **A lot of companies talk about AI as a vision. Here it's talked about as a number. For a PM that's a completely different environment to work in.**
+**The company first.** What draws me isn't that it's big. It's that **AI here already has to answer to numbers**. AI-nization is the company's main direction this year, and some of the profit is already money AI brought in. Plenty of companies talk about AI as a vision. **Here it's talked about as how much it earns. For a PM those are two very different places to work.**
 
-**At the department level**, what interests me most is where this team sits. It's a recommendation platform across the whole group, its clients are the business units, and it reaches millions of people a day. Honestly, **the feedback platform I built at 17LIVE was the same shape**: an internal platform whose customers were other teams, and it ended up being picked up by the Taiwan, Japan and Southeast Asia market teams. The scale isn't comparable, but that particular difficulty, serving other teams rather than facing end users directly, is something I know.
+**Then the department.** What interests me most is where this team sits inside the company. You build the recommendation platform the whole group uses, your clients are the business units, and millions of people touch it every day.
 
-**At the role level**, Josh was very clear last time that this isn't a UI PM job, it's about how the AI works and how you raise the quality of its output. **Hearing that actually made me want it more.** When I built my own agentic platform, the thing I got most stuck on was defining "a good output" precisely enough to measure, and I don't feel I've solved that one well enough yet.
+Honestly, **the feedback platform I built at 17LIVE was the same kind of thing**: also an internal platform, also with other teams as the customer, and the Taiwan, Japan and Southeast Asia teams all ended up using it. The scale isn't close, of course. But **"the people you serve are other teams, not users directly" is a difficulty I know well.**
 
-So it isn't "Rakuten is big, so I'd like to join." It's that those three layers happen to line up.
+**Last, the job.** Josh was very clear that this isn't a UI PM job. It's about understanding how the AI works and making what it produces better. **Hearing that is what made me want it more.** When I built my own agentic platform, the thing I got most stuck on was saying clearly what "good" even means, in a way you can actually score. I haven't finished solving that one.
+
+So it isn't "Rakuten is big, so I want in." It's that **those three things happen to line up.**
 `,
         ja: `
-会社、部署、そしてこの役割、という三つの層に分けてお話しします。
+三つのところからお話しします。会社、部署、それからこの仕事そのものです。
 
-**会社の層**で惹かれているのは、実は規模ではありません。ここではAIがすでに損益に乗るものになっている、という点です。今年は AI-nization が全社のテーマですし、利益の一部がすでにAI活用から生まれていると伺いました。**AIをビジョンとして語る会社は多いですが、ここでは数字として語られています。PMにとって、それはまったく違う環境だと思います。**
+**まず会社です。** 惹かれているのは、大きいからではありません。**ここではAIがもう数字に責任を持つものになっている**、というところです。今年は AI-nization が全社で一番大事な方向ですし、利益の一部はすでにAIが稼いだものだと伺いました。AIをビジョンとして語る会社は多いですが、**ここでは「いくら稼ぐか」として語られています。PMにとって、この二つはかなり違う環境です。**
 
-**部署の層**で一番興味があるのは、このチームの立ち位置です。グループ全体をまたぐ推薦プラットフォームで、お客様は各事業部、毎日数百万人に届いています。正直に申し上げると、**17LIVEで作ったフィードバックのプラットフォームも同じ形**でした。社内向けで、お客様は他のチーム。のちに台湾・日本・東南アジアの三つの市場チームにも使われるようになりました。規模は比べものになりませんが、「エンドユーザーではなく、他のチームに向き合う」という難しさは、私にとって馴染みのあるものです。
+**次に部署です。** 一番興味があるのは、このチームが会社の中で立っている場所です。グループ全体が使う推薦のプラットフォームを作っていて、お客様は各事業部、毎日何百万人もが触れるものです。
 
-**役割の層**では、前回Joshさんが、これはUIのPMではなく、AIがどう動くか、出力の品質をどう上げるかを扱う仕事だと、はっきりおっしゃいました。**むしろ、その一言を聞いてより来たいと思いました。** 自分でエージェント型のプラットフォームを作ったとき、一番詰まったのが「良い出力」を測れるところまで定義することで、その問題はまだ解ききれていないと感じているからです。
+正直に言うと、**17LIVEで作ったフィードバックのプラットフォームも、実は同じ種類のもの**でした。あれも社内のプラットフォームで、お客様は他のチーム。のちに台湾・日本・東南アジアの三つのチームが使うようになりました。規模はもちろん比べものになりません。ただ、**「相手にするのはユーザーではなく他のチーム」という難しさは、よく知っています。**
 
-ですので「楽天は大きい会社だから入りたい」ではなく、この三つの層がちょうど重なっている、ということです。
+**最後にこの仕事です。** Joshさんが前回はっきりおっしゃったとおり、これはUIのPMではなく、AIがどう動くのかを理解して、出てくるものをもっと良くする仕事です。**私はむしろ、それを聞いてより来たくなりました。** 自分でエージェント型のプラットフォームを作ったとき、一番詰まったのが「良いとは何か」をはっきり言葉にして、しかも点数をつけられる形にすることでした。あれはまだ解き終わっていません。
+
+ですので「楽天は大きいから入りたい」ではなく、**この三つがちょうど噛み合った**ということです。
 
 | 読み方 | |
 |---|---|
 | 惹かれる | ひかれる |
-| 規模 | きぼ |
-| 損益 | そんえき |
 | 全社 | ぜんしゃ |
-| 立ち位置 | たちいち |
-| 馴染み | なじみ |
-| 出力 | しゅつりょく |
-| 重なる | かさなる |
+| 稼ぐ | かせぐ |
+| 規模 | きぼ |
+| 詰まる | つまる |
+| 噛み合う | かみあう |
 `
       },
       {
