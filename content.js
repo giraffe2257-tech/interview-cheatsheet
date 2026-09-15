@@ -123,121 +123,239 @@ I am comfortable working in Mandarin and English, which is part of why I am draw
       {
         q: '你後續的職涯規劃？三五年內想達成什麼？',
         zh: `
-未來 3 年，我想在一個真的把 AI 放進產品核心的團隊裡，成為能同時做產品判斷與動手驗證的 PM。5 年後，我希望能負責一整條產品線，並把「AI 如何降低跨職能溝通成本」這件事從我的研究題目變成團隊實際在用的工作方式。
+我希望在未來 **3 到 5 年內成為一名 senior PM**，具備更豐富的 PM 經驗和技能。
 
-拆得更細一點：短期一年內，我想把既有的產品交付能力放進更大規模、更成熟的組織裡跑一次，補上我目前比較缺的規模化經驗。三年是能獨立負責一條有明確商業指標的產品線。
+這段時間內，我計畫積極參與各種專案，不斷學習和成長，並在實踐中掌握更多的專業知識和技巧。
 
-五年後我想要的是**影響範圍變大，不一定是管理幅度變大**。那可能是負責一個被很多團隊依賴的平台，也可能是帶人，看組織當下需要哪一種。我比較在意的是，到那個時候我對「AI 怎麼從 demo 變成每天有人用的產品」這件事，還是有第一手的實作能力，而不是只會看報表。
+另外，我認為在任何領域的道路上，**「不斷學習和進步」都是非常重要的**。如果在未來的某個時候，我覺得有機會或有興趣專精於特定領域，例如資訊科技、市場營銷或產品管理，我會考慮進一步深造，可能會選擇進修相關的課程。我相信這樣的專業知識和技能，將有助於我在 PM 領域中更上一層樓，實現自己的職業目標。
 `,
         en: `
-Over the next three years I want to be in a team that genuinely puts AI at the core of the product, as a PM who can both make the product judgement and validate it hands-on. In five years I'd like to own a whole product line, and turn "how AI lowers cross-functional communication cost" from my research topic into how a team actually works.
+I'd like to become a **senior PM within the next three to five years**, with a deeper base of PM experience and skills.
 
-To break that down: in the first year, I want to run my existing delivery skills inside a larger, more mature organisation, which is the scale experience I'm currently missing. At three years, owning a product line with clear commercial metrics on my own.
+Over that period I plan to take part in a wide range of projects, keep learning and growing, and build up more professional knowledge and technique through practice.
 
-At five years what I want is **a wider scope of influence, not necessarily a wider span of management**. That might mean owning a platform many teams depend on, or it might mean leading people, depending on what the organisation needs at the time. What I care about more is that by then I still have first-hand building ability on the question of how AI gets from a demo to a product people use every day, rather than only reading dashboards.
+Beyond that, I believe that in any field, **continuing to learn and improve matters enormously**. If at some point in the future I see an opportunity, or find I want to specialise in a particular area, such as information technology, marketing or product management, I'd consider going deeper, possibly by taking relevant courses. I believe that kind of knowledge and skill will help me go a level further in product management and reach my own professional goals.
 `,
         ja: `
-これからの3年は、本当にAIをプロダクトの中核に置いているチームで、プロダクトの判断と自分の手での検証を両方できるPMになりたいです。5年後には、ひとつのプロダクトライン全体を任されて、「AIが職種をまたぐコミュニケーションコストをどう下げるか」というテーマを、自分の研究題目から、チームが実際に使う働き方に変えていきたいと考えています。
+**3年から5年のうちに、シニアPMになりたい**と考えています。PMとしての経験とスキルを、今よりも厚くしたいです。
 
-もう少し細かく分けると、短期の一年以内は、今持っているプロダクトのデリバリー能力を、より大規模で成熟した組織の中で一度回してみたいです。今の自分に足りないスケールの経験を補うためです。三年目には、明確なビジネス指標を持つプロダクトラインを一人で任せてもらえる状態を目指します。
+その期間は、さまざまなプロジェクトに積極的に関わって、学び続けて成長し、実践の中で専門的な知識と技術を身につけていく計画です。
 
-五年後に求めているのは、**影響範囲が広がることであって、必ずしも管理する人数が増えることではありません**。多くのチームに頼られるプラットフォームを担当する形かもしれませんし、人を率いる形かもしれません。そこは組織がそのとき何を必要としているか次第だと思っています。それよりも大事にしたいのは、その時点でも「AIをデモで終わらせず、毎日使われるプロダクトにする」というテーマについて、自分の手で作れる力を持ち続けていることです。数字を眺めるだけの人にはなりたくありません。
+それから、どの分野であっても、**学び続けて前に進むことはとても大事だ**と思っています。将来のどこかの時点で、機会があったり、特定の領域を深めたいと感じたりしたら、たとえば情報技術、マーケティング、プロダクトマネジメントといった分野で、さらに学びを深めることも考えます。関連する講座を受けるといった形です。そうした知識とスキルが、PMとしてもう一段上がり、自分のキャリアの目標を実現する助けになると信じています。
 
 | 読み方 | |
 |---|---|
-| 中核 | ちゅうかく |
-| 検証 | けんしょう |
-| 題目 | だいもく |
-| 成熟 | せいじゅく |
-| 指標 | しひょう |
-| 影響範囲 | えいきょうはんい |
-| 率いる | ひきいる |
-| 眺める | ながめる |
+| 厚く | あつく |
+| 積極的 | せっきょくてき |
+| 実践 | じっせん |
+| 領域 | りょういき |
+| 講座 | こうざ |
+| 実現 | じつげん |
 `
       },
       {
         q: '你有哪些優點？',
         zh: `
-三個。
+三個，都跟 PM 這個角色直接相關。
 
-第一，**AI-augmented building**。我自己做 prototype、儀表板與數據分析，不需要等別人排期就能驗證假設。
+#### 一、能轉換角度，設身處地同理他人
 
-第二，**數據導向的優先級判斷**。訪談加 SQL 是我的基本配備，質化告訴我為什麼，量化告訴我有多少人。
+我具備從不同角度理解問題和需求的能力，這讓我在分析產品功能和用戶需求時更為全面。設身處地理解用戶和團隊成員的觀點之後，我能更有效地識別潛在的問題並找到解決方案。**這對於確保產品符合用戶期望、解決實際痛點，是最關鍵的一件事。**
 
-第三，**跨文化溝通**。中英日三語，我在 17LIVE 是用日文做跨職能協作的。
+#### 二、釐清目標、確認方向
+
+被交付任務的時候，只要有不清楚的地方，我一定問。這種求知欲讓我能夠釐清目標、確定產品發展的優先順序，從而確保資源被有效分配到能夠帶來最大價值的地方。
+
+**尤其身為一個 PM，一定會遇到各種人來問你問題。如果自己都不清楚，其他團隊夥伴做出來的結果一定不會是預想的樣子，也會很難建立彼此的信任感。**
+
+#### 三、溝通的耐性和責任感
+
+因為經常需要與不同背景的團隊成員合作，這要求我必須具備良好的溝通能力和耐心。**我認為溝通需要耐心，而耐心背後是責任感在支撐。**
+
+無論是解釋技術細節給非技術的團隊成員聽，還是在專案遇到壓力時保持冷靜，那都是對專案負責的態度展現。
 `,
         en: `
-Three.
+Three, and all of them map directly onto the PM role.
 
-First, **AI-augmented building**. I build my own prototypes, dashboards and analysis, so I can test a hypothesis without waiting for someone else's sprint.
+#### One: shifting perspective, and genuine empathy
 
-Second, **data-led prioritisation**. Interviews plus SQL are my baseline kit: qualitative tells me why, quantitative tells me how many people.
+I have the ability to understand problems and needs from different perspectives, which makes me more comprehensive when I analyse user feedback. By empathising with the views of users and of team members, I can identify problems and insights more effectively and find solutions. **That is crucial to making sure the product meets user expectations and solves a real pain point.**
 
-Third, **cross-cultural communication**. I work in Mandarin, English and Japanese, and at 17LIVE I did cross-functional work in Japanese.
+#### Two: clarifying goals and confirming direction
+
+When I'm assigned a task, if there is anything unclear, I am not afraid to ask questions. That curiosity lets me clarify the goal, set the priority of the work, and make sure resources go where they bring the most value.
+
+**Particularly as a PM, you will constantly have different people coming to you with questions. If you aren't clear yourself, what your team members produce won't match expectations, and it becomes hard to build trust between you.**
+
+#### Three: patience in communication, and the sense of responsibility behind it
+
+Because I often work with team members from very different backgrounds, the job demands good communication and patience. **Communication requires patience, and behind patience is a sense of responsibility holding it up.**
+
+Whether it's explaining technical detail to a non-technical colleague or staying calm when the project is under pressure, it keeps the team motivated and it keeps development moving when things get hard.
 `,
         ja: `
-三つあります。
+三つあります。どれもPMという役割に直接つながるものです。
 
-一つ目は、**AI-augmented building**、AIで拡張したものづくりです。プロトタイプ、ダッシュボード、データ分析を自分で作るので、他の人のスケジュールを待たずに仮説を検証できます。
+#### 一、視点を切り替えて、相手の立場で考えられること
 
-二つ目は、**データに基づく優先順位の判断**です。インタビューとSQLは私の基本装備で、定性はなぜかを、定量は何人いるかを教えてくれます。
+課題やニーズを違う角度から理解できるので、プロダクトの機能やユーザーのニーズを分析するときに、より網羅的に見られます。ユーザーやチームメンバーの視点に立って考えることで、潜在的な課題や気づきをより早く見つけ、解決策にたどり着けます。**これは、プロダクトがユーザーの期待に応え、本当の課題を解決できているかを担保するうえで、一番大事なことだと思っています。**
 
-三つ目は、**異文化コミュニケーション**です。中国語、英語、日本語の三言語が使えて、17LIVEでは日本語で職種横断の協働をしていました。
+#### 二、ゴールを明確にし、方向を確認すること
+
+仕事を任されたとき、分からないところがあれば必ず聞きます。この知りたいという姿勢のおかげで、ゴールを明確にし、優先順位を決め、リソースを一番価値の出るところに配分できます。
+
+**特にPMは、いろいろな人から質問を受ける立場です。自分が分かっていなければ、チームメンバーが作るものも想定どおりにはなりませんし、お互いの信頼も築きにくくなります。**
+
+#### 三、コミュニケーションの根気と、その裏にある責任感
+
+背景の違うメンバーと一緒に働くことが多いので、コミュニケーション力と根気が必要になります。**コミュニケーションには根気が要りますし、その根気を支えているのは責任感だと考えています。**
+
+技術的な詳細を技術以外のメンバーに説明するときも、プロジェクトが厳しい状況で冷静さを保つときも、どちらもプロジェクトに責任を持つ姿勢の表れだと思っています。
 
 | 読み方 | |
 |---|---|
-| 拡張 | かくちょう |
-| 仮説 | かせつ |
-| 基本装備 | きほんそうび |
-| 定性 | ていせい |
-| 定量 | ていりょう |
-| 異文化 | いぶんか |
+| 視点 | してん |
+| 網羅的 | もうらてき |
+| 潜在的 | せんざいてき |
+| 担保 | たんぽ |
+| 配分 | はいぶん |
+| 想定 | そうてい |
+| 根気 | こんき |
+| 姿勢 | しせい |
 `
       },
       {
         q: '你的缺點是什麼？',
         zh: `
-我以前太容易自己把事情做掉。因為我會 prototype、會拉數據，遇到卡住的環節我的第一反應是自己動手，短期看很有效率，但會讓團隊少了一次共同理解問題的機會，也讓我變成瓶頸。
+**現場只挑一個講，講完一定要接「我怎麼補」。** 下面第一個是主打，其他是備選。
 
-我現在的作法是：**先問這件事三個月後應該由誰負責**，如果不該是我，我就把它做成一個示範版本加上文件交出去，而不是長期握在手上。這在 Typus 重新設計交付流程時特別明顯，我把自己的判斷寫成規格與 user story 模板，讓其他人也能照著跑。
+#### 主打：同理心讓我決策偏慢
+
+我的同理心有時會讓我過於關注細節、太在乎團隊氣氛，導致在決策時比較謹慎，需要花更多時間來權衡各方面的利弊。
+
+**我的做法**：先設一個決策期限，並且分清楚哪些是可逆的決定。可逆的就快點做、做錯再改；不可逆的才值得多花時間權衡。
 
 ---
 
-另一個版本：
+#### 備選一：抗壓變成硬撐
 
-我對規模化的產品組織經驗還不夠，過去待的都是小而快的團隊，決策鏈短。我很清楚在大組織裡，**說服與對齊的成本本身就是工作的一部分**，所以我現在會刻意練習把決策理由寫成書面文件，而不是靠一次面對面的溝通解決。
+我的抗壓能力算強，但這有時反而讓我過於承擔壓力，不夠及時地向團隊或上級反映自己的困難，因而錯過了尋求幫助的時機。
+
+**我的做法**：把「我卡住了」變成固定回報項目，而不是等到真的扛不住才講。
+
+---
+
+#### 備選二：掌控力，因為關係太好而不夠果斷
+
+因為我跟團隊成員的關係比較密切，有時候在分配任務或提出具體需求時，我發現自己因為不想破壞這份像朋友一樣的關係，而變得猶豫、不夠果斷。
+
+這讓我意識到，**即便溝通技巧良好，也需要學會在維持良好關係的同時，確保團隊能有效率地完成任務。** 我還在這兩者之間找平衡。
+
+---
+
+#### 備選三：好奇心不夠平均
+
+有時候我的好奇心不夠，導致有些潛在問題來不及發現。這也是我後來做用戶回饋平台的原因之一，**我想讓「問題正在擴大」這件事被系統看見，而不是靠我個人的警覺。**
+
+---
+
+#### 備選四：容易對重複性的事情厭煩
+
+我容易對單調重複性質的事物感到厭煩。過去的學習經驗裡，我不擅長需要反覆背誦的課程，對需要探索問題核心、掌握理論框架的課程比較有興趣。工作上我也希望每天面對新的挑戰，在工作中找到能夠革新的地方。
+
+**注意**：這一則要小心，聽起來可能像不願意做例行維運。要接一句「所以我會把重複的事情自動化，而不是逃避它」，並舉 Eurostar 監控或求職 agent pipeline 當例子。
 `,
         en: `
-I used to be too quick to just do things myself. Because I can prototype and pull data, my first instinct when something is stuck is to build it, which looks efficient in the short term but costs the team a shared understanding of the problem, and turns me into the bottleneck.
+**Pick only one on the day, and always follow it with how you're addressing it.** The first is the main one; the rest are alternates.
 
-What I do now is **ask who should own this in three months' time**. If the answer isn't me, I build a reference version with documentation and hand it over, rather than holding onto it. That was very clear when I redesigned the delivery process at Typus: I wrote my own judgement into a spec and user-story template so other people could run it too.
+#### Main: empathy makes my decisions slow
+
+My empathy sometimes makes me focus too much on detail and care too much about team atmosphere, which makes me cautious when deciding and means I spend more time weighing up the pros and cons on every side.
+
+**What I do about it**: I set a decision deadline, and I separate reversible decisions from irreversible ones. Reversible ones I make fast and correct later. Only irreversible ones deserve the extra deliberation.
 
 ---
 
-Alternative version:
+#### Alternate one: resilience turning into carrying too much
 
-I don't have enough experience in a product organisation at scale. The teams I've been in were small and fast, with short decision chains. I'm very aware that in a large organisation, **the cost of persuading and aligning is itself part of the job**, so I now deliberately practise writing the reasoning behind a decision down, instead of solving it in one face-to-face conversation.
+I handle pressure well, but that sometimes means I take on too much of it and don't raise my difficulties with my team or my manager quickly enough, so I miss the moment to ask for help.
+
+**What I do about it**: I've made "I'm stuck" a standing item in my updates, rather than something I only say when I can no longer cope.
+
+---
+
+#### Alternate two: being close to the team makes me less decisive
+
+Because I'm close to my team members, when I assign tasks or push a specific requirement, I sometimes find myself hesitating because I don't want to damage what feels like a friendship.
+
+It made me realise that **even with good communication skills, you have to learn to keep the relationship and still make sure the team delivers efficiently.** I'm still finding that balance.
+
+---
+
+#### Alternate three: my curiosity isn't evenly distributed
+
+Sometimes my curiosity isn't active enough and I don't catch a potential problem in time. That's part of why I later built the user-feedback platform: **I wanted "a problem is growing" to be something the system can see, rather than something that depends on my own alertness.**
+
+---
+
+#### Alternate four: I get bored with repetitive work
+
+I get bored with monotonous, repetitive things. In my studies I was never good at courses built on rote memorisation, and much more interested in ones that needed you to get to the core of a problem and hold a theoretical frame. At work I want to face something new each day and look for what can be renewed.
+
+**Careful with this one**: it can sound like unwillingness to do routine maintenance. Follow it with "so I automate the repetitive parts rather than avoid them," and use the Eurostar monitor or the job-search agent pipeline as the example.
 `,
         ja: `
-以前の私は、つい自分で仕事を片付けてしまうところがありました。プロトタイプも作れるし、データも引けるので、詰まった箇所があると最初の反応が「自分でやる」だったんです。短期的には効率がいいのですが、チームが一緒に課題を理解する機会を一回減らしてしまいますし、自分がボトルネックにもなってしまいます。
+**本番では一つだけ話し、必ず「どう補っているか」まで続けてください。** 最初が本命で、あとは差し替え用です。
 
-今のやり方はこうです。**まず、この仕事は三ヶ月後に誰が持つべきかを問う**。それが私でないなら、サンプル版とドキュメントを作って渡し、長く自分で握り続けないようにしています。これはTypusでデリバリープロセスを設計し直したときに特にはっきり出ました。自分の判断を仕様とユーザーストーリーのテンプレートにして、他の人も同じように回せるようにしました。
+#### 本命：共感が強いぶん、意思決定が遅くなる
+
+共感する力が強いぶん、細かいところに目が行きすぎたり、チームの雰囲気を気にしすぎたりして、意思決定が慎重になりがちです。あらゆる面の損得を比べるのに、人より時間がかかってしまいます。
+
+**やっていること**：決める期限を先に置き、取り返しがつく判断とつかない判断を分けています。取り返しがつくものは早く決めて、間違えたら直す。じっくり考える価値があるのは、取り返しがつかないほうだけです。
 
 ---
 
-もう一つのバージョン：
+#### 差し替え一：我慢強さが、抱え込みになる
 
-大規模なプロダクト組織での経験がまだ足りません。これまでいたのは小さくて速いチームばかりで、意思決定の経路が短かったです。大きな組織では、**説得と合意形成のコストそのものが仕事の一部**だとよく分かっているので、今は意識的に、決定の理由を書面のドキュメントにする練習をしています。一回の対面のコミュニケーションで済ませるのではなく、です。
+プレッシャーには強いほうですが、そのせいで抱え込みすぎて、困っていることをチームや上長に伝えるのが遅くなり、助けを求める機会を逃してしまうことがあります。
+
+**やっていること**：「詰まっています」を定例の報告項目にしました。もう無理だという段階になってから言う、という形をやめました。
+
+---
+
+#### 差し替え二：距離が近いぶん、思い切りが足りない
+
+チームメンバーとの距離が近いので、タスクを割り振るときや具体的な要求を出すときに、友人のようなこの関係を壊したくないという気持ちから、ためらってしまうことがあります。
+
+そこで気づいたのは、**コミュニケーションが得意でも、良い関係を保ちながらチームに効率よく成果を出してもらう方法は、別に学ばないといけない**ということです。そのバランスは今も探している最中です。
+
+---
+
+#### 差し替え三：好奇心にムラがある
+
+好奇心が十分に働かず、潜在的な課題に気づくのが遅れることがあります。のちにユーザーフィードバックのプラットフォームを作ったのも、これが理由の一つです。**「課題が広がっている」ということを、自分の注意力ではなく仕組みのほうで見えるようにしたかった**からです。
+
+---
+
+#### 差し替え四：単調な繰り返しに飽きやすい
+
+単調で繰り返しの多いものに飽きやすいです。学生時代も、暗記を重ねる科目は得意ではなく、課題の本質を探ったり理論の枠組みをつかんだりする科目のほうに興味がありました。仕事でも、毎日新しい課題に向き合って、変えられるところを見つけたいと思っています。
+
+**注意**：これは運用や保守をやりたくないように聞こえかねません。「だから繰り返しの部分は自動化します。避けるのではなく」と続けて、Eurostarの監視ツールや就職活動のagent pipelineを例に出してください。
 
 | 読み方 | |
 |---|---|
-| 片付ける | かたづける |
-| 箇所 | かしょ |
-| 握り続ける | にぎりつづける |
-| 意思決定 | いしけってい |
-| 経路 | けいろ |
-| 合意形成 | ごういけいせい |
-| 書面 | しょめん |
+| 共感 | きょうかん |
+| 慎重 | しんちょう |
+| 損得 | そんとく |
+| 抱え込む | かかえこむ |
+| 上長 | じょうちょう |
+| 割り振る | わりふる |
+| 潜在的 | せんざいてき |
+| 仕組み | しくみ |
+| 暗記 | あんき |
+| 枠組み | わくぐみ |
+| 保守 | ほしゅ |
 `
       },
       {
@@ -301,6 +419,8 @@ Money matters, but I care more about what kind of PM I'll be in two years.
 
 **離開 Typus、去念碩士**：不是對工作不滿，是想用更有系統的方式研究實務上遇到的問題，特別是 AI 怎麼改變產品團隊的工作方式。詳見「你為什麼去念碩士」那題。
 
+**如果他想聽動機層面**：我喜歡跳脫舒適圈。科技產業、computer science 並不是我的本科，但在這當中我能得到很多知識上的吸收、想法上的衝擊，我享受挑戰和壓力底下帶來的成長。所以我希望把自己的領域和職涯方向做得更專精、更明確，在一個更具挑戰性、責任也更大的位置上成長。
+
 **不要說**：公司不好、主管不好、薪水太低。每一段都講「我想累積什麼」，不講「我想逃離什麼」。
 `,
         en: `
@@ -310,6 +430,8 @@ There are two transitions, so I cover whichever one you are asking about.
 
 **Leaving Typus for a master's**: this wasn't dissatisfaction with the job. I wanted to study the problems I had run into in practice in a more systematic way, especially how AI is changing the way product teams work. I go into that in the question about why I went back to study.
 
+**If they want the motivation rather than the logistics**: I like stepping outside my comfort zone. Technology and computer science weren't my undergraduate field, but that's exactly where I absorb the most and where my thinking gets challenged, and I enjoy the growth that comes under pressure. So what I want is to make my own field and career direction sharper and more definite, growing into a role with more challenge and more responsibility.
+
 **What I don't say**: the company was bad, the manager was bad, the pay was too low. For each move I talk about what I wanted to build up, not what I wanted to escape from.
 `,
         ja: `
@@ -318,6 +440,8 @@ There are two transitions, so I cover whichever one you are asking about.
 **17LIVE を辞めて Typus に移った理由**：一番大きかったのは職務の範囲の制約です。当時いた部門は、部署間をつなぐ調整役、プロジェクトの効率を上げる役割に近いものでした。PM の仕事とプロダクト開発プロセスの基礎はそこで身につきましたが、新しい機能を最初から最後まで自分で主導する機会はほとんどありませんでした。0 から 1 の開発、それにリリース後の運用と改善の経験をもっと積みたい、自分で設計して前に進めたいと考えました。Typus はまさにそれをくれた環境です。最初に担当したプロダクトが無期限先物で、ゼロからリリースまで担当しました。
 
 **Typus を辞めて修士に進んだ理由**：仕事への不満ではありません。実務で出会った課題を、もっと体系的に研究したかったからです。特に、AI がプロダクトチームの働き方をどう変えるのかという部分です。詳しくは「なぜ修士に進んだのか」の回答でお話しします。
+
+**動機のほうを聞かれたら**：私はコンフォートゾーンから出るのが好きです。テクノロジー業界もコンピュータサイエンスも自分の専攻ではありませんでしたが、だからこそ吸収できる知識が多く、考え方に刺激を受けます。プレッシャーのある中で成長していく感覚が好きです。ですので、自分の領域とキャリアの方向をより専門的に、より明確にして、挑戦も責任も大きいポジションで成長したいと考えています。
 
 **言わないこと**：会社が悪かった、上司が悪かった、給料が低かった。どちらの転職も「何を積み上げたかったか」で話し、「何から逃げたかったか」では話しません。
 
@@ -6912,149 +7036,280 @@ The last one matters most. Being pushed to the limit is normal in a technical ro
     name: '最終面',
     items: [
       {
-        q: '工程師說兩週做不到，你怎麼處理？（重寫版）',
+        q: '為什麼想加入我們公司？（最終面版）',
         zh: `
-> ⚠️ 上次的答法是「想拿 codebase 權限，用 AI 確認工程師有沒有說謊」，Josh 當場打斷說「假設他們誠實」。這一版把驗證的框架整個拿掉。**這題是最終面第一順位。**
+我分三層講，公司、部門，然後這個角色。
 
-我不會先去確認他們說的對不對。我會先假設是真的，然後把問題從「能不能做」換成「**兩週內能做到哪裡**」。
+**公司這一層**，吸引我的其實不是規模。是 AI 在這裡已經是會被算進損益的東西，今年 AI-nization 是全公司的主軸，而且已經有一部分利益是從 AI 應用來的。**很多公司講 AI 是在講願景，這裡講的是數字。對 PM 來說，那是完全不同的工作環境。**
 
-**第一步，問限制在哪。** 我不會問「為什麼不行」，那個問法會讓人防衛。我會問：現在卡在哪一段？如果一定要壓到兩週，需要放掉什麼？是砍功能、砍品質，還是從別的專案挪人？**我要的不是一個答案，是一組選項。**
+**部門這一層**，我最有興趣的是這個團隊站的位置。它是橫跨全集團的推薦平台，客戶是各個事業部，每天影響數百萬人。老實說，**我在 17LIVE 做的回饋平台是同一種型態**，也是內部平台、客戶是別的團隊，後來被台灣、日本、東南亞三個市場團隊接過去用。規模差很多，但那種「你要服務的是別的團隊，而不是直接面對終端使用者」的難處，我是熟悉的。
 
-**第二步，切 scope。** 拿著工程師給的限制回去找客戶，把需求切成 phase 1、2、3，問他：如果兩週只能拿到一塊，哪一塊是真的非要不可？通常客戶自己會發現，他真正急的只有其中一小塊。
+**角色這一層**，Josh 上次講得很清楚，這份工作不是 UI PM，是處理 AI 怎麼運作、怎麼提升輸出的品質。**我反而是聽到這句才更想來。** 因為我自己做 agentic 平台的時候，最卡的就是怎麼把「好的輸出」定義到可以量測，那個問題我覺得我還沒解夠。
 
-**第三步，把取捨交回去。** 我給客戶的不是「做不到」，是兩個具體選項：兩週能交的版本長這樣，完整版本要幾週。**決定的人是客戶，不是我單方面拒絕。** 談定之後，我再回去跟工程師確認 phase 1 這個範圍可不可行。
-
-這樣做的好處是，工程師不會覺得自己被查勤，客戶也不會覺得被打回票。**我跟工程師的關係是要用好幾年的，為了一個需求去驗證他們，不划算。**
+所以不是「Rakuten 是大公司所以我想進來」，是這三層剛好疊在一起。
 `,
         en: `
-> ⚠️ Last time the answer started with wanting codebase access to use AI to check whether the engineers were lying, and Josh cut in with "assume they are honest." This version removes the verification frame entirely. **This is the number one item for the final round.**
+Let me take it in three layers: the company, the department, then this role.
 
-I wouldn't start by checking whether what they said is accurate. I'd assume it's true, and change the question from "can it be done" to "**how far can we get in two weeks**."
+**At the company level**, what draws me isn't the size. It's that AI here is already something that lands in the P&L. AI-nization is the company-wide theme this year, and a real share of profit already comes from AI applications. **A lot of companies talk about AI as a vision. Here it's talked about as a number. For a PM that's a completely different environment to work in.**
 
-**Step one, ask where the constraint is.** I wouldn't ask "why can't you," because that makes people defensive. I'd ask: which part is it stuck on? If we absolutely had to compress it to two weeks, what would we have to give up? Cut functionality, cut quality, or move someone off another project? **What I want isn't an answer, it's a set of options.**
+**At the department level**, what interests me most is where this team sits. It's a recommendation platform across the whole group, its clients are the business units, and it reaches millions of people a day. Honestly, **the feedback platform I built at 17LIVE was the same shape**: an internal platform whose customers were other teams, and it ended up being picked up by the Taiwan, Japan and Southeast Asia market teams. The scale isn't comparable, but that particular difficulty, serving other teams rather than facing end users directly, is something I know.
 
-**Step two, cut the scope.** I take the engineers' constraints back to the client and split the request into phases one, two and three, then ask: if you can only have one piece in two weeks, which piece genuinely can't wait? Usually the client works out for themselves that only a small part of it is actually urgent.
+**At the role level**, Josh was very clear last time that this isn't a UI PM job, it's about how the AI works and how you raise the quality of its output. **Hearing that actually made me want it more.** When I built my own agentic platform, the thing I got most stuck on was defining "a good output" precisely enough to measure, and I don't feel I've solved that one well enough yet.
 
-**Step three, hand the trade-off back.** What I give the client isn't "no." It's two concrete options: here's what a two-week version looks like, and here's how many weeks the full version takes. **The client makes the call, rather than me refusing unilaterally.** Once that's agreed, I go back to the engineers and confirm phase one is feasible.
-
-The advantage is that the engineers don't feel audited and the client doesn't feel dismissed. **My relationship with the engineers has to last years. Verifying them over one request isn't worth it.**
+So it isn't "Rakuten is big, so I'd like to join." It's that those three layers happen to line up.
 `,
         ja: `
-> ⚠️ 前回は「コードベースへのアクセスをもらって、AIでエンジニアが嘘をついていないか確認したい」と答えて、Joshさんに「みんな正直だと仮定してください」と遮られました。この版では検証の枠組みを完全に外しています。**最終面接ではこれが最優先です。**
+会社、部署、そしてこの役割、という三つの層に分けてお話しします。
 
-私はまず、彼らの言っていることが正しいかどうかを確認しには行きません。本当だと仮定したうえで、問いを「できるかどうか」から「**二週間でどこまでできるか**」に変えます。
+**会社の層**で惹かれているのは、実は規模ではありません。ここではAIがすでに損益に乗るものになっている、という点です。今年は AI-nization が全社のテーマですし、利益の一部がすでにAI活用から生まれていると伺いました。**AIをビジョンとして語る会社は多いですが、ここでは数字として語られています。PMにとって、それはまったく違う環境だと思います。**
 
-**第一段階、制約がどこにあるかを聞く。** 「なぜできないのか」とは聞きません。その聞き方は相手を守りに入らせるからです。今どこで詰まっているのか、どうしても二週間に収めるなら何を手放す必要があるのか、機能を削るのか、品質を削るのか、別の案件から人を動かすのか。**欲しいのは答えではなく、選択肢です。**
+**部署の層**で一番興味があるのは、このチームの立ち位置です。グループ全体をまたぐ推薦プラットフォームで、お客様は各事業部、毎日数百万人に届いています。正直に申し上げると、**17LIVEで作ったフィードバックのプラットフォームも同じ形**でした。社内向けで、お客様は他のチーム。のちに台湾・日本・東南アジアの三つの市場チームにも使われるようになりました。規模は比べものになりませんが、「エンドユーザーではなく、他のチームに向き合う」という難しさは、私にとって馴染みのあるものです。
 
-**第二段階、スコープを切る。** エンジニアからもらった制約を持ってクライアントのところに戻り、要望をフェーズ1、2、3に分けて聞きます。二週間で一つしか手に入らないとしたら、どれが本当に待てないものですか、と。たいていはクライアント自身が、本当に急ぎなのは一部だけだと気づきます。
+**役割の層**では、前回Joshさんが、これはUIのPMではなく、AIがどう動くか、出力の品質をどう上げるかを扱う仕事だと、はっきりおっしゃいました。**むしろ、その一言を聞いてより来たいと思いました。** 自分でエージェント型のプラットフォームを作ったとき、一番詰まったのが「良い出力」を測れるところまで定義することで、その問題はまだ解ききれていないと感じているからです。
 
-**第三段階、トレードオフを返す。** クライアントに渡すのは「できません」ではなく、二つの具体的な選択肢です。二週間で出せる版はこれ、完全版なら何週間かかる。**決めるのはクライアントであって、私が一方的に断るのではありません。** 合意できたら、エンジニアに戻ってフェーズ1の範囲が可能かを確認します。
-
-こうすると、エンジニアは調べられていると感じませんし、クライアントも門前払いされたとは感じません。**エンジニアとの関係は何年も使うものです。一つの要望のために彼らを検証するのは、割に合いません。**
+ですので「楽天は大きい会社だから入りたい」ではなく、この三つの層がちょうど重なっている、ということです。
 
 | 読み方 | |
 |---|---|
+| 惹かれる | ひかれる |
+| 規模 | きぼ |
+| 損益 | そんえき |
+| 全社 | ぜんしゃ |
+| 立ち位置 | たちいち |
+| 馴染み | なじみ |
+| 出力 | しゅつりょく |
+| 重なる | かさなる |
+`
+      },
+      {
+        q: '為什麼離開上一份工作？',
+        zh: `
+兩段轉換，看他問的是哪一段。
+
+**離開 17LIVE 去 Typus**，主要是職務內容的限制。當時的部門比較像溝通協調的橋樑、推動專案效率的角色。那段經驗讓我對 PM 和產品開發流程有了基礎，但**很少機會真正主導一個新功能從頭到尾**。我想累積從 0 到 1 開發、以及後續維運迭代的經驗。Typus 給我的正是這個，第一個產品就是永續合約，從零做到上線。
+
+**離開 Typus 去念碩士**，不是對工作不滿。我是想用更有系統的方式，去研究我在實務上遇到的問題，特別是 AI 怎麼改變產品團隊的工作方式。這也是我的論文題目。
+
+**如果他問動機層面**，我會說我喜歡跳脫舒適圈。科技產業不是我的本科，但正因為這樣，我在裡面得到的知識吸收和想法衝擊特別多，我享受壓力底下成長的感覺。
+
+**這題我不講的**：公司不好、主管不好、薪水太低。每一段我都講我想累積什麼，不講我想逃離什麼。
+`,
+        en: `
+There are two transitions, so I take whichever one you're asking about.
+
+**Leaving 17LIVE for Typus** was mainly about the scope of the role. That team was closer to a coordination function, bridging departments and keeping projects moving. It gave me a solid foundation in product management and the development process, but **there were very few chances to really own a new feature from beginning to end**. I wanted experience building from zero to one and then operating and iterating on it. Typus gave me exactly that: the first product I owned was perpetual futures, from nothing to launch.
+
+**Leaving Typus for a master's** wasn't dissatisfaction with the job. I wanted to study the problems I'd hit in practice more systematically, particularly how AI changes the way product teams work. That became my dissertation topic.
+
+**If you're asking about motivation**, I'd say I like stepping outside my comfort zone. Technology wasn't my undergraduate field, and that's precisely why I absorb so much in it and get my thinking challenged. I enjoy growing under that kind of pressure.
+
+**What I don't say here**: the company was bad, the manager was bad, the pay was low. For each move I talk about what I wanted to build up, not what I wanted to escape.
+`,
+        ja: `
+転職は二回あるので、お聞きになりたいほうに合わせてお話しします。
+
+**17LIVEを辞めてTypusに移ったのは**、主に職務範囲の制約です。当時いた部門は、部署間をつなぐ調整役、プロジェクトの効率を上げる役割に近いものでした。PMの仕事とプロダクト開発プロセスの基礎はそこで身につきましたが、**新しい機能を最初から最後まで自分で主導する機会はほとんどありませんでした**。ゼロから1を作る経験と、その後の運用・改善の経験を積みたいと思いました。Typusはまさにそれをくれた環境で、最初に担当したプロダクトが無期限先物、ゼロからリリースまでです。
+
+**Typusを辞めて修士に進んだのは**、仕事への不満ではありません。実務でぶつかった課題を、もっと体系的に研究したかったからです。特に、AIがプロダクトチームの働き方をどう変えるのか。これが修士論文のテーマにもなりました。
+
+**動機のほうを聞かれたら**、コンフォートゾーンから出るのが好きだとお答えします。テクノロジー業界は自分の専攻ではありませんが、だからこそ吸収できることが多く、考え方に刺激を受けます。プレッシャーの中で伸びていく感覚が好きです。
+
+**この質問で言わないこと**：会社が悪かった、上司が悪かった、給料が低かった。どの転職も「何を積み上げたかったか」で話します。
+
+| 読み方 | |
+|---|---|
+| 職務範囲 | しょくむはんい |
 | 制約 | せいやく |
-| 遮る | さえぎる |
+| 調整役 | ちょうせいやく |
+| 運用 | うんよう |
+| 無期限先物 | むきげんさきもの |
+| 体系的 | たいけいてき |
+| 専攻 | せんこう |
+| 刺激 | しげき |
+`
+      },
+      {
+        q: '為什麼從金融轉電商推薦？',
+        zh: `
+我找工作的第一優先確實是 PM 這個角色本身，但這次不是隨便挑的，我是刻意想回到 B2C。
+
+**我最有成就感的工作都是 B2C 的。** 在 17LIVE 的時候，我改的東西當天就有幾十萬人用得到，客訴和留存數字第二天就會動。**那種回饋速度是我做產品的動力來源。**
+
+**Typus 教了我另一件事，就是在不確定的環境裡把東西做出來。** 加密市場的節奏很快，我兩週一個 release、一年推了 30 個以上的功能，也學會在沒有先例的情況下自己定指標。但那個產品的使用者是幾千個交易者，不是幾百萬個一般人。
+
+**電商推薦對我來說剛好是兩邊的交集。** 規模回到 B2C，每天影響數百萬人；難度又比我以前做的更高，因為要處理的是模型的輸出品質，不是版位。而且它是橫向平台，客戶是集團內各事業部，這跟我在 17LIVE 同時服務台灣、日本、東南亞三個市場團隊的位置很像。
+
+所以這不是「我離開金融」，是**我想回到會被很多人用到的產品，而且這次想做更難的那一層。**
+`,
+        en: `
+The role itself really is my first priority when I look for work, but this wasn't a random pick. I deliberately want to get back to B2C.
+
+**The work I've found most rewarding has all been B2C.** At 17LIVE, what I changed reached hundreds of thousands of people the same day, and complaint and retention numbers moved the next day. **That feedback speed is where my motivation as a PM comes from.**
+
+**Typus taught me something different, which is shipping under uncertainty.** The crypto market moves fast. I ran a release every two weeks, shipped more than thirty features in a year, and learned to define my own metrics with no precedent to copy. But that product's users were a few thousand traders, not a few million ordinary people.
+
+**E-commerce recommendation is the intersection of the two for me.** The scale goes back to B2C, reaching millions of people a day, and the difficulty is higher than anything I've done, because what you handle is the quality of a model's output rather than a slot. It's also a horizontal platform whose clients are the group's business units, which is close to where I sat at 17LIVE serving the Taiwan, Japan and Southeast Asia teams at once.
+
+So it isn't "I'm leaving finance." It's that **I want to be back on a product many people use, and this time I want the harder layer of it.**
+`,
+        ja: `
+仕事を探すときの第一優先が、PMという役割そのものであるのは確かです。ただ今回は適当に選んだわけではなく、意識してB2Cに戻りたいと考えました。
+
+**手応えを感じてきた仕事は、どれもB2Cでした。** 17LIVEでは、自分が変えたものがその日のうちに数十万人に届き、クレームやリテンションの数字が翌日には動きました。**あのフィードバックの速さが、プロダクトをやる原動力です。**
+
+**Typusでは別のことを学びました。不確実な状況で、とにかく形にすることです。** 暗号資産市場は速度が速く、二週間に一度リリースし、一年で30以上の機能を出し、前例のない中で自分で指標を決めることも身につけました。ただ、あのプロダクトのユーザーは数千人のトレーダーで、数百万人の一般の方ではありません。
+
+**EC推薦は、私にとってその二つの交点です。** 規模はB2Cに戻り、毎日数百万人に届きます。難易度はこれまでより高い。枠ではなく、モデルの出力品質を扱うからです。しかも横断プラットフォームで、お客様はグループ内の各事業部。17LIVEで台湾・日本・東南アジアの三つの市場チームを同時に相手にしていた立ち位置とよく似ています。
+
+ですので「金融を離れる」のではなく、**多くの人に使われるプロダクトに戻りたい、しかも今回はより難しい層をやりたい**、ということです。
+
+| 読み方 | |
+|---|---|
+| 手応え | てごたえ |
+| 原動力 | げんどうりょく |
+| 不確実 | ふかくじつ |
+| 前例 | ぜんれい |
+| 交点 | こうてん |
+| 難易度 | なんいど |
+| 出力 | しゅつりょく |
+| 立ち位置 | たちいち |
+`
+      },
+      {
+        q: '工程師說兩週做不到，你怎麼處理？',
+        zh: `
+我會先假設他們說的是真的，然後把問題換掉。**不是問「能不能做」，是問「兩週內能做到哪裡」。**
+
+**第一步，問限制在哪。** 我不會問「為什麼不行」，那樣問人會防衛。我會問：現在卡在哪一段？如果一定要壓到兩週，需要放掉什麼？是砍功能、砍品質，還是從別的專案挪人？**我要的不是一個答案，是一組選項。**
+
+**第二步，切 scope。** 拿著這些限制回去找客戶，把需求切成 phase 1、2、3，然後問他：如果兩週只能拿到一塊，哪一塊是真的非要不可？**通常客戶自己就會發現，他真正急的只有其中一小塊。**
+
+**第三步，把取捨交回去。** 我給客戶的不是「做不到」，是兩個具體選項：兩週能交的版本長這樣，完整版本要幾週。決定的人是客戶，不是我單方面拒絕。談定之後，我再回去跟工程師確認 phase 1 這個範圍可不可行。
+
+這樣做，工程師不會覺得被查勤，客戶也不會覺得被打回票。**我跟工程師的關係是要用好幾年的。**
+`,
+        en: `
+I'd start by assuming what they said is true, and then change the question. **Not "can it be done," but "how far can we get in two weeks."**
+
+**Step one, find where the constraint is.** I wouldn't ask "why can't you," because that makes people defensive. I'd ask: which part is it stuck on? If we absolutely had to compress this to two weeks, what would we give up? Cut functionality, cut quality, or move someone off another project? **What I want isn't an answer, it's a set of options.**
+
+**Step two, cut the scope.** I take those constraints back to the client, split the request into phases one, two and three, and ask: if you can only have one piece in two weeks, which piece genuinely can't wait? **Usually the client works out for themselves that only a small part is actually urgent.**
+
+**Step three, hand the trade-off back.** What I give the client isn't "no." It's two concrete options: here's the two-week version, here's how many weeks the full one takes. The client makes the call, not me refusing on my own. Once that's agreed, I go back to the engineers and confirm phase one is feasible.
+
+This way the engineers don't feel audited and the client doesn't feel dismissed. **My relationship with the engineers has to last years.**
+`,
+        ja: `
+まず、彼らの言っていることは本当だと仮定します。そのうえで問いを変えます。**「できるかどうか」ではなく、「二週間でどこまでできるか」です。**
+
+**第一段階、制約がどこにあるかを聞きます。** 「なぜできないのか」とは聞きません。その聞き方は相手を守りに入らせるからです。聞くのは、今どこで詰まっているのか、どうしても二週間に収めるなら何を手放す必要があるのか。機能を削るのか、品質を削るのか、別の案件から人を動かすのか。**欲しいのは答えではなく、選択肢です。**
+
+**第二段階、スコープを切ります。** その制約を持ってクライアントのところに戻り、要望をフェーズ1、2、3に分けて聞きます。二週間で一つしか手に入らないとしたら、どれが本当に待てないものですか、と。**たいていはクライアント自身が、本当に急ぎなのは一部だけだと気づきます。**
+
+**第三段階、トレードオフを返します。** クライアントに渡すのは「できません」ではなく、二つの具体的な選択肢です。二週間で出せる版はこれ、完全版なら何週間かかる。決めるのはクライアントで、私が一方的に断るのではありません。合意できたら、エンジニアに戻ってフェーズ1の範囲が可能かを確認します。
+
+こうすれば、エンジニアは調べられているとは感じませんし、クライアントも門前払いされたとは感じません。**エンジニアとの関係は何年も使うものですから。**
+
+| 読み方 | |
+|---|---|
 | 仮定 | かてい |
+| 制約 | せいやく |
+| 手放す | てばなす |
 | 選択肢 | せんたくし |
 | 要望 | ようぼう |
 | 合意 | ごうい |
-| 検証 | けんしょう |
-| 割に合わない | わりにあわない |
+| 門前払い | もんぜんばらい |
 `
       },
       {
         q: '兩個事業部同時要你優先，你怎麼決定？',
         zh: `
-這是橫向平台團隊的日常，所以我會先承認一件事：**這個決定我一個人做不了，但我可以讓它變成一個公開的決定。**
+這是橫向平台團隊的日常。我會先承認一件事：**這個決定我一個人做不了，但我可以讓它變成一個公開的決定。**
 
-**第一，先把兩邊放到同一把尺上。** 我用完全一樣的三個問題去問兩邊，不讓誰用氣勢取勝：影響多少使用者、對得上公司哪一個目標、如果延後兩週，實際損失是什麼。**問題一樣，答案才能比較。**
+**第一，把兩邊放到同一把尺上。** 我用完全一樣的三個問題去問兩邊，不讓誰用氣勢取勝：影響多少使用者、對得上公司哪一個目標、如果延後兩週實際會損失什麼。**問題一樣，答案才能比較。**
 
-**第二，看平台的槓桿。** 平台團隊有一個單一事業部沒有的判準：這件事做完只有這一個 BU 受惠，還是之後其他 BU 也能接？如果 A 是客製、B 做完會變成所有事業部都能用的能力，就算 A 的短期數字大一點，我也會傾向先做 B，並且把這個理由講清楚。**我們的價值來自被重複使用，不是來自服務單一客戶。**
+**第二，看平台的槓桿。** 平台團隊有一個判準是單一事業部沒有的：這件事做完只有這個 BU 受惠，還是其他 BU 之後也能接？如果 A 是客製、B 做完會變成所有事業部都能用的能力，就算 A 的短期數字大一點，我也會傾向先做 B，而且我會把這個理由講出來。**我們的價值來自被重複使用。**
 
-**第三，兩邊都真的很重要的時候，我不自己裁。** 我會寫成一頁：兩個選項、各自的影響、延後的代價、我的建議，拿到我主管或雙方都在的場合去決定。**我的責任是讓決定有依據，不是假裝我有權力決定所有人的優先序。**
+**第三，兩邊都真的很重要的時候，我不自己裁。** 我會寫成一頁：兩個選項、各自的影響、延後的代價、我的建議，拿到我主管或雙方都在的場合去決定。**我的責任是讓決定有依據，不是假裝我有權決定所有人的優先序。**
 
-最後一件同樣重要的事：沒被選上的那一邊，我會主動給一個時間點，而不是讓它消失。**被排後面不可怕，不知道自己被排到哪裡才可怕。**
+還有一件同樣重要的事：**沒被選上的那一邊，我會主動給時間點，不會讓它消失。** 被排後面不可怕，不知道自己排在哪裡才可怕。
 `,
         en: `
-This is daily life on a horizontal platform team, so I'd start by admitting one thing: **I can't make this decision alone, but I can make it a transparent one.**
+This is daily life on a horizontal platform team. I'd start by admitting one thing: **I can't make this call alone, but I can make it a transparent one.**
 
-**First, put both sides on the same ruler.** I ask both of them exactly the same three questions, so nobody wins on force of personality: how many users does it affect, which company goal does it line up with, and if it slips two weeks, what is the actual loss? **The answers are only comparable if the questions are identical.**
+**First, put both sides on the same ruler.** I ask both of them exactly the same three questions, so nobody wins on force of personality: how many users does it affect, which company goal does it line up with, and what do we actually lose if it slips two weeks. **The answers are only comparable if the questions are identical.**
 
-**Second, look at platform leverage.** A platform team has a criterion a single business unit doesn't: when this is done, does only this BU benefit, or can other BUs pick it up afterwards? If A is bespoke and B turns into a capability every business unit can use, I'd lean towards doing B first even when A's short-term number is a little bigger, and I'd say that reasoning out loud. **Our value comes from being reused, not from serving one client.**
+**Second, look at platform leverage.** A platform team has a criterion a single business unit doesn't: when this is done, does only this BU benefit, or can other BUs pick it up later? If A is bespoke and B becomes a capability every unit can use, I'd lean towards B first even when A's short-term number is a bit bigger, and I'd say that reasoning out loud. **Our value comes from being reused.**
 
-**Third, when both genuinely matter, I don't rule on it myself.** I write one page: the two options, their respective impact, the cost of delay, and my recommendation, then take it to my manager or to a room where both sides are present. **My job is to make the decision well-founded, not to pretend I have the authority to set everyone's priorities.**
+**Third, when both genuinely matter, I don't rule on it myself.** I write one page: the two options, their impact, the cost of delay, my recommendation, then take it to my manager or to a room where both sides are present. **My job is to make the decision well-founded, not to pretend I have the authority to set everyone's priorities.**
 
-One last thing that matters just as much: for the side that didn't get picked, I proactively give a date rather than letting it disappear. **Being lower in the queue isn't the problem. Not knowing where you are in the queue is.**
+One more thing that matters just as much: **for the side that didn't get picked, I give them a date rather than letting it disappear.** Being lower in the queue isn't the problem. Not knowing where you are in it is.
 `,
         ja: `
-横断プラットフォームのチームでは日常的なことなので、まず一つ認めるところから始めます。**この判断は私一人ではできません。ただ、開かれた判断にすることはできます。**
+横断プラットフォームのチームでは日常的なことです。まず一つ認めるところから始めます。**この判断は私一人ではできません。ただ、開かれた判断にすることはできます。**
 
-**一つ目、両者を同じものさしに載せます。** まったく同じ三つの問いを両方に投げて、勢いで勝てないようにします。何人のユーザーに影響するのか、会社のどの目標と噛み合うのか、二週間遅れたときの実際の損失は何か。**問いが同じでなければ、答えは比べられません。**
+**一つ目、両者を同じものさしに載せます。** まったく同じ三つの問いを両方に投げて、勢いで勝てないようにします。何人のユーザーに影響するのか、会社のどの目標と噛み合うのか、二週間遅れたら実際に何を失うのか。**問いが同じでなければ、答えは比べられません。**
 
-**二つ目、プラットフォームとしてのレバレッジを見ます。** プラットフォームのチームには、単一の事業部にはない判断軸があります。これをやり終えたとき、恩恵を受けるのはこの事業部だけなのか、それとも後から他の事業部も使えるようになるのか。Aが個別対応で、Bをやれば全事業部が使える機能になるなら、Aの短期の数字が少し大きくてもBを先にする方向に寄せますし、その理由をはっきり口に出します。**私たちの価値は繰り返し使われることから生まれるのであって、一社に尽くすことからではありません。**
+**二つ目、プラットフォームとしてのレバレッジを見ます。** プラットフォームのチームには、単一の事業部にはない判断軸があります。やり終えたとき、恩恵を受けるのはこの事業部だけなのか、他の事業部も後から使えるのか。Aが個別対応で、Bをやれば全事業部が使える機能になるなら、Aの短期の数字が少し大きくてもBを先にする方向に寄せますし、その理由を口に出します。**私たちの価値は繰り返し使われることから生まれます。**
 
-**三つ目、両方とも本当に重要なときは、自分で裁きません。** 一枚にまとめます。二つの選択肢、それぞれの影響、遅らせた場合のコスト、そして私の推奨。それを上長か、双方が同席する場に持っていって決めてもらいます。**私の責任は判断に根拠を持たせることであって、全員の優先順位を決める権限があるふりをすることではありません。**
+**三つ目、両方とも本当に重要なときは、自分で裁きません。** 一枚にまとめます。二つの選択肢、それぞれの影響、遅らせた場合のコスト、私の推奨。それを上長か、双方が同席する場に持っていって決めてもらいます。**私の責任は判断に根拠を持たせることであって、全員の優先順位を決める権限があるふりをすることではありません。**
 
-最後に、同じくらい大事なこと。選ばれなかったほうには、自分から時期を伝えます。消えたことにはしません。**後ろに回されること自体は怖くありません。自分がどこに並んでいるのか分からないことが怖いのです。**
+もう一つ、同じくらい大事なことがあります。**選ばれなかったほうには、自分から時期を伝えます。消えたことにはしません。** 後ろに回されること自体は怖くなくて、自分がどこに並んでいるか分からないことが怖いのです。
 
 | 読み方 | |
 |---|---|
 | 横断 | おうだん |
 | 勢い | いきおい |
 | 噛み合う | かみあう |
-| 損失 | そんしつ |
 | 判断軸 | はんだんじく |
 | 恩恵 | おんけい |
 | 個別対応 | こべつたいおう |
 | 裁く | さばく |
 | 推奨 | すいしょう |
 | 同席 | どうせき |
-| 権限 | けんげん |
 `
       },
       {
         q: '客戶不接受你的排序，直接去找你主管，你怎麼辦？',
         zh: `
-我不會把它當成背叛，我會把它當成一個訊號：**我沒有把理由講到讓他能接受。**
+我不會把它當成背叛。我會把它當成一個訊號：**我沒有把理由講到讓他能接受。**
 
 **當下我做兩件事。** 第一，我不會在主管面前跟客戶對質。第二，我會立刻把我當初的判斷依據整理給主管，讓他手上有跟我一樣的資訊再做決定，而不是只聽到一面之詞。
 
 **如果主管的結論跟我不一樣，我照做。** 他看得到的東西比我多，可能有部門層級的考量我不知道。但我會問一句：是我的判斷方法有問題，還是這次有我不知道的資訊？**前者我要修，後者我下次會早一點去問。**
 
-**事後我會去找那個客戶。** 不是興師問罪，是問他：哪一段我沒講清楚，讓你覺得需要越過我？通常答案是他不知道自己被排在哪、也不知道什麼時候會輪到他。**那是我流程上的問題，不是他的人品問題。**
+**事後我會去找那個客戶。** 不是興師問罪，是問他：哪一段我沒講清楚，讓你覺得需要越過我？**答案通常是他不知道自己被排在哪、也不知道什麼時候會輪到他。那是我流程上的問題，不是他的人品問題。**
 
-我後來的做法是**主動讓排序變透明**：讓客戶看得到自己在第幾順位、為什麼、大概什麼時候會動。看得到的時候，越級的動機就少很多。
+所以我後來的做法是主動讓排序變透明：讓客戶看得到自己在第幾順位、為什麼、大概什麼時候會動。**看得到的時候，越級的動機就少很多。**
 `,
         en: `
-I wouldn't treat it as a betrayal. I'd treat it as a signal that **I hadn't explained the reasoning well enough for them to accept it.**
+I wouldn't treat it as a betrayal. I'd treat it as a signal: **I hadn't explained the reasoning well enough for them to accept it.**
 
 **In the moment I do two things.** First, I don't confront the client in front of my manager. Second, I immediately write up the basis for my original judgement and give it to my manager, so they decide with the same information I had rather than hearing one side.
 
-**If my manager reaches a different conclusion, I go with it.** They see more than I do and may have department-level considerations I'm not aware of. But I'd ask one question: was there something wrong with my method, or was there information I didn't have? **The first I fix. The second means I should have asked earlier.**
+**If my manager reaches a different conclusion, I go with it.** They see more than I do and may have department-level considerations I'm not aware of. But I'd ask one question: was something wrong with my method, or was there information I didn't have? **The first I fix. The second means I should have asked earlier.**
 
-**Afterwards I go and find that client.** Not to take them to task, but to ask: which part did I fail to explain, that made you feel you had to go around me? The answer is usually that they didn't know where they sat in the queue or when their turn would come. **That's a problem with my process, not with their character.**
+**Afterwards I go and find that client.** Not to take them to task, but to ask which part I failed to explain, that made them feel they had to go around me. **The answer is usually that they didn't know where they sat in the queue or when their turn would come. That's a problem with my process, not with their character.**
 
-What I moved towards is **making the ordering visible on purpose**: the client can see what position they're in, why, and roughly when it moves. When it's visible, the incentive to escalate drops a lot.
+So what I moved towards is making the ordering visible on purpose: the client can see what position they're in, why, and roughly when it moves. **When it's visible, the incentive to escalate drops a lot.**
 `,
         ja: `
-裏切りだとは受け取りません。**理由を、相手が納得できるところまで説明できていなかったという合図**だと受け取ります。
+裏切りだとは受け取りません。**理由を、相手が納得できるところまで説明できていなかった、という合図**だと受け取ります。
 
-**その場では二つのことをします。** 一つ目、上長の前でクライアントと言い争いません。二つ目、自分がそのとき何を根拠に判断したのかをすぐに整理して上長に渡し、片方の話だけでなく、私と同じ情報を持ったうえで判断してもらえるようにします。
+**その場では二つのことをします。** 一つ目、上長の前でクライアントと言い争いません。二つ目、自分が何を根拠に判断したのかをすぐ整理して上長に渡し、片方の話だけでなく、私と同じ情報を持ったうえで判断してもらえるようにします。
 
-**上長の結論が私と違うなら、それに従います。** 上長のほうが見えている範囲は広く、私の知らない部門レベルの事情があるかもしれません。ただ、一つだけ聞きます。私の判断の仕方に問題があったのか、それとも今回は私が知らない情報があったのか。**前者なら直しますし、後者なら次はもっと早く聞きに行きます。**
+**上長の結論が私と違うなら、それに従います。** 上長のほうが見えている範囲は広く、私の知らない部門レベルの事情があるかもしれません。ただ一つだけ聞きます。私の判断の仕方に問題があったのか、それとも私が知らない情報があったのか。**前者なら直しますし、後者なら次はもっと早く聞きに行きます。**
 
-**あとで、そのクライアントのところに行きます。** 責めるためではなく、どの部分の説明が足りなくて、私を飛び越える必要があると感じさせてしまったのかを聞くためです。答えはたいてい、自分が何番目に並んでいるのか、いつ順番が来るのかが分からなかった、というものです。**それは私のプロセスの問題であって、相手の人柄の問題ではありません。**
+**あとで、そのクライアントのところに行きます。** 責めるためではなく、どの部分の説明が足りなくて、私を飛び越える必要があると感じさせてしまったのかを聞くためです。**答えはたいてい、自分が何番目に並んでいるのか、いつ順番が来るのかが分からなかった、というものです。それは私のプロセスの問題で、相手の人柄の問題ではありません。**
 
-そのあと私が取るようになったやり方は、**優先順位を意図的に見える状態にすること**です。自分が何番目なのか、なぜなのか、だいたいいつ動くのかがクライアントから見える。見えていれば、上に直接行く動機はかなり減ります。
+そのあと私が取るようになったのは、優先順位を意図的に見える状態にするやり方です。自分が何番目なのか、なぜなのか、だいたいいつ動くのかが見える。**見えていれば、上に直接行く動機はかなり減ります。**
 
 | 読み方 | |
 |---|---|
 | 裏切り | うらぎり |
 | 合図 | あいず |
 | 上長 | じょうちょう |
-| 言い争う | いいあらそう |
 | 根拠 | こんきょ |
 | 責める | せめる |
 | 飛び越える | とびこえる |
@@ -7065,43 +7320,42 @@ What I moved towards is **making the ordering visible on purpose**: the client c
       {
         q: 'roadmap 做到一半，事業部的需求變了，怎麼辦？',
         zh: `
-我會先分清楚變的是什麼，因為**「需求變了」和「他改變主意了」不是同一件事。**
+我會先分清楚變的是什麼，因為**「需求變了」跟「他改變主意了」不是同一件事。**
 
-**如果是外部條件變了**，例如市場、法規、或上游系統改了，那 roadmap 本來就該跟著變，這不是誰的錯。我要做的是重估三件事：已經投入的部分有多少還能用、剩下要付出多少、以及新的版本對得上哪一個目標。
+**如果是外部條件變了**，例如市場、法規、或上游系統改了，那 roadmap 本來就該跟著變，這不是誰的錯。我要做的是重估三件事：已經投入的部分有多少還能用、剩下要付出多少、新的版本對得上哪一個目標。
 
-**如果是需求本身一開始沒想清楚**，那我會往回看，是不是我 kickoff 沒問到位。在 Typus 我就遇過這個：大部分的返工其實來自開場沒把「要解決什麼」講清楚。後來我把力氣往前移、重新設計 kickoff 流程，**返工降了 30%**。
+**如果是需求本身一開始就沒想清楚**，那我會往回看，是不是我 kickoff 沒問到位。**在 Typus 我就遇過這個**，大部分返工其實來自開場沒把「要解決什麼」講清楚。後來我把力氣往前移、重新設計 kickoff 流程，返工降了 30%。
 
-**處理上我有一條線：改方向可以，但不是免費的。** 我會把已經做掉的部分、要丟掉的部分、以及新的時程一次講清楚，讓對方知道這次轉向的代價是什麼。**不是為了讓他有罪惡感，是為了讓下一次的需求描述更用力一點。**
+**處理上我有一條線：改方向可以，但不是免費的。** 我會把已經做掉的、要丟掉的、以及新的時程一次講清楚，讓對方知道這次轉向的代價。**不是要讓他有罪惡感，是讓下一次的需求描述更用力一點。**
 
-如果已經做的東西還能留，我會盡量把它收成一個可以獨立上線的小版本，不要讓它變成完全的沉沒成本。
+如果已經做的東西還能留，我會盡量收成一個可以獨立上線的小版本，不要讓它變成完全的沉沒成本。
 `,
         en: `
-I'd first work out what actually changed, because **"the requirement changed" and "they changed their mind" are not the same thing.**
+I'd first work out what actually changed, because **"the requirement changed" and "they changed their mind" aren't the same thing.**
 
-**If external conditions changed**, the market, regulation, or an upstream system, then the roadmap should change with them and it isn't anyone's fault. What I do is re-estimate three things: how much of what we've already built is still usable, what the remaining cost is, and which goal the new version lines up with.
+**If external conditions changed**, the market, regulation, an upstream system, then the roadmap should change with them and it isn't anyone's fault. What I do is re-estimate three things: how much of what we've built is still usable, what the remaining cost is, and which goal the new version lines up with.
 
-**If the requirement simply wasn't thought through at the start**, I look back at whether my kickoff failed to ask the right questions. I hit exactly this at Typus: most of the rework actually came from not making "what are we solving" clear at the opening. I moved my effort earlier and redesigned the kickoff process, and **rework dropped 30%**.
+**If the requirement simply wasn't thought through at the start**, I look back at whether my kickoff failed to ask the right questions. **I hit exactly this at Typus**: most of the rework came from not making "what are we solving" clear at the opening. I moved my effort earlier, redesigned the kickoff process, and rework dropped 30%.
 
-**I do hold one line: changing direction is allowed, but it isn't free.** I lay out in one go what's already built, what has to be thrown away, and what the new timeline is, so they can see what this turn costs. **Not to make them feel guilty, but so the next requirement gets described with more effort.**
+**I do hold one line: changing direction is fine, but it isn't free.** I lay out in one go what's already built, what has to be thrown away, and what the new timeline is, so they can see what this turn costs. **Not to make them feel guilty, but so the next requirement gets described with more effort.**
 
 If what's already built can be salvaged, I try to package it as a small version that can ship on its own, rather than letting it become a pure sunk cost.
 `,
         ja: `
-まず、何が変わったのかを切り分けます。**「要件が変わった」のと「気が変わった」のは、別のことだからです。**
+まず、何が変わったのかを切り分けます。**「要件が変わった」のと「気が変わった」のは別のことだからです。**
 
-**外部条件が変わったのなら**、市場や規制、上流のシステム変更などであれば、ロードマップもそれに合わせて変わるべきで、誰のせいでもありません。私がやるのは三つの再見積もりです。すでに作った部分のうちどれだけ使えるのか、残りにいくらかかるのか、そして新しい版はどの目標と噛み合うのか。
+**外部条件が変わったのなら**、市場、規制、上流のシステム変更などであれば、ロードマップもそれに合わせて変わるべきで、誰のせいでもありません。私がやるのは三つの再見積もりです。すでに作った部分のうちどれだけ使えるか、残りにいくらかかるか、新しい版はどの目標と噛み合うか。
 
-**要件そのものが最初から詰められていなかったのなら**、自分のキックオフで聞くべきことを聞けていたかを振り返ります。Typusでまさにこれに当たりました。手戻りの大半は、実は冒頭で「何を解決するのか」をはっきりさせていなかったことから来ていました。力の入れどころを前に移してキックオフのプロセスを作り直した結果、**手戻りが30%減りました**。
+**要件そのものが最初から詰められていなかったのなら**、自分のキックオフで聞くべきことを聞けていたかを振り返ります。**Typusでまさにこれに当たりました。** 手戻りの大半は、冒頭で「何を解決するのか」をはっきりさせていなかったことから来ていました。力の入れどころを前に移してキックオフを作り直した結果、手戻りが30%減りました。
 
-**一つだけ線を引いています。方向転換はして構いませんが、無料ではありません。** すでに作った部分、捨てることになる部分、新しいスケジュールを一度に提示して、今回の転換のコストが見えるようにします。**罪悪感を持たせるためではなく、次の要件の書き方にもう少し力を入れてもらうためです。**
+**一つだけ線を引いています。方向転換はして構いませんが、無料ではありません。** すでに作った部分、捨てる部分、新しいスケジュールを一度に提示して、今回の転換のコストが見えるようにします。**罪悪感を持たせるためではなく、次の要件の書き方にもう少し力を入れてもらうためです。**
 
-すでに作ったものが残せるなら、単体でリリースできる小さな版としてまとめるようにして、完全な埋没費用にはしません。
+すでに作ったものが残せるなら、単体でリリースできる小さな版としてまとめて、完全な埋没費用にはしません。
 
 | 読み方 | |
 |---|---|
 | 要件 | ようけん |
 | 規制 | きせい |
-| 上流 | じょうりゅう |
 | 見積もり | みつもり |
 | 噛み合う | かみあう |
 | 手戻り | てもどり |
@@ -7112,49 +7366,42 @@ If what's already built can be salvaged, I try to package it as a small version 
 `
       },
       {
-        q: '樂天生態圈裡你最想碰哪個事業領域？（旅遊 → 電商 → 支付）',
+        q: '樂天生態圈裡你最想碰哪個事業領域？',
         zh: `
-> 你的原始排序：旅遊 → 電商 → 支付。三個都是樂天真實的主力事業，排序可以用。**唯一要改的是理由**：全部收斂到「推薦系統在那裡能做什麼」，不要講成個人偏好，否則電商聽起來會像第二志願。
+三個我都有興趣，但如果要排，我的順序是**旅遊、電商、支付**。理由是推薦能發揮的空間，不是我個人喜好。
 
-三個我都有興趣，但如果要排，我的順序是**旅遊、電商、支付**，理由是推薦能發揮的空間，不是我個人喜好。
+**旅遊放第一，因為那是推薦最純粹的題目。** 使用者有明確目的地的時候會開地圖 App，不需要被推薦。**真正需要推薦的，是還沒決定要去哪的那個人。** 楽天トラベル 現在同時吃到入境需求和國內旅遊需求，這種「還沒決定」的流量最多。
 
-**旅遊放第一，因為那是推薦最純粹的題目。** 使用者有明確目的地的時候會開地圖 App，不需要被推薦；**真正需要推薦的，是還沒決定要去哪的那個人。** 楽天トラベル 現在同時吃到入境需求和國內旅遊需求，這種「還沒決定」的流量最多，推薦的價值也最直接。
+**電商放第二，因為資料最厚、影響最快看得到。** 楽天市場 的國內 EC 流通總額一季超過 **1.5 兆日圓**，還在年增 5% 左右。像「もう一度購入」那種版位，排序上一點點改善乘上這個量體，絕對值就很可觀。上次 Josh 給我看的就是這個 API，我回去之後有自己把那條 pipeline 再想過一遍。
 
-**電商放第二，因為那裡的資料最厚、影響最快看得到。** 楽天市場 的國內 EC 流通總額一季超過 **1.5 兆日圓**，還在年增 5% 左右。像「もう一度購入」這種版位，排序上一點點的改善乘上這個量體，絕對值就很可觀。上一關 Josh 給我看的就是這個 API，我回去之後有自己再把那條 pipeline 想過一遍。
+**支付放第三，但它其實是我最好奇的一塊。** FinTech 是現在成長最快的區塊，年增超過 **20%**。而且對推薦平台來說，支付和點數把會員在不同事業之間的行為串起來，**那是跨事業推薦最有價值的訊號來源。** 只是我對這塊最不熟，所以誠實排第三。
 
-**支付放第三，但它其實是我最好奇的一塊。** FinTech 是現在成長最快的區塊，**年增超過 20%**。而且對推薦平台來說，支付和點數把會員在不同事業之間的行為串起來，**那是跨事業推薦最有價值的訊號來源**。只是我對這一塊最不熟，所以誠實排第三。
-
-如果有機會，我最想做的是**橫跨這三者的推薦**，而不是只優化其中一個。因為那正是這個部門作為集團橫向平台的位置。
+如果有機會，我最想做的其實是**橫跨這三者的推薦**，而不是只優化其中一個。因為那正是這個部門作為集團橫向平台的位置。
 `,
         en: `
-> Your original ordering: travel, e-commerce, payments. All three are genuine Rakuten businesses and the order works. **The only thing to change is the reasoning**: tie all of it to what recommendation can do there, not to personal preference, or e-commerce sounds like a second choice.
+I'm interested in all three, but if I have to rank them, my order is **travel, e-commerce, payments**. The reason is where recommendation has room to work, not personal taste.
 
-I'm interested in all three, but if I have to rank them, my order is **travel, e-commerce, payments**, and the reason is where recommendation has room to work, not personal taste.
+**Travel first, because it's the purest recommendation problem.** When a user has a specific destination, they open a map app and don't need to be recommended anything. **The person who actually needs recommendation is the one who hasn't decided where to go.** Rakuten Travel is currently capturing both inbound and domestic travel demand, so that "hasn't decided yet" traffic is at its largest.
 
-**Travel first, because it's the purest recommendation problem.** When a user has a specific destination, they open a map app and don't need to be recommended anything. **The person who actually needs recommendation is the one who hasn't decided where to go.** Rakuten Travel is currently capturing both inbound and domestic travel demand, so that "hasn't decided yet" traffic is at its largest, and recommendation pays off most directly there.
+**E-commerce second, because the data is thickest and the impact shows fastest.** Rakuten Ichiba's domestic EC gross transaction volume is over **1.5 trillion yen a quarter**, still growing around 5% year on year. On a slot like "buy it again," a small improvement in ordering multiplied by that volume is a large absolute number. That's the API Josh showed me last time, and I went back and thought that pipeline through again afterwards.
 
-**E-commerce second, because the data is thickest and the impact shows up fastest.** Rakuten Ichiba's domestic EC gross transaction volume is over **1.5 trillion yen a quarter**, still growing around 5% year on year. On a slot like "buy it again," a small improvement in ordering multiplied by that volume is a large absolute number. That's the API Josh showed me in the last round, and I went back and thought that pipeline through again afterwards.
+**Payments third, though it's the part I'm most curious about.** FinTech is the fastest-growing segment right now, up over **20%** year on year. And for a recommendation platform, payments and points are what link a member's behaviour across different businesses. **That's the most valuable signal source for cross-business recommendation.** It's simply the area I know least, so I'm honestly putting it third.
 
-**Payments third, though it's the part I'm most curious about.** FinTech is the fastest-growing segment right now, **up over 20% year on year**. And for a recommendation platform, payments and points are what link a member's behaviour across different businesses. **That is the most valuable signal source for cross-business recommendation.** It's simply the area I know least, so I'm honestly putting it third.
-
-Given the chance, what I'd most want to work on is **recommendation that spans all three**, rather than optimising one of them. That's exactly where this department sits as the group's horizontal platform.
+Given the chance, what I'd most want to work on is **recommendation that spans all three**, rather than optimising one. That's exactly where this department sits as the group's horizontal platform.
 `,
         ja: `
-> 元の順序：旅行 → EC → 決済。三つとも楽天の実際の主力事業で、順序はこのまま使えます。**変えるべきは理由だけ**です。すべて「推薦システムがそこで何をできるか」に寄せてください。個人の好みとして話すと、ECが第二志望のように聞こえてしまいます。
-
 三つとも興味がありますが、あえて順番をつけるなら**旅行、EC、決済**です。理由は推薦が効く余地であって、個人的な好みではありません。
 
-**旅行が一番目なのは、推薦として最も純粋な課題だからです。** 行き先が決まっているユーザーは地図アプリを開くので、推薦は要りません。**本当に推薦を必要としているのは、まだどこに行くか決めていない人です。** 楽天トラベルは今、インバウンド需要と国内旅行需要の両方を取り込んでいて、この「まだ決めていない」トラフィックが最も厚く、推薦の価値が最も直接的に出ます。
+**旅行が一番目なのは、推薦として最も純粋な課題だからです。** 行き先が決まっているユーザーは地図アプリを開くので、推薦は要りません。**本当に推薦を必要としているのは、まだどこに行くか決めていない人です。** 楽天トラベルは今、インバウンド需要と国内旅行需要の両方を取り込んでいて、この「まだ決めていない」トラフィックが最も厚いところです。
 
-**ECが二番目なのは、データが最も厚く、効果が最も早く見えるからです。** 楽天市場の国内EC流通総額は四半期で**1.5兆円**を超え、前年同期比で5%前後の成長が続いています。「もう一度購入」のような枠では、並び順のわずかな改善もこの規模を掛ければ、絶対値としてはかなり大きくなります。前回Joshさんに見せていただいたのがまさにこのAPIで、あのあと自分でもう一度あのパイプラインを考え直しました。
+**ECが二番目なのは、データが最も厚く、効果が最も早く見えるからです。** 楽天市場の国内EC流通総額は四半期で **1.5兆円** を超え、前年同期比で5%前後の成長が続いています。「もう一度購入」のような枠では、並び順のわずかな改善もこの規模を掛ければ、絶対値としてはかなり大きくなります。前回Joshさんに見せていただいたのがまさにこのAPIで、あのあと自分でもう一度あのパイプラインを考え直しました。
 
-**決済が三番目ですが、実は一番好奇心があるところです。** FinTechは今いちばん伸びているセグメントで、**前年同期比20%超**の成長です。そして推薦プラットフォームにとって、決済とポイントは会員の行動を事業をまたいで繋ぐものです。**それは事業横断の推薦にとって最も価値のあるシグナル源です。** ただ、私が一番不慣れな領域でもあるので、正直に三番目にしています。
+**決済が三番目ですが、実は一番好奇心があるところです。** FinTechは今いちばん伸びているセグメントで、前年同期比 **20%超** の成長です。そして推薦プラットフォームにとって、決済とポイントは会員の行動を事業をまたいで繋ぐものです。**それは事業横断の推薦にとって、最も価値のあるシグナル源です。** ただ、私が一番不慣れな領域でもあるので、正直に三番目にしています。
 
 機会があれば、一つを最適化するのではなく、**この三つをまたぐ推薦**をやってみたいです。それこそが、グループの横断プラットフォームとしてのこの部署の位置だと思うからです。
 
 | 読み方 | |
 |---|---|
-| 主力事業 | しゅりょくじぎょう |
 | 余地 | よち |
 | 純粋 | じゅんすい |
 | 需要 | じゅよう |
@@ -7168,50 +7415,43 @@ Given the chance, what I'd most want to work on is **recommendation that spans a
       {
         q: '這不是 UI PM，是 AI。你理解這個差別嗎？',
         zh: `
-> Josh 在一次面接特別停下來講了兩次這件事，原話是「請不要期待你的工作只是把價格顯示在 UI 上。那可以跟客戶聊，但不是我們的責任。我們處理 AI。」**他一定把這點交接下去了，最終面要主動證明你懂。**
-
 理解，而且這正是我想做的那一種。
 
 **UI PM 的問題是「這個按鈕放哪裡」，AI PM 的問題是「這個輸出夠不夠好，以及我怎麼知道」。** 後面這個難很多，因為答案不是對或錯，是一個分布。
 
-我自己撞過這面牆。我做了一個 33 個模組、串三個 LLM 的 agentic 平台，一開始最大的困難不是把它跑起來，是**我沒辦法說清楚「好的輸出」長什麼樣子**。所以我做的第一件事不是加功能，是建一套評測框架：把品質拆成可以打分的維度，在 pipeline 的每一段做模型對打，才知道換掉哪一段真的有改善。
+**我自己撞過這面牆。** 我做了一個 33 個模組、串三個 LLM 的 agentic 平台，一開始最大的困難不是把它跑起來，是**我沒辦法說清楚「好的輸出」長什麼樣子。** 所以我做的第一件事不是加功能，是建一套評測框架：把品質拆成可以打分的維度，在 pipeline 的每一段做模型對打，才知道換掉哪一段真的有改善。
 
-這件事教我的是：**AI 功能真正的難點，是把「好」定義到可以量測的程度。** 定義不出來就只能憑感覺調參數，調完也不知道是變好還是運氣好。
+**這件事教我的是：AI 功能真正的難點，是把「好」定義到可以量測的程度。** 定義不出來就只能憑感覺調參數，調完也不知道是變好還是運氣好。
 
-對應到推薦，我理解這裡的工作是資料 pipeline、模型、商業規則、排序這一整條，不是版位上的 UI。上一關的白板題其實就是在問這個：哪一段重、哪一段要先把資料砍掉。**我不會期待這份工作是把價格顯示在 UI 上。**
+對應到推薦，我理解這裡的工作是資料 pipeline、模型、商業規則、排序這一整條，不是版位上的 UI。**上次的白板題其實就是在問這個：哪一段重、哪一段要先把資料砍掉。**
 `,
         en: `
-> Josh deliberately stopped and made this point twice in the first round: "please don't expect your job to be putting the price on the UI. You can discuss that with the client, but it isn't our responsibility. We handle AI." **He will have passed that on. Show you understand it without being asked.**
-
-I understand it, and it's the kind of work I want.
+I understand it, and it's exactly the kind of work I want.
 
 **A UI PM's question is "where does this button go." An AI PM's question is "is this output good enough, and how would I know."** The second is much harder, because the answer isn't right or wrong, it's a distribution.
 
-I've hit that wall myself. I built an agentic platform with 33 modules chaining three LLMs, and the hardest part at the start wasn't getting it running. It was that **I couldn't articulate what a good output looked like**. So the first thing I built wasn't a feature, it was an evaluation framework: break quality into dimensions that can be scored, then run models head to head at each stage of the pipeline, so I could tell which stage actually improved when swapped.
+**I've hit that wall myself.** I built an agentic platform with 33 modules chaining three LLMs, and the hardest part at the start wasn't getting it running. It was that **I couldn't articulate what a good output looked like.** So the first thing I built wasn't a feature, it was an evaluation framework: break quality into dimensions that can be scored, then run models head to head at each stage of the pipeline, so I could tell which stage actually improved when swapped.
 
-What that taught me is: **the real difficulty of an AI feature is defining "good" precisely enough to measure it.** Without that definition you're tuning parameters on instinct, and afterwards you can't tell improvement from luck.
+**What that taught me is that the real difficulty of an AI feature is defining "good" precisely enough to measure it.** Without that definition you're tuning parameters on instinct, and afterwards you can't tell improvement from luck.
 
-Mapped onto recommendation, I understand the work here is the whole chain of data pipeline, model, business rules and ranking, not the UI on a slot. The whiteboard exercise last round was asking exactly that: which stage is heavy, and where you cut the data down first. **I don't expect this job to be putting the price on the UI.**
+Mapped onto recommendation, I understand the work here is the whole chain of data pipeline, model, business rules and ranking, not the UI on a slot. **The whiteboard exercise last time was asking exactly that: which stage is heavy, and where you cut the data down first.**
 `,
         ja: `
-> Joshさんは一次面接でわざわざ立ち止まって、二度この点を話されました。原文は「価格をUIに表示するだけが仕事だとは思わないでください。それはクライアントと話せますが、私たちの責任ではありません。私たちはAIを扱います」です。**必ず引き継がれているので、最終面接では聞かれる前に理解を示す必要があります。**
-
 理解していますし、まさにそちらをやりたいと思っています。
 
 **UIのPMの問いは「このボタンをどこに置くか」ですが、AIのPMの問いは「この出力は十分に良いか、そしてそれをどうやって知るか」です。** 後者のほうがはるかに難しい。答えが正解か不正解かではなく、分布だからです。
 
-私自身、この壁にぶつかりました。33のモジュールで3つのLLMを繋いだエージェント型のプラットフォームを作ったとき、最初の最大の難所は動かすことではありませんでした。**「良い出力」がどういうものかを自分で言葉にできなかったこと**です。そこで最初に作ったのは機能ではなく、評価の枠組みでした。品質を採点できる軸に分解して、パイプラインの各段で複数のモデルを突き合わせる。そうして初めて、どの段を入れ替えると本当に改善するのかが分かりました。
+**私自身、この壁にぶつかりました。** 33のモジュールで3つのLLMを繋いだエージェント型のプラットフォームを作ったとき、最初の最大の難所は動かすことではありませんでした。**「良い出力」がどういうものかを、自分で言葉にできなかったこと**です。そこで最初に作ったのは機能ではなく、評価の枠組みでした。品質を採点できる軸に分解して、パイプラインの各段で複数のモデルを突き合わせる。そうして初めて、どの段を入れ替えると本当に改善するのかが分かりました。
 
-ここから学んだのは、**AI機能の本当の難しさは、「良い」を測れるところまで定義することだ**ということです。定義できなければ感覚でパラメータをいじるしかなく、いじったあとも良くなったのか運が良かったのかが分かりません。
+**ここから学んだのは、AI機能の本当の難しさは「良い」を測れるところまで定義することだ、ということです。** 定義できなければ感覚でパラメータをいじるしかなく、いじったあとも良くなったのか運が良かったのかが分かりません。
 
-推薦に当てはめると、ここでの仕事はデータパイプライン、モデル、ビジネスルール、並び替えという一本の流れ全体であって、枠のUIではないと理解しています。前回のホワイトボードの問題は、まさにそれを聞いていました。どの段が重いのか、どこで先にデータを削るのか。**この仕事が、価格をUIに表示することだとは思っていません。**
+推薦に当てはめると、ここでの仕事はデータパイプライン、モデル、ビジネスルール、並び替えという一本の流れ全体であって、枠のUIではないと理解しています。**前回のホワイトボードの問題は、まさにそれを聞いていました。どの段が重いのか、どこで先にデータを削るのか。**
 
 | 読み方 | |
 |---|---|
 | 出力 | しゅつりょく |
 | 分布 | ぶんぷ |
 | 難所 | なんしょ |
-| 評価 | ひょうか |
 | 枠組み | わくぐみ |
 | 採点 | さいてん |
 | 分解 | ぶんかい |
@@ -7224,59 +7464,58 @@ Mapped onto recommendation, I understand the work here is the whole chain of dat
         zh: `
 先承認：我沒有做過 ML 產品，這是我最大的缺口，我不會包裝它。
 
-但我想講清楚我缺的是什麼、不缺的是什麼。**我缺的是推薦系統的領域知識，不缺的是跟 ML 工程師與資料科學家一起工作的經驗。** 在 17LIVE 做回饋平台的時候，我最花時間的一段就是跟資料工程師和資料科學家一起把指標定義出來並驗證，因為同一個「客訴數」在客服眼中和在產品眼中根本不是同一個東西。那個過程跟這裡要做的事很像。
+但我想講清楚我缺的是什麼、不缺的是什麼。**我缺的是推薦系統的領域知識，不缺的是跟 ML 工程師和資料科學家一起工作的經驗。** 在 17LIVE 做回饋平台的時候，我最花時間的一段就是跟資料工程師和資料科學家一起把指標定義出來並驗證，因為同一個「客訴數」在客服眼中和在產品眼中根本不是同一個東西。**那個過程跟這裡要做的事很像。**
 
-**前三個月我會這樣補：**
+前三個月我會這樣補：
 
 | 時間 | 目標 | 具體做什麼 |
 |---|---|---|
-| 第一個月 | 把系統跑一遍 | 從我們自己的 API 開始：輸入什麼、每一段 processing 在做什麼、輸出長什麼樣。**目標是我能自己畫出那張圖**，而不是聽別人講 |
-| 第二個月 | 把指標搞清楚 | 這個團隊怎麼判斷一次推薦是好的？CTR、轉換、還是下游 GMV？離線評測和線上 A/B 之間差多少？**不知道怎麼評分，就沒資格排優先序** |
-| 第三個月 | 自己走完一輪 | 找一個小題目，一個版位、一組規則都可以，把假設、實驗、結果、結論走完一次，**證明我能在這個系統裡做決定** |
+| 第一個月 | 把系統跑一遍 | 從我們自己的 API 開始：輸入什麼、每一段 processing 做什麼、輸出長什麼樣。**標準是我能自己畫出那張圖** |
+| 第二個月 | 把指標搞清楚 | 這個團隊怎麼判斷一次推薦是好的？CTR、轉換、還是下游 GMV？離線評測和線上 A/B 差多少？**不知道怎麼評分，就沒資格排優先序** |
+| 第三個月 | 自己走完一輪 | 找一個小題目，一個版位或一組規則都可以，把假設、實驗、結果、結論走完一次 |
 
-我學新領域的速度是有紀錄的：Typus 那份工作我進去的時候完全不懂鏈上衍生品，一年推了 30 個以上的功能，產品第一季做到約 8,700 萬美元交易量。
+我學新領域的速度是有紀錄的：**Typus 那份工作我進去的時候完全不懂鏈上衍生品，一年推了 30 個以上的功能，產品第一季做到約 8,700 萬美元交易量。**
 
-**我不會假裝我懂推薦，但我知道自己怎麼從不懂變成能做決定。**
+我不會假裝我懂推薦，但**我知道自己怎麼從不懂變成能做決定。**
 `,
         en: `
-Let me admit it up front: I haven't worked on an ML product. That's my biggest gap and I won't dress it up.
+Let me admit it first: I haven't worked on an ML product. That's my biggest gap and I won't dress it up.
 
-But I want to be precise about what I lack and what I don't. **What I lack is recommendation-domain knowledge. What I don't lack is experience working alongside ML engineers and data scientists.** Building the feedback platform at 17LIVE, the most time-consuming part was defining and validating metrics together with data engineers and data scientists, because "number of complaints" meant completely different things to support and to product. That process is very close to the work here.
+But I want to be precise about what I lack and what I don't. **What I lack is recommendation-domain knowledge. What I don't lack is experience working alongside ML engineers and data scientists.** Building the feedback platform at 17LIVE, the most time-consuming part was defining and validating metrics together with data engineers and data scientists, because "number of complaints" meant completely different things to support and to product. **That process is very close to the work here.**
 
-**Here's how I'd close the gap in three months:**
+Here's how I'd close the gap in three months:
 
 | Month | Goal | What I actually do |
 |---|---|---|
-| One | Trace the system end to end | Start from our own API: what goes in, what each processing stage does, what comes out. **The bar is that I can draw the diagram myself**, not that someone explained it to me |
-| Two | Understand the metrics | How does this team decide a recommendation was good? CTR, conversion, or downstream GMV? How far apart are offline evaluation and online A/B? **If I don't know how it's scored, I have no business setting priorities** |
-| Three | Run one full loop myself | Pick something small, a single slot or one set of rules, and take it through hypothesis, experiment, result and conclusion, **to prove I can make decisions inside this system** |
+| One | Trace the system end to end | Start from our own API: what goes in, what each processing stage does, what comes out. **The bar is that I can draw the diagram myself** |
+| Two | Understand the metrics | How does this team decide a recommendation was good? CTR, conversion, downstream GMV? How far apart are offline evaluation and online A/B? **If I don't know how it's scored, I have no business setting priorities** |
+| Three | Run one full loop myself | Pick something small, a single slot or one set of rules, and take it through hypothesis, experiment, result and conclusion |
 
-My speed at picking up a new domain is on record: at Typus I walked in knowing nothing about on-chain derivatives, shipped more than thirty features in a year, and the product did around 87 million US dollars of volume in its first quarter.
+My speed at picking up a new domain is on record: **at Typus I walked in knowing nothing about on-chain derivatives, shipped more than thirty features in a year, and the product did around 87 million US dollars of volume in its first quarter.**
 
-**I won't pretend I understand recommendation. But I do know how I get from not understanding to being able to decide.**
+I won't pretend I understand recommendation, but **I do know how I get from not understanding to being able to decide.**
 `,
         ja: `
 先に認めます。MLプロダクトの経験はありません。そこが私の最大の不足で、取り繕うつもりはありません。
 
-ただ、何が足りなくて何が足りているのかは、はっきりさせたいです。**足りないのは推薦システムの領域知識で、足りていないわけではないのは、MLエンジニアやデータサイエンティストと一緒に働いた経験です。** 17LIVEでフィードバックのプラットフォームを作ったとき、一番時間がかかったのは、データエンジニアとデータサイエンティストと一緒に指標の定義を決めて検証する作業でした。同じ「クレーム件数」でも、カスタマーサポートから見たものとプロダクトから見たものはまったく別物だったからです。あの過程は、ここでの仕事にとても近いと思っています。
+ただ、何が足りなくて何が足りているのかは、はっきりさせたいです。**足りないのは推薦システムの領域知識で、足りていないわけではないのは、MLエンジニアやデータサイエンティストと一緒に働いた経験です。** 17LIVEでフィードバックのプラットフォームを作ったとき、一番時間がかかったのは、データエンジニアとデータサイエンティストと一緒に指標の定義を決めて検証する作業でした。同じ「クレーム件数」でも、カスタマーサポートから見たものとプロダクトから見たものはまったく別物だったからです。**あの過程は、ここでの仕事にとても近いと思っています。**
 
-**最初の三か月はこう埋めます。**
+最初の三か月はこう埋めます。
 
 | 時期 | 目標 | 具体的にやること |
 |---|---|---|
-| 一か月目 | システムを一通り辿る | 自分たちのAPIから始めます。何が入り、各processingが何をして、何が出るのか。**基準は、自分でその図を描けること**です。説明を聞いただけでは足りません |
-| 二か月目 | 指標を理解する | このチームは、推薦が良かったことをどう判断しているのか。CTRか、コンバージョンか、下流のGMVか。オフライン評価とオンラインA/Bはどれだけ乖離するのか。**採点の仕方を知らなければ、優先順位をつける資格はありません** |
-| 三か月目 | 自分で一周する | 小さな題材を一つ。枠一つでも、ルール一組でも構いません。仮説、実験、結果、結論まで一周させて、**このシステムの中で自分が判断できることを示します** |
+| 一か月目 | システムを一通り辿る | 自分たちのAPIから始めます。何が入り、各processingが何をして、何が出るのか。**基準は、自分でその図を描けること**です |
+| 二か月目 | 指標を理解する | このチームは推薦が良かったことをどう判断しているのか。CTRか、コンバージョンか、下流のGMVか。オフライン評価とオンラインA/Bはどれだけ乖離するのか。**採点の仕方を知らなければ、優先順位をつける資格はありません** |
+| 三か月目 | 自分で一周する | 小さな題材を一つ。枠一つでも、ルール一組でも構いません。仮説、実験、結果、結論まで一周させます |
 
-新しい領域を習得する速さには実績があります。Typusに入ったときはオンチェーンのデリバティブを全く分かっていませんでしたが、一年で30以上の機能をリリースし、プロダクトは最初の四半期で約8,700万米ドルの取引高になりました。
+新しい領域を習得する速さには実績があります。**Typusに入ったときはオンチェーンのデリバティブを全く分かっていませんでしたが、一年で30以上の機能をリリースし、プロダクトは最初の四半期で約8,700万米ドルの取引高になりました。**
 
-**推薦を分かっているふりはしません。ただ、分からない状態から判断できる状態までどう持っていくかは分かっています。**
+推薦を分かっているふりはしません。ただ、**分からない状態から判断できる状態までどう持っていくかは分かっています。**
 
 | 読み方 | |
 |---|---|
 | 取り繕う | とりつくろう |
 | 領域知識 | りょういきちしき |
-| 指標 | しひょう |
 | 検証 | けんしょう |
 | 辿る | たどる |
 | 乖離 | かいり |
@@ -7285,61 +7524,6 @@ My speed at picking up a new domain is on record: at Typus I walked in knowing n
 | 仮説 | かせつ |
 | 習得 | しゅうとく |
 | 取引高 | とりひきだか |
-`
-      },
-      {
-        q: '為什麼從金融轉電商推薦？（正面版）',
-        zh: `
-> ⚠️ 上次的答法是「區塊鏈只做一年，當初是為了 PM 角色進去，對那個產業本身沒興趣」。對日本面試官來說，講前一份工作的產業沒興趣，很容易被讀成「這份也可能沒興趣」。**這一版把重心從「我不喜歡什麼」換成「我要往哪裡去」。**
-
-我找工作的第一優先確實是 PM 這個角色本身，但這次不是隨便挑的，我是刻意想回到 B2C。
-
-**我最有成就感的工作都是 B2C 的。** 在 17LIVE 的時候，我改的東西當天就有幾十萬人用得到，客訴和留存數字第二天就會動。**那種回饋速度是我做產品的動力來源。**
-
-**Typus 教了我另一件事：在不確定的環境裡把東西做出來。** 加密市場的節奏極快，我兩週一個 release、一年推了 30 個以上的功能，也學會了在沒有先例的情況下自己定指標。但那個產品的使用者是幾千個交易者，不是幾百萬個一般人。
-
-**電商推薦對我來說是兩邊的交集**：規模回到 B2C，每天影響數百萬使用者；難度又比我以前做的更高，因為要處理的是模型的輸出品質，不是版位。而且它是橫向平台，客戶是集團內各事業部，這跟我在 17LIVE 同時服務台灣、日本、東南亞三個市場團隊的位置很像。
-
-所以這不是「我離開金融」，是**我想回到會被很多人用到的產品，而且這次想做更難的那一層**。
-`,
-        en: `
-> ⚠️ Last time the answer was "blockchain was only one year, I went in for the PM role, I'm not interested in the industry itself." To a Japanese interviewer, saying you weren't interested in your previous industry reads easily as "she may not be interested in this one either." **This version shifts the weight from what I don't like to where I'm going.**
-
-The role itself is genuinely my first priority when I look for work, but this wasn't a random pick. I deliberately want to get back to B2C.
-
-**The work I've found most rewarding has all been B2C.** At 17LIVE, what I changed reached hundreds of thousands of people the same day, and complaint and retention numbers moved the next day. **That feedback speed is where my motivation as a PM comes from.**
-
-**Typus taught me something different: shipping under uncertainty.** The crypto market moves extremely fast. I ran a release every two weeks, shipped more than thirty features in a year, and learned to define my own metrics with no precedent to copy. But that product's users were a few thousand traders, not a few million ordinary people.
-
-**E-commerce recommendation is the intersection of the two for me**: the scale goes back to B2C, reaching millions of users daily, and the difficulty is higher than anything I've done, because what you're handling is the quality of a model's output rather than a slot. It's also a horizontal platform whose clients are the group's business units, which is close to where I sat at 17LIVE serving the Taiwan, Japan and Southeast Asia teams at the same time.
-
-So it isn't "I'm leaving finance." It's that **I want to be back on a product many people use, and this time I want the harder layer of it.**
-`,
-        ja: `
-> ⚠️ 前回は「ブロックチェーンは一年だけで、PMという役割のために入った。業界そのものには興味がない」と答えました。日本の面接官には、前職の業界に興味がないという言い方は「この仕事にも興味がないかもしれない」と読まれやすいです。**この版は、重心を「何が嫌いか」から「どこへ向かいたいか」に移しています。**
-
-仕事を探すときの第一優先が、PMという役割そのものであるのは確かです。ただ今回は適当に選んだわけではなく、意識してB2Cに戻りたいと考えました。
-
-**私が最も手応えを感じてきた仕事は、どれもB2Cでした。** 17LIVEでは、自分が変えたものがその日のうちに数十万人に届き、クレームやリテンションの数字が翌日には動きました。**あのフィードバックの速さが、プロダクトをやる原動力です。**
-
-**Typusでは別のことを学びました。不確実な状況で、とにかく形にすることです。** 暗号資産市場の速度は非常に速く、二週間に一度リリースし、一年で30以上の機能を出し、前例のない中で自分で指標を決めることも身につけました。ただ、あのプロダクトのユーザーは数千人のトレーダーであって、数百万人の一般の方ではありません。
-
-**EC推薦は、私にとってその二つの交点です。** 規模はB2Cに戻り、毎日数百万人に届きます。難易度はこれまでより高い。枠ではなく、モデルの出力品質を扱うからです。しかも横断プラットフォームで、お客様はグループ内の各事業部です。これは17LIVEで台湾・日本・東南アジアの三つの市場チームを同時に相手にしていた立ち位置とよく似ています。
-
-ですので「金融を離れる」のではなく、**多くの人に使われるプロダクトに戻りたい、しかも今回はその中でより難しい層をやりたい**、ということです。
-
-| 読み方 | |
-|---|---|
-| 重心 | じゅうしん |
-| 手応え | てごたえ |
-| 原動力 | げんどうりょく |
-| 不確実 | ふかくじつ |
-| 前例 | ぜんれい |
-| 交点 | こうてん |
-| 難易度 | なんいど |
-| 出力 | しゅつりょく |
-| 横断 | おうだん |
-| 立ち位置 | たちいち |
 `
       }
     ]
