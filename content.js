@@ -6951,8 +6951,10 @@ The last one matters most. Being pushed to the limit is normal in a technical ro
     name: '反問',
     items: [
       {
-        q: '你有什麼想問我們的嗎？',
+        q: '反問：一面（已問過，存檔）',
         zh: `
+> 這四題 2026-09-11 一面已經問完，Josh 也答了。**最終面不要重問**，會顯得沒在聽。
+
 | 中文 | 日文 |
 |---|---|
 | 想請教，我的履歷裡是哪個部分讓您們想進一步了解？對這個職位的人選有什麼期待？ | 私の経歴のどの部分に興味を持っていただけたのか、また、このポジションにどのようなことを期待されているのか、伺ってもよろしいでしょうか。 |
@@ -6960,28 +6962,12 @@ The last one matters most. Being pushed to the limit is normal in a technical ro
 | 團隊內部平常是用日文還是英文溝通？ | チーム内のコミュニケーションは、普段は日本語と英語のどちらが中心でしょうか。 |
 | JD 提到會和歐洲的團隊協作，可以多說明一下嗎？例如協作的方式和頻率。 | 募集要項に欧州のチームとの連携とありましたが、具体的にどのような形で、どのくらいの頻度で協力されているのか、伺えますか。 |
 
-| 讀音 | |
-|---|---|
-| 経歴 | けいれき |
-| 組織構成 | そしきこうせい |
-| 募集要項 | ぼしゅうようこう |
-| 欧州 | おうしゅう |
-| 連携 | れんけい |
-| 頻度 | ひんど |
-`,
-        en: `
-| English | 日本語 |
-|---|---|
-| May I ask which part of my background caught your interest, and what you are hoping for from the person in this role? | 私の経歴のどの部分に興味を持っていただけたのか、また、このポジションにどのようなことを期待されているのか、伺ってもよろしいでしょうか。 |
-| How is the department organised at the moment, and how many PMs are there? | 現在のチームの組織構成と、PMは何名いらっしゃるのか、教えていただけますか。 |
-| Day to day, does the team mostly communicate in Japanese or in English? | チーム内のコミュニケーションは、普段は日本語と英語のどちらが中心でしょうか。 |
-| The JD mentions working with the team in Europe. Could you tell me more about that, for example how and how often you collaborate? | 募集要項に欧州のチームとの連携とありましたが、具体的にどのような形で、どのくらいの頻度で協力されているのか、伺えますか。 |
-`,
-        ja: `
-1. 私の経歴のどの部分に興味を持っていただけたのか、また、このポジションにどのようなことを期待されているのか、伺ってもよろしいでしょうか。
-2. 現在のチームの組織構成と、PMは何名いらっしゃるのか、教えていただけますか。
-3. チーム内のコミュニケーションは、普段は日本語と英語のどちらが中心でしょうか。
-4. 募集要項に欧州のチームとの連携とありましたが、具体的にどのような形で、どのくらいの頻度で協力されているのか、伺えますか。
+#### Josh 當時的回答（最終面可以拿來用）
+
+- 部門 20 出頭人：1 位部門主管、2 位 senior manager、你的直屬主管，IC 約 15 人。PM / PO / data analyst / DevOps / data engineer / ML engineer / application engineer 各約 3 人
+- 直屬主管在**巴黎**，法國人。團隊內部**英文**，對客戶（內部事業部）**幾乎全日文**
+- 客戶是集團內各**事業部與姊妹公司**，窗口通常是他們的 **UI/UX 人員**
+- 與歐洲每天只重疊 **2 小時**；平均**每兩週 10 個 release**，但一個專案從定義到上線可能 3 個月到 1 年
 
 | 読み方 | |
 |---|---|
@@ -6991,6 +6977,109 @@ The last one matters most. Being pushed to the limit is normal in a technical ro
 | 欧州 | おうしゅう |
 | 連携 | れんけい |
 | 頻度 | ひんど |
+`
+      },
+      {
+        q: '反問：最終面（挑 2〜3 題）',
+        zh: `
+**一次問一題，聽完追問一句再換下一題。** 連珠炮會變成質詢。
+
+---
+
+#### ① 階段性的期待
+
+想請教，對於這個職位的人選，有沒有**階段性的期待**？例如三個月後、一年後，希望他成長成什麼樣子？
+
+> 這題適合開場問，而且部長跟直屬主管都答得出來。聽完可以追問：「那前三個月最希望我先接手的是哪一塊？」
+
+---
+
+#### ② 先講你的理解，再問
+
+**先說明理解**：我的理解是，這個團隊是集團的推薦平台，PM 要把推薦的能力接到各事業部和姊妹公司的場景裡。
+
+**再問**：想請教實際上主要服務哪些事業？這些需求通常怎麼排序，是有一個集團層級的 OKR 可以 follow，還是跟各事業部個別談？
+
+> **講法要精準**：是「各事業部**與姊妹公司**」，不是「各個子公司」；是「把推薦能力接到他們的場景」，不是「幫他們架設推薦系統」。這兩個詞講對，部長會知道你聽懂了 Josh 在講什麼。
+
+---
+
+#### ③ 需求從哪裡來
+
+我理解需求主要是各事業部主動提過來的。想請教 **PM 有多少空間自己提案**？還是 counterpart 那邊送過來的量就已經足夠了？
+
+> Josh 一面說過「他們會來說我要這個推薦功能」，所以前半句要講成「我理解是…」，代表你有記住。真正的問題在後半：**這個 PM 是接單的，還是可以自己開題目的。** 這題也順便探你進去之後的發揮空間。
+`,
+        en: `
+**Ask one at a time, follow up once, then move on.** Firing them off in a row turns into an interrogation.
+
+---
+
+#### 1. Staged expectations
+
+For the person who takes this role, is there **a staged expectation**? For example, at three months and at a year, what would you want them to have grown into?
+
+> Good opener, and both the department head and your line manager can answer it. Follow up with: "and in the first three months, which part would you most want me to take over?"
+
+---
+
+#### 2. State your understanding, then ask
+
+**State it first**: my understanding is that this team is the group's recommendation platform, and the PM's job is to bring recommendation capability into the contexts of the business units and sister companies.
+
+**Then ask**: which businesses do you mainly serve in practice? And how do those requests get prioritised, is there a group-level OKR to follow, or is it negotiated with each business unit separately?
+
+> **Be precise**: it's "business units **and sister companies**," not "subsidiaries"; and it's "bringing the capability into their context," not "building them a recommendation system." Getting those two right signals you understood what Josh described.
+
+---
+
+#### 3. Where the requests come from
+
+My understanding is that requests mostly come in from the business units. **How much room does the PM have to propose things independently?** Or is the inbound volume from counterparts already enough to fill the roadmap?
+
+> Josh said in the first round that they come and say "I want this recommendation feature," so opening with "my understanding is..." shows you remembered. The real question is the second half: **is this PM taking orders, or setting the agenda.** It also tells you how much room you'd have.
+`,
+        ja: `
+**一問ずつ聞いて、一言だけ掘ってから次に移ってください。** 立て続けに聞くと詰問になります。
+
+---
+
+#### ① 段階的な期待値
+
+このポジションに就く方について、**段階的な期待値**のようなものはありますか。たとえば三か月後、一年後に、どのような状態になっていてほしいとお考えでしょうか。
+
+> 冒頭に置きやすく、部長にも直属の上長にも答えられる質問です。聞いたあとは「では、最初の三か月で一番先に引き受けてほしいのはどの部分でしょうか」と一言掘れます。
+
+---
+
+#### ② 自分の理解を述べてから聞く
+
+**まず理解を述べる**：私の理解では、このチームはグループ全体の推薦プラットフォームで、PMは推薦の機能を各事業部やグループ会社の場面に載せていく役割かと思っています。
+
+**そのうえで聞く**：実際には、主にどのような事業を担当されているのでしょうか。また、それらのご要望はどのように優先順位づけされるのでしょうか。グループ全体のOKRに沿う形なのか、それとも各事業部と個別に調整される形なのか、伺えますでしょうか。
+
+> **言い方を正確に**：「子会社」ではなく「各事業部**とグループ会社**」、「推薦システムを構築してあげる」ではなく「推薦の機能を相手の場面に載せる」です。この二つを正しく言えると、Joshさんの説明を理解していたことが伝わります。
+
+---
+
+#### ③ 要望はどこから来るのか
+
+ご要望は基本的に各事業部から持ち込まれるものだと理解しています。その中で、**PM自身が提案できる余地はどのくらいあるのでしょうか。** それとも、事業部から来る要望だけで十分な量になるのでしょうか。
+
+> Joshさんは一次面接で「事業部の方が『この推薦機能が欲しい』と言ってくる」とおっしゃっていました。ですので前半を「〜と理解しています」と置くことで、覚えていたことが伝わります。本題は後半、**この PM が受注する側なのか、自分でテーマを立てられる側なのか**です。入社後の裁量も同時に分かります。
+
+| 読み方 | |
+|---|---|
+| 段階的 | だんかいてき |
+| 期待値 | きたいち |
+| 冒頭 | ぼうとう |
+| 上長 | じょうちょう |
+| 事業部 | じぎょうぶ |
+| 要望 | ようぼう |
+| 個別 | こべつ |
+| 余地 | よち |
+| 裁量 | さいりょう |
+| 詰問 | きつもん |
 `
       }
     ]
@@ -7226,49 +7315,47 @@ This way the engineers don't feel audited and the client doesn't feel dismissed.
       {
         q: '兩個事業部同時要你優先，你怎麼決定？',
         zh: `
-這是橫向平台團隊的日常。我會先承認一件事：**這個決定我一個人做不了，但我可以讓它變成一個公開的決定。**
+我不會直接憑感覺選一邊，而是**先把兩個需求放到同一套標準下比較**。
 
-**第一，把兩邊放到同一把尺上。** 我用完全一樣的三個問題去問兩邊，不讓誰用氣勢取勝：影響多少使用者、對得上公司哪一個目標、如果延後兩週實際會損失什麼。**問題一樣，答案才能比較。**
+我通常會看幾件事：影響多少使用者、和公司目前目標的關聯、延後的實際損失，以及**做完之後能不能被其他團隊重複使用**。這樣大家討論的是影響和取捨，而不是哪個部門比較會爭取資源。
 
-**第二，看平台的槓桿。** 平台團隊有一個判準是單一事業部沒有的：這件事做完只有這個 BU 受惠，還是其他 BU 之後也能接？如果 A 是客製、B 做完會變成所有事業部都能用的能力，就算 A 的短期數字大一點，我也會傾向先做 B，而且我會把這個理由講出來。**我們的價值來自被重複使用。**
+如果其中一項明顯更重要，我會提出建議，也把判斷依據說清楚。如果兩邊真的很接近，**我會整理成簡單的選項，列出各自的影響和代價，請主管或相關負責人一起拍板。**
 
-**第三，兩邊都真的很重要的時候，我不自己裁。** 我會寫成一頁：兩個選項、各自的影響、延後的代價、我的建議，拿到我主管或雙方都在的場合去決定。**我的責任是讓決定有依據，不是假裝我有權決定所有人的優先序。**
+同時，我也會替沒有排進來的需求安排下一個確認時間，**讓對方知道事情只是延後，不是被忘記。**
 
-還有一件同樣重要的事：**沒被選上的那一邊，我會主動給時間點，不會讓它消失。** 被排後面不可怕，不知道自己排在哪裡才可怕。
+我覺得我的責任不是替所有人決定，而是**讓團隊能根據清楚的資訊做決定。**
 `,
         en: `
-This is daily life on a horizontal platform team. I'd start by admitting one thing: **I can't make this call alone, but I can make it a transparent one.**
+I wouldn't just pick a side on instinct. I'd **put both requests against the same set of criteria first**.
 
-**First, put both sides on the same ruler.** I ask both of them exactly the same three questions, so nobody wins on force of personality: how many users does it affect, which company goal does it line up with, and what do we actually lose if it slips two weeks. **The answers are only comparable if the questions are identical.**
+I usually look at a few things: how many users it affects, how it connects to the company's current goals, what we actually lose by delaying it, and **whether other teams can reuse it once it's built**. That way the discussion is about impact and trade-offs, rather than about which department is better at competing for resources.
 
-**Second, look at platform leverage.** A platform team has a criterion a single business unit doesn't: when this is done, does only this BU benefit, or can other BUs pick it up later? If A is bespoke and B becomes a capability every unit can use, I'd lean towards B first even when A's short-term number is a bit bigger, and I'd say that reasoning out loud. **Our value comes from being reused.**
+If one of them is clearly more important, I make a recommendation and explain the basis for it. If the two are genuinely close, **I lay it out as a simple set of options with the impact and the cost of each, and ask my manager or the relevant owners to decide together.**
 
-**Third, when both genuinely matter, I don't rule on it myself.** I write one page: the two options, their impact, the cost of delay, my recommendation, then take it to my manager or to a room where both sides are present. **My job is to make the decision well-founded, not to pretend I have the authority to set everyone's priorities.**
+At the same time, I give the request that didn't make it a date for the next review, **so they know it's been deferred, not forgotten.**
 
-One more thing that matters just as much: **for the side that didn't get picked, I give them a date rather than letting it disappear.** Being lower in the queue isn't the problem. Not knowing where you are in it is.
+I see my responsibility as not deciding for everyone, but **putting the team in a position to decide on clear information.**
 `,
         ja: `
-横断プラットフォームのチームでは日常的なことです。まず一つ認めるところから始めます。**この判断は私一人ではできません。ただ、開かれた判断にすることはできます。**
+感覚でどちらかを選ぶことはしません。まず、**二つの要望を同じ基準の上に並べて比べます。**
 
-**一つ目、両者を同じものさしに載せます。** まったく同じ三つの問いを両方に投げて、勢いで勝てないようにします。何人のユーザーに影響するのか、会社のどの目標と噛み合うのか、二週間遅れたら実際に何を失うのか。**問いが同じでなければ、答えは比べられません。**
+だいたい見るのは、何人のユーザーに影響するか、今の会社の目標とどうつながるか、遅らせた場合に実際に何を失うか、そして**出来上がったあとに他のチームでも再利用できるか**、といったところです。こうすると、議論の対象が影響とトレードオフになり、どの部署が声を上げるのが上手かという話にはなりません。
 
-**二つ目、プラットフォームとしてのレバレッジを見ます。** プラットフォームのチームには、単一の事業部にはない判断軸があります。やり終えたとき、恩恵を受けるのはこの事業部だけなのか、他の事業部も後から使えるのか。Aが個別対応で、Bをやれば全事業部が使える機能になるなら、Aの短期の数字が少し大きくてもBを先にする方向に寄せますし、その理由を口に出します。**私たちの価値は繰り返し使われることから生まれます。**
+片方が明らかに重要であれば、私から提案しますし、その判断の根拠もあわせてお伝えします。二つが本当に拮抗している場合は、**それぞれの影響とコストを並べた簡単な選択肢の形に整理して、上長や関係する責任者の方に一緒に決めていただきます。**
 
-**三つ目、両方とも本当に重要なときは、自分で裁きません。** 一枚にまとめます。二つの選択肢、それぞれの影響、遅らせた場合のコスト、私の推奨。それを上長か、双方が同席する場に持っていって決めてもらいます。**私の責任は判断に根拠を持たせることであって、全員の優先順位を決める権限があるふりをすることではありません。**
+同時に、今回入らなかった要望にも次の確認時期を置きます。**後ろに回っただけで、忘れられたわけではない、と分かるようにするためです。**
 
-もう一つ、同じくらい大事なことがあります。**選ばれなかったほうには、自分から時期を伝えます。消えたことにはしません。** 後ろに回されること自体は怖くなくて、自分がどこに並んでいるか分からないことが怖いのです。
+私の責任は、全員の代わりに決めることではなく、**チームがはっきりした情報にもとづいて決められる状態をつくること**だと考えています。
 
 | 読み方 | |
 |---|---|
-| 横断 | おうだん |
-| 勢い | いきおい |
-| 噛み合う | かみあう |
-| 判断軸 | はんだんじく |
-| 恩恵 | おんけい |
-| 個別対応 | こべつたいおう |
-| 裁く | さばく |
-| 推奨 | すいしょう |
-| 同席 | どうせき |
+| 要望 | ようぼう |
+| 基準 | きじゅん |
+| 再利用 | さいりよう |
+| 根拠 | こんきょ |
+| 拮抗 | きっこう |
+| 上長 | じょうちょう |
+| 責任者 | せきにんしゃ |
 `
       },
       {
@@ -7321,49 +7408,43 @@ So what I moved towards is making the ordering visible on purpose: the client ca
       {
         q: 'roadmap 做到一半，事業部的需求變了，怎麼辦？',
         zh: `
-我會先分清楚變的是什麼，因為**「需求變了」跟「他改變主意了」不是同一件事。**
+我會**先確認需求為什麼改變**，因為外部環境改了，和一開始沒有把問題想清楚，是兩種不同的情況。
 
-**如果是外部條件變了**，例如市場、法規、或上游系統改了，那 roadmap 本來就該跟著變，這不是誰的錯。我要做的是重估三件事：已經投入的部分有多少還能用、剩下要付出多少、新的版本對得上哪一個目標。
+**如果是市場、法規或上游系統改變**，那調整方向是合理的。我會重新盤點已經完成的部分哪些還能保留、接下來需要增加多少工作，以及新方向會影響哪些時程或目標，再和事業部一起確認取捨。
 
-**如果是需求本身一開始就沒想清楚**，那我會往回看，是不是我 kickoff 沒問到位。**在 Typus 我就遇過這個**，大部分返工其實來自開場沒把「要解決什麼」講清楚。後來我把力氣往前移、重新設計 kickoff 流程，返工降了 30%。
+**如果是前期需求沒有釐清**，我不會急著追究責任，但會把已經投入的成本、需要放棄的內容和新的交付時間說清楚。如果原本的成果還有價值，我也會盡量把它縮成**一個可以獨立使用的小版本**，避免前面的投入全部浪費。
 
-**處理上我有一條線：改方向可以，但不是免費的。** 我會把已經做掉的、要丟掉的、以及新的時程一次講清楚，讓對方知道這次轉向的代價。**不是要讓他有罪惡感，是讓下一次的需求描述更用力一點。**
-
-如果已經做的東西還能留，我會盡量收成一個可以獨立上線的小版本，不要讓它變成完全的沉沒成本。
+最後我會回頭檢查前期流程，例如**是不是啟動的時候只談了「要做什麼」，卻沒有確認「要解決什麼問題」**。下一次就把這個問題提早問清楚，減少做到一半才大幅轉向的情況。
 `,
         en: `
-I'd first work out what actually changed, because **"the requirement changed" and "they changed their mind" aren't the same thing.**
+I'd **first confirm why the requirement changed**, because external conditions shifting and the problem not having been thought through at the start are two different situations.
 
-**If external conditions changed**, the market, regulation, an upstream system, then the roadmap should change with them and it isn't anyone's fault. What I do is re-estimate three things: how much of what we've built is still usable, what the remaining cost is, and which goal the new version lines up with.
+**If the market, regulation or an upstream system changed**, then changing direction is reasonable. I'd take stock again: which of the finished parts can be kept, how much additional work the new direction needs, and which timelines or goals it affects, then go through the trade-offs with the business unit.
 
-**If the requirement simply wasn't thought through at the start**, I look back at whether my kickoff failed to ask the right questions. **I hit exactly this at Typus**: most of the rework came from not making "what are we solving" clear at the opening. I moved my effort earlier, redesigned the kickoff process, and rework dropped 30%.
+**If the requirement simply wasn't clarified early on**, I wouldn't rush to assign blame, but I would be explicit about the cost already spent, what has to be dropped, and the new delivery date. If what we built still has value, I'd try to shrink it into **a smaller version that can stand on its own**, so the earlier investment isn't entirely wasted.
 
-**I do hold one line: changing direction is fine, but it isn't free.** I lay out in one go what's already built, what has to be thrown away, and what the new timeline is, so they can see what this turn costs. **Not to make them feel guilty, but so the next requirement gets described with more effort.**
-
-If what's already built can be salvaged, I try to package it as a small version that can ship on its own, rather than letting it become a pure sunk cost.
+Finally I'd go back and look at the front of the process, for example **whether at kickoff we only discussed what to build and never confirmed what problem we were solving.** Next time I'd ask that question earlier, which reduces how often we have to turn sharply halfway through.
 `,
         ja: `
-まず、何が変わったのかを切り分けます。**「要件が変わった」のと「気が変わった」のは別のことだからです。**
+まず、**なぜ要件が変わったのかを確認します。** 外部環境が変わった場合と、最初に課題を詰めきれていなかった場合とでは、状況がまったく違うからです。
 
-**外部条件が変わったのなら**、市場、規制、上流のシステム変更などであれば、ロードマップもそれに合わせて変わるべきで、誰のせいでもありません。私がやるのは三つの再見積もりです。すでに作った部分のうちどれだけ使えるか、残りにいくらかかるか、新しい版はどの目標と噛み合うか。
+**市場や規制、上流のシステムが変わったのであれば**、方向を調整するのは妥当です。すでに出来ている部分のうち何を残せるのか、これから追加でどれだけの作業が必要か、新しい方向はどのスケジュールや目標に影響するのかを、あらためて洗い出したうえで、事業部の方と一緒にトレードオフを確認します。
 
-**要件そのものが最初から詰められていなかったのなら**、自分のキックオフで聞くべきことを聞けていたかを振り返ります。**Typusでまさにこれに当たりました。** 手戻りの大半は、冒頭で「何を解決するのか」をはっきりさせていなかったことから来ていました。力の入れどころを前に移してキックオフを作り直した結果、手戻りが30%減りました。
+**前段階で要件を詰めきれていなかった場合**は、責任の追及を急ぐことはしませんが、すでにかかったコスト、捨てることになる内容、新しい納期については、はっきりお伝えします。作ったものにまだ価値が残っているなら、**単体で使える小さな版**にまとめて、それまでの投入が全部無駄にならないようにします。
 
-**一つだけ線を引いています。方向転換はして構いませんが、無料ではありません。** すでに作った部分、捨てる部分、新しいスケジュールを一度に提示して、今回の転換のコストが見えるようにします。**罪悪感を持たせるためではなく、次の要件の書き方にもう少し力を入れてもらうためです。**
-
-すでに作ったものが残せるなら、単体でリリースできる小さな版としてまとめて、完全な埋没費用にはしません。
+最後に、前段階のプロセスそのものを見直します。たとえば、**キックオフで「何を作るか」だけを話して、「どの課題を解くのか」を確認していなかったのではないか**、という観点です。次回はその問いを早めに置いて、途中で大きく方向転換することを減らします。
 
 | 読み方 | |
 |---|---|
 | 要件 | ようけん |
 | 規制 | きせい |
-| 見積もり | みつもり |
-| 噛み合う | かみあう |
-| 手戻り | てもどり |
-| 冒頭 | ぼうとう |
-| 転換 | てんかん |
-| 罪悪感 | ざいあくかん |
-| 埋没費用 | まいぼつひよう |
+| 上流 | じょうりゅう |
+| 妥当 | だとう |
+| 洗い出す | あらいだす |
+| 追及 | ついきゅう |
+| 納期 | のうき |
+| 観点 | かんてん |
+| 方向転換 | ほうこうてんかん |
 `
       },
       {
