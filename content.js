@@ -863,7 +863,7 @@ Then there's the decision discipline: when an argument can't be settled, I write
 `
       },
       {
-        q: '時間緊急的情況下，你怎麼排序需求？',
+        q: '範圍取捨：時間緊急時你怎麼排序需求？（只剩兩週你砍什麼／MVP 範圍怎麼切／原型要做到多完整）',
         zh: `
 我用三格來判斷，順序固定。
 
@@ -986,7 +986,7 @@ This was also the starting point for the user-feedback analytics platform I buil
 `
       },
       {
-        q: '你怎麼定義一個功能的成功指標？',
+        q: '成功指標：你怎麼定義一個功能的成功指標？（你怎麼知道它成功了／要看多久／沒達標怎麼辦）',
         zh: `
 **先定義行為，再定義數字。** 我會先問「如果這個功能成功了，使用者會多做哪一件事」，再把那件事變成可以追蹤的指標。
 
@@ -1201,7 +1201,7 @@ At 17LIVE I interviewed general users and top streamers with UX Research, while 
     name: '產品思考',
     items: [
       {
-        q: '請分享一個你最近喜歡的產品，為什麼？（小紅書，以及它跟 Instagram 的差別）',
+        q: '產品比較與差異化：請分享一個你最近喜歡的產品（小紅書 vs Instagram／市面上已經有 X 為什麼還需要我們／Why now）',
         zh: `
 我會講小紅書，用四段：介紹、最常用的功能、觀察到的特色、自己的疑問。
 
@@ -1271,6 +1271,161 @@ I would talk about Xiaohongshu, in four parts: what it is, the feature I use mos
 | 観点 | かんてん |
 | 立ち位置 | たちいち |
 | 意思決定 | いしけってい |
+`
+      },
+      {
+        q: '開放式產品題：Design a X（如果讓你改善我們的某個功能你會挑哪個／我們的用戶是誰／一句話的 take-home 題目）',
+        zh: `
+題目給得越模糊，考的就越是我敢不敢自己定範圍。動手之前我固定先講四件事，大約六十秒。
+
+**一、縮到一個人。** 不講「所有用戶」。挑一個具體的人加一個具體時刻，例如「在倫敦有二十分鐘空檔、還沒決定要去哪的人」。不是通勤族，也不是已經在找特定店家的人。
+
+**二、講出我賭什麼。** 一句可以被推翻的假設：這些人不看在地新聞，不是因為內容不夠，而是新聞沒有跟地點綁在一起。
+
+**三、講清楚這不是什麼。** 差異化用對比講最快：Google Maps 回答的是「我已經選好地方，怎麼過去」；這個要回答「我附近正在發生什麼，而我本來不知道要問」。
+
+**四、宣告哪裡造假、哪裡做真的。** 資料和底圖用假的，互動做真的，因為今天要驗的是體驗，不是資料正確性。
+
+講完最後把球丟回去：**這是我的假設，你想否決哪一個？**
+
+面試官要看的是我有沒有觀點，不是我會不會問問題。聽到「都可以」「看你怎麼定義」「不用追求完整正確」，就是這一題在計分。
+`,
+        en: `
+The vaguer the brief, the more it is testing whether I will define the scope myself. Before I build anything I always say four things first, about sixty seconds.
+
+**One, narrow it to one person.** Not "all users". One specific person in one specific moment, for example someone in London with twenty free minutes who has not decided where to go. Not a commuter, and not someone already searching for a particular shop.
+
+**Two, say what I am betting on.** One assumption that can be proven wrong: people do not read local news because the news is not tied to a place, not because there is not enough of it.
+
+**Three, say what this is not.** Differentiation lands fastest as a contrast: Google Maps answers "I have picked a place, how do I get there". This has to answer "what is happening near me that I did not know to ask about".
+
+**Four, declare what I will fake and what I will make real.** Mock data and a static base map, real interaction, because what we are testing today is the experience, not data accuracy.
+
+Then I hand the decision back: **those are my assumptions, which one do you want to overrule?**
+
+The interviewer wants to see whether I have a point of view, not whether I can ask questions. When I hear "it is up to you", "however you define it", or "do not aim for full accuracy", that is this question being scored.
+`,
+        ja: `
+お題が曖昧であればあるほど、「自分でスコープを決められるか」を見られていると考えます。手を動かす前に、必ず四つを先に話します。だいたい六十秒です。
+
+**一つ目、一人に絞る。** 「すべてのユーザー」とは言いません。具体的な一人と具体的な場面にします。たとえば「ロンドンで二十分の空き時間があって、行き先をまだ決めていない人」。通勤中の人でもなく、特定の店を探している人でもありません。
+
+**二つ目、何に賭けるかを言う。** 反証できる形の仮説を一つ。ローカルニュースが読まれないのは量が足りないからではなく、ニュースが場所と結びついていないからだ、というように。
+
+**三つ目、これは何ではないかを言う。** 差別化は対比で言うのが一番速いです。Google Maps が答えるのは「行き先は決まっている、どう行くか」。こちらが答えるのは「自分の近くで今何が起きているのか、聞くべきだと気づいてすらいなかったこと」です。
+
+**四つ目、どこを仮で作り、どこを本物で作るかを宣言する。** データと地図は仮、インタラクションは本物。今日検証したいのは体験であって、データの正確さではないからです。
+
+そのうえで、判断を相手に返します。**これが私の前提です。どれを却下したいですか。**
+
+面接官が見たいのは、私に意見があるかどうかで、質問がうまいかどうかではありません。「お任せします」「定義次第です」「完全な正確さは求めていません」と言われたら、そこが採点されている合図だと思っています。
+
+| 読み方 | |
+|---|---|
+| 曖昧 | あいまい |
+| 絞る | しぼる |
+| 仮説 | かせつ |
+| 反証 | はんしょう |
+| 差別化 | さべつか |
+| 対比 | たいひ |
+| 前提 | ぜんてい |
+| 却下 | きゃっか |
+| 採点 | さいてん |
+`
+      },
+      {
+        q: '技術風險與上線可行性：這個功能最先壞在哪？（用戶量十倍時哪一段先撐不住／原型離上線還差什麼／只剩兩週你砍什麼）',
+        zh: `
+這題不能答「我會跟工程師討論」，那等於把判斷讓出去。
+
+**我問的是約束，不是解法。** 我會直接問「這個東西最先撐不住的是哪一段」，通常一句話就拿到真正的風險，範圍我自己收。
+
+**17LIVE 的例子。** 直播最貴的成本是延遲和伺服器，而我收到的客訴裡有很大一部分其實是網路延遲，不是功能壞掉。所以排新功能的時候我會先問一句：這個功能會不會讓串流變重。判斷標準是它換來的互動值不值得那個代價，不值得的我自己先砍掉。
+
+**被問「原型離上線還差什麼」，我會主動列三件事**：資料從哪來、誰維護；失敗和空狀態長什麼樣；量變十倍時哪一段先爆。
+
+**Demo 會動跟能上線是兩件事**，先把這句話講出來的人，才顯得想過。
+`,
+        en: `
+The answer here cannot be "I would discuss it with the engineers". That hands the judgement away.
+
+**I ask about the constraint, not the solution.** I ask directly: which part gives out first? That usually gets me the real risk in one sentence, and then I cut the scope myself.
+
+**The 17LIVE example.** In live streaming the expensive costs are latency and servers, and a large share of the complaints I received were actually network latency rather than a broken feature. So when I plan a new feature I ask first whether it makes the stream heavier. The test is whether the engagement it buys is worth that cost, and if it is not, I cut it myself.
+
+**When I am asked what the prototype still needs before launch, I list three things without being prompted**: where the data comes from and who maintains it, what the failure and empty states look like, and which part breaks first at ten times the volume.
+
+**A demo that runs and a product that ships are two different things.** Saying that out loud first is what shows I have thought about it.
+`,
+        ja: `
+この質問に「エンジニアと相談します」と答えてしまうと、判断を手放すことになります。
+
+**私が聞くのは制約であって、解決策ではありません。** 「これは、どこから先に持たなくなりますか」と直接聞きます。たいていそれで本当のリスクが一言で返ってくるので、スコープは自分で詰めます。
+
+**17LIVE の例です。** ライブ配信で高くつくのは遅延とサーバーで、私が受け取っていたクレームのかなりの部分は、機能の不具合ではなく実はネットワークの遅延でした。ですから新しい機能を計画するときは、まず「これは配信を重くしないか」を聞きます。判断の基準は、それで得られるエンゲージメントがそのコストに見合うかどうか。見合わないものは自分で落とします。
+
+**「プロトタイプは本番まであと何が足りないか」と聞かれたら、こちらから三つ挙げます。** データはどこから来て誰が保守するのか、失敗時と空の状態はどう見えるのか、量が十倍になったときどこが先に壊れるのか。
+
+**動くデモと、出せるプロダクトは別物です。** それを先に自分から言えるかどうかが、考えてきたかどうかの差だと思っています。
+
+| 読み方 | |
+|---|---|
+| 制約 | せいやく |
+| 遅延 | ちえん |
+| 不具合 | ふぐあい |
+| 判断 | はんだん |
+| 基準 | きじゅん |
+| 保守 | ほしゅ |
+| 本番 | ほんばん |
+| 別物 | べつもの |
+`
+      },
+      {
+        q: '模糊需求下的獨立性：需求很模糊時你怎麼開始？（需求一直改怎麼辦／老闆和工程師要的不一樣／take-home 題目只給三行）',
+        zh: `
+最扣分的回答是「這要看需求方怎麼定義」，聽起來像不敢定。
+
+**我的做法是先產出一版，再拿它去校正。** 假設寫死、範圍寫死，連我砍掉什麼都寫出來，然後問「你想否決哪一個」。人看到具體的東西才給得出具體回饋，問空的問題只會拿到空的答案。
+
+**需求一直改的時候，我改的是流程，不是脾氣。** Typus 的返工大部分來自 kickoff 沒講清楚，我把力氣往前挪、重新設計 kickoff 之後，返工降了 30%。
+
+**老闆和工程師要的不一樣時，我不當傳話筒。** 我會把兩邊的目標翻成同一個指標來比，然後自己給一個建議版本，讓他們否決我，而不是讓他們互相說服。
+
+句型固定成一句：**我的假設是 A，理由是 B，如果錯了我會從 C 看出來。你想否決哪一個？**
+`,
+        en: `
+The answer that costs the most points is "that depends on how the requester defines it". It sounds like I do not dare to decide.
+
+**What I do is produce a first version, then use it to calibrate.** Assumptions fixed, scope fixed, and what I cut written down too, then I ask which one they want to overrule. People only give concrete feedback once they can see something concrete. An empty question gets an empty answer.
+
+**When requirements keep changing, I change the process, not my temper.** Most of the rework at Typus came from kickoff not being clear enough. I moved my effort earlier, redesigned the kickoff, and rework dropped 30%.
+
+**When my manager and the engineers want different things, I do not act as a messenger.** I translate both goals into the same metric so they can be compared, then put forward my own recommended version and let them overrule me, rather than letting them argue it out.
+
+I keep it to one sentence: **my assumption is A, because of B, and if it is wrong I will see it in C. Which one do you want to overrule?**
+`,
+        ja: `
+一番減点されるのは「依頼側の定義次第です」という答えです。決める勇気がないように聞こえます。
+
+**私はまず一版を出して、それを使って調整します。** 前提を固定し、スコープを固定し、何を落としたかも書いたうえで、「どれを却下しますか」と聞きます。人は具体的なものを見て初めて具体的なフィードバックをくれます。空の質問には空の答えしか返ってきません。
+
+**要件が変わり続けるときは、機嫌ではなくプロセスを変えます。** Typus での手戻りの大半は、キックオフで説明しきれていないことが原因でした。力の入れどころを前に移してキックオフを設計し直したところ、手戻りは 30% 減りました。
+
+**上長とエンジニアの求めるものが違うときは、伝言役にはなりません。** 両方のゴールを同じ指標に翻訳して比べられるようにし、そのうえで自分の推奨案を出して、彼らに私を却下してもらいます。彼らどうしで説得し合わせることはしません。
+
+型は一文に固定しています。**私の前提は A、理由は B、もし間違っていれば C で分かります。どれを却下しますか。**
+
+| 読み方 | |
+|---|---|
+| 減点 | げんてん |
+| 依頼側 | いらいがわ |
+| 調整 | ちょうせい |
+| 却下 | きゃっか |
+| 要件 | ようけん |
+| 手戻り | てもどり |
+| 上長 | じょうちょう |
+| 伝言役 | でんごんやく |
+| 推奨案 | すいしょうあん |
 `
       }
     ]
@@ -2150,7 +2305,7 @@ The tool solved a real problem of my own; the course proved that people without 
     name: '協作與衝突',
     items: [
       {
-        q: '你跟工程師意見不合的時候怎麼辦？',
+        q: '技術判斷與工程協作：你跟工程師意見不合怎麼辦？（可行性 vs 優先序的分歧／你怎麼評估技術風險）',
         zh: `
 我會先分清楚是哪一種不同意，因為這兩種的處理方式完全相反。
 
