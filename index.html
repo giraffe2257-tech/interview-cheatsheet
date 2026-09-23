@@ -216,6 +216,11 @@ body::after{
 .a ul,.a ol{margin:0 0 1.05em;padding-left:1.3em}
 .a li{margin:.3em 0}
 .a li::marker{color:var(--accent)}
+.a a.xref{
+  display:inline-block;color:var(--accent);text-decoration:none;cursor:pointer;
+  border-bottom:1px solid var(--accent);padding-bottom:1px;
+}
+.a a.xref:hover{background:var(--tint)}
 .a code{font-family:var(--mono);font-size:.86em;background:var(--tint);padding:.05em .35em;border-radius:3px}
 .tablewrap{overflow-x:auto;margin:0 0 1.2em}
 pre.prompt{
@@ -394,7 +399,7 @@ mark{background:linear-gradient(180deg,transparent 55%,rgba(224,178,60,.55) 55%)
   <div id="zoomInner"></div>
   <div id="zoomHint">滾輪縮放　·　拖曳平移　·　雙擊還原　·　Esc 關閉</div>
 </div>
-<script src="content.js"></script>
+<script src="content.js?v=20260923-13"></script>
 <script>
 if(typeof DATA === 'undefined'){
   document.getElementById('stage').innerHTML =
@@ -660,6 +665,29 @@ function bind(){
       try{localStorage.setItem('cheat.lang',lang)}catch(err){}
       row.querySelectorAll('.lang button').forEach(x=>x.classList.toggle('on',x.dataset.lang===lang));
       row.querySelectorAll('.a').forEach(p=>{p.hidden=p.dataset.l!==lang;});
+    });
+  });
+  /* 跨題連結：跳到另一個分頁的既有答案並展開 */
+  stage.querySelectorAll('a.xref').forEach(a=>{
+    a.addEventListener('click',e=>{
+      e.preventDefault();e.stopPropagation();
+      const tab=a.dataset.tab,find=a.dataset.find||'';
+      if(tab&&DATA.some(t=>t.id===tab)){
+        S.tab=tab;S.q='';qEl.value='';openFold(sectionOf(tab));
+        try{localStorage.setItem('cheat.tab',S.tab)}catch(err){}
+        render();
+      }
+      const rows=[...stage.querySelectorAll('.row')];
+      const hit=rows.find(r=>(r.querySelector('.t').textContent||'').includes(find));
+      if(hit){
+        stage.querySelectorAll('.row.open').forEach(r=>{
+          r.classList.remove('open');r.querySelector('.q').setAttribute('aria-expanded','false');
+        });
+        open(hit);
+        window.scrollTo({top:window.scrollY+hit.getBoundingClientRect().top-90,behavior:'smooth'});
+      }else{
+        qEl.value=find;S.q=find;render();window.scrollTo({top:0});
+      }
     });
   });
   stage.querySelectorAll('.q').forEach(btn=>{
